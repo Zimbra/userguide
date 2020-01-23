@@ -1,0 +1,120 @@
+:icons: font
+:title-logo-image: image:images/graphics/zimbra-logo.jpg[]
+:favicon: images/graphics/favicon.ico
+:showlinks:
+:source-highlighter: pygments
+:product-name: Zimbra X 
+:document-title: User's guide
+:copyright-year: 2019
+// :version: August Release
+:release-date: August 2019
+:toc: left
+:toclevels: 2
+// For keyboard like buttons on shortcuts
+:icons: font
+:icon-set: fas
+:experimental:
+// Define special keys. Use kbd:[{specialkey}]
+// Apple Command key
+// :commandkey: &#8984;
+// Gear icon
+// :gearkey: &#9881;
+
+//Uncomment to publish Desktop app version
+// :ZimbraX_app:
+
+= {product-name}: {document-title}
+{release-date}
+
+<<<
+
+[colophon]
+== License
+
+image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {copyright-year}
+
+(C) {copyright-year} by Synacor, Inc. {product-name} {document-title}
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License unless another license agreement between you and
+Synacor, Inc. provides otherwise. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-sa/4.0 or send a letter to Creative
+Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+Synacor, Inc., 2016 +
+40 La Riviere Drive, Suite 300 +
+Buffalo, New York 14202
+
+https://www.synacor.com
+
+<<<
+
+include::mail-overview.adoc[]
+
+<<<
+
+include::mail-compose.adoc[]
+
+<<<
+
+include::mail-search.adoc[]
+
+<<<
+
+include::mail-localstorage.adoc[]
+
+<<<
+
+include::contacts-overview.adoc[]
+
+<<<
+
+include::contacts-manage-contacts.adoc[]
+
+<<<
+
+include::contacts-manage-groups.adoc[]
+
+<<<
+
+include::contacts-search.adoc[]
+
+<<<
+
+include::calendar-overview.adoc[]
+
+<<<
+
+include::calendar-manage-events.adoc[]
+
+<<<
+
+include::calendar-manage-calendars.adoc[]
+
+<<<
+
+include::calendar-tasks.adoc[]
+
+<<<
+
+include::managing-profiles.adoc[]
+
+<<<
+
+include::settings-viewEmail.adoc[]
+
+<<<
+
+include::settings-writeEmail.adoc[]
+
+<<<
+
+include::settings-account.adoc[]
+
+<<<
+
+include::settings-otheroptions.adoc[]
+
+<<<
+
+include::language-about-feedback.adoc[]

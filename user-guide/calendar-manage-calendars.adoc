@@ -1,0 +1,58 @@
+=== Manage Calendars
+==== Share a Calendar
+If enabled for your account, you can share your calendars with its events, appointments, and meetings with others.
+
+. Click btn:[Calendar] tab.
+. Right-click the calendar you want to share and choose *Share*.
+. Click *Invite people by email (most flexible)*.
+. Choose appropriate permission from *Anyone with the link can* drop-down.
+
+View:: Users can view all appointments, *except* the private ones.
+
+View free/busy times only:: Users can only view when your calendar is free or busy. They cannot see the appointment details.
+
+View (including private events):: Users can view all appointments, *including* private ones.
+
+View and edit:: Users can view and edit all appointments, *except* private ones.
+
+View, edit, add, and remove:: Users can view and edit all appointments, *except* private ones. They can also add and delete events (*except* private events) from your calendar.
+
+View, edit, add and remove (including private events):: Users can view and edit all appointments, *including* private ones. They can also add and remove events (*including* private events) from your calendar.
+
+. Type in the email address of people with whom you want to share this calendar.
+. Click *Change* next to invitees and edit their permissions -- or remove the invitees altogether.
+. Click *Save*.
+. {product-name}  sends a link to receivers who have an option to accept or decline the invitation.
+
+==== Accept a Shared Calendar
+Whenever someone shares their calendar with you, you receive an email notifying about it.
+
+. Click *Add Calendar* to add it to your calendars. Your friend's calendar now appears under *Others*.
+. Click *Decline* to reject the share invitation.
+
+=== Add Calendars
+Add a new calendar by any of these methods.
+
+==== Manually
+. Click btn:[Calendar] and hover over *My Calendars*.
+. Click image:images/graphics/plus.svg[].
+. Type a name for this calendar.
+. Please choose a color to mark it differently from the other calendars.
+
+==== Subscribe to a Calendar
+. Click *Calendar* and hover over *Others*.
+. Click the gear icon and select *Add a Friend's Calendar*.
+. Enter your friend's email address.
+. Click *Save*.
+
+NOTE: You can add your friend's calendar only when they have shared it.
+
+==== Add a Holiday Calendar
+This feature populates your calendar with holidays in your country.
+
+. Click *Calendar* and hover over *Holidays*.
+. Click image:images/graphics/plus.svg[].
+. Choose the country whose holidays you want to view in your calendar.
+. Click *Next* and choose the color to differentiate this calendar from the rest.
+. Click *Save* to save the changes.
+Your new subscribed calendar appears under *Holidays*.

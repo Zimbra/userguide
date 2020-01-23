@@ -1,0 +1,76 @@
+=== Compose and Send a Message
+
+. Click btn:[New message] in the left bar.
+. Add a recipient email address in the **To** field. Separate multiple recipients with a comma.
+ .. Click *To* to launch the <<Select Contacts, Choose Contacts>> dialog.
+ Using this tool, you can search for and choose contacts from a selection of _contexts_.
+ Choose _contexts_ from the drop-down on the right.
+ .. Known addresses (from your contacts or frequent correspondents) appear as suggestions automatically.
+ You can click on suggestions, or select them with the arrow keys and press kbd:[Enter].
+. Set the subject of the email.
+. Add <<Add images & files, images and files>> to your message.
+. Click btn:[Send] to send the email.
+
+=== Select Contacts
+When composing an email, click *To* to launch *Choose Contacts* window. Alternatively, begin typing recipients to bring up suggestions from which to choose. These email addresses can be copied and pasted to *Cc* and *Bcc* fields as well.
+
+Pick a context for searching and choosing contacts. The options are from your Contact Folders and <<contacts-manage-groups#_create_a_contact_list, lists>>, including:
+
+Contacts:: This group lists all the contacts that you have <<contacts-manage-contacts.adoc#_create_a_new_contact, added yourself>>.
+Emailed contacts:: Recipients to whom you have sent emails to appear here.
+Global Address List:: These are people whose email address domain is the same as yours. However, only a {product-name} administrator can enable this feature. 
+My Contacts:: This group is a collection of all the contacts listed in *Contacts* and * Emailed Contacts* groups.
+
+
+=== Format an Email
+Use the toolbar at the bottom of the message compose screen to format your text.
+
+. Click image:images/graphics/font.svg[Font face and size icon, width=25px] to pick a font face and size
+. Click image:images/graphics/bold.svg[width=25px] for bold, image:images/graphics/italic.svg[width=25px] for italicized, or image:images/graphics/underline.svg[width=25px] for underlined text.
+. Click image:images/graphics/adn.svg[width=25px] to choose your desired text and highlight colors.
+. image:images/graphics/list-ul.svg[width=25px] lets you create a bulleted list.
+. image:images/graphics/outdent.svg[width=25px] lets you indent your text.
+. Select a text and click image:images/graphics/align-left.svg[width=25px].
+.. image:images/graphics/align-left.svg[width=25px] left-aligns the selected text.
+.. image:images/graphics/align-right.svg[width=25px] right-aligns the selected text.
+.. image:images/graphics/align-center.svg[width=25px] center-aligns the selected text.
+. Click image:images/graphics/smile-o.svg[width=25px] to select and insert an emoji.
+
+=== Add images & files
+
+Use the toolbar at the bottom of the message compose screen to attach files to your email.
+
+==== Attach From my Computer
+
+. Click image:images/graphics/paperclip.svg[width=25px] to open file attach options.
+. Clicking **Attach From My Computer** brings up a file explorer.
+. Navigate to the file to attach and click **Open**.
+The selected file now appears as an attachment.
+
+==== Attach From Email
+
+===== Photos
+
+. Click image:images/graphics/paperclip.svg[Attach Files, width=25px] to open file attach options.
+. Select option **Attach Photo From Email** to open a pane on the right, which shows all the photos that you have sent *and* received.
+. Select a photo to attach it to your current email.
+
+===== Files
+. Click image:images/graphics/paperclip.svg[Attach Files, width=25px] to open file attach options.
+. Select option **Attach File From Email** to open a pane on the right which shows all the files sent and received by you.
+. Select a file to attach it to your current e-mail.
+
+===== GIFs
+You may also attach `GIF`s to your email if you have the option.
+
+=== Request Read Receipts
+You can send a request for an acknowledgment to recipients that they see when they open your email.
+
+When composing an email, click the three-dot menu (image:images/graphics/ellipsis-h.svg[width=25px]) to the right of the *From* address and choose *Request Read Receipt* to ask your recipients for a read receipt.
+
+Remember that this is only a request, and your recipients have the option not to send the acknowledgment. Refer to <<settings-viewEmail.adoc#_sending_read_receipts>> to know more.
+
+=== Set Email Priority
+You can set your email to have a higher priority. Such emails appear with an exclamation mark (*!*) in the receiver's Inbox.
+
+When composing an email, click the three-dot menu (image:images/graphics/ellipsis-h.svg[width=25px]) to the right of the *From* address and choose *High Priority* to mark your email as a high priority.

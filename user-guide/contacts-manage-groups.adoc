@@ -1,0 +1,90 @@
+=== Manage Contact Lists
+
+You can create a list containing your contacts and store that list under *Contacts* folder. It is especially helpful when you want to send some mails to a specific set of people. So instead of typing everyone's email address, you type in the name of your list, and {product-name} sends the email to all addresses in that list. 
+
+It is a two-step process.
+
+. Create a list.
+. Add contacts to this list.
+
+==== Create a Contact list
+. Click btn:[Contacts] tab.
+. In the *New List* field, enter the name of your contacts list.
+. Press kbd:[Enter] to save the list.
+
+You can right-click a list, which you have created, to rename or delete it.
+
+==== Add Contacts to a List
+. Click on a contacts folder to list all the contacts in that folder.
+. Select the contacts which you want to add in a list.
+. Drag and drop the contacts in the list that you have created. The following are few more ways in which you can add contacts to lists.
+.. Choose *Assign to Lists* by right-clicking the selected contacts.
+.. Select a contact and choose *Assign to Lists* from the <<contacts-overview.adoc#_contact_details_pane>>.
+.. Select multiple contacts and click btn:[Assign Contacts] under *Assign* in the <<contacts-overview.adoc#_contact_details_pane>>.
+
+=== Send email to everyone on a list
+. Click the btn:[Mail] tab.
+. Click btn:[New Message]
+. In the *To* field, type the first few words of your list's name.
+. The list appears as one of the suggestions.
+. Select the list.
+. {product-name} populates the  *To* with all the email addresses from that list.
+. Type in the body of the email.
+. Click *Send*.
+
+=== Manage Contact Folders
+You can create folders within *Contacts* and use them to store contacts, lists, and subfolders. You can also share contact folders with other users.
+They work much in the same way as email folders. You can perform actions like creating folders, subfolders, and moving contacts across folders.
+
+==== Create a Contact Folder
+. Click btn:[Contacts] tab.
+. Hover over *Folders* and click image:images/graphics/plus.svg[].
+. In the text box, type in the name of the folder and press kbd:[Enter].
+** Click outside the text-box or image:images/graphics/close.svg[] beside the text box to cancel.
+
+==== Add Contacts to a Folder
+. Click btn:[Contacts] tab.
+. Select contacts to add to a folder.
+. In contact details pane, under image:images/graphics/folder-move.svg[], click btn:[Move Contacts].
+. In *Choose a Folder* modal, choose a folder to move the selected contacts.
+
+==== Rename a Contact Folder
+. Click btn:[Contacts] tab.
+. Right-click a folder to rename.
+. From the context menu, choose *Rename Folder*.
+. Type the new name for the folder in the text box.
+. Press kbd:[Enter] to save.
+
+==== Move a Contact Folder
+. Click btn:[Contacts] tab.
+. Right-click a folder to move.
+. From the context menu, choose *Move Folder*.
+. Select a folder under which to move this folder.
+
+==== Delete a Contact Folder
+. Click btn:[Contacts] tab.
+. Right-click the folder.
+. From the context menu, choose *Delete Folder*.
+. The folder moves under *Trash*.
+
+==== Create a Contact Folder
+. Click btn:[Contacts] tab.
+. Right click a folder.
+. From the context menu, choose *Create subfolder*.
+. In the text box, type in the name of the folder and press kbd:[Enter].
+** Click outside the text-box or image:images/graphics/close.svg[] beside the text box to cancel.
+
+==== Share a Contact Folder
+. Click btn:[Contacts] tab.
+. Right-click a folder to share.
+. From the context menu, choose *Share*.
+. Choose appropriate permissions from the *Sharing Permissions* drop-down.
++
+View:: Users can view all contacts under the shared folder but cannot make changes to that folder.
+
+View, edit, add, and remove:: Users have permission to view and edit the contents of a folder, create new subfolders, present items on your behalf, and delete items from the folder.
+
+View, edit, add, remove, and administer:: Users have permission to view and edit the content of a shared folder, create new subfolders, present on your behalf, delete items from the shared folder, and share the folder with others.
+
+. Enter the email address(s) with whom to share the contact folder.
+. Click *Save* for changes to take effect.

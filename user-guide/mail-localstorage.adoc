@@ -1,0 +1,101 @@
+// == Local Storage
+// Local storage is a feature that helps remove your emails away from cloud storage to a location on your computer. 
+
+// IMPORTANT: This feature is only available in the {product-name} Desktop app.
+
+// === Migrate Local folder from old Zimbra app to newer version
+// IMPORTANT: If you have used Local Folders in the older version follow the below steps to migrate to newer
+
+// ==== Create Empty Folder
+// . Install the new {product-name} desktop application and launch it.
+// . Login using valid credentials.
+// . In the left pane, hover over *Local Storage* and click *+* to create a new folder.
+// +
+// NOTE: Your old folder does not appear under Local Storage. In the subsequent steps, you can import all your old emails to the new folder in local storage.
+// +
+// . Type the name of the folder. For this example and subsequent steps, we have named this folder *NewLocalFolder*.
+
+// ==== Copy Files
+// . Navigate to
+// + 
+// On Windows:: `%APPDATA%\@zimbra\<your email address folder>\Mail\<old app local folder>`
+// On Mac:: `~/Library/Application Support/@zimbra/<your email address folder>/Mail/<old app local folder>`
+// +
+// . Copy all the `EML` files in the above folder.
+// . Navigate to `@zimbra/storage/<your email address folder>/Mail/NewLocalFolder`.
+// . Paste the files here.
+
+// ===== Example
+// Consider
+
+// * the email address is ada@example.com
+// * local folder on old {product-name} desktop app was named `OldLocalFolder`.
+// * local folder on the new {product-name} desktop app is called `NewLocalFolder`.
+
+// then `EML` files need to be copied
+
+// .File path
+// |===
+// |OS |From |To 
+
+// |Windows
+// |`%APPDATA%\@zimbra\\ada@example.com\Mail\OldLocalFolder`
+// |`%APPDATA%\@zimbra\storage\\ada@example.com\Mail\NewLocalFolder`
+
+// |Mac
+// |`~/Library/Application Support/@zimbra/ada@example.com/Mail/OldLocalFolder`
+// |`~/Library/Application Support/@zimbra/storage/ada@example.com/Mail/NewLocalFolder`
+// |===
+
+// ==== Import Mails
+
+// . Open the {product-name} desktop app.
+// . Click the folder under *Local Folder* -- `NewLocalFolder` in this case.
+// . Hover on the folder (`NewLocalFolder`) to see a refresh icon.
+// . Click the refresh icon to view all your emails from the local folder in the old app under the new folder (`NewLocalFolder`)
+
+// == Support for Local Trash Folder
+// Local Trash folder keeps all the emails and folders deleted from *Local Folders*. Under Trash, you can mark emails as _read_ or empty it.
+
+// === Mark as Read
+// This option marks all emails as read in the Local Trash folder.
+
+
+// . Right click *Trash* under *Local Folders*.
+// . From the context menu, select *Mark emails as read*.
+// . All unread messages will be marked read.
+
+// === Empty Trash Folder
+// This option deletes all the emails and folders in the Local Trash folder.
+
+// . Right click *Trash* under *Local Folders*.
+// . From the context menu, select *Empty trash*.
+// . All messages and folders in the trash folder will be deleted.
+
+// == Paginated Mail List in local folders for better performance
+
+ifdef::ZimbraX_app[]
+=== Manage Local Folders
+
+// NOTE: This feature is available only on the Zimbra desktop app for Windows.
+
+Local folders are a great way to keep your allocated storage on the cloud within its specified limit. You can drag large emails to local storage to store such emails locally on your computer.
+
+=== Create Multiple Local Folders
+. In the left pane, hover over *Local Storage*.
+. Click image:images/graphics/plus.svg[] to create a new folder.
+. Type the name of the folder and press Enter.
+. You can see your newly created folder under Local Storage.
+
+=== Rename local folders
+. Right-click a folder under *Local Storage*.
+. From the context menu, select *Rename*.
+. Type a new name for this folder.
+. Press Enter to apply the new name on this folder.
+
+=== Delete Local Folders to Local Trash
+. Right-click a folder under *Local Storage*.
+. From the context menu, select *Delete*.
+. Click *OK* on the confirmation dialog.
+. The deleted folder appears under *Trash* in the Local Folders.
+endif::ZimbraX_app[]

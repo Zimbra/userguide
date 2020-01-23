@@ -1,0 +1,79 @@
+=== Create a New Contact
+Keep track of everyone you communicate with by creating contacts. Once you've added a contact, you can type the first few letters of their name into an email, and {product-name} displays their names as suggestions.
+
+==== Add a Contact from E-mail
+
+. Hover a name in the *To*, *Cc*, *Bcc*, or *From* field.
+. Click image:images/graphics/ellipsis-h.svg[3-dots menu icon] on the contact information card that pops-up.
+. Select *Add to contacts*.
+. {product-name} adds the user to your contacts folder.
+
+==== Add a contact from scratch
+. Click btn:[Contacts] tab.
+. Click btn:[Add a Contact] to launch *Add a contact* page.
+. Add any relevant details you want.
+. Click *Save*.
+
+NOTE: All added contacts appear under *Contacts*.
+
+=== Import Contacts
+You can import contacts in different formats into {product-name}.
+
+. Click btn:[Contacts] tab.
+. Click the Contact List menu, labeled *Sort by ...* in the <<contacts-overview.adoc#_contacts_pane>>.
+. Choose *Import*.
+. Select *Browse*, go to your saved contacts file, and select it.
+. Click *Import* to import the contacts to {product-name}.
+
+=== Export Contacts
+In {product-name}, you can export your contacts in various formats to make them portable and take a backup if required. {product-name} exports contacts in the following formats:
+
+* Microsoft Outlook CSV
+* Thunderbird/Netscape LDIF
+* VCF
+* Multiple VCF in a zipped file.
+* Yahoo CSV
+
+NOTE: `VCF` is recommended to preserve uploaded contact images.
+
+. Click btn:[Contacts] tab.
+. Click the Contact List menu, labeled *Sort by ...* in the <<contacts-overview.adoc#_contacts_pane>>.
+. From the <<sorting-menu>>, choose *Export*.
+. Click *Export Now*.
+. Save the file when prompted.
+
+=== Edit a Contact
+. Right-click a contact from the list of contacts.
+. Select *Edit Details*.
+. Edit any relevant details you want.
+. Click *Save*.
+
+=== Delete a Contact
+. Right-click a contact from the list of contacts.
+. Select *Delete*.
+. Edit any relevant details you want.
+. Click *Save*.
+
+NOTE: The option *Assign to Lists* adds the selected contact to a group. For details check <<contacts-manage-groups.adoc#_manage_contact_groups>>.
+
+=== Share a Contact
+When you share a contact, {product-name} exports a _card_ with the information of the selected contact as an email attachment.
+
+. Right-click a contact from the list of contacts.
+. Select *Share*.
+. A new mail window opens with the selected contact as a `VCF` attachment.
+. Enter the receiver's email address.
+. Click *Send*.
+
+=== Review Interaction with Contact
+You can review your interactions (emails and file attachments) which a contact has sent to you.
+
+. Click a contact with whom you have interacted.
+. A section to the right of the selected contact's details lists the emails and file attachments received.
+. Click *View all* to view those interactions in a separate tab. 
+
+=== Global Address List
+
+The Global Address List (GAL) is a directory of users within an organization that is available to all users of the email system. {product-name} uses this directory to look up user addresses from within the company.
+
+If your administrator has set up GAL, you can access it under Contacts.

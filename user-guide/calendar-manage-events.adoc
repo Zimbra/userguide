@@ -1,0 +1,119 @@
+=== Manage Events 
+==== Schedule an event
+. Click btn:[Calendar]
+. Click btn:[New Event]
+. In *Add Event* field, type the subject of the appointment.
+. Set start and end date times or select *All Day*.
+.. Choose an appropriate timezone for start and end date times. Enable this feature from <<settings-otheroptions.adoc#_general_calendar_settings, Calendar Settings>>.
+. Set an appointment location -- this is optional.
+. To schedule this event as an appointment in your calendar, do not add any invitees.
++
+NOTE: To create this event like a meeting, type the email address of the invitees. Alternatively, click the link *Invitees* and choose from the list of people that appears.
+
+. Any extra information or details go in the *Notes* section. Click the little pin beside *Notes* to attach a file.
+. Select a *Remind* interval. You are alerted of the appointment before the time set in *Remind* interval.
++
+NOTE: Choose *Never* if you do not want notification of this appointment.
+
+. Choose how you would prefer to receive the alert -- on the desktop/mobile application, or through email.
+. Select how that event should appear -- Free, Tentative, Busy, or Out-of-Office.
+. Leave the field *Calendar* as-is if it is showing the calendar you want to place the event in, or if there are no other calendars set up.
+. Click *Save* to save this appointment in your calendar.
+
+==== Edit an event
+. Locate the appointment to edit in your calendar.
+. Right-click the event to bring up the context menu and choose *Edit*.
+.. Alternatively, you can
+** Hover the mouse pointer to bring up the options -- *Details*, *Print*, and *Delete*.
+** Click *Details* and then click image:images/graphics/pencil.svg[] on top.
+. An interface similar to <<#addEvent, Add Event>> appears.
+. Edit the relevant information and click *Save*.
+
+==== Delete an event
+. Locate the appointment to delete in your calendar.
+. Hover the mouse pointer to bring up the options -- *Details*, *Print*, and *Delete*.
+. Click *Delete*.
+.. Alternatively, right-click the event to bring up the context menu and choose *Delete*.
+. A notification on the top of the calendar pane confirms the deletion of the appointment.
+
+==== Copy an Event
+. Locate the appointment to edit in your calendar.
+. Right-click the event to bring up the context menu and choose *Copy*.
+. An interface similar to <<#addEvent, Add Event>> appears.
+. Change the relevant information and click *Save*.
+
+==== Event (Appointment/Meeting) Recurrence
+You can set the event to repeat every day, every week, every month, or every year. These repetitions can be customized as well, e.g., every third Friday, or third Friday of every month, and so forth.
+
+Below are a few example scenarios and possible event recurrence settings.
+
+_You want to take your pet to the vet, on the 4th of every month, at 11:00 AM, for a routine checkup. You would like to set a reminder. Next appointment is on the 4th of May._
+
+Start Date and Time:: 05/04/20XX 11:00 AM
+
+End Date and Time:: 05/04/20XX 11:30 AM
+
+Repeat:: Every month
+
+_Smiths' anniversary is on the 20th of July. You would like to set a reminder to wish them "Happy Anniversary!"_
+
+Start Date and Time:: 07/20/20XX 07:00 PM. Check the box *All Day*.
+
+Show as:: Free
+
+Repeat:: Every year
+
+_Today, you meet your team to discuss an exciting idea. You then want to schedule your meeting every second Friday._
+
+Start Date and Time:: 07/20/20XX 07:00 PM
+
+End Date and Time:: 07/20/20XX 07:30 AM
+
+Repeat:: Custom -- *Every* 2 *Weeks* +
+*On* Friday
+*Ends* Never
+
+You can set similar other recurrence patterns.
+
+==== Edit Recurring Event
+. Locate the event to be edited in your calendar.
+. Hover the mouse pointer to bring up the options -- *Edit* and *Delete*.
+. Click *Edit*.
+. You can choose to edit just this instance of the event or all recurrence.
+. An interface similar to <<#addEvent, Add Event>> appears.
+. Edit the relevant information and click *Save*.
+
+==== Delete Recurring Event
+. Locate the event to be deleted in your calendar.
+. Hover the mouse pointer to bring up the options -- *Edit* and *Delete*.
+. Click *Delete*.
+. You can choose to delete just this instance of the event or all recurrence.
+. A notification on the top of the calendar pane confirms the deletion of the event.
+
+==== Respond to an invitation
+
+An invitation appears in the *Inbox* with image:images/graphics/calendar-o.svg[].
+There are three responses to an event when you are an invitee.
+In the RSVP section of an invitation, you have an option to send a response email.
+
+*Accept* image:images/graphics/check-circle.svg[]: {product-name} saves the event in your calendar. A notification reminds you before that event starts.
+
+*Tentative* image:images/graphics/question-circle.svg[]: {product-name} saves the event in your calendar. A notification reminds you before that event starts. However, you can revisit the event anytime to mark it as Accept or Decline.
+
+*Decline* image:images/graphics/close-circle.svg[]: {product-name} deletes the event, and the event does not make it to your calendar.
+
+Right next to these buttons, you can choose if you want to send a response email.
+
+{product-name} marks the invitations that you have not yet responded with a bar on the left.
+You may respond to the invitation in the calendar or the Mail section.
+Once you have responded, {product-name} deletes the invitation email.
+
+==== Turn off or Postpone a Reminder
+
+The *Reminder* dialog box pops up when an appointment or meeting is coming up, or when it’s time to finish a task.
+
+You can turn off the reminder by clicking *Dismiss* or pause it for a minute by clicking *Snooze*
+
+A reminder box may list multiple events, to turn of _all_ reminders, click *Dismiss All*.
+
+Similarly, *Snooze All* pauses _all_ reminders for a minute.

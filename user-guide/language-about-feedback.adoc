@@ -1,0 +1,38 @@
+== Change Display Language
+{product-name} now offers these languages as the display language.
+
+* Chinese
+* English (United States)
+* French
+* German
+* Hindi
+* Indonesian
+* Italian
+* Japanese
+* Portuguese
+* Spanish
+* Thai
+
+To change {product-name} language to one of the above languages, perform the following steps.
+
+. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select *Language*.
+. Choose a language you prefer.
+. Click *Save*.
+
+{product-name} display language changes to the selected language.
+
+== About {product-name}
+This option shows the copyright notices and the current {product-name} version you are running.
+
+. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select *About*.
+. Click image:images/graphics/close.svg[] to close.
+
+== Feedback
+{product-name} has a feedback mechanism that you can use.
+
+. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select *Send Feedback*.
+. Fill in the relevant details.
+. Click *Submit* to send us the feedback.

@@ -1,0 +1,177 @@
+== Mail
+This section familiarizes you with {product-name}'s email interface.
+
+.Email interface
+image::images/screenshots/mail-empty-inbox.png[Email interface]
+
+This page is the first thing you see when you log in to check your emails. It has
+
+. A left sidebar.
+. An email pane.
+. A reading pane located to the right or below the email pane. The reading pane can be disabled from <<settings-writeEmail#_e_mail_preview_pane, Settings>>.
+
+You can drag to change the width of each pane.
+
+
+=== Left Sidebar
+The left pane of the email window contains the following folders.
+
+Inbox:: Whenever someone sends you an email, it comes straight to your Inbox.
+Click this folder to view your incoming emails. You can also right-click this folder to create subfolders.
+
+Drafts:: Mails that you have written and saved -- or which {product-name} saved while you were composing them -- but not yet sent appear under drafts folder.
+
+Sent:: When you send an email to someone, it appears in your sent folder. You can right-click this folder to create subfolders.
+
+Junk:: {product-name} moves all the unwanted or spam emails here to keep them out of your Inbox.
+
+Trash:: All deleted emails are moved to this folder until you _Empty the Trash_, permanently delete, or restore them.
+
+Folders:: Sometimes, you may want a folder for storing specific emails. All such folders are listed here.
+
+Tags:: It also lists your saved searches and tags that other emails may carry.
+Clicking a tag lists all emails in the email pane, carrying that tag.
+You can also create a custom tag.
+
+
+NOTE: If you are using the {product-name} desktop application, you may see a **Local Storage** option below folders. <<mail-localstorage.adoc#_local_storage, Local Storage>> section details this feature.
+
+=== Email Pane
+
+This pane displays emails from your Inbox by default. Event invitations appear with image:images/graphics/calendar-o.svg[]. This icon helps set an invitation apart from an email. 
+Clicking a folder in the <<Left Sidebar>> lists its contents in this pane.
+
+=== Reading Pane
+When an email is selected, this pane shows its contents.
+
+A toolbar displays some quick actions regarding an email.
+
+NOTE: These buttons become functional after you select an email and view its contents in the reading pane. 
+
+Click image:images/graphics/mail-reply.svg[reply button, width=25px] to reply to the person who sent this e-mail.
+Click image:images/graphics/mail-reply-all.svg[Reply to all button, width=25px] to reply to everyone whose e-mail address appears in **To** or **Cc** fields.
+
+NOTE: Any attachment in the original email is not included in **Reply** or **Reply All** functions.
+
+Click image:images/graphics/mail-forward.svg[forward button, width=25px] to forward this e-mail to others. It is especially helpful in sending a received attachment to others.
+
+image:images/graphics/archive.svg[Archive button, width=25px] archives your e-mails and saves space. Archived e-mails do not appear in Inbox or any of the folders, but you can search for them using <<mail-search.adoc#_e_mail_search_box, E-mail Search box>>.
+
+image:images/graphics/folder-move.svg[move button, width=25px] removes emails from the current folder and moves them to a folder chosen from the drop-down.
+
+image:images/graphics/trash.svg[delete button, width=25px] deletes e-mails. The deleted e-mails appear in the **Trash** folder.
+
+image:images/graphics/shield.svg[Mark as spam button, width=25px] marks e-mails as spam and moves them to the **Junk** folder.
+
+image:images/graphics/ellipsis-h.svg[more options, width=25px] reveals further actions to take on emails like marking an email as **read** or **unread**, or mark an email with a image:images/graphics/star.svg[star, width=15px] for it to stand out, and blocking a contact from sending you emails.
+
+=== Keyboard Shortcuts
+{product-name} supports keyboard shortcuts; to see what shortcuts are defined, type kbd:[Ctrl + Q].
+The available keyboard shortcuts are context-sensitive.
+kbd:[Ctrl + Q] displays different shortcuts depending on whether you have selected mail, calendar, or contacts.
+
+Kbd:[Shift] and kbd:[Ctrl] help you select contiguous or non-contiguous emails, respectively. 
+
+==== Keyboard Shortcuts During Input
+
+While providing input, e.g. "Add Event" dialog:
+
+* kbd:[Tab] moves to next element
+* kbd:[Shift+Tab] moves to previous element
+* kbd:[Command + C] or kbd:[Ctrl + C] to Copy
+* kbd:[Command + X] or kbd:[Ctrl + X] to Cut
+* kbd:[Command + V] or kbd:[Ctrl + V] to Paste
+* kbd:[Commmand + Z] or kbd:[Ctrl + Z] to Undo
+* kbd:[Commmand + Shift + Z] or kbd:[Ctrl + Shift + Z] to Redo
+
+NOTE: Mac users should consider enabling full keyboard access See https://support.apple.com/en-ca/HT204434[_Use your keyboard like a mouse with Full Keyboard Access_]
+
+=== Tags
+Tags help classify and organize email messages or conversations.
+Tags also help sort emails and make searches easy. You can also apply multiple tags to an email.
+
+==== Create a Tag
+
+. In the <<Left Sidebar>>, hover on *Tags* and click image:images/graphics/plus.svg[].
+. Enter the new Tag name and select a color for the tag.
++
+Tag names can include any character except a colon (:), forward-slash (/), and quotation mark (").
+. Click *Save*.
++
+The new tag now appears under *Tags*.
+
+==== Assign a Tag to an Email
+
+You can assign multiple tags to an email to classify it under different categories.
+
+. In the <<Email pane>>, right-click an email.
+. From the context menu, select Tag.
+. From the pop-up that appears, check the box against an already created tag.
+. Click btn:[Save] to apply the tag.
+
+You can create tags while applying them.
+. Choose *image:images/graphics/plus.svg[] Add a Tag*.
+. Enter the new Tag name and select a color for the tag.
+. Click *Save*.
++
+The new tag is now listed and ready to be applied.
+
+==== Remove a Tag
+. Right-click an email that you have tagged.
+. From the context menu, select Tag.
+. From the pop-up that appears, please uncheck the box against a tag to remove it from the email.
+. Click btn:[Save] to apply the tag.
+
+==== Display Messages with a Specific Tag
+. In the <<Left Sidebar>>, click image:images/graphics/chevron-right.svg[] before *Tags* to list all created tags.
+. Click a tag to list all emails with the selected tag in the <<Email Pane>>.
+
+==== Edit a Tag
+. In the <<Left Sidebar>>, click image:images/graphics/chevron-right.svg[] before *Tags* to list all created tags.
+. Right click a tag and choose *Edit* from the context menu.
+. Change the name and color associated with a tag.
+. Click btn:[Save].
+
+==== Delete a Tag
+. In the <<Left Sidebar>>, click image:images/graphics/chevron-right.svg[] before *Tags* to list all created tags.
+. Right-click a tag and choose *Delete* from the context menu.
+. Choose btn:[Continue] from the confirmation popup.
+. The selected tag is deleted and cleared off from all emails marked with that tag. The emails stay safe in their respective folders.
+
+=== Import Email Folders
+You can import email folders directly in {product-name}, provided the folders to import are in `.tgz` format.
+
+. In the <<Left Sidebar>>, right-click a folder under which you prefer to import your email folder.
+. From the context menu, choose *Import*.
+. From the *Import* modal, click *Choose File*.
+. From the file browser window, choose the `.tgz` file to import.
+. Click btn:[Import] to begin the import process.
+. The imported folder appears under the selected folder after the process completes.
+
+=== Export Email Folders
+You can export email folders directly in {product-name} in `.tgz` format.
+
+. In the <<Left Sidebar>>, right-click a folder to export.
+. From the context menu, choose *Export*.
+. From the file browser window, choose a location to save the `.tgz` file.
+. The exported folder downloads at the specified location.
+
+=== Share Email Folders
+
+You can share your email folders with others and grant them controlled access.
+
+. In the <<Left Sidebar>>, right-click a folder to share.
+. From the context menu, choose *Share*.
+. Choose appropriate permissions from the *Sharing Permissions* drop-down.
++
+View:: Users can view all emails under the shared folder but cannot make changes to that folder.
+
+View, edit, add, and remove:: Users have permission to view and edit the contents of a folder, create new subfolders, present items on your behalf, and delete items from the folder.
+
+View, edit, add, remove, and administer:: Users have permission to view and edit the content of a shared folder, create new subfolders, present on your behalf, delete items from the shared folder, and share the folder with others.
+
+. Enter the email address(s) with whom to share the email folders.
+. Click *Save* for changes to take effect.
+
+If the recipient declines the share, you receive a notification email.
+Similarly, when you revoke the share, the recipient also receives an email notification.

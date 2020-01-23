@@ -1,0 +1,23 @@
+== Managing your Profile
+This feature in {product-name} helps change your login password and upload a profile image. Recipients of your email, however, may not see your image when they receive your emails.
+
+=== Change Password
+This feature helps you change your password.
+
+. In the top right, click image:images/graphics/user-circle-o.svg[] and choose *Change Password*. The *Change Password* dialog appears.
++
+NOTE: *Change Password* dialog also appears when your password has expired, and you attempt to login.
+
+. Enter the current password in the *Current Password* field.
+. Type in the new password in *New Password* field.
+. Type in the new password again in *Confirm Password* field.
+. Click *Continue* to apply the changes.
+
+=== Change Profile Image
+
+. In the top right, click image:images/graphics/user-circle-o.svg[] and choose *Change Profile Image*. The *Change Profile Image* dialog appears.
+. Click inside the bordered area to launch a file browser window. Navigate to the image's location and click *Open*.
+** Alternatively, you can drag and drop your image inside the bordered area.
+. Select the portion of the photo you want to show. The frame with dashed borders can be resized and repositioned.
+. Click image:images/graphics/rotate_left.svg[] or image:images/graphics/rotate_right.svg[] to rotate the picture 90deg left or right.
+. Click *Save* to apply the changes.

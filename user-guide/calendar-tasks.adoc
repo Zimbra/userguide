@@ -1,0 +1,52 @@
+== Tasks
+=== Create a New List
+. Click image:images/graphics/ellipsis-h.svg[]
+. Click *Create List...*
+. Type in a name for that list.
+. The new list appears below your name in the task pane.
+
+=== Create a Task
+You can combine various lists into one, get reminders, and track task progress.
+
+. Click btn:[Calendar].
+. Click image:images/graphics/ellipsis-h.svg[] and choose *New Task*.
++
+NOTE: This option is disabled in <<Done View>>.
+
+. Set a due date of the task in *Due Date* field.
+. Set a priority from the drop-down. The options available are *Low*, *Normal*, and *High*.
+. Choose a <<Create a New List, list>> to assign the task.
+. Any extra information related to the task goes in *Notes* section.
+
+Alternatively,
+
+. in <<calendar-overview.adoc#_tasks_pane, tasks pane>>, hover over a list in which to create the task and click it.
+. In the field that appears, type in your task.
+. Press enter -- or click anywhere else in the task pane -- to save the task with a check-box.
+. To set a due date or change the default priority, <<Edit a Task, edit that task>>.
+
+=== Edit a Task
+. Click the task created to bring up the options -- *Edit* and *Delete*.
+. Click *Edit*.
+
+The interface and options are the same as that of <<Create a Task>>.
+
+=== Delete a Task
+. Click the task created to bring up the options -- *Edit* and *Delete*.
+. Click *Delete*.
+. A notification on the top of the calendar pane confirms the deletion of the task.
+
+=== Task list View orders
+You can view the tasks list in the task pane as per a general list of tasks -- <<List View, list>>, <<Priority View, priority>>, <<Due Date View, due date>>, or <<Done View, status>>.
+
+==== List View
+It shows all the tasks and the lists in which they belong. Lists appear in alphabetical order. Tasks within the list appear in the same order they were created; the latest task appears first.
+
+==== Priority View
+Tasks with decreasing order of priorities -- *High* being first -- are listed here.
+
+==== Due Date View
+This view shows the tasks in order of their due dates. Tasks that are past due appear first, followed by tasks that are needed later.
+
+==== Done View
+This pane lists tasks that are marked done.
