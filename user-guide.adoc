@@ -3,11 +3,11 @@
 :favicon: images/graphics/favicon.ico
 :showlinks:
 :source-highlighter: pygments
-:product-name: Zimbra X 
+:product-name: Zimbra 9 
 :document-title: User's guide
 :copyright-year: 2019
 // :version: August Release
-:release-date: August 2019
+:release-date: Mar 2020
 :toc: left
 :toclevels: 2
 // For keyboard like buttons on shortcuts
@@ -21,10 +21,10 @@
 // :gearkey: &#9881;
 
 //Uncomment to publish Desktop app version
-// :ZimbraX_app:
+// :Desktop_app:
 
 = {product-name}: {document-title}
-{release-date}
+// {release-date}
 
 <<<
 

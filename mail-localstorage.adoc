@@ -3,7 +3,7 @@
 
 // IMPORTANT: This feature is only available in the {product-name} Desktop app.
 
-// === Migrate Local folder from old Zimbra app to newer version
+// === Migrate Local folder from old {product-name} app to newer version
 // IMPORTANT: If you have used Local Folders in the older version follow the below steps to migrate to newer
 
 // ==== Create Empty Folder
@@ -18,11 +18,11 @@
 // ==== Copy Files
 // . Navigate to
 // + 
-// On Windows:: `%APPDATA%\@zimbra\<your email address folder>\Mail\<old app local folder>`
-// On Mac:: `~/Library/Application Support/@zimbra/<your email address folder>/Mail/<old app local folder>`
+// On Windows:: `%APPDATA%\@{product-name}\<your email address folder>\Mail\<old app local folder>`
+// On Mac:: `~/Library/Application Support/@{product-name}/<your email address folder>/Mail/<old app local folder>`
 // +
 // . Copy all the `EML` files in the above folder.
-// . Navigate to `@zimbra/storage/<your email address folder>/Mail/NewLocalFolder`.
+// . Navigate to `@{product-name}/storage/<your email address folder>/Mail/NewLocalFolder`.
 // . Paste the files here.
 
 // ===== Example
@@ -39,12 +39,12 @@
 // |OS |From |To 
 
 // |Windows
-// |`%APPDATA%\@zimbra\\ada@example.com\Mail\OldLocalFolder`
-// |`%APPDATA%\@zimbra\storage\\ada@example.com\Mail\NewLocalFolder`
+// |`%APPDATA%\@{product-name}\\ada@example.com\Mail\OldLocalFolder`
+// |`%APPDATA%\@{product-name}\storage\\ada@example.com\Mail\NewLocalFolder`
 
 // |Mac
-// |`~/Library/Application Support/@zimbra/ada@example.com/Mail/OldLocalFolder`
-// |`~/Library/Application Support/@zimbra/storage/ada@example.com/Mail/NewLocalFolder`
+// |`~/Library/Application Support/@{product-name}/ada@example.com/Mail/OldLocalFolder`
+// |`~/Library/Application Support/@{product-name}/storage/ada@example.com/Mail/NewLocalFolder`
 // |===
 
 // ==== Import Mails
@@ -74,10 +74,10 @@
 
 // == Paginated Mail List in local folders for better performance
 
-ifdef::ZimbraX_app[]
+ifdef::Desktop_app[]
 === Manage Local Folders
 
-// NOTE: This feature is available only on the Zimbra desktop app for Windows.
+// NOTE: This feature is available only on the {product-name} desktop app for Windows.
 
 Local folders are a great way to keep your allocated storage on the cloud within its specified limit. You can drag large emails to local storage to store such emails locally on your computer.
 
@@ -98,4 +98,4 @@ Local folders are a great way to keep your allocated storage on the cloud within
 . From the context menu, select *Delete*.
 . Click *OK* on the confirmation dialog.
 . The deleted folder appears under *Trash* in the Local Folders.
-endif::ZimbraX_app[]
+endif::Desktop_app[]

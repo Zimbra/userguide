@@ -79,7 +79,8 @@ Ask me:: As soon as you open an email where a sender has requested a read receip
 ** Click image:images/graphics/close.svg[] to decline to send a read receipt. 
 ** Click *Send read receipt* to let the sender know that you have read the message.
 
-Always Send:: Choose this option to send a read receipt every time to senders.
-Never Send:: Choose this option, so Zimbra does not send a read-receipt to senders.
+Ask Me:: Choose this option to receive a confirmation before sending a read receipt.
+Always Send:: Choose this option to send a read receipt every time to recipients.
+Never Send:: Choose this option, so {product-name} does not send a read-receipt to recipients.
 
 . At the bottom of the page, click *Save*.

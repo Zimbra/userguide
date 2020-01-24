@@ -1,5 +1,5 @@
 == Calendar
-This section familiarizes you with Zimbra's calendar interface.
+This section familiarizes you with {product-name}'s calendar interface.
 
 Click btn:[Calendar] to bring up the following interface.
 
