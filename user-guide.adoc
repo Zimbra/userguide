@@ -4,7 +4,7 @@
 :showlinks:
 :source-highlighter: pygments
 :product-name: Zimbra 9
-:document-title: User's guide
+:document-title: User guide
 :copyright-year: 2020
 // :version: August Release
 :release-date: Mar 2020
@@ -33,7 +33,7 @@
 
 image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {copyright-year}
 
-(C) {copyright-year} by Synacor, Inc. {product-name} {document-title}
+(C) {copyright-year} by Synacor, Inc. {product-name} (Beta Release) {document-title}
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 International License unless another license agreement between you and
