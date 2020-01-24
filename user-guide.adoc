@@ -5,11 +5,9 @@
 :source-highlighter: pygments
 :product-name: Zimbra 9 
 :document-title: User's guide
-:copyright-year: 2019
+:copyright-year: 2020
 // :version: August Release
-<<<<<<< HEAD
 :release-date: Mar 2020
-=======
 :toc: left
 :toclevels: 2
 // For keyboard like buttons on shortcuts
