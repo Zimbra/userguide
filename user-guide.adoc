@@ -8,7 +8,7 @@
 :copyright-year: 2020
 // :version: August Release
 :release-date: Mar 2020
-// :toc: left
+:toc: left
 :toclevels: 2
 // For keyboard like buttons on shortcuts
 :icons: font
