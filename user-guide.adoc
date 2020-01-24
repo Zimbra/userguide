@@ -3,12 +3,12 @@
 :favicon: images/graphics/favicon.ico
 :showlinks:
 :source-highlighter: pygments
-:product-name: Zimbra 9 
+:product-name: Zimbra 9
 :document-title: User's guide
 :copyright-year: 2020
 // :version: August Release
 :release-date: Mar 2020
-:toc: left
+// :toc: left
 :toclevels: 2
 // For keyboard like buttons on shortcuts
 :icons: font
@@ -23,7 +23,7 @@
 //Uncomment to publish Desktop app version
 // :Desktop_app:
 
-= {product-name}: {document-title}
+= {product-name} - Beta Release: {document-title}
 // {release-date}
 
 <<<
