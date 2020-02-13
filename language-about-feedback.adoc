@@ -29,10 +29,10 @@ This option shows the copyright notices and the current {product-name} version y
 . Select *About*.
 . Click image:images/graphics/close.svg[close icon, width=20] to close.
 
-== Feedback
-{product-name} has a feedback mechanism that you can use.
+// == Feedback
+// {product-name} has a feedback mechanism that you can use.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
-. Select *Send Feedback*.
-. Fill in the relevant details.
-. Click *Submit* to send us the feedback.
+// . Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+// . Select *Send Feedback*.
+// . Fill in the relevant details.
+// . Click *Submit* to send us the feedback.
