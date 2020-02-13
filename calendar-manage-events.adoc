@@ -1,7 +1,7 @@
 === Manage Events 
 ==== Schedule an event
-. Click btn:[Calendar]
-. Click btn:[New Event]
+. Click btn:[Calendar].
+. Click btn:[New Event].
 . In *Add Event* field, type the subject of the appointment.
 . Set start and end date times or select *All Day*.
 .. Choose an appropriate timezone for start and end date times. Enable this feature from <<settings-otheroptions.adoc#_general_calendar_settings, Calendar Settings>>.
@@ -25,8 +25,8 @@ NOTE: Choose *Never* if you do not want notification of this appointment.
 . Right-click the event to bring up the context menu and choose *Edit*.
 .. Alternatively, you can
 ** Hover the mouse pointer to bring up the options -- *Details*, *Print*, and *Delete*.
-** Click *Details* and then click image:images/graphics/pencil.svg[] on top.
-. An interface similar to <<#addEvent, Add Event>> appears.
+** Click *Details* and then click image:images/graphics/pencil.svg[pencil icon, width=20] on top.
+. An interface similar to <<Schedule an event>> appears.
 . Edit the relevant information and click *Save*.
 
 ==== Delete an event
@@ -39,7 +39,7 @@ NOTE: Choose *Never* if you do not want notification of this appointment.
 ==== Copy an Event
 . Locate the appointment to edit in your calendar.
 . Right-click the event to bring up the context menu and choose *Copy*.
-. An interface similar to <<#addEvent, Add Event>> appears.
+. An interface similar to <<Schedule an event>> appears.
 . Change the relevant information and click *Save*.
 
 ==== Event (Appointment/Meeting) Recurrence
@@ -79,28 +79,28 @@ You can set similar other recurrence patterns.
 . Locate the event to be edited in your calendar.
 . Hover the mouse pointer to bring up the options -- *Edit* and *Delete*.
 . Click *Edit*.
-. You can choose to edit just this instance of the event or all recurrence.
-. An interface similar to <<#addEvent, Add Event>> appears.
+. You can choose to edit just this instance of the event or all recurrences.
+. An interface similar to <<Schedule an event>> appears.
 . Edit the relevant information and click *Save*.
 
 ==== Delete Recurring Event
 . Locate the event to be deleted in your calendar.
 . Hover the mouse pointer to bring up the options -- *Edit* and *Delete*.
 . Click *Delete*.
-. You can choose to delete just this instance of the event or all recurrence.
+. You can choose to delete just this instance of the event or all recurrences.
 . A notification on the top of the calendar pane confirms the deletion of the event.
 
 ==== Respond to an invitation
 
-An invitation appears in the *Inbox* with image:images/graphics/calendar-o.svg[].
+An invitation appears in the *Inbox* with image:images/graphics/calendar-o.svg[calendar icon, width=20].
 There are three responses to an event when you are an invitee.
 In the RSVP section of an invitation, you have an option to send a response email.
 
-*Accept* image:images/graphics/check-circle.svg[]: {product-name} saves the event in your calendar. A notification reminds you before that event starts.
+*Accept* image:images/graphics/check-circle.svg[width=20]: {product-name} saves the event in your calendar. A notification reminds you before that event starts.
 
-*Tentative* image:images/graphics/question-circle.svg[]: {product-name} saves the event in your calendar. A notification reminds you before that event starts. However, you can revisit the event anytime to mark it as Accept or Decline.
+*Tentative* image:images/graphics/question-circle.svg[width=20]: {product-name} saves the event in your calendar. A notification reminds you before that event starts. However, you can revisit the event anytime to mark it as Accept or Decline.
 
-*Decline* image:images/graphics/close-circle.svg[]: {product-name} deletes the event, and the event does not make it to your calendar.
+*Decline* image:images/graphics/close-circle.svg[width=20]: {product-name} deletes the event, and the event does not make it to your calendar.
 
 Right next to these buttons, you can choose if you want to send a response email.
 
@@ -110,10 +110,10 @@ Once you have responded, {product-name} deletes the invitation email.
 
 ==== Turn off or Postpone a Reminder
 
-The *Reminder* dialog box pops up when an appointment or meeting is coming up, or when it’s time to finish a task.
+The *Reminder* dialog box pops up when an appointment or meeting is coming up, or when it's time to finish a task.
 
 You can turn off the reminder by clicking *Dismiss* or pause it for a minute by clicking *Snooze*
 
-A reminder box may list multiple events, to turn of _all_ reminders, click *Dismiss All*.
+A reminder box may list multiple events. To turn off _all_ reminders, click *Dismiss All*.
 
 Similarly, *Snooze All* pauses _all_ reminders for a minute.

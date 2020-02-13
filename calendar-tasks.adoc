@@ -1,6 +1,6 @@
 == Tasks
 === Create a New List
-. Click image:images/graphics/ellipsis-h.svg[]
+. Click image:images/graphics/ellipsis-h.svg[3 dots menu icon, width=20]
 . Click *Create List...*
 . Type in a name for that list.
 . The new list appears below your name in the task pane.
@@ -9,7 +9,7 @@
 You can combine various lists into one, get reminders, and track task progress.
 
 . Click btn:[Calendar].
-. Click image:images/graphics/ellipsis-h.svg[] and choose *New Task*.
+. Click image:images/graphics/ellipsis-h.svg[3 dots menu icon, width=20] and choose *New Task*.
 +
 NOTE: This option is disabled in <<Done View>>.
 

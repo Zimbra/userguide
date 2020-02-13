@@ -15,7 +15,7 @@ View (including private events):: Users can view all appointments, *including* p
 
 View and edit:: Users can view and edit all appointments, *except* private ones.
 
-View, edit, add, and remove:: Users can view and edit all appointments, *except* private ones. They can also add and delete events (*except* private events) from your calendar.
+View, edit, add and remove:: Users can view and edit all appointments, *except* private ones. They can also add and delete events (*except* private events) from your calendar.
 
 View, edit, add and remove (including private events):: Users can view and edit all appointments, *including* private ones. They can also add and remove events (*including* private events) from your calendar.
 
@@ -35,9 +35,9 @@ Add a new calendar by any of these methods.
 
 ==== Manually
 . Click btn:[Calendar] and hover over *My Calendars*.
-. Click image:images/graphics/plus.svg[].
+. Click image:images/graphics/plus.svg[plus icon, width=20].
 . Type a name for this calendar.
-. Please choose a color to mark it differently from the other calendars.
+. Choose a color to mark it differently from the other calendars.
 
 ==== Subscribe to a Calendar
 . Click *Calendar* and hover over *Others*.
@@ -51,7 +51,7 @@ NOTE: You can add your friend's calendar only when they have shared it.
 This feature populates your calendar with holidays in your country.
 
 . Click *Calendar* and hover over *Holidays*.
-. Click image:images/graphics/plus.svg[].
+. Click image:images/graphics/plus.svg[plus icon, width=20].
 . Choose the country whose holidays you want to view in your calendar.
 . Click *Next* and choose the color to differentiate this calendar from the rest.
 . Click *Save* to save the changes.

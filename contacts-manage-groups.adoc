@@ -1,6 +1,6 @@
 === Manage Contact Lists
 
-You can create a list containing your contacts and store that list under *Contacts* folder. It is especially helpful when you want to send some mails to a specific set of people. So instead of typing everyone's email address, you type in the name of your list, and {product-name} sends the email to all addresses in that list. 
+You can create a list containing your contacts and store that list under the *Contacts* folder. It is especially helpful when you want to send an email to a specific set of people. So instead of typing everyone's email address, you type in the name of your list, and {product-name} sends the email to all addresses in that list. 
 
 It is a two-step process.
 
@@ -38,14 +38,14 @@ They work much in the same way as email folders. You can perform actions like cr
 
 ==== Create a Contact Folder
 . Click btn:[Contacts] tab.
-. Hover over *Folders* and click image:images/graphics/plus.svg[].
+. Hover over *Folders* and click image:images/graphics/plus.svg[plus icon, width=20].
 . In the text box, type in the name of the folder and press kbd:[Enter].
-** Click outside the text-box or image:images/graphics/close.svg[] beside the text box to cancel.
+** Click outside the text-box or image:images/graphics/close.svg[close icon, width=20] beside the text box to cancel.
 
 ==== Add Contacts to a Folder
 . Click btn:[Contacts] tab.
 . Select contacts to add to a folder.
-. In contact details pane, under image:images/graphics/folder-move.svg[], click btn:[Move Contacts].
+. In contact details pane, under image:images/graphics/folder-move.svg[folder move icon, width=20], click btn:[Move Contacts].
 . In *Choose a Folder* modal, choose a folder to move the selected contacts.
 
 ==== Rename a Contact Folder
@@ -72,7 +72,7 @@ They work much in the same way as email folders. You can perform actions like cr
 . Right click a folder.
 . From the context menu, choose *Create subfolder*.
 . In the text box, type in the name of the folder and press kbd:[Enter].
-** Click outside the text-box or image:images/graphics/close.svg[] beside the text box to cancel.
+** Click outside the text-box or image:images/graphics/close.svg[close icon, width=20] beside the text box to cancel.
 
 ==== Share a Contact Folder
 . Click btn:[Contacts] tab.

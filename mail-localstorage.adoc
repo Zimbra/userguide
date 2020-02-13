@@ -83,7 +83,7 @@ Local folders are a great way to keep your allocated storage on the cloud within
 
 === Create Multiple Local Folders
 . In the left pane, hover over *Local Storage*.
-. Click image:images/graphics/plus.svg[] to create a new folder.
+. Click image:images/graphics/plus.svg[plus icon, width=20] to create a new folder.
 . Type the name of the folder and press Enter.
 . You can see your newly created folder under Local Storage.
 

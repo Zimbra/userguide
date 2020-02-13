@@ -6,6 +6,8 @@
 :product-name: Zimbra 9
 :document-title: User guide
 :copyright-year: 2020
+:modern: Modern Web Client
+:classic: Classic Web Client
 // :version: August Release
 :release-date: Mar 2020
 :toc: left
@@ -46,6 +48,10 @@ Synacor, Inc., 2016 +
 Buffalo, New York 14202
 
 https://www.synacor.com
+
+<<<
+
+include::login.adoc[]
 
 <<<
 

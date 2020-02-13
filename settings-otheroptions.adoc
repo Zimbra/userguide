@@ -1,7 +1,7 @@
 === Account Recovery
 We always recommend adding an alternate email address to get account recovery instructions if you forget the login credentials to your email account.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Account Recovery* in the left pane and click *Add Recovery Email*.
 . Enter an email address where you would like to receive account recovery instructions.
 . Click *Continue*.
@@ -11,7 +11,7 @@ We always recommend adding an alternate email address to get account recovery in
 === Signatures
 With {product-name}, you can have two default signatures per account, plus additionals that you may choose to apply.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Signatures* in the left pane.
 .. To set a signature to be used while composing an email, draft your signature against the *Standard signature* field.
 .. To set a signature to be used while replying to or forwarding an email, draft your signature against the *Reply or forward signature* field.
@@ -24,7 +24,7 @@ With {product-name}, you can have two default signatures per account, plus addit
 
 ==== Create New Filter
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Filters* in the left pane.
 . Click *Add* to create a new filter.
 . Set a *Filter Name*.
@@ -37,7 +37,7 @@ Mark as read:: Leave the message in the inbox but mark it as read.
 Permanently delete:: Discard the email, so it does not appear in the *Trash* folder.
 Forward to:: Redirect the email to another email address.
 Star:: Flag the email so that it stands out and appears with a star in the email list.
-Tag With:: Mark an email with tags that you have created. For more information check <<mail-overview.adoc#tags, tags>>.
+Tag With:: Mark an email with tags that you have created. For more information check <<mail-overview.adoc#_tags, tags>>.
 
 ===== Basic
 In the basic editor, you can specify only one action to affect emails that meet the filter criteria.
@@ -62,14 +62,14 @@ E.g., you can mark it read _and_ move it to trash.
 IMPORTANT: *And do not process additional filters* check-box stops other filters from running on a message which meets the criteria for multiple filters.
 
 ==== Managing Filters
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Filters* in the left pane.
 . The right pane lists all the filters that you have created so far.
-.. Click and drag image:images/graphics/drag.svg[] to raise or lower the filter priority.
+.. Click and drag image:images/graphics/drag.svg[2 horizontal bars icon, width=20] to raise or lower the filter priority.
 .. Check or uncheck a filter to enable or disable it.
-.. Click image:images/graphics/ellipsis-h.svg[] against a filter to bring up options like *Details*, *Run*, *Edit*, and *Delete*.
+.. Click image:images/graphics/ellipsis-h.svg[3 dots menu icon, width=20] against a filter to bring up options like *Details*, *Run*, *Edit*, and *Delete*.
 +
-Details:: lists the conditions for an email to meet and the action to take when an email meets the filter criteria.
+Details:: Lists the conditions for an email to meet and the action to take when an email meets the filter criteria.
 Run:: Choose an account and then folder(s) on which to run the filter.
 Edit:: Opens the appropriate editor -- *Basic* or *Advanced* -- to edit a filter.
 Delete:: Prompts a confirmation dialog before deleting a filter.
@@ -79,7 +79,7 @@ You can block messages from specific email addresses or domains from reaching yo
 
 ==== Block senders from sending you email
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Blocked and Allowed Senders* in the left pane.
 . Under *Blocked Senders and Domains*, enter the email address or domain that you want to block and click *Block*.
 
@@ -88,23 +88,23 @@ IMPORTANT: {product-name} removes emails by blocked senders from the server; the
 ==== Allow senders
 If you want to remove someone from the blocked senders' list, follow the instructions below.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Blocked and Allowed Senders* in the left pane.
 . Under *Blocked Senders and Domains*, select the email address or domain that you want to unblock and click *Remove*.
 
 ==== Stop messages from going into your Junk Email folder
-Messages from these senders and domains bypass spam filters and always be delivered.
+Messages from these senders and domains bypass spam filters and are always delivered.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Blocked and Allowed Senders* in the left pane.
 . Under *Allowed Senders and Domains*, enter the email address or domain that you want to receive emails from and click *Allow*.
 
 IMPORTANT: If the same email address is in the whitelist and the blacklist, whitelisting takes precedence.
 
 === Offline mode
-With {product-name}, you can work offline to avoid connection charges or stop {product-name} from attempting to send and receive messages over a slow network connection. You can manage and compose mail, contacts, and appointments when you are offline. The changes sync when you are back online.
+With {product-name}, you can work offline to avoid incurring cellular data charges or to stop {product-name} from attempting to send and receive messages over a slow network connection. You can manage and compose mail, contacts, and appointments when you are offline. The changes sync when you are back online.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Offline Mode* in the left pane.
 +
 Enable offline mode:: Copies of recent items are saved locally. They are synchronized with the server when {product-name} goes online.
@@ -115,13 +115,13 @@ This setting enables viewing of emails and shows the list of devices where {prod
 
 ==== Security
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Security and Activity* in the left pane.
 .. To block images from appearing everywhere choose *Never by default*.
 .. To block images from appearing only in *Junk* folder choose *Always, except in Junk folder*.
 
 ==== Activity
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Security and Activity* in the left pane.
 . Click *Sign out* against sessions that you are no longer using or you don't recognize.
 
@@ -136,7 +136,7 @@ This setting controls,
 * the email address to send event reminders.
 
 ==== General Calendar Settings
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Calendar and Reminder Settings* in the left pane.
 . Choose a *Default Calendar* from the drop-down. If you have not <<calendars-manage-calendars.adoc#_add_calendars, added a calendar>>, the drop-down does not have any other entries.
 . Choose a *Start of Week* from the drop-down.
@@ -149,7 +149,7 @@ This setting controls,
 ==== Event Reminders
 You can specify an email address to receive event reminders.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Calendar and Reminder Settings* in the left pane.
 . Enter the email address in *Send reminders by email to* field to send event reminders to that email address.
 . Check the box *Show Browser Notifications* to receive event reminders via browser notifications.
