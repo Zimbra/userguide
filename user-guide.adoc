@@ -1,13 +1,13 @@
 :icons: font
-:title-logo-image: image:images/graphics/zimbra-logo.jpg[]
+:title-logo-image: image:images/graphics/zimbra-9-logo.svg[]
 :favicon: images/graphics/favicon.ico
 :showlinks:
 :source-highlighter: pygments
 :product-name: Zimbra 9
 :document-title: User guide
 :copyright-year: 2020
-:modern: Modern Web Client
-:classic: Classic Web Client
+:modern: Modern Web App
+:classic: Classic Web App
 // :version: August Release
 :release-date: Mar 2020
 :toc: left
@@ -25,7 +25,7 @@
 //Uncomment to publish Desktop app version
 // :Desktop_app:
 
-= {product-name} - Beta Release: {document-title}
+= {product-name}: {document-title}
 // {release-date}
 
 <<<
@@ -35,13 +35,10 @@
 
 image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {copyright-year}
 
-(C) {copyright-year} by Synacor, Inc. {product-name} (Beta Release) {document-title}
+(C) {copyright-year} by Synacor, Inc. {product-name} {document-title}
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
-International License unless another license agreement between you and
-Synacor, Inc. provides otherwise. To view a copy of this license, visit
-https://creativecommons.org/licenses/by-sa/4.0 or send a letter to Creative
-Commons, PO Box 1866, Mountain View, CA 94042, USA.
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License unless another license agreement between you and Synacor, Inc. provides otherwise.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0 or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 Synacor, Inc., 2016 +
 40 La Riviere Drive, Suite 300 +
