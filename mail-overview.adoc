@@ -2,7 +2,7 @@
 This section familiarizes you with {product-name}'s email interface.
 
 .Email interface
-image::images/screenshots/mail-empty-inbox.png[Email interface]
+image::screenshots/mail-empty-inbox.png[Email interface]
 
 This page is the first thing you see when you <<login.adoc#_login, log in>> to check your emails. It has
 
@@ -33,8 +33,6 @@ Tags:: It also lists your saved searches and tags that other emails may carry.
 Clicking a tag lists all emails in the email pane, carrying that tag.
 You can also create a custom tag.
 
-
-// NOTE: If you are using the {product-name} desktop application, you may see a **Local Storage** option below folders. <<mail-localstorage.adoc#_local_storage, Local Storage>> section details this feature.
 
 === Email Pane
 

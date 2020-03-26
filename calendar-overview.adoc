@@ -4,7 +4,7 @@ This section familiarizes you with {product-name}'s calendar interface.
 Click btn:[Calendar] to bring up the following interface.
 
 .Calendar tab
-image::images/screenshots/calendar-window-blank.png[Calendar Window]
+image::screenshots/calendar-window-blank.png[Calendar Window]
 
 It has
 
@@ -14,7 +14,7 @@ It has
 
 === Left Pane
 // .Calendar's Left Pane
-// image::images/screenshots/calendar/calendar-window-leftPane.png[Calendar's Left Pane]
+// image::screenshots/calendar/calendar-window-leftPane.png[Calendar's Left Pane]
 
 This pane has a btn:[New Event] button to <<calendar-manage-events.adoc#_schedule_an_event, schedule an event>>.
 

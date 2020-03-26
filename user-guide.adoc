@@ -1,32 +1,10 @@
-:icons: font
-:title-logo-image: image:images/graphics/zimbra-9-logo.svg[]
-:favicon: images/graphics/favicon.ico
-:showlinks:
-:source-highlighter: pygments
-:product-name: Zimbra 9
-:document-title: User guide
-:copyright-year: 2020
-:modern: Modern Web App
-:classic: Classic Web App
-// :version: August Release
-:release-date: Mar 2020
-:toc: left
-:toclevels: 2
-// For keyboard like buttons on shortcuts
-:icons: font
-:icon-set: fas
-:experimental:
-// Define special keys. Use kbd:[{specialkey}]
-// Apple Command key
-// :commandkey: &#8984;
-// Gear icon
-// :gearkey: &#9881;
+include::settings.adoc[]
 
-//Uncomment to publish Desktop app version
-// :Desktop_app:
+:document-title: Users guide
 
-= {product-name}: {document-title}
-// {release-date}
+= {product-name} {document-title}
+{product-release-date}
+{product-name} {product-edition-commercial} {product-version}, revised {localdate}
 
 <<<
 

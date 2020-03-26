@@ -2,7 +2,7 @@
 This section familiarizes you with {product-name}'s contacts tab interface. Click btn:[Contacts] tab to bring up the following interface.
 
 .Contacts tab
-image::images/screenshots/contact-window-blank.png[Contacts Window]
+image::screenshots/contact-window-blank.png[Contacts Window]
 
 It has
 

@@ -37,18 +37,18 @@ Once you have Asciidoctor installed and working, you can build the documentation
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor -b html5 -D ~/temp/{product-version} -o {doc-filename}-{product-version}.html index.adoc
+asciidoctor -b html5 -D ~/temp/{product-version} -o {doc-filename}-{product-version}.html userguide.adoc
 ----
 
 PDF output can be generated as well:
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version} -o {doc-filename}-{product-version}.pdf index.adoc
+asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version} -o {doc-filename}-{product-version}.pdf userguide.adoc
 ----
 
 This assumes you have a "temp" directory to receive the asciidoctor output, and are generating output for version {product-version}... adjust according to your situation.
-Each section of the document is contained in its own file. You may use the `index.adoc` file to generate the entire document.
+Each section of the document is contained in its own file. You may use the `userguide.adoc` file to generate the entire document.
 
 To accompany the HTML output, the `images/` folder must also be copied to the output destination:
 
@@ -116,7 +116,7 @@ Where translated images are to be embedded, the path to the image will need to e
     |                             |
     |     en_us sources           |     ja_jp sources
     |                             |
-    +--+- index.adoc              +--+- index.adoc
+    +--+- userguide.adoc              +--+- userguide.adoc
        +-    ...                     +-    ... 
 
 === Published doc organization
@@ -204,14 +204,14 @@ Here is an example of building the Japanese documentation:
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor -b html5 -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.html {locale}/index.adoc
+asciidoctor -b html5 -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.html {locale}/userguide.adoc
 ----
 
 PDF output can be generated as well:
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.pdf index.adoc
+asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.pdf userguide.adoc
 ----
 
 NOTE: The `asciidoctor-pdf` tool does not support all languages yet, so the PDF output is optional.

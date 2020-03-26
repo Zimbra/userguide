@@ -19,5 +19,5 @@ NOTE: *Change Password* dialog also appears when your password has expired, and 
 . Click inside the bordered area to launch a file browser window. Navigate to the image's location and click *Open*.
 ** Alternatively, you can drag and drop your image inside the bordered area.
 . Select the portion of the photo you want to show. The frame with dashed borders can be resized and repositioned.
-. Click image:images/graphics/rotate_left.svg[counter clockwise arrow icon, width=20] or image:images/graphics/rotate_right.svg[clockwise arrow icon, width=20] to rotate the picture 90 degrees left or right.
+. Click image:images/graphics/rotate_left.svg[counter clockwise arrow icon, width=20] or image:images/graphics/rotate_right.svg[clockwise arrow icon, width=20] to rotate the picture a quarter turn left or right.
 . Click *Save* to apply the changes.
