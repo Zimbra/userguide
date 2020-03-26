@@ -4,14 +4,18 @@
 . Click btn:[New Event].
 . In *Add Event* field, type the subject of the appointment.
 . Set start and end date times or select *All Day*.
-.. Choose an appropriate timezone for start and end date times. Enable this feature from <<settings-otheroptions.adoc#_general_calendar_settings, Calendar Settings>>.
+.. Choose an appropriate timezone for start and end date times.
+Enable this feature from <<settings-otheroptions.adoc#_general_calendar_settings, Calendar Settings>>.
 . Set an appointment location -- this is optional.
 . To schedule this event as an appointment in your calendar, do not add any invitees.
 +
-NOTE: To create this event like a meeting, type the email address of the invitees. Alternatively, click the link *Invitees* and choose from the list of people that appears.
+NOTE: To create this event like a meeting, type the email address of the invitees.
+Alternatively, click the link *Invitees* and choose from the list of people that appears.
 
-. Any extra information or details go in the *Notes* section. Click the little pin beside *Notes* to attach a file.
-. Select a *Remind* interval. You are alerted of the appointment before the time set in *Remind* interval.
+. Any extra information or details go in the *Notes* section.
+Click the little pin beside *Notes* to attach a file.
+. Select a *Remind* interval.
+You are alerted of the appointment before the time set in *Remind* interval.
 +
 NOTE: Choose *Never* if you do not want notification of this appointment.
 
@@ -25,7 +29,7 @@ NOTE: Choose *Never* if you do not want notification of this appointment.
 . Right-click the event to bring up the context menu and choose *Edit*.
 .. Alternatively, you can
 ** Hover the mouse pointer to bring up the options -- *Details*, *Print*, and *Delete*.
-** Click *Details* and then click image:images/graphics/pencil.svg[pencil icon, width=20] on top.
+** Click *Details* and then click image:graphics/pencil.svg[pencil icon, width=20] on top.
 . An interface similar to <<Schedule an event>> appears.
 . Edit the relevant information and click *Save*.
 
@@ -43,11 +47,14 @@ NOTE: Choose *Never* if you do not want notification of this appointment.
 . Change the relevant information and click *Save*.
 
 ==== Event (Appointment/Meeting) Recurrence
-You can set the event to repeat every day, every week, every month, or every year. These repetitions can be customized as well, e.g., every third Friday, or third Friday of every month, and so forth.
+You can set the event to repeat every day, every week, every month, or every year.
+These repetitions can be customized as well, e.g., every third Friday, or third Friday of every month, and so forth.
 
 Below are a few example scenarios and possible event recurrence settings.
 
-_You want to take your pet to the vet, on the 4th of every month, at 11:00 AM, for a routine checkup. You would like to set a reminder. Next appointment is on the 4th of May._
+_You want to take your pet to the vet, on the 4th of every month, at 11:00 AM, for a routine checkup.
+You would like to set a reminder.
+Next appointment is on the 4th of May._
 
 Start Date and Time:: 05/04/20XX 11:00 AM
 
@@ -55,15 +62,18 @@ End Date and Time:: 05/04/20XX 11:30 AM
 
 Repeat:: Every month
 
-_Smiths' anniversary is on the 20th of July. You would like to set a reminder to wish them "Happy Anniversary!"_
+_Smiths' anniversary is on the 20th of July.
+You would like to set a reminder to wish them "Happy Anniversary!"_
 
-Start Date and Time:: 07/20/20XX 07:00 PM. Check the box *All Day*.
+Start Date and Time:: 07/20/20XX 07:00 PM.
+Check the box *All Day*.
 
 Show as:: Free
 
 Repeat:: Every year
 
-_Today, you meet your team to discuss an exciting idea. You then want to schedule your meeting every second Friday._
+_Today, you meet your team to discuss an exciting idea.
+You then want to schedule your meeting every second Friday._
 
 Start Date and Time:: 07/20/20XX 07:00 PM
 
@@ -92,15 +102,18 @@ You can set similar other recurrence patterns.
 
 ==== Respond to an invitation
 
-An invitation appears in the *Inbox* with image:images/graphics/calendar-o.svg[calendar icon, width=20].
+An invitation appears in the *Inbox* with image:graphics/calendar-o.svg[calendar icon, width=20].
 There are three responses to an event when you are an invitee.
 In the RSVP section of an invitation, you have an option to send a response email.
 
-*Accept* image:images/graphics/check-circle.svg[width=20]: {product-name} saves the event in your calendar. A notification reminds you before that event starts.
+*Accept* image:graphics/check-circle.svg[width=20]: {product-name} saves the event in your calendar.
+A notification reminds you before that event starts.
 
-*Tentative* image:images/graphics/question-circle.svg[width=20]: {product-name} saves the event in your calendar. A notification reminds you before that event starts. However, you can revisit the event anytime to mark it as Accept or Decline.
+*Tentative* image:graphics/question-circle.svg[width=20]: {product-name} saves the event in your calendar.
+A notification reminds you before that event starts.
+However, you can revisit the event anytime to mark it as Accept or Decline.
 
-*Decline* image:images/graphics/close-circle.svg[width=20]: {product-name} deletes the event, and the event does not make it to your calendar.
+*Decline* image:graphics/close-circle.svg[width=20]: {product-name} deletes the event, and the event does not make it to your calendar.
 
 Right next to these buttons, you can choose if you want to send a response email.
 
@@ -114,6 +127,7 @@ The *Reminder* dialog box pops up when an appointment or meeting is coming up, o
 
 You can turn off the reminder by clicking *Dismiss* or pause it for a minute by clicking *Snooze*
 
-A reminder box may list multiple events. To turn off _all_ reminders, click *Dismiss All*.
+A reminder box may list multiple events.
+To turn off _all_ reminders, click *Dismiss All*.
 
 Similarly, *Snooze All* pauses _all_ reminders for a minute.

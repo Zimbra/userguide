@@ -9,14 +9,17 @@ To search in a specific folder, choose the folder name from the drop-down beside
 After you have chosen the folder, type in your search word or phrase in the email search box and press kbd:[Enter].
 
 === Advanced Search
-Choose **Advanced Search** from <<Email Search Location>> drop-down. Fields listed here help refine your search further.
+Choose **Advanced Search** from <<Email Search Location>> drop-down.
+Fields listed here help refine your search further.
 
-1. Choose a folder from the **Search-In** field.
-2. Typing an email address in the **From** field focuses your search on all emails sent *from* that address.
-3. Similarly, typing an email address in the *To* field focuses your search on all emails sent *to* that address.
-4. Type a few words in the **Subject** line, to search emails with these words in their subject line.
-5. Type a few words contained in the body of the email in *Contains** field. Enclose the searched text within quotes to search them as a phrase.
-6. Specify a date in the **Date** field.
-7. Check the boxes **Has attachment** or **Has image** if the email you are looking for has an image or an attachment.
+. Choose a folder from the **Search-In** field.
+. Typing an email address in the **From** field focuses your search on all emails sent *from* that address.
+. Similarly, typing an email address in the *To* field focuses your search on all emails sent *to* that address.
+. Type a few words in the **Subject** line, to search emails with these words in their subject line.
+. Type a few words contained in the body of the email in *Contains** field.
+Enclose the searched text within quotes to search them as a phrase.
+. Specify a date in the **Date** field.
+. Check the boxes **Has attachment** or **Has image** if the email you are looking for has an image or an attachment.
 
-NOTE: None of the above search criteria is mandatory. However, adding more criteria reduces search time and refines the search results further.
+NOTE: None of the above search criteria is mandatory.
+However, adding more criteria reduces search time and refines the search results further.

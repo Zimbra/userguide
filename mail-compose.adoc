@@ -1,7 +1,8 @@
 === Compose and Send a Message
 
 . Click btn:[New message] in the left bar.
-. Add a recipient email address in the *To* field. Separate multiple recipients with a comma.
+. Add a recipient email address in the *To* field.
+Separate multiple recipients with a comma.
  .. Click *To* to launch the <<Select Contacts, Choose Contacts>> dialog.
  Using this tool, you can search for and choose contacts from a selection of _contexts_.
  Choose _contexts_ from the drop-down on the right.
@@ -12,35 +13,40 @@
 . Click btn:[Send] to send the email.
 
 === Select Contacts
-When composing an email, click *To* to launch *Choose Contacts* window. Alternatively, begin typing recipients to bring up suggestions from which to choose. These email addresses can be copied and pasted to *Cc* and *Bcc* fields as well.
+When composing an email, click *To* to launch *Choose Contacts* window.
+Alternatively, begin typing recipients to bring up suggestions from which to choose.
+These email addresses can be copied and pasted to *Cc* and *Bcc* fields as well.
 
-Pick a context for searching and choosing contacts. The options are from your Contact Folders and <<contacts-manage-groups#_create_a_contact_list, lists>>, including:
+Pick a context for searching and choosing contacts.
+The options are from your Contact Folders and <<contacts-manage-groups#_create_a_contact_list, lists>>, including:
 
 Contacts:: This group lists all the contacts that you have <<contacts-manage-contacts.adoc#_create_a_new_contact, added yourself>>.
 Emailed contacts:: This folder lists people to whom you have sent emails.
-Global Address List:: These are people whose email address domain is the same as yours. However, only a {product-name} administrator can enable this feature. 
+Global Address List:: These are people whose email address domain is the same as yours.
+However, only a {product-name} administrator can enable this feature. 
+
 My Contacts:: This group is a collection of all the contacts listed in *Contacts* and *Emailed Contacts* groups.
 
 
 === Format an Email
 Use the toolbar at the bottom of the message compose screen to format your text.
 
-. Click image:images/graphics/chevron-up.svg[chevron pointing up, width=10px] beside the font size to see the available options.
-. Click image:images/graphics/chevron-up.svg[chevron pointing up, width=10px] beside the font type to see the available options.
-. Click image:images/graphics/bold.svg[bold text icon, width=20px] for bold, image:images/graphics/italic.svg[width=20px] for italicized, or image:images/graphics/underline.svg[underline icon, width=20px] for underlined text.
-. Click image:images/graphics/text-color.svg[choose text color icon, width=20px] to choose your desired text color.
-. Click image:images/graphics/highlight-bg-color.svg[choose highlight color icon, width=20px] to choose your desired highlight color.
-. Select text and click image:images/graphics/align-left.svg[text align icon, width=20px] image:images/graphics/chevron-up.svg[width=10px] to see alignment options.
-.. image:images/graphics/align-left.svg[left-align icon, width=20px] left-aligns the selected text.
-.. image:images/graphics/align-right.svg[right-align icon, width=20px] right-aligns the selected text.
-.. image:images/graphics/align-center.svg[center-align icon, width=20px] center-aligns the selected text.
-. Click inside a sentence and click image:images/graphics/list-ol.svg[width=20px]  image:images/graphics/chevron-up.svg[width=10px] to see numbered list options.
-. Click inside a sentence and click image:images/graphics/list-ul.svg[width=20px]  image:images/graphics/chevron-up.svg[width=10px] to see bulleted list options.
-. Highlight a sentence and click image:images/graphics/outdent.svg[text indent icon, width=20px] image:images/graphics/chevron-up.svg[width=10px] to increase or decrease indent of your text.
-. To create links click image:images/graphics/link.svg[link icon, width=20px] and enter the *URL*, *Text to display*, and link's *Title*.
-. Click image:images/graphics/smile-o.svg[width=20px] to select and insert an emoji.
-. To insert and format a table, click image:images/graphics/table.svg[table icon, width=20] image:images/graphics/chevron-up.svg[width=10px] for options.
-. Click image:images/graphics/undo.svg[undo icon, width=20px] to *undo* and image:images/graphics/redo.svg[redo icon, width=20px] to *redo* your changes.
+. Click image:graphics/chevron-up.svg[chevron pointing up, width=10px] beside the font size to see the available options.
+. Click image:graphics/chevron-up.svg[chevron pointing up, width=10px] beside the font type to see the available options.
+. Click image:graphics/bold.svg[bold text icon, width=20px] for bold, image:graphics/italic.svg[width=20px] for italicized, or image:graphics/underline.svg[underline icon, width=20px] for underlined text.
+. Click image:graphics/text-color.svg[choose text color icon, width=20px] to choose your desired text color.
+. Click image:graphics/highlight-bg-color.svg[choose highlight color icon, width=20px] to choose your desired highlight color.
+. Select text and click image:graphics/align-left.svg[text align icon, width=20px] image:graphics/chevron-up.svg[width=10px] to see alignment options.
+.. image:graphics/align-left.svg[left-align icon, width=20px] left-aligns the selected text.
+.. image:graphics/align-right.svg[right-align icon, width=20px] right-aligns the selected text.
+.. image:graphics/align-center.svg[center-align icon, width=20px] center-aligns the selected text.
+. Click inside a sentence and click image:graphics/list-ol.svg[width=20px]  image:graphics/chevron-up.svg[width=10px] to see numbered list options.
+. Click inside a sentence and click image:graphics/list-ul.svg[width=20px]  image:graphics/chevron-up.svg[width=10px] to see bulleted list options.
+. Highlight a sentence and click image:graphics/outdent.svg[text indent icon, width=20px] image:graphics/chevron-up.svg[width=10px] to increase or decrease indent of your text.
+. To create links click image:graphics/link.svg[link icon, width=20px] and enter the *URL*, *Text to display*, and link's *Title*.
+. Click image:graphics/smile-o.svg[width=20px] to select and insert an emoji.
+. To insert and format a table, click image:graphics/table.svg[table icon, width=20] image:graphics/chevron-up.svg[width=10px] for options.
+. Click image:graphics/undo.svg[undo icon, width=20px] to *undo* and image:graphics/redo.svg[redo icon, width=20px] to *redo* your changes.
 
 === Add images & files
 
@@ -48,7 +54,7 @@ Use the toolbar at the bottom of the message compose screen to attach files to y
 
 ==== Attach From my Computer
 
-. Click image:images/graphics/paperclip.svg[width=20px] to open file attach options.
+. Click image:graphics/paperclip.svg[width=20px] to open file attach options.
 . Clicking **Attach From My Computer** brings up a file explorer.
 . Navigate to the file to attach and click **Open**.
 The selected file now appears as an attachment.
@@ -57,12 +63,12 @@ The selected file now appears as an attachment.
 
 ===== Photos
 
-. Click image:images/graphics/paperclip.svg[Attach Files, width=20px] to open file attach options.
+. Click image:graphics/paperclip.svg[Attach Files, width=20px] to open file attach options.
 . Select option **Attach Photo From Email** to open a pane on the right, which shows all the photos that you have sent *and* received.
 . Select a photo to attach it to your current email.
 
 ===== Files
-. Click image:images/graphics/paperclip.svg[Attach Files, width=20px] to open file attach options.
+. Click image:graphics/paperclip.svg[Attach Files, width=20px] to open file attach options.
 . Select option **Attach File From Email** to open a pane on the right which shows all the files sent and received by you.
 . Select a file to attach it to your current email.
 
@@ -72,11 +78,13 @@ You may also attach `GIF`s to your email if you have the option.
 === Request Read Receipts
 You can send a request for an acknowledgment to recipients that they see when they open your email.
 
-When composing an email, click the three-dot menu (image:images/graphics/ellipsis-h.svg[width=20px]) to the right of the *From* address and choose *Request Read Receipt* to ask your recipients for a read receipt.
+When composing an email, click the three-dot menu (image:graphics/ellipsis-h.svg[width=20px]) to the right of the *From* address and choose *Request Read Receipt* to ask your recipients for a read receipt.
 
-Remember that this is only a request, and your recipients have the option not to send the acknowledgment. Refer to <<settings-viewEmail.adoc#_sending_read_receipts>> to know more.
+Remember that this is only a request, and your recipients have the option not to send the acknowledgment.
+Refer to <<settings-viewEmail.adoc#_sending_read_receipts>> to know more.
 
 === Set Email Priority
-You can set your email to have a higher priority. Such emails appear with an exclamation mark image:images/graphics/priority-high.svg[width=20px] in the receiver's Inbox.
+You can set your email to have a higher priority.
+Such emails appear with an exclamation mark image:graphics/priority-high.svg[width=20px] in the receiver's Inbox.
 
-When composing an email, click the three-dot menu (image:images/graphics/ellipsis-h.svg[width=20px]) to the right of the *From* address and choose *High Priority* to mark your email as a high priority.
+When composing an email, click the three-dot menu (image:graphics/ellipsis-h.svg[width=20px]) to the right of the *From* address and choose *High Priority* to mark your email as a high priority.

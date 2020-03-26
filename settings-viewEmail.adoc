@@ -6,28 +6,31 @@ When you reply to an email, {product-name} groups responses together in conversa
 
 A conversation breaks off into a new conversation if the subject line changes.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, check the box *Enable Conversations* to group the messages or uncheck this box to ungroup the messages.
 . At the bottom of the page, click *Save*.
 
 === Show Email Snippets
 By default, {product-name} shows you _snippets_, or previews, of your messages in the <<mail-overview.adoc#_email_pane, email pane>>. If you do not need the snippets or feel that they make your Inbox look cluttered, you can turn the snippets off.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, uncheck the box *Show snippets* to turn them off.
 . At the bottom of the page, click *Save*.
 
 === Group Emails by date
-{product-name}, by default, groups your email conversations by date. So you see email groups like _Today_, _Yesterday_, _Last week_, and so on. You can disable this setting.
+{product-name}, by default, groups your email conversations by date.
+So you see email groups like _Today_, _Yesterday_, _Last week_, and so on.
+You can disable this setting.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
-. Under *Viewing Email*, uncheck the box *Group by date* to ungroup the messages. Your emails appear sorted by date, but they do not appear in groups.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Under *Viewing Email*, uncheck the box *Group by date* to ungroup the messages.
+Your emails appear sorted by date, but they do not appear in groups.
 . At the bottom of the page, click *Save*.
 
 === Email Preview Pane
 The preview pane in {product-name} displays the selected email's content.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, click the *Preview Pane* drop-down.
 +
 The preview pane on the right:: The selected email's content appears on the right of the email list.
@@ -39,27 +42,30 @@ None:: The preview pane is disabled.
 === Viewing Email list
 This setting controls the spacing between each email in the email list. *Slim* is the lowest, and *Relaxed* is the highest possible spacing between two emails in the email list.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, click the *Message list density* drop-down.
 . At the bottom of the page, click *Save*.
 
 === Mark Emails as Read
-{product-name} immediately marks a message as read when you select it. To change this behavior:
+{product-name} immediately marks a message as read when you select it.
+To change this behavior:
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, click the *Mark as read* drop-down.
 +
 Immediately:: The selected email is marked read the moment you click it.
 After 2 seconds:: The selected email is marked read after *2* seconds.
 After 5 seconds:: The selected email is marked read after *5* seconds.
-Never:: The selected email stays unread until you mark it as read manually. For details, refer to <<mail-overview.adoc#_reading_pane, reading pane tools>>.
+Never:: The selected email stays unread until you mark it as read manually.
+For details, refer to <<mail-overview.adoc#_reading_pane, reading pane tools>>.
 +
 . At the bottom of the page, click *Save*.
 
 === Check for New Emails
-{product-name} checks for new emails at regular intervals. You can, however, override the default settings.
+{product-name} checks for new emails at regular intervals.
+You can, however, override the default settings.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, click the *Check for new mail* drop-down.
 . You can choose a duration from the drop-down when {product-name} checks for new mail.
 .. Click the reload icon beside *Inbox* to check for new emails *Manually*. This reload icon becomes visible when you hover the mouse on the Inbox.
@@ -71,12 +77,12 @@ If requested by the sender, you can send a read receipt to confirm that you have
 
 In {product-name}, you can decline to send this read receipt, or have {product-name} ask you for confirmation.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, click the *Read receipts* drop-down.
 +
 Ask me:: As soon as you open an email where a sender has requested a read receipt, you receive the prompt below.
 
-** Click image:images/graphics/close.svg[close icon, width=20] to decline to send a read receipt. 
+** Click image:graphics/close.svg[close icon, width=20] to decline to send a read receipt. 
 ** Click *Send read receipt* to let the sender know that you have read the message.
 
 Ask Me:: Choose this option to receive a confirmation before sending a read receipt.

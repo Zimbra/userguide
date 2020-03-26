@@ -15,7 +15,7 @@
 
 To change the {product-name} display language to one of the above languages, perform the following steps.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Select *Language*.
 . Choose a language you prefer.
 . Click *Save*.
@@ -25,14 +25,14 @@ To change the {product-name} display language to one of the above languages, per
 == About {product-name}
 This option shows the copyright notices and the current {product-name} version you are running.
 
-. Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Select *About*.
-. Click image:images/graphics/close.svg[close icon, width=20] to close.
+. Click image:graphics/close.svg[close icon, width=20] to close.
 
 // == Feedback
 // {product-name} has a feedback mechanism that you can use.
 
-// . Select image:images/graphics/cog.svg[cog icon, width=20] -> *Settings*.
+// . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 // . Select *Send Feedback*.
 // . Fill in the relevant details.
 // . Click *Submit* to send us the feedback.

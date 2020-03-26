@@ -1,5 +1,6 @@
 == Contacts
-This section familiarizes you with {product-name}'s contacts tab interface. Click btn:[Contacts] tab to bring up the following interface.
+This section familiarizes you with {product-name}'s contacts tab interface.
+Click btn:[Contacts] tab to bring up the following interface.
 
 .Contacts tab
 image::screenshots/contact-window-blank.png[Contacts Window]
@@ -12,12 +13,15 @@ It has
 
 === Left Pane
 
-. This pane lists your contact folders and contact lists. You also see folders you create and those shared with you, including:
+. This pane lists your contact folders and contact lists.
+You also see folders you create and those shared with you, including:
+
  Contacts:: It shows all your contacts that you have added manually.
  Deleted Contacts:: It lists contacts that you have deleted.
  Emailed Contacts:: It lists contacts to whom you have sent an email.
 +
-NOTE: {product-name} Enterprise users see a fourth folder -- Global Address List. This folder lists all the contacts in your organization.
+NOTE: {product-name} Enterprise users see a fourth folder -- Global Address List.
+This folder lists all the contacts in your organization.
 
 . Your contact lists appear nested under their respective folder.
 . A blank field on the bottom helps you create lists.

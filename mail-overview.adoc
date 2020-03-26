@@ -4,11 +4,13 @@ This section familiarizes you with {product-name}'s email interface.
 .Email interface
 image::screenshots/mail-empty-inbox.png[Email interface]
 
-This page is the first thing you see when you <<login.adoc#_login, log in>> to check your emails. It has
+This page is the first thing you see when you <<login.adoc#_login, log in>> to check your emails.
+It has
 
 . A left sidebar.
 . An email pane.
-. A reading pane located to the right or below the email pane. The reading pane can be disabled from <<settings-writeEmail#_email_preview_pane, Settings>>.
+. A reading pane located to the right or below the email pane.
+The reading pane can be disabled from <<settings-writeEmail#_email_preview_pane, Settings>>.
 
 You can drag to change the width of each pane.
 
@@ -17,17 +19,20 @@ You can drag to change the width of each pane.
 The left pane of the email window contains the following folders.
 
 Inbox:: Whenever someone sends you an email, it comes straight to your Inbox.
-Click this folder to view your incoming emails. You can also right-click this folder to create subfolders.
+Click this folder to view your incoming emails.
+You can also right-click this folder to create subfolders.
 
 Drafts:: Mails that you have written and saved -- or which {product-name} saved while you were composing them -- but not yet sent appear under drafts folder.
 
-Sent:: When you send an email to someone, it appears in your sent folder. You can right-click this folder to create subfolders.
+Sent:: When you send an email to someone, it appears in your sent folder.
+You can right-click this folder to create subfolders.
 
 Junk:: {product-name} moves all the unwanted or spam emails here to keep them out of your Inbox.
 
 Trash:: All deleted emails are moved to this folder until you _Empty the Trash_, permanently delete, or restore them.
 
-Folders:: Sometimes, you may want a folder for storing specific emails. All such folders are listed here.
+Folders:: Sometimes, you may want a folder for storing specific emails.
+All such folders are listed here.
 
 Tags:: It also lists your saved searches and tags that other emails may carry.
 Clicking a tag lists all emails in the email pane, carrying that tag.
@@ -36,7 +41,8 @@ You can also create a custom tag.
 
 === Email Pane
 
-This pane displays emails from your Inbox by default. Event invitations appear with image:images/graphics/calendar-o.svg[blank calendar icon, width=20]. This icon helps set an invitation apart from an email. 
+This pane displays emails from your Inbox by default.
+Event invitations appear with image:graphics/calendar-o.svg[blank calendar icon, width=20]. This icon helps set an invitation apart from an email. 
 Clicking a folder in the <<Left Sidebar>> lists its contents in this pane.
 
 === Reading Pane
@@ -46,22 +52,25 @@ A toolbar displays some quick actions regarding an email.
 
 NOTE: These buttons become functional after you select an email and view its contents in the reading pane. 
 
-Click image:images/graphics/mail-reply.svg[reply button, width=20px] to reply to the person who sent this email.
-Click image:images/graphics/mail-reply-all.svg[Reply to all button, width=20px] to reply to everyone whose email address appears in *To* or *Cc* fields.
+Click image:graphics/mail-reply.svg[reply button, width=20px] to reply to the person who sent this email.
+Click image:graphics/mail-reply-all.svg[Reply to all button, width=20px] to reply to everyone whose email address appears in *To* or *Cc* fields.
 
 NOTE: Any attachment in the original email is not included in **Reply** or **Reply All** functions.
 
-Click image:images/graphics/mail-forward.svg[forward button, width=20px] to forward this email to others. It is especially helpful in sending a received attachment to others.
+Click image:graphics/mail-forward.svg[forward button, width=20px] to forward this email to others.
+It is especially helpful in sending a received attachment to others.
 
-image:images/graphics/archive.svg[Archive button, width=20px] archives your emails and saves space. Archived emails do not appear in Inbox or any of the folders, but you can search for them using <<mail-search.adoc#_email_search_box, Email Search box>>.
+image:graphics/archive.svg[Archive button, width=20px] archives your emails and saves space.
+Archived emails do not appear in Inbox or any of the folders, but you can search for them using <<mail-search.adoc#_email_search_box, Email Search box>>.
 
-image:images/graphics/folder-move.svg[move button, width=20px] removes emails from the current folder and moves them to a folder chosen from the drop-down.
+image:graphics/folder-move.svg[move button, width=20px] removes emails from the current folder and moves them to a folder chosen from the drop-down.
 
-image:images/graphics/trash.svg[delete button, width=20px] deletes emails. The deleted emails appear in the *Trash** folder.
+image:graphics/trash.svg[delete button, width=20px] deletes emails.
+The deleted emails appear in the *Trash** folder.
 
-image:images/graphics/shield.svg[Mark as spam button, width=20px] marks emails as spam and moves them to the **Junk** folder.
+image:graphics/shield.svg[Mark as spam button, width=20px] marks emails as spam and moves them to the **Junk** folder.
 
-image:images/graphics/ellipsis-h.svg[more options, width=20px] reveals further actions to take on emails like marking an email as **read** or **unread**, or mark an email with a image:images/graphics/star.svg[star, width=15px] for it to stand out, and blocking a contact from sending you emails.
+image:graphics/ellipsis-h.svg[more options, width=20px] reveals further actions to take on emails like marking an email as **read** or **unread**, or mark an email with a image:graphics/star.svg[star, width=15px] for it to stand out, and blocking a contact from sending you emails.
 
 === Keyboard Shortcuts
 {product-name} supports keyboard shortcuts; to see what shortcuts are defined, type kbd:[Ctrl + Q].
@@ -86,11 +95,12 @@ NOTE: Mac users should consider enabling full keyboard access See https://suppor
 
 === Tags
 Tags help classify and organize email messages or conversations.
-Tags also help sort emails and make searches easy. You can also apply multiple tags to an email.
+Tags also help sort emails and make searches easy.
+You can also apply multiple tags to an email.
 
 ==== Create a Tag
 
-. In the <<Left Sidebar>>, hover on *Tags* and click image:images/graphics/plus.svg[plus icon, width=20].
+. In the <<Left Sidebar>>, hover on *Tags* and click image:graphics/plus.svg[plus icon, width=20].
 . Enter the new Tag name and select a color for the tag.
 +
 IMPORTANT: Tag names can include any character except a colon (:), forward-slash (/), and quotation mark (").
@@ -101,7 +111,7 @@ You can also create tags when applying them.
 
 . In the <<Email Pane>>, right-click an email.
 . From the context menu, select Tag.
-. Choose *image:images/graphics/plus.svg[width=20] Add a Tag*.
+. Choose *image:graphics/plus.svg[width=20] Add a Tag*.
 . Enter the new Tag name and select a color for the tag.
 . Click *Save*.
 
@@ -127,20 +137,21 @@ The new tag is now listed and ready to be applied.
 . Click btn:[Save] to apply the tag.
 
 ==== Display Messages with a Specific Tag
-. In the <<Left Sidebar>>, click image:images/graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.
+. In the <<Left Sidebar>>, click image:graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.
 . Click a tag to list all emails with the selected tag in the <<Email Pane>>.
 
 ==== Edit a Tag
-. In the <<Left Sidebar>>, click image:images/graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.
+. In the <<Left Sidebar>>, click image:graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.
 . Right click a tag and choose *Edit* from the context menu.
 . Change the name and color associated with a tag.
 . Click btn:[Save].
 
 ==== Delete a Tag
-. In the <<Left Sidebar>>, click image:images/graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.
+. In the <<Left Sidebar>>, click image:graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.
 . Right-click a tag and choose *Delete* from the context menu.
 . Choose btn:[Continue] from the confirmation popup.
-. The selected tag is deleted and cleared off from all emails marked with that tag. The emails stay safe in their respective folders.
+. The selected tag is deleted and cleared off from all emails marked with that tag.
+The emails stay safe in their respective folders.
 
 === Import Email Folders
 You can import email folders directly in {product-name}, provided the folders to import are in `.tgz` format.

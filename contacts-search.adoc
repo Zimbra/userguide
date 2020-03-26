@@ -7,7 +7,7 @@ You can type several phrases in the Search box at the top of the <<contacts-over
 // .Contacts Search
 // image::screenshots/contacts/contact-searchBox.png[Contacts Search]
 
-Type a few words of the email address or name of a contact and click image:images/graphics/search.svg[magnifying glass icon, width=20]
+Type a few words of the email address or name of a contact and click image:graphics/search.svg[magnifying glass icon, width=20]
 
 To specify a folder to search in, choose the folder from the drop-down labeled *My Contacts*.
 The drop-down is on the left of the search box.

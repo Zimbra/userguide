@@ -1,10 +1,11 @@
 === Create a New Contact
-Keep track of everyone you communicate with by creating contacts. Once you've added a contact, you can type the first few letters of their name into an email, and {product-name} displays their names as suggestions.
+Keep track of everyone you communicate with by creating contacts.
+Once you've added a contact, you can type the first few letters of their name into an email, and {product-name} displays their names as suggestions.
 
 ==== Add a Contact from Email
 
 . Hover a name in the *To*, *Cc*, *Bcc*, or *From* field.
-. Click image:images/graphics/ellipsis-h.svg[3 dots menu icon, width=20] on the contact information card that pops-up.
+. Click image:graphics/ellipsis-h.svg[3 dots menu icon, width=20] on the contact information card that pops-up.
 . Select *Add to contacts*.
 . {product-name} adds the user to your contacts folder.
 
@@ -54,7 +55,8 @@ NOTE: `VCF` is recommended to preserve uploaded contact images.
 . Edit any relevant details you want.
 . Click *Save*.
 
-NOTE: The option *Assign to Lists* adds the selected contact to a group. For details check <<contacts-manage-groups.adoc#_manage_contact_folders>>.
+NOTE: The option *Assign to Lists* adds the selected contact to a group.
+For details check <<contacts-manage-groups.adoc#_manage_contact_folders>>.
 
 === Share a Contact
 When you share a contact, {product-name} exports a _card_ with the information of the selected contact as an email attachment.
