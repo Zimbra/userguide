@@ -1,0 +1,32 @@
+=== Calendar and Reminder Settings
+This setting controls,
+
+* default calendar to create events in,
+* the day when a week starts,
+* time when a typical workday starts and ends,
+* calendar events time zone,
+* if the calendar, when shared, a delegate can manage through a mobile device, and
+* the email address to send event reminders.
+
+==== General Calendar Settings
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Click *Calendar and Reminder Settings* in the left pane.
+. Choose a *Default Calendar* from the drop-down.
+If you have not <<calendars-manage-calendars.adoc#_add_calendars, added a calendar>>, the drop-down does not have any other entries.
+. Choose a *Start of Week* from the drop-down.
+. Choose a time when your workday starts from *Start of Workday* drop-down.
+. Specify a time when your workday ends from the *End of Workday* drop-down.
+. Set a time zone for your workdays under *Workday Time Zone*.
+.. Alternatively, check the box *Show timezones for start and end times* to set time zones on the fly.
+. Check the box *Enable delegation for CALDav clients* against *Sharing* to allow delegated users to manage your <<calendar-manage-calendars.adoc#_share_a_calendar, shared calendars>> using their mobile devices.
+
+==== Event Reminders
+You can specify an email address to receive event reminders.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Click *Calendar and Reminder Settings* in the left pane.
+. Enter the email address in *Send reminders by email to* field to send event reminders to that email address.
+. Check the box *Show Browser Notifications* to receive event reminders via browser notifications.
+. Specify a *Default Reminder Time* before which to receive event reminders.
+. Check the box to enable *Show Reminders for Past-Due Events* to receive reminders for events that are past due.
+This way, you receive reminders for events that you might have unknowingly missed.

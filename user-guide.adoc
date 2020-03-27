@@ -1,6 +1,7 @@
 include::settings.adoc[]
 
 :document-title: Users guide
+:toclevels: 3
 
 = {product-name} {document-title}
 {product-release-date}
@@ -23,6 +24,10 @@ Synacor, Inc., 2016 +
 Buffalo, New York 14202
 
 https://www.synacor.com
+
+<<<
+
+include::introduction.adoc[]
 
 <<<
 
@@ -82,6 +87,10 @@ include::managing-profiles.adoc[]
 
 <<<
 
+include::settings-general.adoc[]
+
+<<<
+
 include::settings-viewEmail.adoc[]
 
 <<<
@@ -94,7 +103,31 @@ include::settings-account.adoc[]
 
 <<<
 
-include::settings-otheroptions.adoc[]
+include::settings-account-recovery.adoc[]
+
+<<<
+
+include::settings-ooo.adoc[]
+
+<<<
+
+include::settings-filters.adoc[]
+
+<<<
+
+include::settings-manage-senders.adoc[]
+
+<<<
+
+include::settings-offline-mode.adoc[]
+
+<<<
+
+include::settings-security.adoc[]
+
+<<<
+
+include::settings-calendars-reminders.adoc[]
 
 <<<
 
