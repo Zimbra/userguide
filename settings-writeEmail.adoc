@@ -1,40 +1,48 @@
-=== Recall a sent message
-You can recall an email you just sent, using the *Undo Send* feature. When enabled, as soon as you send an email, you get a toast notification with an *UNDO* button.
+=== Writing Emails
+==== Recall a sent message
+You can recall an email you just sent, using the *Undo Send* feature.
+When enabled, as soon as you send an email, you get a notification with an *UNDO* button.
+This notification stays for only a few seconds.
+Once this notification disappears, recall is not possible.
 
-The email remains in *Drafts* folder as long as this notification stays on the screen. When you click *Undo*, a notification informs you that sending has been canceled, and the email remains in your *Drafts* folder.
+The email remains in *Drafts* folder as long as this notification stays on the screen.
+When you click *Undo*, a notification informs you that sending has been canceled, and the email remains in your *Drafts* folder.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Writing Email*, check *Enable* against *Undo send* to enable this feature.
 . At the bottom of the page, click *Save*.
 
-=== Request Read Receipts
+==== Request Read Receipts
 You can ask readers for an acknowledgment every time they open your email.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Writing Email*, check *Always* against *Request read receipts* to enable this feature.
 . At the bottom of the page, click *Save*.
 
 NOTE: Check <<mail-compose.adoc#_request_read_receipts>> on how to request your recipients for a read receipt on the fly -- while composing emails.
 
-=== Save a Copy to Sent Folder
+==== Save a Copy to Sent Folder
 You can choose to *not* save your sent emails in *Sent* folder. 
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Writing Email*, uncheck *Enable* against *Save a copy to Sent folder* to disable saving emails in the Sent folder.
 . At the bottom of the page, click *Save*.
 
-=== Delegation
-You can let someone else manage your email account using {product-name}. Your delegates can read, send, and delete messages on your behalf. Messages your delegates send on your behalf show you as the sender.
+==== Delegation
+You can let someone else manage your email account using {product-name}. Your delegates can read, send, and delete messages on your behalf.
+Messages your delegates send on your behalf show you as the sender.
 
-. Select image:images/graphics/cog.svg[] -> *Settings*.
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Writing Email*, click *Add delegates* against *Delegates*.
-. Enter the name or email address of the delegate. Autocomplete feature lists suggestions; choose one that applies.
+. Enter the name or email address of the delegate.
+Autocomplete feature lists suggestions; choose one that applies.
 . Choose whether delegates can *Send As* or *Send on behalf of*
 +
-Send As:: Delegates can send an email _as_ you. Receivers of this email see your email address as the sender.
+Send As:: Delegates can send an email _as_ you.
+Receivers of this email see your email address as the sender.
 Send on behalf of:: Delegates send an email on your _behalf_. Receivers of this email see the delegate's email address, as well as yours, as the sender.
 
-==== Delegate's Sent Email Settings
+===== Delegate's Sent Email Settings
 When a delegate sends an email, as you or on your behalf, you can manage where the sent messages are stored.
 
 Save sent messages to my Sent folder:: The email sent by your delegate goes in your sent items folder.

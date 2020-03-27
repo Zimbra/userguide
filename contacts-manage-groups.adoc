@@ -1,6 +1,8 @@
 === Manage Contact Lists
 
-You can create a list containing your contacts and store that list under *Contacts* folder. It is especially helpful when you want to send some mails to a specific set of people. So instead of typing everyone's email address, you type in the name of your list, and {product-name} sends the email to all addresses in that list. 
+You can create a list containing your contacts and store that list under the *Contacts* folder.
+It is especially helpful when you want to send an email to a specific set of people.
+So instead of typing everyone's email address, you type in the name of your list, and {product-name} sends the email to all addresses in that list. 
 
 It is a two-step process.
 
@@ -17,7 +19,8 @@ You can right-click a list, which you have created, to rename or delete it.
 ==== Add Contacts to a List
 . Click on a contacts folder to list all the contacts in that folder.
 . Select the contacts which you want to add in a list.
-. Drag and drop the contacts in the list that you have created. The following are few more ways in which you can add contacts to lists.
+. Drag and drop the contacts in the list that you have created.
+The following are few more ways in which you can add contacts to lists.
 .. Choose *Assign to Lists* by right-clicking the selected contacts.
 .. Select a contact and choose *Assign to Lists* from the <<contacts-overview.adoc#_contact_details_pane>>.
 .. Select multiple contacts and click btn:[Assign Contacts] under *Assign* in the <<contacts-overview.adoc#_contact_details_pane>>.
@@ -33,19 +36,21 @@ You can right-click a list, which you have created, to rename or delete it.
 . Click *Send*.
 
 === Manage Contact Folders
-You can create folders within *Contacts* and use them to store contacts, lists, and subfolders. You can also share contact folders with other users.
-They work much in the same way as email folders. You can perform actions like creating folders, subfolders, and moving contacts across folders.
+You can create folders within *Contacts* and use them to store contacts, lists, and subfolders.
+You can also share contact folders with other users.
+They work much in the same way as email folders.
+You can perform actions like creating folders, subfolders, and moving contacts across folders.
 
 ==== Create a Contact Folder
 . Click btn:[Contacts] tab.
-. Hover over *Folders* and click image:images/graphics/plus.svg[].
+. Hover over *Folders* and click image:graphics/plus.svg[plus icon, width=20].
 . In the text box, type in the name of the folder and press kbd:[Enter].
-** Click outside the text-box or image:images/graphics/close.svg[] beside the text box to cancel.
+** Click outside the text-box or image:graphics/close.svg[close icon, width=20] beside the text box to cancel.
 
 ==== Add Contacts to a Folder
 . Click btn:[Contacts] tab.
 . Select contacts to add to a folder.
-. In contact details pane, under image:images/graphics/folder-move.svg[], click btn:[Move Contacts].
+. In contact details pane, under image:graphics/folder-move.svg[folder move icon, width=20], click btn:[Move Contacts].
 . In *Choose a Folder* modal, choose a folder to move the selected contacts.
 
 ==== Rename a Contact Folder
@@ -72,7 +77,7 @@ They work much in the same way as email folders. You can perform actions like cr
 . Right click a folder.
 . From the context menu, choose *Create subfolder*.
 . In the text box, type in the name of the folder and press kbd:[Enter].
-** Click outside the text-box or image:images/graphics/close.svg[] beside the text box to cancel.
+** Click outside the text-box or image:graphics/close.svg[close icon, width=20] beside the text box to cancel.
 
 ==== Share a Contact Folder
 . Click btn:[Contacts] tab.

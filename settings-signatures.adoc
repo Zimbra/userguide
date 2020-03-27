@@ -1,0 +1,10 @@
+=== Signatures
+With {product-name}, you can have two default signatures per account, plus additionals that you may choose to apply.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Click *Signatures* in the left pane.
+.. To set a signature to be used while composing an email, draft your signature against the *Standard signature* field.
+.. To set a signature to be used while replying to or forwarding an email, draft your signature against the *Reply or forward signature* field.
+. To create additional signatures, click *Add a signature*.
+. Enter a name for this signature to differentiate it from the rest.
+. To remove a signature, click *Remove signature* against the signature's name.

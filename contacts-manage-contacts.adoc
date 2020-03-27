@@ -1,10 +1,11 @@
 === Create a New Contact
-Keep track of everyone you communicate with by creating contacts. Once you've added a contact, you can type the first few letters of their name into an email, and {product-name} displays their names as suggestions.
+Keep track of everyone you communicate with by creating contacts.
+Once you've added a contact, you can type the first few letters of their name into an email, and {product-name} displays their names as suggestions.
 
-==== Add a Contact from E-mail
+==== Add a Contact from Email
 
 . Hover a name in the *To*, *Cc*, *Bcc*, or *From* field.
-. Click image:images/graphics/ellipsis-h.svg[3-dots menu icon] on the contact information card that pops-up.
+. Click image:graphics/ellipsis-h.svg[3 dots menu icon, width=20] on the contact information card that pops-up.
 . Select *Add to contacts*.
 . {product-name} adds the user to your contacts folder.
 
@@ -38,8 +39,8 @@ NOTE: `VCF` is recommended to preserve uploaded contact images.
 
 . Click btn:[Contacts] tab.
 . Click the Contact List menu, labeled *Sort by ...* in the <<contacts-overview.adoc#_contacts_pane>>.
-. From the <<sorting-menu>>, choose *Export*.
-. Click *Export Now*.
+. Choose *Export*.
+. Choose a relevant exporting format and click *Export Now*.
 . Save the file when prompted.
 
 === Edit a Contact
@@ -54,7 +55,8 @@ NOTE: `VCF` is recommended to preserve uploaded contact images.
 . Edit any relevant details you want.
 . Click *Save*.
 
-NOTE: The option *Assign to Lists* adds the selected contact to a group. For details check <<contacts-manage-groups.adoc#_manage_contact_groups>>.
+NOTE: The option *Assign to Lists* adds the selected contact to a group.
+For details check <<contacts-manage-groups.adoc#_manage_contact_folders>>.
 
 === Share a Contact
 When you share a contact, {product-name} exports a _card_ with the information of the selected contact as an email attachment.
@@ -66,7 +68,7 @@ When you share a contact, {product-name} exports a _card_ with the information o
 . Click *Send*.
 
 === Review Interaction with Contact
-You can review your interactions (emails and file attachments) which a contact has sent to you.
+You can review your interactions (emails and file attachments), which a contact has sent to you.
 
 . Click a contact with whom you have interacted.
 . A section to the right of the selected contact's details lists the emails and file attachments received.

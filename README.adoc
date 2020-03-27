@@ -17,7 +17,8 @@ Any images to be included in the documentation must have their source files stor
 
 * *Assign a meaningful name:* The name of an image should indicate what the content of the image is.
 * *Do not replace images:* Once an image source file has been merged to `develop` or `master` branches of the repository, the image is considered immutable.
-If an update or new version of an image is required, then it should be added as a new image with a version number in its name, so it is clear for translators that images have changed. For example, `system-overview.jpg` could be updated with `system-overview-v2.jpg`, with corresponding changes to the file(s) that include the image so they include the new version.
+If an update or new version of an image is required, then it should be added as a new image with a version number in its name, so it is clear for translators that images have changed.
+For example, `system-overview.jpg` could be updated with `system-overview-v2.jpg`, with corresponding changes to the file(s) that include the image so they include the new version.
 * *Images must render in html & pdf output:* The `asciidoctor-pdf` tool should produce a `pdf` file with your image intact.
 If an image does not render, *your PR will be rejected*.
 * *Take care with SVG fonts:* link:https://asciidoctor.org/docs/asciidoctor-pdf/#fonts-in-svg-images[If you’re using fonts in your SVG, and you want those fonts to be preserved, those fonts must be defined in the Asciidoctor PDF theme file.]
@@ -37,18 +38,19 @@ Once you have Asciidoctor installed and working, you can build the documentation
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor -b html5 -D ~/temp/{product-version} -o {doc-filename}-{product-version}.html index.adoc
+asciidoctor -b html5 -D ~/temp/{product-version} -o {doc-filename}-{product-version}.html userguide.adoc
 ----
 
 PDF output can be generated as well:
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version} -o {doc-filename}-{product-version}.pdf index.adoc
+asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version} -o {doc-filename}-{product-version}.pdf userguide.adoc
 ----
 
 This assumes you have a "temp" directory to receive the asciidoctor output, and are generating output for version {product-version}... adjust according to your situation.
-Each section of the document is contained in its own file. You may use the `index.adoc` file to generate the entire document.
+Each section of the document is contained in its own file.
+You may use the `userguide.adoc` file to generate the entire document.
 
 To accompany the HTML output, the `images/` folder must also be copied to the output destination:
 
@@ -116,7 +118,7 @@ Where translated images are to be embedded, the path to the image will need to e
     |                             |
     |     en_us sources           |     ja_jp sources
     |                             |
-    +--+- index.adoc              +--+- index.adoc
+    +--+- userguide.adoc              +--+- userguide.adoc
        +-    ...                     +-    ... 
 
 === Published doc organization
@@ -204,14 +206,14 @@ Here is an example of building the Japanese documentation:
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor -b html5 -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.html {locale}/index.adoc
+asciidoctor -b html5 -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.html {locale}/userguide.adoc
 ----
 
 PDF output can be generated as well:
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.pdf index.adoc
+asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version}/{locale} -o {doc-filename}-{product-version}-{locale}.pdf userguide.adoc
 ----
 
 NOTE: The `asciidoctor-pdf` tool does not support all languages yet, so the PDF output is optional.

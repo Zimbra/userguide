@@ -4,7 +4,7 @@ This section familiarizes you with {product-name}'s calendar interface.
 Click btn:[Calendar] to bring up the following interface.
 
 .Calendar tab
-image::images/screenshots/calendar-window-blank.png[Calendar Window]
+image::screenshots/calendar-window-blank.png[Calendar Window]
 
 It has
 
@@ -14,31 +14,34 @@ It has
 
 === Left Pane
 // .Calendar's Left Pane
-// image::images/screenshots/calendar/calendar-window-leftPane.png[Calendar's Left Pane]
+// image::screenshots/calendar/calendar-window-leftPane.png[Calendar's Left Pane]
 
-This pane has a btn:[New Event] button to <<calendar-manage-events.adoc#_schedule_an_appointment, schedule an appointment>> or <<calendar-manage-events.adoc#_set_up_a_meeting, set up a meeting>>.
+This pane has a btn:[New Event] button to <<calendar-manage-events.adoc#_schedule_an_event, schedule an event>>.
 
 ==== Mini Calendar
 
 The left pane also displays a mini calendar.
-Contents of the mini calendar change as per the <<Calendar Views, view>> selected in <<Middle Pane, middle pane>>.
+Contents of the mini calendar change as per the <<Calendar Views, view>> selected in <<Calendar View Pane>>.
 
 E.g.
 
-. To view the previous month's calendar, click image:images/graphics/chevron-right.svg[].
-. To view next month's schedule, click image:images/graphics/chevron-left.svg[].
+. To view the previous month's calendar, click image:graphics/chevron-left.svg[chevron pointing left icon, width=20].
+. To view next month's schedule, click image:graphics/chevron-right.svg[chevron pointing right icon, width=20].
 . Click Month-Year (Aug 2019 in this case), to list calendars of previous and following six months.
 
 ==== Calendar List
 
-My calendars:: Shows the calendars that belong to your account. You begin with one (named *Calendar*), and can add more.
-Others:: Displays calendars that others have shared with you or that you have <<calendar-manage-calendars.adoc#_subscribe_a_calendar, subscribed>> to. It is especially helpful in matching your schedule with them.
+My calendars:: Shows the calendars that belong to your account.
+You begin with one (named *Calendar*), and can add more.
+Others:: Displays calendars that others have shared with you or to which you have <<calendar-manage-calendars.adoc#_subscribe_to_a_calendar, subscribed>>. It is especially helpful in matching your schedule with them.
 Holidays:: A collection of <<calendar-manage-calendars.adoc#_add_calendars, country-specific holiday calendars>> that you may subscribe.
 
 === Calendar View Pane
-The calendar view pane displays a calendar in Day, Week, and Year views as well. Select the view from the views bar located just above the Middle Pane. To fetch latest events, click image:images/graphics/refresh.svg[].
+The calendar view pane displays a calendar in Day, Week, and Year views as well.
+Select the view from the views bar located just above the Middle Pane.
+To fetch latest events, click image:graphics/refresh.svg[refresh icon, width=20].
 
-All <<calendar-manage-events.adoc#_manage_appointments, appointments>> or <<calendar-manage-events.adoc#_manage_meetings, meetings>> of which you are a part, can be seen in this pane.
+All events of which you are a part, can be seen in this pane.
 
 ==== Calendar Views
 Just below the btn:[Calendar] tab are different views in which you can see your events.
@@ -51,23 +54,29 @@ E.g., you are checking out the events from *September 29^th^ - October 5^th^, 20
 _When checking out the events scheduled on Dec 31 (month view), click to return to the current day.
 The calendar remains in month view and shows all the events of the current month._
 
-Day:: Displays the calendar day-wise and shows all events scheduled for that day. It displays the date selected in the <<Mini Calendar, mini calendar>>.
+Day:: Displays the calendar day-wise and shows all events scheduled for that day.
+It displays the date selected in the <<Mini Calendar, mini calendar>>.
 
 Work Week:: Workweek view displays all the events in a _work week_. 
 +
-E.g., you are viewing the events in the week *Sunday, 22^nd^ Dec 2019 - Saturday, 28^th^ Dec 2019*, and your work week starts from Monday and ends on Sunday. Clicking *Work Week* displays events from *Monday, 23^rd^ Dec 2019 - Sunday, 29^th^ Dec 2019*.
+E.g., you are viewing the events in the week *Sunday, 22^nd^ Dec 2019 - Saturday, 28^th^ Dec 2019*, and your work week starts from Monday and ends on Friday.
+Clicking *Work Week* displays events from *Monday, 23^rd^ Dec 2019 - Friday, 27^th^ Dec 2019*.
 +
 NOTE: For better results, set your workweek in <<settings-otheroptions.adoc#_general_calendar_settings, workweek settings>>
 
-Week:: Displays the calendar week-wise and shows all events scheduled for that week. It displays the week selected in the <<Mini Calendar, mini calendar>>.
+Week:: Displays the calendar week-wise and shows all events scheduled for that week.
+It displays the week selected in the <<Mini Calendar, mini calendar>>.
 
-Month:: Displays the calendar month-wise and shows all events scheduled for that month. It displays the month selected in the <<Mini Calendar, mini calendar>>.
+Month:: Displays the calendar month-wise and shows all events scheduled for that month.
+It displays the month selected in the <<Mini Calendar, mini calendar>>.
 
-Year:: Displays the all the months of a year (selected in the <<Mini Calendar, mini calendar>>) in a 3x4 grid. Each month in that grid displays its days week-wise.
+Year:: Displays all the months of a year (selected in the <<Mini Calendar, mini calendar>>) in a 3x4 grid.
+Each month in that grid displays its days week-wise.
 
 You can print events listed in the selected view pane.
-To print a selected view click image:images/graphics/ellipsis-h.svg[] -> *Print*.
+To print a selected view click image:graphics/ellipsis-h.svg[3 dots menu icon, width=20] -> *Print*.
 
 === Tasks Pane
 
-Tasks pane is the rightmost pane of the <<Calendar Window>> shows all of your Task Lists. For more information, see <<calendar-tasks.adoc#_tasks, tasks>>.
+Tasks pane is the rightmost pane of the Calendar tab and shows all of your Task Lists.
+For more information, see <<calendar-tasks.adoc#_tasks, tasks>>.

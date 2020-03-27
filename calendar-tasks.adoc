@@ -1,6 +1,6 @@
 == Tasks
 === Create a New List
-. Click image:images/graphics/ellipsis-h.svg[]
+. Click image:graphics/ellipsis-h.svg[3 dots menu icon, width=20]
 . Click *Create List...*
 . Type in a name for that list.
 . The new list appears below your name in the task pane.
@@ -9,12 +9,13 @@
 You can combine various lists into one, get reminders, and track task progress.
 
 . Click btn:[Calendar].
-. Click image:images/graphics/ellipsis-h.svg[] and choose *New Task*.
+. Click image:graphics/ellipsis-h.svg[3 dots menu icon, width=20] and choose *New Task*.
 +
 NOTE: This option is disabled in <<Done View>>.
 
 . Set a due date of the task in *Due Date* field.
-. Set a priority from the drop-down. The options available are *Low*, *Normal*, and *High*.
+. Set a priority from the drop-down.
+The options available are *Low*, *Normal*, and *High*.
 . Choose a <<Create a New List, list>> to assign the task.
 . Any extra information related to the task goes in *Notes* section.
 
@@ -40,13 +41,16 @@ The interface and options are the same as that of <<Create a Task>>.
 You can view the tasks list in the task pane as per a general list of tasks -- <<List View, list>>, <<Priority View, priority>>, <<Due Date View, due date>>, or <<Done View, status>>.
 
 ==== List View
-It shows all the tasks and the lists in which they belong. Lists appear in alphabetical order. Tasks within the list appear in the same order they were created; the latest task appears first.
+It shows all the tasks and the lists in which they belong.
+Lists appear in alphabetical order.
+Tasks within the list appear in the same order they were created; the latest task appears first.
 
 ==== Priority View
 Tasks with decreasing order of priorities -- *High* being first -- are listed here.
 
 ==== Due Date View
-This view shows the tasks in order of their due dates. Tasks that are past due appear first, followed by tasks that are needed later.
+This view shows the tasks in order of their due dates.
+Tasks that are past due appear first, followed by tasks that are needed later.
 
 ==== Done View
 This pane lists tasks that are marked done.

@@ -1,10 +1,11 @@
 == Managing your Profile
-This feature in {product-name} helps change your login password and upload a profile image. Recipients of your email, however, may not see your image when they receive your emails.
+This feature in {product-name} helps change your login password and upload a profile image.
+Recipients of your email, however, may not see your image when they receive your emails.
 
 === Change Password
 This feature helps you change your password.
 
-. In the top right, click image:images/graphics/user-circle-o.svg[] and choose *Change Password*. The *Change Password* dialog appears.
+. In the top right, click image:graphics/user-circle-o.svg[circled user icon, width=20] and choose *Change Password*. The *Change Password* dialog appears.
 +
 NOTE: *Change Password* dialog also appears when your password has expired, and you attempt to login.
 
@@ -15,9 +16,11 @@ NOTE: *Change Password* dialog also appears when your password has expired, and 
 
 === Change Profile Image
 
-. In the top right, click image:images/graphics/user-circle-o.svg[] and choose *Change Profile Image*. The *Change Profile Image* dialog appears.
-. Click inside the bordered area to launch a file browser window. Navigate to the image's location and click *Open*.
+. In the top right, click image:graphics/user-circle-o.svg[circled user icon, width=20] and choose *Change Profile Image*. The *Change Profile Image* dialog appears.
+. Click inside the bordered area to launch a file browser window.
+Navigate to the image's location and click *Open*.
 ** Alternatively, you can drag and drop your image inside the bordered area.
-. Select the portion of the photo you want to show. The frame with dashed borders can be resized and repositioned.
-. Click image:images/graphics/rotate_left.svg[] or image:images/graphics/rotate_right.svg[] to rotate the picture 90deg left or right.
+. Select the portion of the photo you want to show.
+The frame with dashed borders can be resized and repositioned.
+. Click image:graphics/rotate_left.svg[counter clockwise arrow icon, width=20] or image:graphics/rotate_right.svg[clockwise arrow icon, width=20] to rotate the picture a quarter turn left or right.
 . Click *Save* to apply the changes.
