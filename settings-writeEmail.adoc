@@ -29,7 +29,7 @@ You can choose to *not* save your sent emails in *Sent* folder.
 . At the bottom of the page, click *Save*.
 
 ==== Delegation
-You can let someone else manage your email account using {product-name}. Your delegates can read, send, and delete messages on your behalf.
+You can let someone else manage your email account using {product-short}. Your delegates can read, send, and delete messages on your behalf.
 Messages your delegates send on your behalf show you as the sender.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
@@ -48,4 +48,4 @@ When a delegate sends an email, as you or on your behalf, you can manage where t
 Save sent messages to my Sent folder:: The email sent by your delegate goes in your sent items folder.
 Save sent messages to delegate's Sent folder:: The email sent by your delegate goes in the delegate's sent items folder.
 Save sent messages to my Sent folder, and delegate's Sent folder:: The email sent by your delegate goes in your sent items folder, and delegate's Sent Items folder as well.
-Don't save sent messages:: {product-name} does not save the email sent by your delegate.
+Don't save sent messages:: {product-short} does not save the email sent by your delegate.

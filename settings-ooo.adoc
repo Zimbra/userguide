@@ -1,5 +1,5 @@
 === Out of Office settings
-With {product-name}, you can send out-of-office replies for any duration you specify.
+With {product-short}, you can send out-of-office replies for any duration you specify.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Out Of Office* in the left pane.
@@ -14,7 +14,6 @@ With {product-name}, you can send out-of-office replies for any duration you spe
 You can choose if you want to send an out-of-office response to senders who are not in your organisation (external senders).
 
 Against *External Senders* there are three options in the dropdown.
-+
 
 Send standard automatic response:: Choose this option to send the same response specified above, to external senders.
 Send external automatic response:: Choose this option to bring up a text box and type a separate response to external senders.

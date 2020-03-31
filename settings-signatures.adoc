@@ -1,5 +1,5 @@
 === Signatures
-With {product-name}, you can have two default signatures per account, plus additionals that you may choose to apply.
+With {product-short}, you can have two default signatures per account, plus additionals that you may choose to apply.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Signatures* in the left pane.

@@ -1,8 +1,8 @@
 == What is {modern-client}?
 
-{product-name} is a full-featured messaging and collaboration solution that includes email, address book, calendaring, tasks, and Web document authoring.
+{product-short} is a full-featured messaging and collaboration solution that includes email, address book, calendaring, tasks, and Web document authoring.
 
-{product-name} comes with a *{modern-client}* that is a new-age email application usable from virtually any device or screen size.
+{product-short} comes with a *{modern-client}* that is a new-age email application usable from virtually any device or screen size.
 
 It is secure, flexible, and scalable to meet spikes in demand and comes with built-in rich user experience.
 

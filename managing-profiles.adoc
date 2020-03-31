@@ -1,5 +1,5 @@
 == Managing your Profile
-This feature in {product-name} helps change your login password and upload a profile image.
+This feature in {product-short} helps change your login password and upload a profile image.
 Recipients of your email, however, may not see your image when they receive your emails.
 
 === Change Password

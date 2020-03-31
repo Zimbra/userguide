@@ -1,0 +1,18 @@
+== Activating Zimlets in {modern-client}
+
+NOTE: To enable zimlets, please get in touch with your organization's {product-name} administrator.
+
+This section discusses how to activate zimlets for your account once an administrator enables them.
+
+:drive: Dropbox
+include::zimlets-drive.adoc[]
+
+:drive: Google Drive
+include::zimlets-drive.adoc[]
+
+:drive: Onedrive
+include::zimlets-drive.adoc[]
+
+include::zimlets-slack.adoc[]
+
+include::zimlets-zoom.adoc[]

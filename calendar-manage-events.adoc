@@ -106,20 +106,20 @@ An invitation appears in the *Inbox* with image:graphics/calendar-o.svg[calendar
 There are three responses to an event when you are an invitee.
 In the RSVP section of an invitation, you have an option to send a response email.
 
-*Accept* image:graphics/check-circle.svg[width=20]: {product-name} saves the event in your calendar.
+*Accept* image:graphics/check-circle.svg[width=20]: {product-short} saves the event in your calendar.
 A notification reminds you before that event starts.
 
-*Tentative* image:graphics/question-circle.svg[width=20]: {product-name} saves the event in your calendar.
+*Tentative* image:graphics/question-circle.svg[width=20]: {product-short} saves the event in your calendar.
 A notification reminds you before that event starts.
 However, you can revisit the event anytime to mark it as Accept or Decline.
 
-*Decline* image:graphics/close-circle.svg[width=20]: {product-name} deletes the event, and the event does not make it to your calendar.
+*Decline* image:graphics/close-circle.svg[width=20]: {product-short} deletes the event, and the event does not make it to your calendar.
 
 Right next to these buttons, you can choose if you want to send a response email.
 
-{product-name} marks the invitations that you have not yet responded with a bar on the left.
+{product-short} marks the invitations that you have not yet responded with a bar on the left.
 You may respond to the invitation in the calendar or the Mail section.
-Once you have responded, {product-name} deletes the invitation email.
+Once you have responded, {product-short} deletes the invitation email.
 
 ==== Turn off or Postpone a Reminder
 

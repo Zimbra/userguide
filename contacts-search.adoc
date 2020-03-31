@@ -12,4 +12,4 @@ Type a few words of the email address or name of a contact and click image:graph
 To specify a folder to search in, choose the folder from the drop-down labeled *My Contacts*.
 The drop-down is on the left of the search box.
 
-{product-name} brings up the contacts with details matching the words you typed.
+{product-short} brings up the contacts with details matching the words you typed.

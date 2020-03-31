@@ -1,0 +1,23 @@
+== Change Display Language
+{product-short} now offers these languages as the display language.
+
+* Chinese
+* English (United States)
+* French
+* German
+* Hindi
+* Indonesian
+* Italian
+* Japanese
+* Portuguese
+* Spanish
+* Thai
+
+To change the {product-short} display language to one of the above languages, perform the following steps.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select *Language*.
+. Choose a language you prefer.
+. Click *Save*.
+
+{product-short} display language changes to the selected language.

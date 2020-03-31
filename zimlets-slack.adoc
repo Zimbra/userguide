@@ -1,0 +1,44 @@
+=== Slack
+The Slack integration helps you connect your Slack account to {product-short} for quickly initiating conversations using Slack. With this integration you can see if other users in your organization are online (if they have set the Slack integration up), launch private chat with users, and even continue an email thread in a conversation on Slack.
+
+==== Getting Started by Authorizing Slack
+
+NOTE: During the activation process, you may encounter a *Not Found* error. The error goes away automatically and does not require any intervention.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select *Slack Integration* from the left pane. Here you can add or remove your Slack workspaces to integrate them with the {modern-client}.
+. Click btn:[Sign In To Workspace].
++
+
+NOTE: Slack's authentication works in the background and hence you may have to wait for sometime before {drive} activates.
+
+. Select a workspace from the dropdown in the top-right corner of the window and click btn:[Allow] to add it.
+. The workspace name and logo will then appear in the Settings panel. You will have to repeat this process for each workspace you would like to add, in order for any integration features to work properly with that workspace.
+. To remove a workspace, simply click the Trash icon next to it. It will disappear from the window.
+
+==== Checking User Presence and Sending Direct Messages
+You can check the active / away status of users in your contacts, calendar items, or email conversations for each of the workspaces you belong to. From there, you can easily start a direct message conversation with that user.
+
+* Hover over a name / email in the address bar of a sent or received email message or draft, or in the Invitees section of a calendar item.
+
+If no Slack indicator appears, the user is not a member of any of your Slack workspaces. A green dot indicates that they are active on at least one of your workspaces, while an orange dot indicates they are away from all workspaces.
+
+* If the user is a member of only one of your workspaces, clicking on the indicator button will start a direct message conversation with that user and send you to it in the Slack app.
+
+* If the user is a member of more than one of your workspaces, a down caret will appear when you hover over the indicator button. Clicking the button displays a list of the common workspaces between you and the user, and their presence status for each. Clicking on any of these workspaces will start a direct message conversation in that workspace and send you to it in the Slack app.
+* You can also check a user's workspace presence status in the Contacts tab. 
+.. Click btn:[Contacts].
+.. Select a contact.
+.. If the contact is a member of one of your workspaces, a presence indicator for that workspace appears under 'Slack' on the contact card.
+.. Click a workspace to start a direct message conversation with your contact.
+
+==== Converting an Email Conversation to a Private Slack Channel
+
+You can generate a new channel in a Slack workspace to continue an email conversation.
+
+. Click image:graphics/ellipsis-h.svg[] *More* at the bottom of an email conversation.
+. Click Start Slack Conversation.
+. A modal displays your workspaces and the number of users in the email conversation that are members of each workspace.
+. Click one of the membership tallies that is not 'full' (green) to view the list of users from the email conversation who do not belong to that workspace.
+. Click the workspace where you would like to start the new channel.
+. You will be sent to that workspace in your Slack app, where a new private channel will be created under the subject of the email conversation and the current date and time (subject_date). A bot will start the channel by posting the content of the email message, and all of the users from the conversation that are members of that workspace will be invited to join.

@@ -1,0 +1,53 @@
+=== {drive}
+With this integration you can connect your {drive} account to {product-short} for saving and sharing files from your {drive}.
+
+==== Activate the {drive} Zimlet
+
+NOTE: During the activation process, you may encounter a *Not Found* error. The error goes away automatically and does not require any intervention.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Select *{drive} Integration* from the left pane.
+. Click btn:[Activate]
+. Sign In to your {drive} account.
+. Click btn:[Allow] to authorize {product-short} to access your {drive}.
++
+
+NOTE: {drive}'s authentication works in the background and hence you may have to wait for sometime before {drive} activates.
+
+. Click btn:[Save].
+
+==== Save all Attachments to your {drive}
+
+NOTE: Some Users may not see the download link above their attachments. In such a case, please follow the steps mentioned in <<Save an Attachment to your {drive}>>
+
+Once this zimlet is activated, emails containing attachments appear with links to save the attachments.
+
+. On an email containing attachments, click the *Save to {drive}* link -- just above the attachments.
+. Sign In to your {drive} account, if requested.
+. Click btn:[Save] to save all attachments to {drive}.
+. Click *Remove* against an attachment to remove it.
+. A notification confirms file upload to {drive}.
+
+
+==== Save an Attachment to your {drive}
+. Click image:graphics/download.svg[download icon, width=20] on an attachment.
+. Click btn:[{drive}] from the list of download locations.
+. Sign In to your {drive} account.
+. Click btn:[Save] to save all attachments to {drive}.
+. A notification confirms file upload to {drive}.
+
+==== Attaching a file from {drive}
+. When composing an email, click image:graphics/paperclip.svg[attachment icon, width=20] and select *Add files from {drive}*.
+. Click *Select files to attach* to add the files as attachments in your email.
+.. Click *Select files to link* to add the files as links in your email.
+. Sign In to your {drive} account.
+. From the *{drive}* window, select the files to attach.
+. Compose your message and click btn:[Send] to send the email with attachment from *{drive}*.
+
+==== Send Large files via {drive}
+. When composing an email, click image:graphics/paperclip.svg[attachment icon, width=20] and select *Add from my Computer*.
+. Select the file you want to attach and click *Open*.
+. Select *{drive}* from the presented options.
+. Click btn:[Save] in the {drive} window to save your file to be shared from {drive}.
+. The *Inserting Link* window appears while the file saves to your {drive}. Once completed, the link appears in your email message.
+. Compose your message and click btn:[Send] to send the email with the {drive} link.

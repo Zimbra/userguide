@@ -2,7 +2,7 @@
 
 You can create a list containing your contacts and store that list under the *Contacts* folder.
 It is especially helpful when you want to send an email to a specific set of people.
-So instead of typing everyone's email address, you type in the name of your list, and {product-name} sends the email to all addresses in that list. 
+So instead of typing everyone's email address, you type in the name of your list, and {product-short} sends the email to all addresses in that list. 
 
 It is a two-step process.
 
@@ -17,7 +17,7 @@ It is a two-step process.
 You can right-click a list, which you have created, to rename or delete it.
 
 ==== Add Contacts to a List
-. Click on a contacts folder to list all the contacts in that folder.
+. Click a contacts folder to list all the contacts in that folder.
 . Select the contacts which you want to add in a list.
 . Drag and drop the contacts in the list that you have created.
 The following are few more ways in which you can add contacts to lists.
@@ -31,7 +31,7 @@ The following are few more ways in which you can add contacts to lists.
 . In the *To* field, type the first few words of your list's name.
 . The list appears as one of the suggestions.
 . Select the list.
-. {product-name} populates the  *To* with all the email addresses from that list.
+. {product-short} populates the  *To* with all the email addresses from that list.
 . Type in the body of the email.
 . Click *Send*.
 

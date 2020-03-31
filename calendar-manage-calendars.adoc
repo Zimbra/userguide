@@ -25,7 +25,7 @@ They can also add and remove events (*including* private events) from your calen
 . Type in the email address of people with whom you want to share this calendar.
 . Click *Change* next to invitees and edit their permissions -- or remove the invitees altogether.
 . Click *Save*.
-. {product-name}  sends a link to receivers who have an option to accept or decline the invitation.
+. {product-short} sends a link to receivers who have an option to accept or decline the invitation.
 
 ==== Accept a Shared Calendar
 Whenever someone shares their calendar with you, you receive an email notifying about it.

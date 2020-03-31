@@ -1,11 +1,11 @@
 == Settings
-Settings in {product-name} have multiple features like changing signatures, creating filters, and mail reading behavior being a few among many.
+Settings in {product-short} have multiple features like changing signatures, creating filters, and mail reading behavior being a few among many.
 
 === General
 This section deals with storage, date & time format, and the default app version which you see after login.
 
 ==== Storage
-This section of the {modern-client} displays the storage space that you are using on the {product-name} server.
+This section of the {modern-client} displays the storage space that you are using on the {product-short} server.
 
 ==== Date & Time
 This section manages the date and time format used throughout the {modern-client}.
@@ -26,8 +26,8 @@ hh:mm:: The time 9:21 AM appears as *09:21 AM*.
 H:MM:: The time 9:21 AM appears as *9:21*.
 HH:MM:: The time 9:21 AM appears as *09:21*.
 
-==== {product-name} Version
-Here you choose the {product-name} version you want to use.
+==== {product-short} Version
+Here you choose the {product-short} version you want to use.
 
 Modern:: Choose this option to use the {modern-client}.
 Classic:: Choose this option to use the {web-client}.

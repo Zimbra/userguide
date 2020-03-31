@@ -1,5 +1,5 @@
 == Mail
-This section familiarizes you with {product-name}'s email interface.
+This section familiarizes you with {product-short}'s email interface.
 
 .Email interface
 image::screenshots/mail-empty-inbox.png[Email interface]
@@ -22,12 +22,12 @@ Inbox:: Whenever someone sends you an email, it comes straight to your Inbox.
 Click this folder to view your incoming emails.
 You can also right-click this folder to create subfolders.
 
-Drafts:: Mails that you have written and saved -- or which {product-name} saved while you were composing them -- but not yet sent appear under drafts folder.
+Drafts:: Mails that you have written and saved -- or which {product-short} saved while you were composing them -- but not yet sent appear under drafts folder.
 
 Sent:: When you send an email to someone, it appears in your sent folder.
 You can right-click this folder to create subfolders.
 
-Junk:: {product-name} moves all the unwanted or spam emails here to keep them out of your Inbox.
+Junk:: {product-short} moves all the unwanted or spam emails here to keep them out of your Inbox.
 
 Trash:: All deleted emails are moved to this folder until you _Empty the Trash_, permanently delete, or restore them.
 
@@ -73,7 +73,7 @@ image:graphics/shield.svg[Mark as spam button, width=20px] marks emails as spam 
 image:graphics/ellipsis-h.svg[more options, width=20px] reveals further actions to take on emails like marking an email as **read** or **unread**, or mark an email with a image:graphics/star.svg[star, width=15px] for it to stand out, and blocking a contact from sending you emails.
 
 === Keyboard Shortcuts
-{product-name} supports keyboard shortcuts; to see what shortcuts are defined, type kbd:[Ctrl + Q].
+{product-short} supports keyboard shortcuts; to see what shortcuts are defined, type kbd:[Ctrl + Q].
 The available keyboard shortcuts are context-sensitive.
 kbd:[Ctrl + Q] displays different shortcuts depending on whether you have selected mail, calendar, or contacts.
 
@@ -154,7 +154,7 @@ The new tag is now listed and ready to be applied.
 The emails stay safe in their respective folders.
 
 === Import Email Folders
-You can import email folders directly in {product-name}, provided the folders to import are in `.tgz` format.
+You can import email folders directly in {product-short}, provided the folders to import are in `.tgz` format.
 
 . In the <<Left Sidebar>>, right-click a folder under which you prefer to import your email folder.
 . From the context menu, choose *Import*.
@@ -164,7 +164,7 @@ You can import email folders directly in {product-name}, provided the folders to
 . The imported folder appears under the selected folder after the process completes.
 
 === Export Email Folders
-You can export email folders directly in {product-name} in `.tgz` format.
+You can export email folders directly in {product-short} in `.tgz` format.
 
 . In the <<Left Sidebar>>, right-click a folder to export.
 . From the context menu, choose *Export*.

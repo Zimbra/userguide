@@ -1,5 +1,5 @@
 == Contacts
-This section familiarizes you with {product-name}'s contacts tab interface.
+This section familiarizes you with {product-short}'s contacts tab interface.
 Click btn:[Contacts] tab to bring up the following interface.
 
 .Contacts tab
@@ -20,7 +20,7 @@ You also see folders you create and those shared with you, including:
  Deleted Contacts:: It lists contacts that you have deleted.
  Emailed Contacts:: It lists contacts to whom you have sent an email.
 +
-NOTE: {product-name} Enterprise users see a fourth folder -- Global Address List.
+NOTE: {product-short} Enterprise users see a fourth folder -- Global Address List.
 This folder lists all the contacts in your organization.
 
 . Your contact lists appear nested under their respective folder.
@@ -31,7 +31,7 @@ Refer to <<contacts-manage-groups.adoc#_manage_contact_lists, Manage Contact Lis
 
 === Contacts Pane
 
-Whenever you click on one of the Contacts folders, or lists, from the left pane, this pane lists all contacts from the selected item.
+Whenever you click one of the Contacts folders, or lists, from the left pane, this pane lists all contacts from the selected item.
 
 Right-click any listed contact to see further options like **Edit**, **Delete**, **Add to Lists**, and **Share**.
 

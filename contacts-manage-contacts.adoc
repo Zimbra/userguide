@@ -1,13 +1,13 @@
 === Create a New Contact
 Keep track of everyone you communicate with by creating contacts.
-Once you've added a contact, you can type the first few letters of their name into an email, and {product-name} displays their names as suggestions.
+Once you've added a contact, you can type the first few letters of their name into an email, and {product-short} displays their names as suggestions.
 
 ==== Add a Contact from Email
 
 . Hover a name in the *To*, *Cc*, *Bcc*, or *From* field.
 . Click image:graphics/ellipsis-h.svg[3 dots menu icon, width=20] on the contact information card that pops-up.
 . Select *Add to contacts*.
-. {product-name} adds the user to your contacts folder.
+. {product-short} adds the user to your contacts folder.
 
 ==== Add a contact from scratch
 . Click btn:[Contacts] tab.
@@ -18,16 +18,16 @@ Once you've added a contact, you can type the first few letters of their name in
 NOTE: All added contacts appear under *Contacts*.
 
 === Import Contacts
-You can import contacts in different formats into {product-name}.
+You can import contacts in different formats into {product-short}.
 
 . Click btn:[Contacts] tab.
 . Click the Contact List menu, labeled *Sort by ...* in the <<contacts-overview.adoc#_contacts_pane>>.
 . Choose *Import*.
 . Select *Browse*, go to your saved contacts file, and select it.
-. Click *Import* to import the contacts to {product-name}.
+. Click *Import* to import the contacts to {product-short}.
 
 === Export Contacts
-In {product-name}, you can export your contacts in various formats to make them portable and take a backup if required. {product-name} exports contacts in the following formats:
+In {product-short}, you can export your contacts in various formats to make them portable and take a backup if required. {product-short} exports contacts in the following formats:
 
 * Microsoft Outlook CSV
 * Thunderbird/Netscape LDIF
@@ -59,7 +59,7 @@ NOTE: The option *Assign to Lists* adds the selected contact to a group.
 For details check <<contacts-manage-groups.adoc#_manage_contact_folders>>.
 
 === Share a Contact
-When you share a contact, {product-name} exports a _card_ with the information of the selected contact as an email attachment.
+When you share a contact, {product-short} exports a _card_ with the information of the selected contact as an email attachment.
 
 . Right-click a contact from the list of contacts.
 . Select *Share*.
@@ -76,6 +76,6 @@ You can review your interactions (emails and file attachments), which a contact 
 
 === Global Address List
 
-The Global Address List (GAL) is a directory of users within an organization that is available to all users of the email system. {product-name} uses this directory to look up user addresses from within the company.
+The Global Address List (GAL) is a directory of users within an organization that is available to all users of the email system. {product-short} uses this directory to look up user addresses from within the company.
 
 If your administrator has set up GAL, you can access it under Contacts.
