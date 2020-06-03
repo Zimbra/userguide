@@ -12,10 +12,10 @@
 // . In the left pane, hover over *Local Storage* and click *+* to create a new folder.
 // +
 // NOTE: Your old folder does not appear under Local Storage.
-In the subsequent steps, you can import all your old emails to the new folder in local storage.
+// In the subsequent steps, you can import all your old emails to the new folder in local storage.
 // +
 // . Type the name of the folder.
-For this example and subsequent steps, we have named this folder *NewLocalFolder*.
+// For this example and subsequent steps, we have named this folder *NewLocalFolder*.
 
 // ==== Copy Files
 // . Navigate to
@@ -76,7 +76,6 @@ For this example and subsequent steps, we have named this folder *NewLocalFolder
 
 // == Paginated Mail List in local folders for better performance
 
-ifdef::Desktop_app[]
 === Manage Local Folders
 
 // NOTE: This feature is available only on the {product-short} desktop app for Windows.
@@ -101,4 +100,3 @@ You can drag large emails to local storage to store such emails locally on your 
 . From the context menu, select *Delete*.
 . Click *OK* on the confirmation dialog.
 . The deleted folder appears under *Trash* in the Local Folders.
-endif::Desktop_app[]

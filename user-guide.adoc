@@ -47,9 +47,11 @@ include::mail-search.adoc[]
 
 <<<
 
+ifdef::Desktop_app[]
 include::mail-localstorage.adoc[]
 
 <<<
+endif::Desktop_app[]
 
 include::contacts-overview.adoc[]
 

@@ -23,7 +23,10 @@ After login, you can <<settings-general.adoc#_zimbra_version, choose>> either *M
 
 In {product-short}, administrators have the option to enable or enforce Two-factor authentication.
 
-Below sections explain both cases -- when two-factor authentication is enforced or only enabled.
+When the Two-factor connection is only enabled, not enforced, you have the option to set it up from <<settings-account.adoc#_two_factor_authentication, Settings -> Accounts>> at your convenience.
+In such a case, you can log in with just your username and password.
+
+Below section explains the case when administrator has *enforced* the two-factor authentication for your account.
 
 === 2FA Enforced
 If the administrator has enforced two-factor authentication, you are required to set it up immediately after you log in for the first time.

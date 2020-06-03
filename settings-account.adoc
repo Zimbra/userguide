@@ -16,7 +16,6 @@ If you have multiple email accounts configured through {product-short}, you may 
 . At the bottom of the page, click *Save*.
 
 ==== Two-factor Authentication
-You may have the option to enable or disable Two-factor Authentication (2FA) for your account.
 
 ===== 2FA Enabled
 If two-factor authentication is only enabled but not enforced, you have the option to set up two-factor authentication at your convenience.
@@ -37,7 +36,6 @@ Check https://wiki.zimbra.com/wiki/TOTPApps[supported apps].
 ===== Login Screen
 Once set up, {product-short} prompts you to enter a code as part of every login.
 Enter the code displayed in your authenticator app at that time and click *Verify*.
-Two-factor authentication is now active on your account.
 
 ===== Adding Trusted Devices
 Once you have set up 2FA, {product-short} requires a code from the authenticator app on each login.
