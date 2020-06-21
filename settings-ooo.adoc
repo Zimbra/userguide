@@ -11,7 +11,7 @@ With {product-short}, you can send out-of-office replies for any duration you sp
 ** Test out the response by clicking btn:[Send sample copy to me].
 
 ==== Out of Office replies for external senders
-You can choose if you want to send an out-of-office response to senders who are not in your organisation (external senders).
+You can choose if you want to send an out-of-office response to senders who are not in your organization (external senders).
 
 Against *External Senders* there are three options in the dropdown.
 

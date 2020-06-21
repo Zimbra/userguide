@@ -1,4 +1,8 @@
 === Account Settings
+
+==== Add an Account
+
+
 ==== Change the name on your {product-short} account
 You can choose what name people see when you send them an email.
 
@@ -14,6 +18,9 @@ If you have multiple email accounts configured through {product-short}, you may 
 . Click *Accounts* in the left pane and choose an account from the right pane.
 . Under *Description* type in a name for this account.
 . At the bottom of the page, click *Save*.
+
+==== Add a Persona
+A persona helps you create a separate email identity to manage different types of email. E.g., you can create a business persona for your business email and a personal persona for your personal email. By using a persona, you can specify a From address and/or a Reply To address for emails sent using that persona. All outgoing email displays the email address of the persona that you are using.
 
 ==== Two-factor Authentication
 

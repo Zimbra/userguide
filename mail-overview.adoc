@@ -190,3 +190,5 @@ View, edit, add, remove, and administer:: Users have permission to view and edit
 
 If the recipient declines the share, you receive a notification email.
 Similarly, when you revoke the share, the recipient also receives an email notification.
+
+NOTE: When you revoke access to a folder you shared, the folder appears with a strikethrough to receivers of that shared folder.

@@ -30,3 +30,16 @@ You can specify an email address to receive event reminders.
 . Specify a *Default Reminder Time* before which to receive event reminders.
 . Check the box to enable *Show Reminders for Past-Due Events* to receive reminders for events that are past due.
 This way, you receive reminders for events that you might have unknowingly missed.
+
+==== Free Busy Permission
+You can use this setting to control who can see when you are free or busy.
+Event organizers can click on btn:[Show Availability] when <<calendar-manage-events.adoc#_schedule_an_event, scheduling an event>> to see when you are available for a meeting.
+
+Choose an option from the dropdown.
+
+Everyone:: All organizers can view the time when you are free or busy.
+Internal users only:: Your Free/Busy information is available to all users within your organization.
+Internal users on my domain only:: Your Free/Busy information is available only to users within your domain. Users in your organization who have email addresses on another domain can not view your Free/Busy information.
+These internal users only:: Enter email addresses, below this dropdown, of users who can view your free/busy information. Click btn:[Add] after entering each email address.
+The field *Enter an email address* is active only for this option.
+None:: Your free/busy information is hidden from everyone, without exception.

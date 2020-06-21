@@ -11,6 +11,7 @@ Enable this feature from <<settings-otheroptions.adoc#_general_calendar_settings
 +
 NOTE: To create this event like a meeting, type the email address of the invitees.
 Alternatively, click the link *Invitees* and choose from the list of people that appears.
+Click btn:[Show Availability] to see when your invitees are available.
 
 . Any extra information or details go in the *Notes* section.
 Click the little pin beside *Notes* to attach a file.
@@ -45,6 +46,33 @@ NOTE: Choose *Never* if you do not want notification of this appointment.
 . Right-click the event to bring up the context menu and choose *Copy*.
 . An interface similar to <<Schedule an event>> appears.
 . Change the relevant information and click *Save*.
+
+==== Forward an Event
+You can use a *Forward* action in a calendar event's right-click context menu to forward the recurring event series or only that specific instance.
+
+. Locate the appointment to forward in your calendar.
+. Right-click the event to bring up the context menu and choose *Forward*.
+. Choose if you are forwarding *This event only* or *All Events*.
+. Add more invitees under the *To* field.
+. Choose new *Start* and *End* times.
+. You can give additional information in the *Notes* section.
+. All other fields are disabled.
+. Click *Send* to forward the event.
+
+==== Propose a New Time
+You can propose a mew time for an event.
+You can propose a new time when you receive the invitation, or later from your calendar.
+
+Propose a new time from invitation email::
+Click *Propose a new time* image:graphics/calendar-range.svg[width=20] in your invitation email's RSVP section.
+On the *Propose new time* screen, set a preferred time and click btn:[Send].
+
+Propose a new time from calendar::
+. Locate the appointment, for which you want to propose a new time, in your calendar.
+. Right-click the event to bring up the context menu and choose *Propose new time*.
+. If the event is a recurring event, choose if you are proposing new time for *This event only* or *All Events*.
+. On the *Propose new time* screen, set a preferred time and click btn:[Send].
+. A toast notification confirms when proposed time is sent.
 
 ==== Event (Appointment/Meeting) Recurrence
 You can set the event to repeat every day, every week, every month, or every year.
@@ -104,7 +132,7 @@ You can set similar other recurrence patterns.
 
 An invitation appears in the *Inbox* with image:graphics/calendar-o.svg[calendar icon, width=20].
 There are three responses to an event when you are an invitee.
-In the RSVP section of an invitation, you have an option to send a response email.
+In the RSVP section of an invitation, you have an option to send a response email or propose a new time.
 
 *Accept* image:graphics/check-circle.svg[width=20]: {product-short} saves the event in your calendar.
 A notification reminds you before that event starts.
@@ -114,6 +142,10 @@ A notification reminds you before that event starts.
 However, you can revisit the event anytime to mark it as Accept or Decline.
 
 *Decline* image:graphics/close-circle.svg[width=20]: {product-short} deletes the event, and the event does not make it to your calendar.
+
+*Propose a new time* image:graphics/calendar-range.svg[width=20]: {product short} launches the edit event dialog to <<Propose a New Time>> for that event.
+
+NOTE: Event organizers have an option to accept or decline the proposed time.
 
 Right next to these buttons, you can choose if you want to send a response email.
 

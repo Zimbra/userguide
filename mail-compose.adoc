@@ -15,7 +15,12 @@ Separate multiple recipients with a comma.
 === Select Contacts
 When composing an email, click *To* to launch *Choose Contacts* window.
 Alternatively, begin typing recipients to bring up suggestions from which to choose.
+
+TIP: The first suggestion in the auto-complete list is highlighted. You can use Tab, Comma, Semi-colon, or Enter keys to _select_ a highlighted contact. 
+
 These email addresses can be copied and pasted to *Cc* and *Bcc* fields as well.
+
+TIP: You can drag and drop email addresses anywhere in *To*, *Cc*, and *Bcc* fields.
 
 Pick a context for searching and choosing contacts.
 The options are from your Contact Folders and <<contacts-manage-groups#_create_a_contact_list, lists>>, including:
