@@ -6,14 +6,14 @@ A conversation breaks off into a new conversation if the subject line changes.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, check the box *Enable Conversations* to group the messages or uncheck this box to ungroup the messages.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Show Email Snippets
 By default, {product-short} shows you _snippets_, or previews, of your messages in the <<mail-overview.adoc#_email_pane, email pane>>. If you do not need the snippets or feel that they make your Inbox look cluttered, you can turn the snippets off.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, uncheck the box *Show snippets* to turn them off.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Group Emails by date
 {product-short}, by default, groups your email conversations by date.
@@ -23,7 +23,7 @@ You can disable this setting.
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, uncheck the box *Group by date* to ungroup the messages.
 Your emails appear sorted by date, but they do not appear in groups.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Email Preview Pane
 The preview pane in {product-short} displays the selected email's content.
@@ -35,14 +35,14 @@ The preview pane on the right:: The selected email's content appears on the righ
 The preview pane on the bottom:: The selected email appears in a pane on the bottom of the email list.
 None:: The preview pane is disabled.
 +
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Message List Density
 This setting controls the spacing between each email in the email list. *Slim* is the lowest, and *Relaxed* is the highest possible spacing between two emails in the email list.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Viewing Email*, click the *Message list density* drop-down.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Mark Emails as Read
 {product-short} immediately marks a message as read when you select it.
@@ -57,7 +57,7 @@ After 5 seconds:: The selected email is marked read after *5* seconds.
 Never:: The selected email stays unread until you mark it as read manually.
 For details, refer to <<mail-overview.adoc#_reading_pane, reading pane tools>>.
 +
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Check for New Emails
 {product-short} checks for new emails at regular intervals.
@@ -68,7 +68,7 @@ You can, however, override the default settings.
 . You can choose a duration from the drop-down when {product-short} checks for new mail.
 .. Click the reload icon beside *Inbox* to check for new emails *Manually*. This reload icon becomes visible when you hover the mouse on the Inbox.
 .. Choose *As new mail arrives* to have {product-short} repeatedly check for new emails.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Sending Read Receipts
 If requested by the sender, you can send a read receipt to confirm that you have opened their message.
@@ -87,7 +87,7 @@ Ask Me:: Choose this option to receive a confirmation before sending a read rece
 Always Send:: Choose this option to send a read receipt every time to recipients.
 Never Send:: Choose this option, so {product-short} does not send a read-receipt to recipients.
 
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Email Notifications
 You can choose when {product-short} notifies you of new emails.

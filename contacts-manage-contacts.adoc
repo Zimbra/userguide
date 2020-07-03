@@ -13,7 +13,7 @@ Once you've added a contact, you can type the first few letters of their name in
 . Click btn:[Contacts] tab.
 . Click btn:[Add a Contact] to launch *Add a contact* page.
 . Add any relevant details you want.
-. Click *Save*.
+. Click btn:[Save].
 
 NOTE: All added contacts appear under *Contacts*.
 
@@ -47,13 +47,12 @@ NOTE: `VCF` is recommended to preserve uploaded contact images.
 . Right-click a contact from the list of contacts.
 . Select *Edit Details*.
 . Edit any relevant details you want.
-. Click *Save*.
+. Click btn:[Save].
 
 === Delete a Contact
 . Right-click a contact from the list of contacts.
 . Select *Delete*.
-. Edit any relevant details you want.
-. Click *Save*.
+. The deleted contact moves to Contacts' *Trash* folder.
 
 NOTE: The option *Assign to Lists* adds the selected contact to a group.
 For details check <<contacts-manage-groups.adoc#_manage_contact_folders>>.
@@ -65,7 +64,7 @@ When you share a contact, {product-short} exports a _card_ with the information 
 . Select *Share*.
 . A new mail window opens with the selected contact as a `VCF` attachment.
 . Enter the receiver's email address.
-. Click *Send*.
+. Click btn:[Send].
 
 === Review Interaction with Contact
 You can review your interactions (emails and file attachments), which a contact has sent to you.

@@ -9,7 +9,7 @@ You can choose what name people see when you send them an email.
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Accounts* in the left pane and choose an account from the right pane.
 . Under *Your Name* type in a name that you want people to see when they receive your emails.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Change your {product-short} Mailbox Name
 If you have multiple email accounts configured through {product-short}, you may want to differentiate them.
@@ -17,7 +17,7 @@ If you have multiple email accounts configured through {product-short}, you may 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Accounts* in the left pane and choose an account from the right pane.
 . Under *Description* type in a name for this account.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Add a Persona
 A persona helps you create a separate email identity to manage different types of email. E.g., you can create a business persona for your business email and a personal persona for your personal email. By using a persona, you can specify a From address and/or a Reply To address for emails sent using that persona. All outgoing email displays the email address of the persona that you are using.
@@ -127,7 +127,7 @@ You can receive replies to your emails on a different address using this feature
 . Check the box *Receive replies to your sent emails at a different address*.
 . Enter an email address where you'd like to receive replies for your emails.
 . Type in a name corresponding to the above email address.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Access your emails elsewhere
 You can set a forwarding address in {product-short}. {product-short} forwards all your emails to the address specified here.
@@ -142,7 +142,7 @@ You can set a forwarding address in {product-short}. {product-short} forwards al
 Store and Forward:: {product-short} keeps a copy of the email before forwarding it to the specified address.
 Delete and Forward:: {product-short} deletes the email after forwarding it to the specified address.
 
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ifdef::Desktop_app[]
 ==== Import PST File
