@@ -8,7 +8,6 @@
 <meta name="author" content="March, 2020">
 <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 <title>Zimbra Collaboration Users guide</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <link rel="stylesheet" href="./stylesheets/asciidoctor-custom.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -17,8 +16,7 @@
 <h1>Zimbra Collaboration Users guide</h1>
 <div class="details">
 <span id="author" class="author">March, 2020</span><br>
-<span id="revnumber">Zimbra Collaboration version 9.0.0,</span>
-<span id="revdate">revised 2020-04-22</span>
+<span id="revdate">Zimbra Collaboration 9.0.0</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -133,6 +131,8 @@
 <li><a href="#_edit_an_event">Edit an event</a></li>
 <li><a href="#_delete_an_event">Delete an event</a></li>
 <li><a href="#_copy_an_event">Copy an Event</a></li>
+<li><a href="#_forward_an_event">Forward an Event</a></li>
+<li><a href="#_propose_a_new_time">Propose a New Time</a></li>
 <li><a href="#_event_appointmentmeeting_recurrence">Event (Appointment/Meeting) Recurrence</a></li>
 <li><a href="#_edit_recurring_event">Edit Recurring Event</a></li>
 <li><a href="#_delete_recurring_event">Delete Recurring Event</a></li>
@@ -183,7 +183,7 @@
 <ul class="sectlevel3">
 <li><a href="#_storage">Storage</a></li>
 <li><a href="#_date_time">Date &amp; Time</a></li>
-<li><a href="#_zimbra_9_version">Zimbra 9 Version</a></li>
+<li><a href="#_zimbra_version">Zimbra Version</a></li>
 </ul>
 </li>
 <li><a href="#_viewing_email">Viewing Email</a>
@@ -209,8 +209,10 @@
 </li>
 <li><a href="#_account_settings">Account Settings</a>
 <ul class="sectlevel3">
-<li><a href="#_change_the_name_on_your_zimbra_9_account">Change the name on your Zimbra 9 account</a></li>
-<li><a href="#_change_your_zimbra_9_mailbox_name">Change your Zimbra 9 Mailbox Name</a></li>
+<li><a href="#_add_an_account">Add an Account</a></li>
+<li><a href="#_change_the_name_on_your_zimbra_account">Change the name on your Zimbra account</a></li>
+<li><a href="#_change_your_zimbra_mailbox_name">Change your Zimbra Mailbox Name</a></li>
+<li><a href="#_add_a_persona">Add a Persona</a></li>
 <li><a href="#_two_factor_authentication_2">Two-factor Authentication</a></li>
 <li><a href="#_adding_an_app_passcode">Adding an App Passcode</a></li>
 <li><a href="#_reply_to_address">Reply-to Address</a></li>
@@ -250,6 +252,7 @@
 <ul class="sectlevel3">
 <li><a href="#_general_calendar_settings">General Calendar Settings</a></li>
 <li><a href="#_event_reminders">Event Reminders</a></li>
+<li><a href="#_free_busy_permission">Free Busy Permission</a></li>
 </ul>
 </li>
 </ul>
@@ -338,10 +341,10 @@ Buffalo, New York 14202</p>
 <h2 id="_what_is_modern_web_app">What is Modern Web App?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Zimbra 9 is a full-featured messaging and collaboration solution that includes email, address book, calendaring, tasks, and Web document authoring.</p>
+<p>Zimbra is a full-featured messaging and collaboration solution that includes email, address book, calendaring, tasks, and Web document authoring.</p>
 </div>
 <div class="paragraph">
-<p>Zimbra 9 comes with a <strong>Modern Web App</strong> that is a new-age email application usable from virtually any device or screen size.</p>
+<p>Zimbra comes with a <strong>Modern Web App</strong> that is a new-age email application usable from virtually any device or screen size.</p>
 </div>
 <div class="paragraph">
 <p>It is secure, flexible, and scalable to meet spikes in demand and comes with built-in rich user experience.</p>
@@ -375,7 +378,7 @@ You can select to use the default client, or change the client version.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Contact the Zimbra 9 administrator for the login URL and credentials.
+Contact the Zimbra administrator for the login URL and credentials.
 </td>
 </tr>
 </table>
@@ -384,10 +387,10 @@ Contact the Zimbra 9 administrator for the login URL and credentials.
 <div class="content">
 <img src="images/screenshots/login-version-list.png" alt="login page">
 </div>
-<div class="title">Figure 1. Zimbra 9 login page</div>
+<div class="title">Figure 1. Zimbra login page</div>
 </div>
 <div class="paragraph">
-<p>Zimbra 9 client has two versions&#8201;&#8212;&#8201;<strong>Modern</strong> and <strong>Classic</strong>.
+<p>Zimbra client has two versions&#8201;&#8212;&#8201;<strong>Modern</strong> and <strong>Classic</strong>.
 A <strong>Default</strong> option also appears in the version drop-down.
 After login, you can <a href="#_zimbra_version">choose</a> either <strong>Modern</strong> or <strong>Classic</strong> to be the default client.</p>
 </div>
@@ -403,10 +406,10 @@ After login, you can <a href="#_zimbra_version">choose</a> either <strong>Modern
 <p>Enter the password in the <strong>Password</strong> field.</p>
 </li>
 <li>
-<p>Choose <strong>Modern</strong> from the <strong>Version</strong> drop-down to experience the all new Zimbra 9 email.</p>
+<p>Choose <strong>Modern</strong> from the <strong>Version</strong> drop-down to experience the all new Zimbra email.</p>
 </li>
 <li>
-<p>Check the box <strong>Stay signed in</strong> to avoid entering your password each time you launch Zimbra 9.</p>
+<p>Check the box <strong>Stay signed in</strong> to avoid entering your password each time you launch Zimbra.</p>
 </li>
 <li>
 <p>Click <strong>Sign In</strong> to login.</p>
@@ -419,13 +422,18 @@ After login, you can <a href="#_zimbra_version">choose</a> either <strong>Modern
 <h2 id="_two_factor_authentication">Two-factor Authentication</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Two-factor Authentication</strong> (2FA) is a method of confirming your identity by utilizing an information like password and a second factor in the form of a code through apps like <a href="https://authy.com/download/">Authy<sup>&#174;</sup></a>.</p>
+<p><strong>Two-factor Authentication</strong> (2FA) is a method of confirming your identity by utilizing an information like password and a second factor in the form of a code through Time-based One Time Password (TOTP) apps.
+Please visit the wiki for <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
 </div>
 <div class="paragraph">
-<p>In Zimbra 9, administrators have the option to enable or enforce Two-factor authentication.</p>
+<p>In Zimbra, administrators have the option to enable or enforce Two-factor authentication.</p>
 </div>
 <div class="paragraph">
-<p>Below sections explain both cases&#8201;&#8212;&#8201;when two-factor authentication is enforced or only enabled.</p>
+<p>When the Two-factor connection is only enabled, not enforced, you have the option to set it up from <a href="#_two_factor_authentication">Settings &#8594; Accounts</a> at your convenience.
+In such a case, you can log in with just your username and password.</p>
+</div>
+<div class="paragraph">
+<p>Below section explains the case when administrator has <strong>enforced</strong> the two-factor authentication for your account.</p>
 </div>
 <div class="sect2">
 <h3 id="_2fa_enforced">2FA Enforced</h3>
@@ -436,7 +444,7 @@ You cannot use the application until you set up 2FA on your account.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Launch Zimbra 9.</p>
+<p>Launch Zimbra.</p>
 </li>
 <li>
 <p>Login using an authorized username and password.</p>
@@ -464,10 +472,10 @@ Check <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
 <p>Once installed, configure it on your smartphone.</p>
 </li>
 <li>
-<p>Click <strong>Next</strong> on the Zimbra 9 screen to begin the process of adding this account to the authentication app.</p>
+<p>Click <strong>Next</strong> on the Zimbra screen to begin the process of adding this account to the authentication app.</p>
 </li>
 <li>
-<p>On the authenticator app, scan the QR code or enter the code generated on the Zimbra 9 screen.</p>
+<p>On the authenticator app, scan the QR code or enter the code generated on the Zimbra screen.</p>
 </li>
 <li>
 <p>Click <strong>Next</strong>.</p>
@@ -485,7 +493,7 @@ Check <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
 <h2 id="_mail">Mail</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This section familiarizes you with Zimbra 9&#8217;s email interface.</p>
+<p>This section familiarizes you with Zimbra&#8217;s email interface.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -529,7 +537,7 @@ You can also right-click this folder to create subfolders.</p>
 </dd>
 <dt class="hdlist1">Drafts</dt>
 <dd>
-<p>Mails that you have written and saved&#8201;&#8212;&#8201;or which Zimbra 9 saved while you were composing them&#8201;&#8212;&#8201;but not yet sent appear under drafts folder.</p>
+<p>Mails that you have written and saved&#8201;&#8212;&#8201;or which Zimbra saved while you were composing them&#8201;&#8212;&#8201;but not yet sent appear under drafts folder.</p>
 </dd>
 <dt class="hdlist1">Sent</dt>
 <dd>
@@ -538,7 +546,7 @@ You can right-click this folder to create subfolders.</p>
 </dd>
 <dt class="hdlist1">Junk</dt>
 <dd>
-<p>Zimbra 9 moves all the unwanted or spam emails here to keep them out of your Inbox.</p>
+<p>Zimbra moves all the unwanted or spam emails here to keep them out of your Inbox.</p>
 </dd>
 <dt class="hdlist1">Trash</dt>
 <dd>
@@ -627,7 +635,7 @@ The deleted emails appear in the <strong>Trash</strong>* folder.</p>
 <div class="sect2">
 <h3 id="_keyboard_shortcuts">Keyboard Shortcuts</h3>
 <div class="paragraph">
-<p>Zimbra 9 supports keyboard shortcuts; to see what shortcuts are defined, type <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Q</kbd></span>.
+<p>Zimbra supports keyboard shortcuts; to see what shortcuts are defined, type <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Q</kbd></span>.
 The available keyboard shortcuts are context-sensitive.
 <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Q</kbd></span> displays different shortcuts depending on whether you have selected mail, calendar, or contacts.</p>
 </div>
@@ -708,7 +716,7 @@ Tag names can include any character except a colon (:), forward-slash (/), and q
 </div>
 </li>
 <li>
-<p>Click <strong>Save</strong>.</p>
+<p>Click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -730,7 +738,7 @@ Tag names can include any character except a colon (:), forward-slash (/), and q
 <p>Enter the new Tag name and select a color for the tag.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong>.</p>
+<p>Click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -841,7 +849,7 @@ The emails stay safe in their respective folders.</p>
 <div class="sect2">
 <h3 id="_import_email_folders">Import Email Folders</h3>
 <div class="paragraph">
-<p>You can import email folders directly in Zimbra 9, provided the folders to import are in <code>.tgz</code> format.</p>
+<p>You can import email folders directly in Zimbra, provided the folders to import are in <code>.tgz</code> format.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -869,7 +877,7 @@ The emails stay safe in their respective folders.</p>
 <div class="sect2">
 <h3 id="_export_email_folders">Export Email Folders</h3>
 <div class="paragraph">
-<p>You can export email folders directly in Zimbra 9 in <code>.tgz</code> format.</p>
+<p>You can export email folders directly in Zimbra in <code>.tgz</code> format.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -924,13 +932,25 @@ The emails stay safe in their respective folders.</p>
 <p>Enter the email address(s) with whom to share the email folders.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong> for changes to take effect.</p>
+<p>Click <b class="button">Save</b> for changes to take effect.</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
 <p>If the recipient declines the share, you receive a notification email.
 Similarly, when you revoke the share, the recipient also receives an email notification.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+When you revoke access to a folder you shared, the folder appears with a strikethrough to receivers of that shared folder.
+</td>
+</tr>
+</table>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -974,8 +994,34 @@ You can click suggestions, or select them with the arrow keys and press <kbd>Ent
 <h3 id="_select_contacts">Select Contacts</h3>
 <div class="paragraph">
 <p>When composing an email, click <strong>To</strong> to launch <strong>Choose Contacts</strong> window.
-Alternatively, begin typing recipients to bring up suggestions from which to choose.
-These email addresses can be copied and pasted to <strong>Cc</strong> and <strong>Bcc</strong> fields as well.</p>
+Alternatively, begin typing recipients to bring up suggestions from which to choose.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+The first suggestion in the auto-complete list is highlighted. You can use Tab, Comma, Semi-colon, or Enter keys to <em>select</em> a highlighted contact.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>These email addresses can be copied and pasted to <strong>Cc</strong> and <strong>Bcc</strong> fields as well.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You can drag and drop email addresses anywhere in <strong>To</strong>, <strong>Cc</strong>, and <strong>Bcc</strong> fields.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>Pick a context for searching and choosing contacts.
@@ -994,7 +1040,7 @@ The options are from your Contact Folders and <a href="#_create_a_contact_list">
 <dt class="hdlist1">Global Address List</dt>
 <dd>
 <p>These are people whose email address domain is the same as yours.
-However, only a Zimbra 9 administrator can enable this feature.</p>
+However, only a Zimbra administrator can enable this feature.</p>
 </dd>
 <dt class="hdlist1">My Contacts</dt>
 <dd>
@@ -1085,6 +1131,19 @@ However, only a Zimbra 9 administrator can enable this feature.</p>
 The selected file now appears as an attachment.</p>
 </li>
 </ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You can cancel the attachment upload when it is in progress.
+Hover on the attachment and click <span class="image"><img src="images/graphics/close.svg" alt="Close" width="20px"></span>.
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -1217,11 +1276,6 @@ However, adding more criteria reduces search time and refines the search results
 </table>
 </div>
 <div style="page-break-after: always;"></div>
-<div class="paragraph">
-<p>In the subsequent steps, you can import all your old emails to the new folder in local storage.
-For this example and subsequent steps, we have named this folder <strong>NewLocalFolder</strong>.</p>
-</div>
-<div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
@@ -1229,7 +1283,7 @@ For this example and subsequent steps, we have named this folder <strong>NewLoca
 <h2 id="_contacts">Contacts</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This section familiarizes you with Zimbra 9&#8217;s contacts tab interface.
+<p>This section familiarizes you with Zimbra&#8217;s contacts tab interface.
 Click <b class="button">Contacts</b> tab to bring up the following interface.</p>
 </div>
 <div class="imageblock">
@@ -1267,9 +1321,9 @@ You also see folders you create and those shared with you, including:</p>
 <dd>
 <p>It shows all your contacts that you have added manually.</p>
 </dd>
-<dt class="hdlist1">Deleted Contacts</dt>
+<dt class="hdlist1">Trash</dt>
 <dd>
-<p>It lists contacts that you have deleted.</p>
+<p>It lists all the deleted contacts.</p>
 </dd>
 <dt class="hdlist1">Emailed Contacts</dt>
 <dd>
@@ -1281,7 +1335,7 @@ You also see folders you create and those shared with you, including:</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Zimbra 9 Enterprise users see a fourth folder&#8201;&#8212;&#8201;Global Address List.
+Zimbra Enterprise users see a fourth folder&#8201;&#8212;&#8201;Global Address List.
 This folder lists all the contacts in your organization.
 </td>
 </tr>
@@ -1325,7 +1379,7 @@ Refer to <a href="#_manage_contact_lists">Manage Contact Lists</a>.</p>
 <h3 id="_create_a_new_contact">Create a New Contact</h3>
 <div class="paragraph">
 <p>Keep track of everyone you communicate with by creating contacts.
-Once you&#8217;ve added a contact, you can type the first few letters of their name into an email, and Zimbra 9 displays their names as suggestions.</p>
+Once you&#8217;ve added a contact, you can type the first few letters of their name into an email, and Zimbra displays their names as suggestions.</p>
 </div>
 <div class="sect3">
 <h4 id="_add_a_contact_from_email">Add a Contact from Email</h4>
@@ -1341,7 +1395,7 @@ Once you&#8217;ve added a contact, you can type the first few letters of their n
 <p>Select <strong>Add to contacts</strong>.</p>
 </li>
 <li>
-<p>Zimbra 9 adds the user to your contacts folder.</p>
+<p>Zimbra adds the user to your contacts folder.</p>
 </li>
 </ol>
 </div>
@@ -1360,7 +1414,7 @@ Once you&#8217;ve added a contact, you can type the first few letters of their n
 <p>Add any relevant details you want.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong>.</p>
+<p>Click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -1381,7 +1435,7 @@ All added contacts appear under <strong>Contacts</strong>.
 <div class="sect2">
 <h3 id="_import_contacts">Import Contacts</h3>
 <div class="paragraph">
-<p>You can import contacts in different formats into Zimbra 9.</p>
+<p>You can import contacts in different formats into Zimbra.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1398,7 +1452,7 @@ All added contacts appear under <strong>Contacts</strong>.
 <p>Select <strong>Browse</strong>, go to your saved contacts file, and select it.</p>
 </li>
 <li>
-<p>Click <strong>Import</strong> to import the contacts to Zimbra 9.</p>
+<p>Click <strong>Import</strong> to import the contacts to Zimbra.</p>
 </li>
 </ol>
 </div>
@@ -1406,7 +1460,7 @@ All added contacts appear under <strong>Contacts</strong>.
 <div class="sect2">
 <h3 id="_export_contacts">Export Contacts</h3>
 <div class="paragraph">
-<p>In Zimbra 9, you can export your contacts in various formats to make them portable and take a backup if required. Zimbra 9 exports contacts in the following formats:</p>
+<p>In Zimbra, you can export your contacts in various formats to make them portable and take a backup if required. Zimbra exports contacts in the following formats:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1473,7 +1527,7 @@ All added contacts appear under <strong>Contacts</strong>.
 <p>Edit any relevant details you want.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong>.</p>
+<p>Click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -1489,10 +1543,7 @@ All added contacts appear under <strong>Contacts</strong>.
 <p>Select <strong>Delete</strong>.</p>
 </li>
 <li>
-<p>Edit any relevant details you want.</p>
-</li>
-<li>
-<p>Click <strong>Save</strong>.</p>
+<p>The deleted contact moves to Contacts' <strong>Trash</strong> folder.</p>
 </li>
 </ol>
 </div>
@@ -1513,7 +1564,7 @@ For details check <a href="#_manage_contact_folders">Manage Contact Folders</a>.
 <div class="sect2">
 <h3 id="_share_a_contact">Share a Contact</h3>
 <div class="paragraph">
-<p>When you share a contact, Zimbra 9 exports a <em>card</em> with the information of the selected contact as an email attachment.</p>
+<p>When you share a contact, Zimbra exports a <em>card</em> with the information of the selected contact as an email attachment.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1530,7 +1581,7 @@ For details check <a href="#_manage_contact_folders">Manage Contact Folders</a>.
 <p>Enter the receiver&#8217;s email address.</p>
 </li>
 <li>
-<p>Click <strong>Send</strong>.</p>
+<p>Click <b class="button">Send</b>.</p>
 </li>
 </ol>
 </div>
@@ -1557,7 +1608,7 @@ For details check <a href="#_manage_contact_folders">Manage Contact Folders</a>.
 <div class="sect2">
 <h3 id="_global_address_list">Global Address List</h3>
 <div class="paragraph">
-<p>The Global Address List (GAL) is a directory of users within an organization that is available to all users of the email system. Zimbra 9 uses this directory to look up user addresses from within the company.</p>
+<p>The Global Address List (GAL) is a directory of users within an organization that is available to all users of the email system. Zimbra uses this directory to look up user addresses from within the company.</p>
 </div>
 <div class="paragraph">
 <p>If your administrator has set up GAL, you can access it under Contacts.</p>
@@ -1569,7 +1620,7 @@ For details check <a href="#_manage_contact_folders">Manage Contact Folders</a>.
 <div class="paragraph">
 <p>You can create a list containing your contacts and store that list under the <strong>Contacts</strong> folder.
 It is especially helpful when you want to send an email to a specific set of people.
-So instead of typing everyone&#8217;s email address, you type in the name of your list, and Zimbra 9 sends the email to all addresses in that list.</p>
+So instead of typing everyone&#8217;s email address, you type in the name of your list, and Zimbra sends the email to all addresses in that list.</p>
 </div>
 <div class="paragraph">
 <p>It is a two-step process.</p>
@@ -1654,13 +1705,13 @@ The following are few more ways in which you can add contacts to lists.</p>
 <p>Select the list.</p>
 </li>
 <li>
-<p>Zimbra 9 populates the  <strong>To</strong> with all the email addresses from that list.</p>
+<p>Zimbra populates the  <strong>To</strong> with all the email addresses from that list.</p>
 </li>
 <li>
 <p>Type in the body of the email.</p>
 </li>
 <li>
-<p>Click <strong>Send</strong>.</p>
+<p>Click <b class="button">Send</b>.</p>
 </li>
 </ol>
 </div>
@@ -1837,7 +1888,7 @@ You can perform actions like creating folders, subfolders, and moving contacts a
 <p>Enter the email address(s) with whom to share the contact folder.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong> for changes to take effect.</p>
+<p>Click <b class="button">Save</b> for changes to take effect.</p>
 </li>
 </ol>
 </div>
@@ -1859,7 +1910,7 @@ You can perform actions like creating folders, subfolders, and moving contacts a
 The drop-down is on the left of the search box.</p>
 </div>
 <div class="paragraph">
-<p>Zimbra 9 brings up the contacts with details matching the words you typed.</p>
+<p>Zimbra brings up the contacts with details matching the words you typed.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -1870,7 +1921,7 @@ The drop-down is on the left of the search box.</p>
 <h2 id="_calendar">Calendar</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This section familiarizes you with Zimbra 9&#8217;s calendar interface.</p>
+<p>This section familiarizes you with Zimbra&#8217;s calendar interface.</p>
 </div>
 <div class="paragraph">
 <p>Click <b class="button">Calendar</b> to bring up the following interface.</p>
@@ -2071,6 +2122,7 @@ Enable this feature from <a href="settings-otheroptions.html#_general_calendar_s
 <td class="content">
 To create this event like a meeting, type the email address of the invitees.
 Alternatively, click the link <strong>Invitees</strong> and choose from the list of people that appears.
+Click <b class="button">Show Availability</b> to see when your invitees are available.
 </td>
 </tr>
 </table>
@@ -2106,7 +2158,7 @@ Choose <strong>Never</strong> if you do not want notification of this appointmen
 <p>Leave the field <strong>Calendar</strong> as-is if it is showing the calendar you want to place the event in, or if there are no other calendars set up.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong> to save this appointment in your calendar.</p>
+<p>Click <b class="button">Save</b> to save this appointment in your calendar.</p>
 </li>
 </ol>
 </div>
@@ -2142,7 +2194,7 @@ Choose <strong>Never</strong> if you do not want notification of this appointmen
 <p>An interface similar to <a href="#_schedule_an_event">Schedule an event</a> appears.</p>
 </li>
 <li>
-<p>Edit the relevant information and click <strong>Save</strong>.</p>
+<p>Edit the relevant information and click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2187,9 +2239,75 @@ Choose <strong>Never</strong> if you do not want notification of this appointmen
 <p>An interface similar to <a href="#_schedule_an_event">Schedule an event</a> appears.</p>
 </li>
 <li>
-<p>Change the relevant information and click <strong>Save</strong>.</p>
+<p>Change the relevant information and click <b class="button">Save</b>.</p>
 </li>
 </ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_forward_an_event">Forward an Event</h4>
+<div class="paragraph">
+<p>You can use a <strong>Forward</strong> action in a calendar event&#8217;s right-click context menu to forward the recurring event series or only that specific instance.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the appointment to forward in your calendar.</p>
+</li>
+<li>
+<p>Right-click the event to bring up the context menu and choose <strong>Forward</strong>.</p>
+</li>
+<li>
+<p>If the selected event is a <a href="#_event_appointmentmeeting_recurrence">recurring event</a>, choose if you want to forward <strong>This event only</strong> or <strong>All Events</strong>.</p>
+</li>
+<li>
+<p>Add more invitees under the <strong>To</strong> field.</p>
+</li>
+<li>
+<p>You can give additional information in the <strong>Notes</strong> section.</p>
+</li>
+<li>
+<p>Click <b class="button">Send</b> to forward the event.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_propose_a_new_time">Propose a New Time</h4>
+<div class="paragraph">
+<p>You can propose a mew time for an event.
+You can propose a new time when you receive the invitation, or later from your calendar.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Propose a new time from invitation email</dt>
+<dd>
+<p>Click <strong>Propose a new time</strong> <span class="image"><img src="images/graphics/calendar-range.svg" alt="calendar range" width="20"></span> in your invitation email&#8217;s RSVP section.
+On the <strong>Propose new time</strong> screen, set a preferred time and click <b class="button">Send</b>.</p>
+</dd>
+<dt class="hdlist1">Propose a new time from calendar</dt>
+<dd>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the appointment, for which you want to propose a new time, in your calendar.</p>
+</li>
+<li>
+<p>Right-click the event to bring up the context menu and choose <strong>Propose new time</strong>.</p>
+</li>
+<li>
+<p>If the event is a recurring event, choose if you are proposing new time for <strong>This event only</strong> or <strong>All Events</strong>.</p>
+</li>
+<li>
+<p>On the <strong>Propose new time</strong> screen, set a preferred time and click <b class="button">Send</b>.</p>
+</li>
+<li>
+<p>A toast notification confirms when proposed time is sent.</p>
+</li>
+</ol>
+</div>
+</dd>
+</dl>
 </div>
 </div>
 <div class="sect3">
@@ -2289,7 +2407,7 @@ You then want to schedule your meeting every second Friday.</em></p>
 <p>An interface similar to <a href="#_schedule_an_event">Schedule an event</a> appears.</p>
 </li>
 <li>
-<p>Edit the relevant information and click <strong>Save</strong>.</p>
+<p>Edit the relevant information and click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2321,27 +2439,41 @@ You then want to schedule your meeting every second Friday.</em></p>
 <div class="paragraph">
 <p>An invitation appears in the <strong>Inbox</strong> with <span class="image"><img src="images/graphics/calendar-o.svg" alt="calendar icon" width="20"></span>.
 There are three responses to an event when you are an invitee.
-In the RSVP section of an invitation, you have an option to send a response email.</p>
+In the RSVP section of an invitation, you have an option to send a response email or propose a new time.
+Clicking RSVP actions&#8201;&#8212;&#8201;Accept, Tentative, or Decline&#8201;&#8212;&#8201;brings up a checkbox and a text area.
+Check the box, type in your response, and click <b class="button">Save</b> to send a response to the sender.</p>
 </div>
 <div class="paragraph">
-<p><strong>Accept</strong> <span class="image"><img src="images/graphics/check-circle.svg" alt="check circle" width="20"></span>: Zimbra 9 saves the event in your calendar.
+<p><strong>Accept</strong> <span class="image"><img src="images/graphics/check-circle.svg" alt="check circle" width="20"></span>: Zimbra saves the event in your calendar.
 A notification reminds you before that event starts.</p>
 </div>
 <div class="paragraph">
-<p><strong>Tentative</strong> <span class="image"><img src="images/graphics/question-circle.svg" alt="question circle" width="20"></span>: Zimbra 9 saves the event in your calendar.
+<p><strong>Tentative</strong> <span class="image"><img src="images/graphics/question-circle.svg" alt="question circle" width="20"></span>: Zimbra saves the event in your calendar.
 A notification reminds you before that event starts.
 However, you can revisit the event anytime to mark it as Accept or Decline.</p>
 </div>
 <div class="paragraph">
-<p><strong>Decline</strong> <span class="image"><img src="images/graphics/close-circle.svg" alt="close circle" width="20"></span>: Zimbra 9 deletes the event, and the event does not make it to your calendar.</p>
+<p><strong>Decline</strong> <span class="image"><img src="images/graphics/close-circle.svg" alt="close circle" width="20"></span>: Zimbra deletes the event, and the event does not make it to your calendar.</p>
 </div>
 <div class="paragraph">
-<p>Right next to these buttons, you can choose if you want to send a response email.</p>
+<p><strong>Propose a new time</strong> <span class="image"><img src="images/graphics/calendar-range.svg" alt="calendar range" width="20"></span>: {product short} launches the edit event dialog to <a href="#_propose_a_new_time">Propose a New Time</a> for that event.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Event organizers have an option to accept or decline the proposed time.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>Zimbra 9 marks the invitations that you have not yet responded with a bar on the left.
+<p>Zimbra marks the invitations that you have not yet responded with a bar on the left.
 You may respond to the invitation in the calendar or the Mail section.
-Once you have responded, Zimbra 9 deletes the invitation email.</p>
+Once you have responded, Zimbra deletes the invitation email.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2421,10 +2553,10 @@ They can also add and remove events (<strong>including</strong> private events) 
 <p>Click <strong>Change</strong> next to invitees and edit their permissions&#8201;&#8212;&#8201;or remove the invitees altogether.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong>.</p>
+<p>Click <b class="button">Save</b>.</p>
 </li>
 <li>
-<p>Zimbra 9 sends a link to receivers who have an option to accept or decline the invitation.</p>
+<p>Zimbra sends a link to receivers who have an option to accept or decline the invitation.</p>
 </li>
 </ol>
 </div>
@@ -2485,7 +2617,7 @@ Your friend&#8217;s calendar now appears under <strong>Others</strong>.</p>
 <p>Enter your friend&#8217;s email address.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong>.</p>
+<p>Click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2522,7 +2654,7 @@ You can add your friend&#8217;s calendar only when they have shared it.
 <p>Click <strong>Next</strong> and choose the color to differentiate this calendar from the rest.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong> to save the changes.
+<p>Click <b class="button">Save</b> to save the changes.
 Your new subscribed calendar appears under <strong>Holidays</strong>.</p>
 </li>
 </ol>
@@ -2686,7 +2818,7 @@ Tasks that are past due appear first, followed by tasks that are needed later.</
 <h2 id="_managing_your_profile">Managing your Profile</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This feature in Zimbra 9 helps change your login password and upload a profile image.
+<p>This feature in Zimbra helps change your login password and upload a profile image.
 Recipients of your email, however, may not see your image when they receive your emails.</p>
 </div>
 <div class="sect2">
@@ -2752,7 +2884,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <p>Click <span class="image"><img src="images/graphics/rotate_left.svg" alt="counter clockwise arrow icon" width="20"></span> or <span class="image"><img src="images/graphics/rotate_right.svg" alt="clockwise arrow icon" width="20"></span> to rotate the picture a quarter turn left or right.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong> to apply the changes.</p>
+<p>Click <b class="button">Save</b> to apply the changes.</p>
 </li>
 </ol>
 </div>
@@ -2764,7 +2896,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <h2 id="_settings">Settings</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Settings in Zimbra 9 have multiple features like changing signatures, creating filters, and mail reading behavior being a few among many.</p>
+<p>Settings in Zimbra have multiple features like changing signatures, creating filters, and mail reading behavior being a few among many.</p>
 </div>
 <div class="sect2">
 <h3 id="_general">General</h3>
@@ -2774,7 +2906,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <div class="sect3">
 <h4 id="_storage">Storage</h4>
 <div class="paragraph">
-<p>This section of the Modern Web App displays the storage space that you are using on the Zimbra 9 server.</p>
+<p>This section of the Modern Web App displays the storage and the allocated space that you are using on the Zimbra server.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2836,9 +2968,9 @@ The frame with dashed borders can be resized and repositioned.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_zimbra_9_version">Zimbra 9 Version</h4>
+<h4 id="_zimbra_version">Zimbra Version</h4>
 <div class="paragraph">
-<p>Here you choose the Zimbra 9 version you want to use.</p>
+<p>Here you choose the Zimbra version you want to use.</p>
 </div>
 <div class="dlist">
 <dl>
@@ -2860,7 +2992,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <div class="sect3">
 <h4 id="_group_emails_into_conversations">Group emails into conversations</h4>
 <div class="paragraph">
-<p>When you reply to an email, Zimbra 9 groups responses together in conversations with the newest email on the top.</p>
+<p>When you reply to an email, Zimbra groups responses together in conversations with the newest email on the top.</p>
 </div>
 <div class="paragraph">
 <p>A conversation breaks off into a new conversation if the subject line changes.</p>
@@ -2874,7 +3006,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <p>Under <strong>Viewing Email</strong>, check the box <strong>Enable Conversations</strong> to group the messages or uncheck this box to ungroup the messages.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2882,7 +3014,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <div class="sect3">
 <h4 id="_show_email_snippets">Show Email Snippets</h4>
 <div class="paragraph">
-<p>By default, Zimbra 9 shows you <em>snippets</em>, or previews, of your messages in the <a href="#_email_pane">email pane</a>. If you do not need the snippets or feel that they make your Inbox look cluttered, you can turn the snippets off.</p>
+<p>By default, Zimbra shows you <em>snippets</em>, or previews, of your messages in the <a href="#_email_pane">email pane</a>. If you do not need the snippets or feel that they make your Inbox look cluttered, you can turn the snippets off.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -2893,7 +3025,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <p>Under <strong>Viewing Email</strong>, uncheck the box <strong>Show snippets</strong> to turn them off.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2901,7 +3033,7 @@ The frame with dashed borders can be resized and repositioned.</p>
 <div class="sect3">
 <h4 id="_group_emails_by_date">Group Emails by date</h4>
 <div class="paragraph">
-<p>Zimbra 9, by default, groups your email conversations by date.
+<p>Zimbra, by default, groups your email conversations by date.
 So you see email groups like <em>Today</em>, <em>Yesterday</em>, <em>Last week</em>, and so on.
 You can disable this setting.</p>
 </div>
@@ -2915,7 +3047,7 @@ You can disable this setting.</p>
 Your emails appear sorted by date, but they do not appear in groups.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2923,7 +3055,7 @@ Your emails appear sorted by date, but they do not appear in groups.</p>
 <div class="sect3">
 <h4 id="_email_preview_pane">Email Preview Pane</h4>
 <div class="paragraph">
-<p>The preview pane in Zimbra 9 displays the selected email&#8217;s content.</p>
+<p>The preview pane in Zimbra displays the selected email&#8217;s content.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -2950,7 +3082,7 @@ Your emails appear sorted by date, but they do not appear in groups.</p>
 </div>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2969,7 +3101,7 @@ Your emails appear sorted by date, but they do not appear in groups.</p>
 <p>Under <strong>Viewing Email</strong>, click the <strong>Message list density</strong> drop-down.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -2977,7 +3109,7 @@ Your emails appear sorted by date, but they do not appear in groups.</p>
 <div class="sect3">
 <h4 id="_mark_emails_as_read">Mark Emails as Read</h4>
 <div class="paragraph">
-<p>Zimbra 9 immediately marks a message as read when you select it.
+<p>Zimbra immediately marks a message as read when you select it.
 To change this behavior:</p>
 </div>
 <div class="olist arabic">
@@ -3010,7 +3142,7 @@ For details, refer to <a href="#_reading_pane">reading pane tools</a>.</p>
 </div>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3018,7 +3150,7 @@ For details, refer to <a href="#_reading_pane">reading pane tools</a>.</p>
 <div class="sect3">
 <h4 id="_check_for_new_emails">Check for New Emails</h4>
 <div class="paragraph">
-<p>Zimbra 9 checks for new emails at regular intervals.
+<p>Zimbra checks for new emails at regular intervals.
 You can, however, override the default settings.</p>
 </div>
 <div class="olist arabic">
@@ -3030,20 +3162,20 @@ You can, however, override the default settings.</p>
 <p>Under <strong>Viewing Email</strong>, click the <strong>Check for new mail</strong> drop-down.</p>
 </li>
 <li>
-<p>You can choose a duration from the drop-down when Zimbra 9 checks for new mail.</p>
+<p>You can choose a duration from the drop-down when Zimbra checks for new mail.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
 <p>Click the reload icon beside <strong>Inbox</strong> to check for new emails <strong>Manually</strong>. This reload icon becomes visible when you hover the mouse on the Inbox.</p>
 </li>
 <li>
-<p>Choose <strong>As new mail arrives</strong> to have Zimbra 9 repeatedly check for new emails.</p>
+<p>Choose <strong>As new mail arrives</strong> to have Zimbra repeatedly check for new emails.</p>
 </li>
 </ol>
 </div>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3054,7 +3186,7 @@ You can, however, override the default settings.</p>
 <p>If requested by the sender, you can send a read receipt to confirm that you have opened their message.</p>
 </div>
 <div class="paragraph">
-<p>In Zimbra 9, you can decline to send this read receipt, or have Zimbra 9 ask you for confirmation.</p>
+<p>In Zimbra, you can decline to send this read receipt, or have Zimbra ask you for confirmation.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -3089,13 +3221,13 @@ You can, however, override the default settings.</p>
 </dd>
 <dt class="hdlist1">Never Send</dt>
 <dd>
-<p>Choose this option, so Zimbra 9 does not send a read-receipt to recipients.</p>
+<p>Choose this option, so Zimbra does not send a read-receipt to recipients.</p>
 </dd>
 </dl>
 </div>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3103,17 +3235,17 @@ You can, however, override the default settings.</p>
 <div class="sect3">
 <h4 id="_email_notifications">Email Notifications</h4>
 <div class="paragraph">
-<p>You can choose when Zimbra 9 notifies you of new emails.</p>
+<p>You can choose when Zimbra notifies you of new emails.</p>
 </div>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">When a new message arrives in Inbox</dt>
 <dd>
-<p>When you choose this option, Zimbra 9 notifies you of new emails <strong>only</strong> whem they arrive in <strong>Inbox</strong>. You are not notified of emails arriving in other folders due to <a href="#settings-filters.adoc">filters</a>.</p>
+<p>When you choose this option, Zimbra notifies you of new emails <strong>only</strong> whem they arrive in <strong>Inbox</strong>. You are not notified of emails arriving in other folders due to <a href="#settings-filters.adoc">filters</a>.</p>
 </dd>
 <dt class="hdlist1">When a new message arrives in any folder</dt>
 <dd>
-<p>When you choose this option, Zimbra 9 notifies you of each new email, irrespective of the folder in which they are arriving.</p>
+<p>When you choose this option, Zimbra notifies you of each new email, irrespective of the folder in which they are arriving.</p>
 </dd>
 </dl>
 </div>
@@ -3143,7 +3275,7 @@ When you click <strong>Undo</strong>, a notification informs you that sending ha
 <p>Under <strong>Writing Email</strong>, check <strong>Enable</strong> against <strong>Undo send</strong> to enable this feature.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3162,7 +3294,7 @@ When you click <strong>Undo</strong>, a notification informs you that sending ha
 <p>Under <strong>Writing Email</strong>, check <strong>Always</strong> against <strong>Request read receipts</strong> to enable this feature.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3193,7 +3325,7 @@ Check <a href="#_request_read_receipts">Request Read Receipts</a> on how to requ
 <p>Under <strong>Writing Email</strong>, uncheck <strong>Enable</strong> against <strong>Save a copy to Sent folder</strong> to disable saving emails in the Sent folder.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3201,7 +3333,7 @@ Check <a href="#_request_read_receipts">Request Read Receipts</a> on how to requ
 <div class="sect3">
 <h4 id="_delegation">Delegation</h4>
 <div class="paragraph">
-<p>You can let someone else manage your email account using Zimbra 9. Your delegates can read, send, and delete messages on your behalf.
+<p>You can let someone else manage your email account using Zimbra. Your delegates can read, send, and delete messages on your behalf.
 Messages your delegates send on your behalf show you as the sender.</p>
 </div>
 <div class="olist arabic">
@@ -3255,7 +3387,7 @@ Receivers of this email see your email address as the sender.</p>
 </dd>
 <dt class="hdlist1">Don&#8217;t save sent messages</dt>
 <dd>
-<p>Zimbra 9 does not save the email sent by your delegate.</p>
+<p>Zimbra does not save the email sent by your delegate.</p>
 </dd>
 </dl>
 </div>
@@ -3266,7 +3398,57 @@ Receivers of this email see your email address as the sender.</p>
 <div class="sect2">
 <h3 id="_account_settings">Account Settings</h3>
 <div class="sect3">
-<h4 id="_change_the_name_on_your_zimbra_9_account">Change the name on your Zimbra 9 account</h4>
+<h4 id="_add_an_account">Add an Account</h4>
+<div class="paragraph">
+<p>The Modern Web App can help you manage emails that you receive on other email addresses.
+Through the Modern Web App you can send and receive emails using these email addresses.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose <span class="image"><img src="images/graphics/plus.svg" alt="plus" width="20"></span> <strong>Add an account</strong>.</p>
+</li>
+<li>
+<p>Enter your email address in the <strong>Email Address</strong> field.</p>
+</li>
+<li>
+<p>Enter the password for this email address in the <strong>Password</strong> field.</p>
+<div class="openblock">
+<div class="content">
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You may need to generate an app password, if your email provider mandates it.
+Once generated, use the app password in the <strong>Password</strong> field.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Choose an account type, from <strong>POP</strong> or <strong>IMAP</strong>, that you want to configure with the Modern Web App.</p>
+</li>
+<li>
+<p>Enter the username associated with this email address.</p>
+</li>
+<li>
+<p>Type the mail server name in <strong>Mail Server</strong> field.
+Please check with your email provider for this information.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_change_the_name_on_your_zimbra_account">Change the name on your Zimbra account</h4>
 <div class="paragraph">
 <p>You can choose what name people see when you send them an email.</p>
 </div>
@@ -3282,15 +3464,15 @@ Receivers of this email see your email address as the sender.</p>
 <p>Under <strong>Your Name</strong> type in a name that you want people to see when they receive your emails.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_change_your_zimbra_9_mailbox_name">Change your Zimbra 9 Mailbox Name</h4>
+<h4 id="_change_your_zimbra_mailbox_name">Change your Zimbra Mailbox Name</h4>
 <div class="paragraph">
-<p>If you have multiple email accounts configured through Zimbra 9, you may want to differentiate them.</p>
+<p>If you have multiple email accounts configured through Zimbra, you may want to differentiate them.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -3304,16 +3486,73 @@ Receivers of this email see your email address as the sender.</p>
 <p>Under <strong>Description</strong> type in a name for this account.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_add_a_persona">Add a Persona</h4>
+<div class="paragraph">
+<p>A persona helps you create a separate email identity to manage different types of email.
+E.g., you can create a persona for your business email and one for your personal email.
+By using a persona, you can specify a different <strong>From</strong> address or a <strong>Reply-To</strong> address for emails sent using that persona.
+All outgoing email displays the email address of the persona that you are using.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose <span class="image"><img src="images/graphics/plus.svg" alt="plus" width="20"></span> <strong>Add a persona</strong>.</p>
+</li>
+<li>
+<p>Type a name under <strong>Persona Name</strong> to identify your persona.</p>
+</li>
+<li>
+<p>Choose an account from <strong>Send from this account</strong>.</p>
+</li>
+<li>
+<p>Type in a name which recipients see as the sender&#8217;s name.</p>
+<div class="openblock">
+<div class="content">
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If this box is empty, persona will use From name of the sending account.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Check <strong>Enable</strong> against <strong>Direct replies to a different email address</strong>, to receive replies on a different email address.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Enter a <em>Reply-to address</em>.</p>
+</li>
+<li>
+<p>Type in a <em>Reply-to name</em>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Click <strong>Add Persona</strong> to create this persona.</p>
 </li>
 </ol>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_two_factor_authentication_2">Two-factor Authentication</h4>
-<div class="paragraph">
-<p>You may have the option to enable or disable Two-factor Authentication (2FA) for your account.</p>
-</div>
 <div class="sect4">
 <h5 id="_2fa_enabled">2FA Enabled</h5>
 <div class="paragraph">
@@ -3342,10 +3581,10 @@ Check <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
 <p>Once installed, configure it on your smartphone.</p>
 </li>
 <li>
-<p>Click <strong>Next</strong> on the Zimbra 9 screen to begin the process of adding this account to the authentication app.</p>
+<p>Click <strong>Next</strong> on the Zimbra screen to begin the process of adding this account to the authentication app.</p>
 </li>
 <li>
-<p>On the authenticator app, scan the QR code or enter the code generated on the Zimbra 9 screen.</p>
+<p>On the authenticator app, scan the QR code or enter the code generated on the Zimbra screen.</p>
 </li>
 <li>
 <p>Click <strong>Next</strong>.</p>
@@ -3359,21 +3598,20 @@ Check <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
 <div class="sect4">
 <h5 id="_login_screen">Login Screen</h5>
 <div class="paragraph">
-<p>Once set up, Zimbra 9 prompts you to enter a code as part of every login.
-Enter the code displayed in your authenticator app at that time and click <strong>Verify</strong>.
-Two-factor authentication is now active on your account.</p>
+<p>Once set up, Zimbra prompts you to enter a code as part of every login.
+Enter the code displayed in your authenticator app at that time and click <strong>Verify</strong>.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_adding_trusted_devices">Adding Trusted Devices</h5>
 <div class="paragraph">
-<p>Once you have set up 2FA, Zimbra 9 requires a code from the authenticator app on each login.
+<p>Once you have set up 2FA, Zimbra requires a code from the authenticator app on each login.
 You can set a device as a trusted device, so you do not have to enter an authentication code.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Launch Zimbra 9.</p>
+<p>Launch Zimbra.</p>
 </li>
 <li>
 <p>Enter an authorized username and password.</p>
@@ -3396,7 +3634,7 @@ You can set a device as a trusted device, so you do not have to enter an authent
 <div class="sect4">
 <h5 id="_removing_trusted_devices">Removing Trusted Devices</h5>
 <div class="paragraph">
-<p>When you remove a device from the list of trusted devices, Zimbra 9 prompts you to enter the authentication code next time you attempt to login using that device.
+<p>When you remove a device from the list of trusted devices, Zimbra prompts you to enter the authentication code next time you attempt to login using that device.
 To remove a device from the list of trusted devices, login from the device you wish to remove from the trusted devices' list.</p>
 </div>
 <div class="olist arabic">
@@ -3428,7 +3666,7 @@ To remove all your devices from the list of trusted devices, <strong>except</str
 </table>
 </div>
 <div class="paragraph">
-<p>Zimbra 9 removes the target device from the list of trusted devices with immediate effect.</p>
+<p>Zimbra removes the target device from the list of trusted devices with immediate effect.</p>
 </div>
 </div>
 <div class="sect4">
@@ -3436,7 +3674,7 @@ To remove all your devices from the list of trusted devices, <strong>except</str
 <div class="paragraph">
 <p>One-time codes are a set of ten codes used to complete the two-factor authentication when you do not have access to the authentication app.
 You can use each of these unique codes only once.
-Zimbra 9 has an option to regenerate a new set of codes.
+Zimbra has an option to regenerate a new set of codes.
 We recommend that you copy and keep the codes in a safe place on the first available opportunity.</p>
 </div>
 <div class="admonitionblock important">
@@ -3446,7 +3684,7 @@ We recommend that you copy and keep the codes in a safe place on the first avail
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-You cannot log in to Zimbra 9 if you do not have the codes or access to the authenticator app.
+You cannot log in to Zimbra if you do not have the codes or access to the authenticator app.
 </td>
 </tr>
 </table>
@@ -3490,7 +3728,7 @@ Once clicked, <strong>Copy to clipboard</strong> changes to <strong>Copied</stro
 <div class="sect3">
 <h4 id="_adding_an_app_passcode">Adding an App Passcode</h4>
 <div class="paragraph">
-<p>Most desktop email programs have no way to ask for or enter the unique code to complete the two-factor authentication. Zimbra 9 helps you generate a passcode that you can use instead of your <em>real</em> account password when configuring your email program.</p>
+<p>Most desktop email programs have no way to ask for or enter the unique code to complete the two-factor authentication. Zimbra helps you generate a passcode that you can use instead of your <em>real</em> account password when configuring your email program.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -3514,7 +3752,7 @@ Once clicked, <strong>Copy to clipboard</strong> changes to <strong>Copied</stro
 You need this code when configuring your email program.</p>
 </li>
 <li>
-<p>Enter this passcode instead of your account password when configuring an email client with Zimbra 9.</p>
+<p>Enter this passcode instead of your account password when configuring an email client with Zimbra.</p>
 </li>
 </ol>
 </div>
@@ -3601,7 +3839,7 @@ You can disable 2FA only if the administrator has allowed this option for you.
 <p>Type in a name corresponding to the above email address.</p>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3609,7 +3847,7 @@ You can disable 2FA only if the administrator has allowed this option for you.
 <div class="sect3">
 <h4 id="_access_your_emails_elsewhere">Access your emails elsewhere</h4>
 <div class="paragraph">
-<p>You can set a forwarding address in Zimbra 9. Zimbra 9 forwards all your emails to the address specified here.</p>
+<p>You can set a forwarding address in Zimbra. Zimbra forwards all your emails to the address specified here.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -3623,28 +3861,28 @@ You can disable 2FA only if the administrator has allowed this option for you.
 <p>Scroll down to <strong>Access your mail elsewhere</strong> segment.</p>
 </li>
 <li>
-<p>Check the box <strong>Forward: Zimbra 9 forwards all your emails to the specified address so that you can check it there</strong>.</p>
+<p>Check the box <strong>Forward: Zimbra forwards all your emails to the specified address so that you can check it there</strong>.</p>
 </li>
 <li>
 <p>Enter an email address where you&#8217;d like to forward your emails.</p>
 </li>
 <li>
-<p>From the drop-down, choose if Zimbra 9 should keep a copy of the email received.</p>
+<p>From the drop-down, choose if Zimbra should keep a copy of the email received.</p>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Store and Forward</dt>
 <dd>
-<p>Zimbra 9 keeps a copy of the email before forwarding it to the specified address.</p>
+<p>Zimbra keeps a copy of the email before forwarding it to the specified address.</p>
 </dd>
 <dt class="hdlist1">Delete and Forward</dt>
 <dd>
-<p>Zimbra 9 deletes the email after forwarding it to the specified address.</p>
+<p>Zimbra deletes the email after forwarding it to the specified address.</p>
 </dd>
 </dl>
 </div>
 </li>
 <li>
-<p>At the bottom of the page, click <strong>Save</strong>.</p>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
@@ -3692,7 +3930,7 @@ To export individual folders, emails, contacts, or calendars, right-click those 
 <h4 id="_mobile_or_desktop_configuration">Mobile or Desktop Configuration</h4>
 <div class="paragraph">
 <p>IMAP, CalDav, and CardDav are an open set of rules for synchronizing your emails, contacts, calendars, and tasks with mobile or desktop devices.
-Zimbra 9 creates mobile profiles which you can download, configure, and sync your mobile devices.</p>
+Zimbra creates mobile profiles which you can download, configure, and sync your mobile devices.</p>
 </div>
 <div class="paragraph">
 <p>Android OS natively (without the help of external apps) supports IMAP for managing email; however, CalDAV and CardDAV require installation of apps like OpenSync.
@@ -3711,23 +3949,23 @@ To import these profiles to your mobile devices, you may want to look at below h
 <dl>
 <dt class="hdlist1">Email, Calendar, and Tasks, Contacts</dt>
 <dd>
-<p>This profile syncs Email, Calendar, Tasks, and Contacts on mobile devices with Zimbra 9.</p>
+<p>This profile syncs Email, Calendar, Tasks, and Contacts on mobile devices with Zimbra.</p>
 </dd>
 <dt class="hdlist1">Calendar and Tasks, Contacts</dt>
 <dd>
-<p>This profile syncs only Calendar, Tasks, and Contacts on mobile devices, with Zimbra 9; it does not sync emails.</p>
+<p>This profile syncs only Calendar, Tasks, and Contacts on mobile devices, with Zimbra; it does not sync emails.</p>
 </dd>
 <dt class="hdlist1">Calendar and Tasks</dt>
 <dd>
-<p>This profile syncs only Calendar and Tasks on mobile devices, with Zimbra 9; it does not sync emails and contacts.</p>
+<p>This profile syncs only Calendar and Tasks on mobile devices, with Zimbra; it does not sync emails and contacts.</p>
 </dd>
 <dt class="hdlist1">Contacts</dt>
 <dd>
-<p>This profile syncs only contacts on mobile devices, with Zimbra 9; it does not sync emails, calendars, and tasks.</p>
+<p>This profile syncs only contacts on mobile devices, with Zimbra; it does not sync emails, calendars, and tasks.</p>
 </dd>
 <dt class="hdlist1">Email</dt>
 <dd>
-<p>This profile syncs only emails on mobile devices, with Zimbra 9; it does not sync contacts, calendars, and tasks.</p>
+<p>This profile syncs only emails on mobile devices, with Zimbra; it does not sync contacts, calendars, and tasks.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -3743,7 +3981,7 @@ To import these profiles to your mobile devices, you may want to look at below h
 <p>Choose one of the profiles from the drop-down and click <strong>Download</strong>.</p>
 </li>
 <li>
-<p>Choose a location to save the downloaded file. Zimbra 9 requires this file when importing profiles to <a href="#_import_profiles_to_ios">iOS</a> or <a href="#_import_profiles_to_android">Android</a> devices.</p>
+<p>Choose a location to save the downloaded file. Zimbra requires this file when importing profiles to <a href="#_import_profiles_to_ios">iOS</a> or <a href="#_import_profiles_to_android">Android</a> devices.</p>
 </li>
 </ol>
 </div>
@@ -3812,7 +4050,7 @@ Check your email and copy the verification code.</p>
 <div class="sect2">
 <h3 id="_out_of_office_settings">Out of Office settings</h3>
 <div class="paragraph">
-<p>With Zimbra 9, you can send out-of-office replies for any duration you specify.</p>
+<p>With Zimbra, you can send out-of-office replies for any duration you specify.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -3853,7 +4091,7 @@ Check your email and copy the verification code.</p>
 <div class="sect3">
 <h4 id="_out_of_office_replies_for_external_senders">Out of Office replies for external senders</h4>
 <div class="paragraph">
-<p>You can choose if you want to send an out-of-office response to senders who are not in your organisation (external senders).</p>
+<p>You can choose if you want to send an out-of-office response to senders who are not in your organization (external senders).</p>
 </div>
 <div class="paragraph">
 <p>Against <strong>External Senders</strong> there are three options in the dropdown.</p>
@@ -3881,7 +4119,7 @@ Click <b class="button">Send sample copy to me</b> to test out this response.</p
 <div class="sect2">
 <h3 id="_filtersautomate_management_of_your_email">Filters&#8201;&#8212;&#8201;Automate management of your email</h3>
 <div class="paragraph">
-<p>Zimbra 9 allows you to create filters through which you can sort incoming messages into folders by defining some rules.</p>
+<p>Zimbra allows you to create filters through which you can sort incoming messages into folders by defining some rules.</p>
 </div>
 <div class="sect3">
 <h4 id="_create_new_filter">Create New Filter</h4>
@@ -3906,7 +4144,7 @@ By default, when creating a new filter <strong>Basic</strong> editor opens.</p>
 </ol>
 </div>
 <div class="paragraph">
-<p>Zimbra 9 takes these actions when it encounters mails that meet the defined criteria.</p>
+<p>Zimbra takes these actions when it encounters mails that meet the defined criteria.</p>
 </div>
 <div class="dlist">
 <dl>
@@ -4065,7 +4303,7 @@ You can choose only one action.</p>
 <h3 id="_block_and_allow_senders">Block and Allow senders</h3>
 <div class="paragraph">
 <p>You can block messages from specific email addresses or domains from reaching your inbox; you can also allow specific email addresses and domains, so their emails reach you every time.
-When you add an email address or domain to your blocked senders' list, Zimbra 9 blocks all messages from that sender.</p>
+When you add an email address or domain to your blocked senders' list, Zimbra blocks all messages from that sender.</p>
 </div>
 <div class="sect3">
 <h4 id="_block_senders_from_sending_you_email">Block senders from sending you email</h4>
@@ -4089,7 +4327,7 @@ When you add an email address or domain to your blocked senders' list, Zimbra 9 
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-Zimbra 9 removes emails by blocked senders from the server; they do not appear in either <strong>Junk</strong> or <strong>Trash</strong>.
+Zimbra removes emails by blocked senders from the server; they do not appear in either <strong>Junk</strong> or <strong>Trash</strong>.
 </td>
 </tr>
 </table>
@@ -4150,7 +4388,7 @@ If the same email address is in the whitelist and the blacklist, whitelisting ta
 <div class="sect2">
 <h3 id="_offline_mode">Offline mode</h3>
 <div class="paragraph">
-<p>With Zimbra 9, you can work offline to avoid incurring cellular data charges or to stop Zimbra 9 from attempting to send and receive messages over a slow network connection.
+<p>With Zimbra, you can work offline to avoid incurring cellular data charges or to stop Zimbra from attempting to send and receive messages over a slow network connection.
 You can manage and compose mail, contacts, and appointments when you are offline.
 The changes sync when you are back online.</p>
 </div>
@@ -4166,11 +4404,11 @@ The changes sync when you are back online.</p>
 <dt class="hdlist1">Enable offline mode</dt>
 <dd>
 <p>Copies of recent items are saved locally.
-They are synchronized with the server when Zimbra 9 goes online.</p>
+They are synchronized with the server when Zimbra goes online.</p>
 </dd>
 <dt class="hdlist1">Disable offline mode</dt>
 <dd>
-<p>Zimbra 9 is online, and all changes synchronize in real-time.</p>
+<p>Zimbra is online, and all changes synchronize in real-time.</p>
 </dd>
 </dl>
 </div>
@@ -4182,7 +4420,7 @@ They are synchronized with the server when Zimbra 9 goes online.</p>
 <div class="sect2">
 <h3 id="_security_and_activity">Security and Activity</h3>
 <div class="paragraph">
-<p>This setting enables viewing of emails and shows the list of devices where Zimbra 9 is open with your credentials.
+<p>This setting enables viewing of emails and shows the list of devices where Zimbra is open with your credentials.
 You have the option to sign out from all other instances except this one.</p>
 </div>
 <div class="sect3">
@@ -4320,6 +4558,41 @@ This way, you receive reminders for events that you might have unknowingly misse
 </li>
 </ol>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_free_busy_permission">Free Busy Permission</h4>
+<div class="paragraph">
+<p>You can use this setting to control who can see when you are free or busy.
+Event organizers can click on <b class="button">Show Availability</b> when <a href="#_schedule_an_event">scheduling an event</a> to see when you are available for a meeting.</p>
+</div>
+<div class="paragraph">
+<p>Choose an option from the dropdown.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Everyone</dt>
+<dd>
+<p>All organizers can view the time when you are free or busy.</p>
+</dd>
+<dt class="hdlist1">Internal users only</dt>
+<dd>
+<p>Your Free/Busy information is available to all users within your organization.</p>
+</dd>
+<dt class="hdlist1">Internal users on my domain only</dt>
+<dd>
+<p>Your Free/Busy information is available only to users within your domain. Users in your organization who have email addresses on another domain can not view your Free/Busy information.</p>
+</dd>
+<dt class="hdlist1">These internal users only</dt>
+<dd>
+<p>Enter email addresses, below this dropdown, of users who can view your free/busy information. Click <b class="button">Add</b> after entering each email address.
+The field <strong>Enter an email address</strong> is active only for this option.</p>
+</dd>
+<dt class="hdlist1">None</dt>
+<dd>
+<p>Your free/busy information is hidden from everyone, without exception.</p>
+</dd>
+</dl>
+</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
@@ -4329,7 +4602,7 @@ This way, you receive reminders for events that you might have unknowingly misse
 <h2 id="_change_display_language">Change Display Language</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Zimbra 9 now offers these languages as the display language.</p>
+<p>Zimbra now offers these languages as the display language.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -4369,7 +4642,7 @@ This way, you receive reminders for events that you might have unknowingly misse
 </ul>
 </div>
 <div class="paragraph">
-<p>To change the Zimbra 9 display language to one of the above languages, perform the following steps.</p>
+<p>To change the Zimbra display language to one of the above languages, perform the following steps.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -4383,12 +4656,12 @@ This way, you receive reminders for events that you might have unknowingly misse
 <p>Choose a language you prefer.</p>
 </li>
 <li>
-<p>Click <strong>Save</strong>.</p>
+<p>Click <b class="button">Save</b>.</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>Zimbra 9 display language changes to the selected language.</p>
+<p>Zimbra display language changes to the selected language.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -4414,7 +4687,7 @@ To enable zimlets, please get in touch with your organization&#8217;s Zimbra Col
 <div class="sect2">
 <h3 id="_dropbox">Dropbox</h3>
 <div class="paragraph">
-<p>With this integration you can connect your Dropbox account to Zimbra 9 for saving and sharing files from your Dropbox.</p>
+<p>With this integration you can connect your Dropbox account to Zimbra for saving and sharing files from your Dropbox.</p>
 </div>
 <div class="sect3">
 <h4 id="_activate_the_dropbox_zimlet">Activate the Dropbox Zimlet</h4>
@@ -4445,7 +4718,7 @@ During the activation process, you may encounter a <strong>Not Found</strong> er
 <p>Sign In to your Dropbox account.</p>
 </li>
 <li>
-<p>Click <b class="button">Allow</b> to authorize Zimbra 9 to access your Dropbox.</p>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Dropbox.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -4582,7 +4855,7 @@ Some Users may not see the download link above their attachments. In such a case
 <div class="sect2">
 <h3 id="_google_drive">Google Drive</h3>
 <div class="paragraph">
-<p>With this integration you can connect your Google Drive account to Zimbra 9 for saving and sharing files from your Google Drive.</p>
+<p>With this integration you can connect your Google Drive account to Zimbra for saving and sharing files from your Google Drive.</p>
 </div>
 <div class="sect3">
 <h4 id="_activate_the_google_drive_zimlet">Activate the Google Drive Zimlet</h4>
@@ -4613,7 +4886,7 @@ During the activation process, you may encounter a <strong>Not Found</strong> er
 <p>Sign In to your Google Drive account.</p>
 </li>
 <li>
-<p>Click <b class="button">Allow</b> to authorize Zimbra 9 to access your Google Drive.</p>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Google Drive.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -4750,7 +5023,7 @@ Some Users may not see the download link above their attachments. In such a case
 <div class="sect2">
 <h3 id="_onedrive">Onedrive</h3>
 <div class="paragraph">
-<p>With this integration you can connect your Onedrive account to Zimbra 9 for saving and sharing files from your Onedrive.</p>
+<p>With this integration you can connect your Onedrive account to Zimbra for saving and sharing files from your Onedrive.</p>
 </div>
 <div class="sect3">
 <h4 id="_activate_the_onedrive_zimlet">Activate the Onedrive Zimlet</h4>
@@ -4781,7 +5054,7 @@ During the activation process, you may encounter a <strong>Not Found</strong> er
 <p>Sign In to your Onedrive account.</p>
 </li>
 <li>
-<p>Click <b class="button">Allow</b> to authorize Zimbra 9 to access your Onedrive.</p>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Onedrive.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -4918,7 +5191,7 @@ Some Users may not see the download link above their attachments. In such a case
 <div class="sect2">
 <h3 id="_slack">Slack</h3>
 <div class="paragraph">
-<p>The Slack integration helps you connect your Slack account to Zimbra 9 for quickly initiating conversations using Slack. With this integration you can see if other users in your organization are online (if they have set the Slack integration up), launch private chat with users, and even continue an email thread in a conversation on Slack.</p>
+<p>The Slack integration helps you connect your Slack account to Zimbra for quickly initiating conversations using Slack. With this integration you can see if other users in your organization are online (if they have set the Slack integration up), launch private chat with users, and even continue an email thread in a conversation on Slack.</p>
 </div>
 <div class="sect3">
 <h4 id="_getting_started_by_authorizing_slack">Getting Started by Authorizing Slack</h4>
@@ -5077,7 +5350,7 @@ During the activation process, you may encounter a <strong>Not Found</strong> er
 <p>Sign In to your Zoom account.</p>
 </li>
 <li>
-<p>Click <b class="button">Allow</b> to authorize Zimbra 9 to access your Onedrive.</p>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Onedrive.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -5160,8 +5433,7 @@ Zoom&#8217;s authentication works in the background and hence you may have to wa
 </div>
 <div id="footer">
 <div id="footer-text">
-Version Zimbra Collaboration 9.0.0<br>
-Last updated 2020-04-22 16:28:48 +0530
+Last updated 2020-07-21 10:00:30 +0530
 </div>
 </div>
 </body>
