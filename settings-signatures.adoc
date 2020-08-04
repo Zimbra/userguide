@@ -8,3 +8,9 @@ With {product-short}, you can have two default signatures per account, plus addi
 . To create additional signatures, click *Add a signature*.
 . Enter a name for this signature to differentiate it from the rest.
 . To remove a signature, click *Remove signature* against the signature's name.
+
+==== Add a New Signature
+. Click image:graphics/plus.svg[width=20] Add a signature.
+. Specify a name of the signature.
+. Type in the signature's contents and click btn:[Save].
+** To delete a signature click *image:graphics/close.svg[width=20] Remove signature*.

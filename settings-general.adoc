@@ -5,7 +5,7 @@ Settings in {product-short} have multiple features like changing signatures, cre
 This section deals with storage, date & time format, and the default app version which you see after login.
 
 ==== Storage
-This section of the {modern-client} displays the storage space that you are using on the {product-short} server.
+This section of the {modern-client} displays the storage and the allocated space that you are using on the {product-short} server.
 
 ==== Date & Time
 This section manages the date and time format used throughout the {modern-client}.

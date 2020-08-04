@@ -10,14 +10,14 @@ When you click *Undo*, a notification informs you that sending has been canceled
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Writing Email*, check *Enable* against *Undo send* to enable this feature.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Request Read Receipts
 You can ask readers for an acknowledgment every time they open your email.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Writing Email*, check *Always* against *Request read receipts* to enable this feature.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 NOTE: Check <<mail-compose.adoc#_request_read_receipts>> on how to request your recipients for a read receipt on the fly -- while composing emails.
 
@@ -26,7 +26,7 @@ You can choose to *not* save your sent emails in *Sent* folder.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Under *Writing Email*, uncheck *Enable* against *Save a copy to Sent folder* to disable saving emails in the Sent folder.
-. At the bottom of the page, click *Save*.
+. At the bottom of the page, click btn:[Save].
 
 ==== Delegation
 You can let someone else manage your email account using {product-short}. Your delegates can read, send, and delete messages on your behalf.

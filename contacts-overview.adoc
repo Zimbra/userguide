@@ -17,7 +17,7 @@ It has
 You also see folders you create and those shared with you, including:
 
  Contacts:: It shows all your contacts that you have added manually.
- Deleted Contacts:: It lists contacts that you have deleted.
+ Trash:: It lists all the deleted contacts.
  Emailed Contacts:: It lists contacts to whom you have sent an email.
 +
 NOTE: {product-short} Enterprise users see a fourth folder -- Global Address List.

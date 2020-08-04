@@ -23,4 +23,4 @@ Navigate to the image's location and click *Open*.
 . Select the portion of the photo you want to show.
 The frame with dashed borders can be resized and repositioned.
 . Click image:graphics/rotate_left.svg[counter clockwise arrow icon, width=20] or image:graphics/rotate_right.svg[clockwise arrow icon, width=20] to rotate the picture a quarter turn left or right.
-. Click *Save* to apply the changes.
+. Click btn:[Save] to apply the changes.
