@@ -236,14 +236,14 @@ For additional product information check the https://wiki.zimbra.com[Zimbra Wiki
 
 == License
 
-image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {copyright-year}
+image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {localyear}
 
-(C) 2016-{copyright-year} by Synacor, Inc.
+(C) 2016-{localyear} by Synacor, Inc.
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License unless another license agreement between you and Synacor, Inc. provides otherwise.
 To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0 or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-Synacor, Inc. +
+Synacor, Inc., {localyear} +
 40 La Riviere Drive, Suite 300 +
 Buffalo, New York 14202
 
