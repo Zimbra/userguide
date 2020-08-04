@@ -1,3 +1,4 @@
+ifdef::z9[]
 == Login
 When you *Sign In*, you enter your username and password and select the version you want to use.
 You can select to use the default client, or change the client version.
@@ -17,6 +18,7 @@ After login, you can <<settings-general.adoc#_zimbra_version, choose>> either *M
 . Choose *Modern* from the *Version* drop-down to experience the all new {product-short} email.
 . Check the box *Stay signed in* to avoid entering your password each time you launch {product-short}.
 . Click *Sign In* to login.
+endif::z9[]
 
 == Two-factor Authentication
 *Two-factor Authentication* (2FA) is a method of confirming your identity by utilizing an information like password and a second factor in the form of a code through Time-based One Time Password (TOTP) apps.
