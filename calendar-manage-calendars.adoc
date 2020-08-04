@@ -24,7 +24,7 @@ They can also add and remove events (*including* private events) from your calen
 
 . Type in the email address of people with whom you want to share this calendar.
 . Click *Change* next to invitees and edit their permissions -- or remove the invitees altogether.
-. Click *Save*.
+. Click btn:[Save].
 . {product-short} sends a link to receivers who have an option to accept or decline the invitation.
 
 ==== Accept a Shared Calendar
@@ -47,7 +47,7 @@ Add a new calendar by any of these methods.
 . Click *Calendar* and hover over *Others*.
 . Click the gear icon and select *Add a Friend's Calendar*.
 . Enter your friend's email address.
-. Click *Save*.
+. Click btn:[Save].
 
 NOTE: You can add your friend's calendar only when they have shared it.
 
@@ -58,5 +58,5 @@ This feature populates your calendar with holidays in your country.
 . Click image:graphics/plus.svg[plus icon, width=20].
 . Choose the country whose holidays you want to view in your calendar.
 . Click *Next* and choose the color to differentiate this calendar from the rest.
-. Click *Save* to save the changes.
+. Click btn:[Save] to save the changes.
 Your new subscribed calendar appears under *Holidays*.

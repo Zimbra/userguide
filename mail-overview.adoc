@@ -104,7 +104,7 @@ You can also apply multiple tags to an email.
 . Enter the new Tag name and select a color for the tag.
 +
 IMPORTANT: Tag names can include any character except a colon (:), forward-slash (/), and quotation mark (").
-. Click *Save*.
+. Click btn:[Save].
 
 [[new-tag-on-the-run]]
 You can also create tags when applying them.
@@ -113,7 +113,7 @@ You can also create tags when applying them.
 . From the context menu, select Tag.
 . Choose *image:graphics/plus.svg[width=20] Add a Tag*.
 . Enter the new Tag name and select a color for the tag.
-. Click *Save*.
+. Click btn:[Save].
 
 The new tag now appears under *Tags*.
 
@@ -186,7 +186,9 @@ View, edit, add, and remove:: Users have permission to view and edit the content
 View, edit, add, remove, and administer:: Users have permission to view and edit the content of a shared folder, create new subfolders, present on your behalf, delete items from the shared folder, and share the folder with others.
 
 . Enter the email address(s) with whom to share the email folders.
-. Click *Save* for changes to take effect.
+. Click btn:[Save] for changes to take effect.
 
 If the recipient declines the share, you receive a notification email.
 Similarly, when you revoke the share, the recipient also receives an email notification.
+
+NOTE: When you revoke access to a folder you shared, the folder appears with a strikethrough to receivers of that shared folder.

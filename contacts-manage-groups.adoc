@@ -33,7 +33,7 @@ The following are few more ways in which you can add contacts to lists.
 . Select the list.
 . {product-short} populates the  *To* with all the email addresses from that list.
 . Type in the body of the email.
-. Click *Send*.
+. Click btn:[Send].
 
 === Manage Contact Folders
 You can create folders within *Contacts* and use them to store contacts, lists, and subfolders.
@@ -92,4 +92,4 @@ View, edit, add, and remove:: Users have permission to view and edit the content
 View, edit, add, remove, and administer:: Users have permission to view and edit the content of a shared folder, create new subfolders, present on your behalf, delete items from the shared folder, and share the folder with others.
 
 . Enter the email address(s) with whom to share the contact folder.
-. Click *Save* for changes to take effect.
+. Click btn:[Save] for changes to take effect.
