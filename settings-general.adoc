@@ -26,8 +26,10 @@ hh:mm:: The time 9:21 AM appears as *09:21 AM*.
 H:MM:: The time 9:21 AM appears as *9:21*.
 HH:MM:: The time 9:21 AM appears as *09:21*.
 
+ifdef::z9[]
 ==== {product-short} Version
 Here you choose the {product-short} version you want to use.
 
 Modern:: Choose this option to use the {modern-client}.
 Classic:: Choose this option to use the {web-client}.
+endif::z9[]

@@ -4,8 +4,11 @@ include::settings.adoc[]
 :toclevels: 3
 
 = {product-name} {document-title}
+
+ifdef::z9[]
 {product-release-date}
 {product-name} {product-version}
+endif::z9[]
 
 <<<
 
