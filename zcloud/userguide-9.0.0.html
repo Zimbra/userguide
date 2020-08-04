@@ -1,0 +1,5440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="author" content="March, 2020">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<title>Zimbra Collaboration Users guide</title>
+<link rel="stylesheet" href="./stylesheets/asciidoctor-custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>Zimbra Collaboration Users guide</h1>
+<div class="details">
+<span id="author" class="author">March, 2020</span><br>
+<span id="revdate">Zimbra Collaboration 9.0.0</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_license">License</a></li>
+<li><a href="#_what_is_modern_web_app">What is Modern Web App?</a></li>
+<li><a href="#_login">Login</a></li>
+<li><a href="#_two_factor_authentication">Two-factor Authentication</a>
+<ul class="sectlevel2">
+<li><a href="#_2fa_enforced">2FA Enforced</a></li>
+</ul>
+</li>
+<li><a href="#_mail">Mail</a>
+<ul class="sectlevel2">
+<li><a href="#_left_sidebar">Left Sidebar</a></li>
+<li><a href="#_email_pane">Email Pane</a></li>
+<li><a href="#_reading_pane">Reading Pane</a></li>
+<li><a href="#_keyboard_shortcuts">Keyboard Shortcuts</a>
+<ul class="sectlevel3">
+<li><a href="#_keyboard_shortcuts_during_input">Keyboard Shortcuts During Input</a></li>
+</ul>
+</li>
+<li><a href="#_tags">Tags</a>
+<ul class="sectlevel3">
+<li><a href="#_create_a_tag">Create a Tag</a></li>
+<li><a href="#_assign_a_tag_to_an_email">Assign a Tag to an Email</a></li>
+<li><a href="#_remove_a_tag">Remove a Tag</a></li>
+<li><a href="#_display_messages_with_a_specific_tag">Display Messages with a Specific Tag</a></li>
+<li><a href="#_edit_a_tag">Edit a Tag</a></li>
+<li><a href="#_delete_a_tag">Delete a Tag</a></li>
+</ul>
+</li>
+<li><a href="#_import_email_folders">Import Email Folders</a></li>
+<li><a href="#_export_email_folders">Export Email Folders</a></li>
+<li><a href="#_share_email_folders">Share Email Folders</a></li>
+<li><a href="#_compose_and_send_a_message">Compose and Send a Message</a></li>
+<li><a href="#_select_contacts">Select Contacts</a></li>
+<li><a href="#_format_an_email">Format an Email</a></li>
+<li><a href="#_add_images_files">Add images &amp; files</a>
+<ul class="sectlevel3">
+<li><a href="#_attach_from_my_computer">Attach From my Computer</a></li>
+<li><a href="#_attach_from_email">Attach From Email</a></li>
+</ul>
+</li>
+<li><a href="#_request_read_receipts">Request Read Receipts</a></li>
+<li><a href="#_set_email_priority">Set Email Priority</a></li>
+<li><a href="#_email_search_box">Email Search Box</a></li>
+<li><a href="#_email_search_location">Email Search Location</a></li>
+<li><a href="#_advanced_search">Advanced Search</a></li>
+</ul>
+</li>
+<li><a href="#_contacts">Contacts</a>
+<ul class="sectlevel2">
+<li><a href="#_left_pane">Left Pane</a></li>
+<li><a href="#_contacts_pane">Contacts Pane</a></li>
+<li><a href="#_contact_details_pane">Contact Details Pane</a></li>
+<li><a href="#_create_a_new_contact">Create a New Contact</a>
+<ul class="sectlevel3">
+<li><a href="#_add_a_contact_from_email">Add a Contact from Email</a></li>
+<li><a href="#_add_a_contact_from_scratch">Add a contact from scratch</a></li>
+</ul>
+</li>
+<li><a href="#_import_contacts">Import Contacts</a></li>
+<li><a href="#_export_contacts">Export Contacts</a></li>
+<li><a href="#_edit_a_contact">Edit a Contact</a></li>
+<li><a href="#_delete_a_contact">Delete a Contact</a></li>
+<li><a href="#_share_a_contact">Share a Contact</a></li>
+<li><a href="#_review_interaction_with_contact">Review Interaction with Contact</a></li>
+<li><a href="#_global_address_list">Global Address List</a></li>
+<li><a href="#_manage_contact_lists">Manage Contact Lists</a>
+<ul class="sectlevel3">
+<li><a href="#_create_a_contact_list">Create a Contact list</a></li>
+<li><a href="#_add_contacts_to_a_list">Add Contacts to a List</a></li>
+</ul>
+</li>
+<li><a href="#_send_email_to_everyone_on_a_list">Send email to everyone on a list</a></li>
+<li><a href="#_manage_contact_folders">Manage Contact Folders</a>
+<ul class="sectlevel3">
+<li><a href="#_create_a_contact_folder">Create a Contact Folder</a></li>
+<li><a href="#_add_contacts_to_a_folder">Add Contacts to a Folder</a></li>
+<li><a href="#_rename_a_contact_folder">Rename a Contact Folder</a></li>
+<li><a href="#_move_a_contact_folder">Move a Contact Folder</a></li>
+<li><a href="#_delete_a_contact_folder">Delete a Contact Folder</a></li>
+<li><a href="#_create_a_contact_folder_2">Create a Contact Folder</a></li>
+<li><a href="#_share_a_contact_folder">Share a Contact Folder</a></li>
+</ul>
+</li>
+<li><a href="#_contact_search">Contact Search</a>
+<ul class="sectlevel3">
+<li><a href="#_contact_search_box">Contact Search box</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_calendar">Calendar</a>
+<ul class="sectlevel2">
+<li><a href="#_left_pane_2">Left Pane</a>
+<ul class="sectlevel3">
+<li><a href="#_mini_calendar">Mini Calendar</a></li>
+<li><a href="#_calendar_list">Calendar List</a></li>
+</ul>
+</li>
+<li><a href="#_calendar_view_pane">Calendar View Pane</a>
+<ul class="sectlevel3">
+<li><a href="#_calendar_views">Calendar Views</a></li>
+</ul>
+</li>
+<li><a href="#_tasks_pane">Tasks Pane</a></li>
+<li><a href="#_manage_events">Manage Events</a>
+<ul class="sectlevel3">
+<li><a href="#_schedule_an_event">Schedule an event</a></li>
+<li><a href="#_edit_an_event">Edit an event</a></li>
+<li><a href="#_delete_an_event">Delete an event</a></li>
+<li><a href="#_copy_an_event">Copy an Event</a></li>
+<li><a href="#_forward_an_event">Forward an Event</a></li>
+<li><a href="#_propose_a_new_time">Propose a New Time</a></li>
+<li><a href="#_event_appointmentmeeting_recurrence">Event (Appointment/Meeting) Recurrence</a></li>
+<li><a href="#_edit_recurring_event">Edit Recurring Event</a></li>
+<li><a href="#_delete_recurring_event">Delete Recurring Event</a></li>
+<li><a href="#_respond_to_an_invitation">Respond to an invitation</a></li>
+<li><a href="#_turn_off_or_postpone_a_reminder">Turn off or Postpone a Reminder</a></li>
+</ul>
+</li>
+<li><a href="#_manage_calendars">Manage Calendars</a>
+<ul class="sectlevel3">
+<li><a href="#_share_a_calendar">Share a Calendar</a></li>
+<li><a href="#_accept_a_shared_calendar">Accept a Shared Calendar</a></li>
+</ul>
+</li>
+<li><a href="#_add_calendars">Add Calendars</a>
+<ul class="sectlevel3">
+<li><a href="#_manually">Manually</a></li>
+<li><a href="#_subscribe_to_a_calendar">Subscribe to a Calendar</a></li>
+<li><a href="#_add_a_holiday_calendar">Add a Holiday Calendar</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_tasks">Tasks</a>
+<ul class="sectlevel2">
+<li><a href="#_create_a_new_list">Create a New List</a></li>
+<li><a href="#_create_a_task">Create a Task</a></li>
+<li><a href="#_edit_a_task">Edit a Task</a></li>
+<li><a href="#_delete_a_task">Delete a Task</a></li>
+<li><a href="#_task_list_view_orders">Task list View orders</a>
+<ul class="sectlevel3">
+<li><a href="#_list_view">List View</a></li>
+<li><a href="#_priority_view">Priority View</a></li>
+<li><a href="#_due_date_view">Due Date View</a></li>
+<li><a href="#_done_view">Done View</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_managing_your_profile">Managing your Profile</a>
+<ul class="sectlevel2">
+<li><a href="#_change_password">Change Password</a></li>
+<li><a href="#_change_profile_image">Change Profile Image</a></li>
+</ul>
+</li>
+<li><a href="#_settings">Settings</a>
+<ul class="sectlevel2">
+<li><a href="#_general">General</a>
+<ul class="sectlevel3">
+<li><a href="#_storage">Storage</a></li>
+<li><a href="#_date_time">Date &amp; Time</a></li>
+<li><a href="#_zimbra_version">Zimbra Version</a></li>
+</ul>
+</li>
+<li><a href="#_viewing_email">Viewing Email</a>
+<ul class="sectlevel3">
+<li><a href="#_group_emails_into_conversations">Group emails into conversations</a></li>
+<li><a href="#_show_email_snippets">Show Email Snippets</a></li>
+<li><a href="#_group_emails_by_date">Group Emails by date</a></li>
+<li><a href="#_email_preview_pane">Email Preview Pane</a></li>
+<li><a href="#_message_list_density">Message List Density</a></li>
+<li><a href="#_mark_emails_as_read">Mark Emails as Read</a></li>
+<li><a href="#_check_for_new_emails">Check for New Emails</a></li>
+<li><a href="#_sending_read_receipts">Sending Read Receipts</a></li>
+<li><a href="#_email_notifications">Email Notifications</a></li>
+</ul>
+</li>
+<li><a href="#_writing_emails">Writing Emails</a>
+<ul class="sectlevel3">
+<li><a href="#_recall_a_sent_message">Recall a sent message</a></li>
+<li><a href="#_request_read_receipts_2">Request Read Receipts</a></li>
+<li><a href="#_save_a_copy_to_sent_folder">Save a Copy to Sent Folder</a></li>
+<li><a href="#_delegation">Delegation</a></li>
+</ul>
+</li>
+<li><a href="#_account_settings">Account Settings</a>
+<ul class="sectlevel3">
+<li><a href="#_add_an_account">Add an Account</a></li>
+<li><a href="#_change_the_name_on_your_zimbra_account">Change the name on your Zimbra account</a></li>
+<li><a href="#_change_your_zimbra_mailbox_name">Change your Zimbra Mailbox Name</a></li>
+<li><a href="#_add_a_persona">Add a Persona</a></li>
+<li><a href="#_two_factor_authentication_2">Two-factor Authentication</a></li>
+<li><a href="#_adding_an_app_passcode">Adding an App Passcode</a></li>
+<li><a href="#_reply_to_address">Reply-to Address</a></li>
+<li><a href="#_access_your_emails_elsewhere">Access your emails elsewhere</a></li>
+<li><a href="#_export">Export</a></li>
+<li><a href="#_import">Import</a></li>
+<li><a href="#_mobile_or_desktop_configuration">Mobile or Desktop Configuration</a></li>
+</ul>
+</li>
+<li><a href="#_account_recovery">Account Recovery</a></li>
+<li><a href="#_out_of_office_settings">Out of Office settings</a>
+<ul class="sectlevel3">
+<li><a href="#_out_of_office_replies_for_external_senders">Out of Office replies for external senders</a></li>
+</ul>
+</li>
+<li><a href="#_filtersautomate_management_of_your_email">Filters&#8201;&#8212;&#8201;Automate management of your email</a>
+<ul class="sectlevel3">
+<li><a href="#_create_new_filter">Create New Filter</a></li>
+<li><a href="#_managing_filters">Managing Filters</a></li>
+</ul>
+</li>
+<li><a href="#_block_and_allow_senders">Block and Allow senders</a>
+<ul class="sectlevel3">
+<li><a href="#_block_senders_from_sending_you_email">Block senders from sending you email</a></li>
+<li><a href="#_allow_senders">Allow senders</a></li>
+<li><a href="#_stop_messages_from_going_into_your_junk_email_folder">Stop messages from going into your Junk Email folder</a></li>
+</ul>
+</li>
+<li><a href="#_offline_mode">Offline mode</a></li>
+<li><a href="#_security_and_activity">Security and Activity</a>
+<ul class="sectlevel3">
+<li><a href="#_security">Security</a></li>
+<li><a href="#_activity">Activity</a></li>
+</ul>
+</li>
+<li><a href="#_calendar_and_reminder_settings">Calendar and Reminder Settings</a>
+<ul class="sectlevel3">
+<li><a href="#_general_calendar_settings">General Calendar Settings</a></li>
+<li><a href="#_event_reminders">Event Reminders</a></li>
+<li><a href="#_free_busy_permission">Free Busy Permission</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_change_display_language">Change Display Language</a></li>
+<li><a href="#_activating_zimlets_in_modern_web_app">Activating Zimlets in Modern Web App</a>
+<ul class="sectlevel2">
+<li><a href="#_dropbox">Dropbox</a>
+<ul class="sectlevel3">
+<li><a href="#_activate_the_dropbox_zimlet">Activate the Dropbox Zimlet</a></li>
+<li><a href="#_save_all_attachments_to_your_dropbox">Save all Attachments to your Dropbox</a></li>
+<li><a href="#_save_an_attachment_to_your_dropbox">Save an Attachment to your Dropbox</a></li>
+<li><a href="#_attaching_a_file_from_dropbox">Attaching a file from Dropbox</a></li>
+<li><a href="#_send_large_files_via_dropbox">Send Large files via Dropbox</a></li>
+</ul>
+</li>
+<li><a href="#_google_drive">Google Drive</a>
+<ul class="sectlevel3">
+<li><a href="#_activate_the_google_drive_zimlet">Activate the Google Drive Zimlet</a></li>
+<li><a href="#_save_all_attachments_to_your_google_drive">Save all Attachments to your Google Drive</a></li>
+<li><a href="#_save_an_attachment_to_your_google_drive">Save an Attachment to your Google Drive</a></li>
+<li><a href="#_attaching_a_file_from_google_drive">Attaching a file from Google Drive</a></li>
+<li><a href="#_send_large_files_via_google_drive">Send Large files via Google Drive</a></li>
+</ul>
+</li>
+<li><a href="#_onedrive">Onedrive</a>
+<ul class="sectlevel3">
+<li><a href="#_activate_the_onedrive_zimlet">Activate the Onedrive Zimlet</a></li>
+<li><a href="#_save_all_attachments_to_your_onedrive">Save all Attachments to your Onedrive</a></li>
+<li><a href="#_save_an_attachment_to_your_onedrive">Save an Attachment to your Onedrive</a></li>
+<li><a href="#_attaching_a_file_from_onedrive">Attaching a file from Onedrive</a></li>
+<li><a href="#_send_large_files_via_onedrive">Send Large files via Onedrive</a></li>
+</ul>
+</li>
+<li><a href="#_slack">Slack</a>
+<ul class="sectlevel3">
+<li><a href="#_getting_started_by_authorizing_slack">Getting Started by Authorizing Slack</a></li>
+<li><a href="#_checking_user_presence_and_sending_direct_messages">Checking User Presence and Sending Direct Messages</a></li>
+<li><a href="#_converting_an_email_conversation_to_a_private_slack_channel">Converting an Email Conversation to a Private Slack Channel</a></li>
+</ul>
+</li>
+<li><a href="#_zoom">Zoom</a>
+<ul class="sectlevel3">
+<li><a href="#_activate_the_zoom_zimlet">Activate the Zoom Zimlet</a></li>
+<li><a href="#_create_a_zoom_meeting_for_your_calendar_event">Create a Zoom Meeting for your Calendar Event</a></li>
+<li><a href="#_edit_a_zoom_meeting">Edit a Zoom Meeting</a></li>
+<li><a href="#_join_a_zoom_meeting">Join a Zoom Meeting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_license">License</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="CC BY-SA"></span> Synacor, Inc., 2020</p>
+</div>
+<div class="paragraph">
+<p>&#169; 2020 by Synacor, Inc. Zimbra Collaboration Users guide</p>
+</div>
+<div class="paragraph">
+<p>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License unless another license agreement between you and Synacor, Inc. provides otherwise.
+To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0" class="bare">https://creativecommons.org/licenses/by-sa/4.0</a> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+</div>
+<div class="paragraph">
+<p>Synacor, Inc., 2020<br>
+40 La Riviere Drive, Suite 300<br>
+Buffalo, New York 14202</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.synacor.com" class="bare">https://www.synacor.com</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_is_modern_web_app">What is Modern Web App?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Zimbra is a full-featured messaging and collaboration solution that includes email, address book, calendaring, tasks, and Web document authoring.</p>
+</div>
+<div class="paragraph">
+<p>Zimbra comes with a <strong>Modern Web App</strong> that is a new-age email application usable from virtually any device or screen size.</p>
+</div>
+<div class="paragraph">
+<p>It is secure, flexible, and scalable to meet spikes in demand and comes with built-in rich user experience.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<em>Your account might not include all the features described in this guide. Check with your administrator to see which features are available.</em>
+</td>
+</tr>
+</table>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_login">Login</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>When you <strong>Sign In</strong>, you enter your username and password and select the version you want to use.
+You can select to use the default client, or change the client version.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Contact the Zimbra administrator for the login URL and credentials.
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/login-version-list.png" alt="login page">
+</div>
+<div class="title">Figure 1. Zimbra login page</div>
+</div>
+<div class="paragraph">
+<p>Zimbra client has two versions&#8201;&#8212;&#8201;<strong>Modern</strong> and <strong>Classic</strong>.
+A <strong>Default</strong> option also appears in the version drop-down.
+After login, you can <a href="#_zimbra_version">choose</a> either <strong>Modern</strong> or <strong>Classic</strong> to be the default client.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Type the URL in a browser&#8217;s address bar.</p>
+</li>
+<li>
+<p>Enter your username in the <strong>Username</strong> field.</p>
+</li>
+<li>
+<p>Enter the password in the <strong>Password</strong> field.</p>
+</li>
+<li>
+<p>Choose <strong>Modern</strong> from the <strong>Version</strong> drop-down to experience the all new Zimbra email.</p>
+</li>
+<li>
+<p>Check the box <strong>Stay signed in</strong> to avoid entering your password each time you launch Zimbra.</p>
+</li>
+<li>
+<p>Click <strong>Sign In</strong> to login.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_two_factor_authentication">Two-factor Authentication</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Two-factor Authentication</strong> (2FA) is a method of confirming your identity by utilizing an information like password and a second factor in the form of a code through Time-based One Time Password (TOTP) apps.
+Please visit the wiki for <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
+</div>
+<div class="paragraph">
+<p>In Zimbra, administrators have the option to enable or enforce Two-factor authentication.</p>
+</div>
+<div class="paragraph">
+<p>When the Two-factor connection is only enabled, not enforced, you have the option to set it up from <a href="#_two_factor_authentication">Settings &#8594; Accounts</a> at your convenience.
+In such a case, you can log in with just your username and password.</p>
+</div>
+<div class="paragraph">
+<p>Below section explains the case when administrator has <strong>enforced</strong> the two-factor authentication for your account.</p>
+</div>
+<div class="sect2">
+<h3 id="_2fa_enforced">2FA Enforced</h3>
+<div class="paragraph">
+<p>If the administrator has enforced two-factor authentication, you are required to set it up immediately after you log in for the first time.
+You cannot use the application until you set up 2FA on your account.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Launch Zimbra.</p>
+</li>
+<li>
+<p>Login using an authorized username and password.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Since the administrator has enforced two-factor authentication, you immediately reach a page to set up Two-factor Authentication.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <strong>Begin setup</strong>.</p>
+</li>
+<li>
+<p>Install an authentication app on your mobile device.
+Check <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
+</li>
+<li>
+<p>Once installed, configure it on your smartphone.</p>
+</li>
+<li>
+<p>Click <strong>Next</strong> on the Zimbra screen to begin the process of adding this account to the authentication app.</p>
+</li>
+<li>
+<p>On the authenticator app, scan the QR code or enter the code generated on the Zimbra screen.</p>
+</li>
+<li>
+<p>Click <strong>Next</strong>.</p>
+</li>
+<li>
+<p>Enter the code generated by your authenticator app and click <strong>Verify</strong> to complete the two-factor authentication setup.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mail">Mail</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This section familiarizes you with Zimbra&#8217;s email interface.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/mail-empty-inbox.png" alt="Email interface">
+</div>
+<div class="title">Figure 2. Email interface</div>
+</div>
+<div class="paragraph">
+<p>This page is the first thing you see when you <a href="#_login">log in</a> to check your emails.
+It has</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>A left sidebar.</p>
+</li>
+<li>
+<p>An email pane.</p>
+</li>
+<li>
+<p>A reading pane located to the right or below the email pane.
+The reading pane can be disabled from <a href="#_email_preview_pane">Settings</a>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>You can drag to change the width of each pane.</p>
+</div>
+<div class="sect2">
+<h3 id="_left_sidebar">Left Sidebar</h3>
+<div class="paragraph">
+<p>The left pane of the email window contains the following folders.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Inbox</dt>
+<dd>
+<p>Whenever someone sends you an email, it comes straight to your Inbox.
+Click this folder to view your incoming emails.
+You can also right-click this folder to create subfolders.</p>
+</dd>
+<dt class="hdlist1">Drafts</dt>
+<dd>
+<p>Mails that you have written and saved&#8201;&#8212;&#8201;or which Zimbra saved while you were composing them&#8201;&#8212;&#8201;but not yet sent appear under drafts folder.</p>
+</dd>
+<dt class="hdlist1">Sent</dt>
+<dd>
+<p>When you send an email to someone, it appears in your sent folder.
+You can right-click this folder to create subfolders.</p>
+</dd>
+<dt class="hdlist1">Junk</dt>
+<dd>
+<p>Zimbra moves all the unwanted or spam emails here to keep them out of your Inbox.</p>
+</dd>
+<dt class="hdlist1">Trash</dt>
+<dd>
+<p>All deleted emails are moved to this folder until you <em>Empty the Trash</em>, permanently delete, or restore them.</p>
+</dd>
+<dt class="hdlist1">Folders</dt>
+<dd>
+<p>Sometimes, you may want a folder for storing specific emails.
+All such folders are listed here.</p>
+</dd>
+<dt class="hdlist1">Tags</dt>
+<dd>
+<p>It also lists your saved searches and tags that other emails may carry.
+Clicking a tag lists all emails in the email pane, carrying that tag.
+You can also create a custom tag.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_email_pane">Email Pane</h3>
+<div class="paragraph">
+<p>This pane displays emails from your Inbox by default.
+Event invitations appear with <span class="image"><img src="images/graphics/calendar-o.svg" alt="blank calendar icon" width="20"></span>. This icon helps set an invitation apart from an email.
+Clicking a folder in the <a href="#_left_sidebar">Left Sidebar</a> lists its contents in this pane.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reading_pane">Reading Pane</h3>
+<div class="paragraph">
+<p>When an email is selected, this pane shows its contents.</p>
+</div>
+<div class="paragraph">
+<p>A toolbar displays some quick actions regarding an email.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+These buttons become functional after you select an email and view its contents in the reading pane.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Click <span class="image"><img src="images/graphics/mail-reply.svg" alt="reply button" width="20px"></span> to reply to the person who sent this email.
+Click <span class="image"><img src="images/graphics/mail-reply-all.svg" alt="Reply to all button" width="20px"></span> to reply to everyone whose email address appears in <strong>To</strong> or <strong>Cc</strong> fields.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Any attachment in the original email is not included in <strong>Reply</strong> or <strong>Reply All</strong> functions.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Click <span class="image"><img src="images/graphics/mail-forward.svg" alt="forward button" width="20px"></span> to forward this email to others.
+It is especially helpful in sending a received attachment to others.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/graphics/archive.svg" alt="Archive button" width="20px"></span> archives your emails and saves space.
+Archived emails do not appear in Inbox or any of the folders, but you can search for them using <a href="#_email_search_box">Email Search box</a>.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/graphics/folder-move.svg" alt="move button" width="20px"></span> removes emails from the current folder and moves them to a folder chosen from the drop-down.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/graphics/trash.svg" alt="delete button" width="20px"></span> deletes emails.
+The deleted emails appear in the <strong>Trash</strong>* folder.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/graphics/shield.svg" alt="Mark as spam button" width="20px"></span> marks emails as spam and moves them to the <strong>Junk</strong> folder.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/graphics/ellipsis-h.svg" alt="more options" width="20px"></span> reveals further actions to take on emails like marking an email as <strong>read</strong> or <strong>unread</strong>, or mark an email with a <span class="image"><img src="images/graphics/star.svg" alt="star" width="15px"></span> for it to stand out, and blocking a contact from sending you emails.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_keyboard_shortcuts">Keyboard Shortcuts</h3>
+<div class="paragraph">
+<p>Zimbra supports keyboard shortcuts; to see what shortcuts are defined, type <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Q</kbd></span>.
+The available keyboard shortcuts are context-sensitive.
+<span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Q</kbd></span> displays different shortcuts depending on whether you have selected mail, calendar, or contacts.</p>
+</div>
+<div class="paragraph">
+<p>Kbd:[Shift] and <kbd>Ctrl</kbd> help you select contiguous or non-contiguous emails, respectively.</p>
+</div>
+<div class="sect3">
+<h4 id="_keyboard_shortcuts_during_input">Keyboard Shortcuts During Input</h4>
+<div class="paragraph">
+<p>While providing input, e.g. "Add Event" dialog:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><kbd>Tab</kbd> moves to next element</p>
+</li>
+<li>
+<p><span class="keyseq"><kbd>Shift</kbd>+<kbd>Tab</kbd></span> moves to previous element</p>
+</li>
+<li>
+<p><span class="keyseq"><kbd>Command</kbd>+<kbd>C</kbd></span> or <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>C</kbd></span> to Copy</p>
+</li>
+<li>
+<p><span class="keyseq"><kbd>Command</kbd>+<kbd>X</kbd></span> or <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>X</kbd></span> to Cut</p>
+</li>
+<li>
+<p><span class="keyseq"><kbd>Command</kbd>+<kbd>V</kbd></span> or <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>V</kbd></span> to Paste</p>
+</li>
+<li>
+<p><span class="keyseq"><kbd>Commmand</kbd>+<kbd>Z</kbd></span> or <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Z</kbd></span> to Undo</p>
+</li>
+<li>
+<p><span class="keyseq"><kbd>Commmand</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd></span> or <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd></span> to Redo</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Mac users should consider enabling full keyboard access See <a href="https://support.apple.com/en-ca/HT204434"><em>Use your keyboard like a mouse with Full Keyboard Access</em></a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tags">Tags</h3>
+<div class="paragraph">
+<p>Tags help classify and organize email messages or conversations.
+Tags also help sort emails and make searches easy.
+You can also apply multiple tags to an email.</p>
+</div>
+<div class="sect3">
+<h4 id="_create_a_tag">Create a Tag</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_left_sidebar">Left Sidebar</a>, hover on <strong>Tags</strong> and click <span class="image"><img src="images/graphics/plus.svg" alt="plus icon" width="20"></span>.</p>
+</li>
+<li>
+<p>Enter the new Tag name and select a color for the tag.</p>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Tag names can include any character except a colon (:), forward-slash (/), and quotation mark (").
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+<div id="new-tag-on-the-run" class="paragraph">
+<p>You can also create tags when applying them.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_email_pane">Email Pane</a>, right-click an email.</p>
+</li>
+<li>
+<p>From the context menu, select Tag.</p>
+</li>
+<li>
+<p>Choose <strong><span class="image"><img src="images/graphics/plus.svg" alt="plus" width="20"></span> Add a Tag</strong>.</p>
+</li>
+<li>
+<p>Enter the new Tag name and select a color for the tag.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The new tag now appears under <strong>Tags</strong>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_assign_a_tag_to_an_email">Assign a Tag to an Email</h4>
+<div class="paragraph">
+<p>You can assign multiple tags to an email to classify it under different categories.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_email_pane">Email Pane</a>, right-click an email.</p>
+</li>
+<li>
+<p>From the context menu, select Tag.</p>
+</li>
+<li>
+<p>From the <strong>Tags</strong> modal, choose an already created tag or <a href="#new-tag-on-the-run">create a new one</a>.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to apply the tag.</p>
+<div class="paragraph">
+<p>You can create tags while applying them.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The new tag is now listed and ready to be applied.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_remove_a_tag">Remove a Tag</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Right-click an email that you have tagged.</p>
+</li>
+<li>
+<p>From the context menu, select Tag.</p>
+</li>
+<li>
+<p>From the pop-up that appears, uncheck the box against a tag to remove it from the email.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to apply the tag.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_display_messages_with_a_specific_tag">Display Messages with a Specific Tag</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_left_sidebar">Left Sidebar</a>, click <span class="image"><img src="images/graphics/chevron-right.svg" alt="chevron pointing right" width="20"></span> before <strong>Tags</strong> to list all created tags.</p>
+</li>
+<li>
+<p>Click a tag to list all emails with the selected tag in the <a href="#_email_pane">Email Pane</a>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_edit_a_tag">Edit a Tag</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_left_sidebar">Left Sidebar</a>, click <span class="image"><img src="images/graphics/chevron-right.svg" alt="chevron pointing right" width="20"></span> before <strong>Tags</strong> to list all created tags.</p>
+</li>
+<li>
+<p>Right click a tag and choose <strong>Edit</strong> from the context menu.</p>
+</li>
+<li>
+<p>Change the name and color associated with a tag.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_delete_a_tag">Delete a Tag</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_left_sidebar">Left Sidebar</a>, click <span class="image"><img src="images/graphics/chevron-right.svg" alt="chevron pointing right" width="20"></span> before <strong>Tags</strong> to list all created tags.</p>
+</li>
+<li>
+<p>Right-click a tag and choose <strong>Delete</strong> from the context menu.</p>
+</li>
+<li>
+<p>Choose <b class="button">Continue</b> from the confirmation popup.</p>
+</li>
+<li>
+<p>The selected tag is deleted and cleared off from all emails marked with that tag.
+The emails stay safe in their respective folders.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_import_email_folders">Import Email Folders</h3>
+<div class="paragraph">
+<p>You can import email folders directly in Zimbra, provided the folders to import are in <code>.tgz</code> format.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_left_sidebar">Left Sidebar</a>, right-click a folder under which you prefer to import your email folder.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Import</strong>.</p>
+</li>
+<li>
+<p>From the <strong>Import</strong> modal, click <strong>Choose File</strong>.</p>
+</li>
+<li>
+<p>From the file browser window, choose the <code>.tgz</code> file to import.</p>
+</li>
+<li>
+<p>Click <b class="button">Import</b> to begin the import process.</p>
+</li>
+<li>
+<p>The imported folder appears under the selected folder after the process completes.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_export_email_folders">Export Email Folders</h3>
+<div class="paragraph">
+<p>You can export email folders directly in Zimbra in <code>.tgz</code> format.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_left_sidebar">Left Sidebar</a>, right-click a folder to export.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Export</strong>.</p>
+</li>
+<li>
+<p>From the file browser window, choose a location to save the <code>.tgz</code> file.</p>
+</li>
+<li>
+<p>The exported folder downloads at the specified location.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_share_email_folders">Share Email Folders</h3>
+<div class="paragraph">
+<p>You can share your email folders with others and grant them controlled access.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the <a href="#_left_sidebar">Left Sidebar</a>, right-click a folder to share.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Share</strong>.</p>
+</li>
+<li>
+<p>Choose appropriate permissions from the <strong>Sharing Permissions</strong> drop-down.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">View</dt>
+<dd>
+<p>Users can view all emails under the shared folder but cannot make changes to that folder.</p>
+</dd>
+<dt class="hdlist1">View, edit, add, and remove</dt>
+<dd>
+<p>Users have permission to view and edit the contents of a folder, create new subfolders, present items on your behalf, and delete items from the folder.</p>
+</dd>
+<dt class="hdlist1">View, edit, add, remove, and administer</dt>
+<dd>
+<p>Users have permission to view and edit the content of a shared folder, create new subfolders, present on your behalf, delete items from the shared folder, and share the folder with others.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>Enter the email address(s) with whom to share the email folders.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> for changes to take effect.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>If the recipient declines the share, you receive a notification email.
+Similarly, when you revoke the share, the recipient also receives an email notification.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+When you revoke access to a folder you shared, the folder appears with a strikethrough to receivers of that shared folder.
+</td>
+</tr>
+</table>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_compose_and_send_a_message">Compose and Send a Message</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">New message</b> in the left bar.</p>
+</li>
+<li>
+<p>Add a recipient email address in the <strong>To</strong> field.
+Separate multiple recipients with a comma.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Click <strong>To</strong> to launch the <a href="#_select_contacts">Choose Contacts</a> dialog.
+Using this tool, you can search for and choose contacts from a selection of <em>contexts</em>.
+Choose <em>contexts</em> from the drop-down on the right.</p>
+</li>
+<li>
+<p>Known addresses (from your contacts or frequent correspondents) appear as suggestions automatically.
+You can click suggestions, or select them with the arrow keys and press <kbd>Enter</kbd>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Set the subject of the email.</p>
+</li>
+<li>
+<p>Add <a href="#_add_images_files">images and files</a> to your message.</p>
+</li>
+<li>
+<p>Click <b class="button">Send</b> to send the email.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_select_contacts">Select Contacts</h3>
+<div class="paragraph">
+<p>When composing an email, click <strong>To</strong> to launch <strong>Choose Contacts</strong> window.
+Alternatively, begin typing recipients to bring up suggestions from which to choose.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+The first suggestion in the auto-complete list is highlighted. You can use Tab, Comma, Semi-colon, or Enter keys to <em>select</em> a highlighted contact.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>These email addresses can be copied and pasted to <strong>Cc</strong> and <strong>Bcc</strong> fields as well.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You can drag and drop email addresses anywhere in <strong>To</strong>, <strong>Cc</strong>, and <strong>Bcc</strong> fields.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Pick a context for searching and choosing contacts.
+The options are from your Contact Folders and <a href="#_create_a_contact_list">lists</a>, including:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Contacts</dt>
+<dd>
+<p>This group lists all the contacts that you have <a href="#_create_a_new_contact">added yourself</a>.</p>
+</dd>
+<dt class="hdlist1">Emailed contacts</dt>
+<dd>
+<p>This folder lists people to whom you have sent emails.</p>
+</dd>
+<dt class="hdlist1">Global Address List</dt>
+<dd>
+<p>These are people whose email address domain is the same as yours.
+However, only a Zimbra administrator can enable this feature.</p>
+</dd>
+<dt class="hdlist1">My Contacts</dt>
+<dd>
+<p>This group is a collection of all the contacts listed in <strong>Contacts</strong> and <strong>Emailed Contacts</strong> groups.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_format_an_email">Format an Email</h3>
+<div class="paragraph">
+<p>Use the toolbar at the bottom of the message compose screen to format your text.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/chevron-up.svg" alt="chevron pointing up" width="10px"></span> beside the font size to see the available options.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/chevron-up.svg" alt="chevron pointing up" width="10px"></span> beside the font type to see the available options.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/bold.svg" alt="bold text icon" width="20px"></span> for bold, <span class="image"><img src="images/graphics/italic.svg" alt="italic" width="20px"></span> for italicized, or <span class="image"><img src="images/graphics/underline.svg" alt="underline icon" width="20px"></span> for underlined text.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/text-color.svg" alt="choose text color icon" width="20px"></span> to choose your desired text color.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/highlight-bg-color.svg" alt="choose highlight color icon" width="20px"></span> to choose your desired highlight color.</p>
+</li>
+<li>
+<p>Select text and click <span class="image"><img src="images/graphics/align-left.svg" alt="text align icon" width="20px"></span> <span class="image"><img src="images/graphics/chevron-up.svg" alt="chevron up" width="10px"></span> to see alignment options.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><span class="image"><img src="images/graphics/align-left.svg" alt="left-align icon" width="20px"></span> left-aligns the selected text.</p>
+</li>
+<li>
+<p><span class="image"><img src="images/graphics/align-right.svg" alt="right-align icon" width="20px"></span> right-aligns the selected text.</p>
+</li>
+<li>
+<p><span class="image"><img src="images/graphics/align-center.svg" alt="center-align icon" width="20px"></span> center-aligns the selected text.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Click inside a sentence and click <span class="image"><img src="images/graphics/list-ol.svg" alt="list ol" width="20px"></span>  <span class="image"><img src="images/graphics/chevron-up.svg" alt="chevron up" width="10px"></span> to see numbered list options.</p>
+</li>
+<li>
+<p>Click inside a sentence and click <span class="image"><img src="images/graphics/list-ul.svg" alt="list ul" width="20px"></span>  <span class="image"><img src="images/graphics/chevron-up.svg" alt="chevron up" width="10px"></span> to see bulleted list options.</p>
+</li>
+<li>
+<p>Highlight a sentence and click <span class="image"><img src="images/graphics/outdent.svg" alt="text indent icon" width="20px"></span> <span class="image"><img src="images/graphics/chevron-up.svg" alt="chevron up" width="10px"></span> to increase or decrease indent of your text.</p>
+</li>
+<li>
+<p>To create links click <span class="image"><img src="images/graphics/link.svg" alt="link icon" width="20px"></span> and enter the <strong>URL</strong>, <strong>Text to display</strong>, and link&#8217;s <strong>Title</strong>.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/smile-o.svg" alt="smile o" width="20px"></span> to select and insert an emoji.</p>
+</li>
+<li>
+<p>To insert and format a table, click <span class="image"><img src="images/graphics/table.svg" alt="table icon" width="20"></span> <span class="image"><img src="images/graphics/chevron-up.svg" alt="chevron up" width="10px"></span> for options.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/undo.svg" alt="undo icon" width="20px"></span> to <strong>undo</strong> and <span class="image"><img src="images/graphics/redo.svg" alt="redo icon" width="20px"></span> to <strong>redo</strong> your changes.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_add_images_files">Add images &amp; files</h3>
+<div class="paragraph">
+<p>Use the toolbar at the bottom of the message compose screen to attach files to your email.</p>
+</div>
+<div class="sect3">
+<h4 id="_attach_from_my_computer">Attach From my Computer</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/paperclip.svg" alt="paperclip" width="20px"></span> to open file attach options.</p>
+</li>
+<li>
+<p>Clicking <strong>Attach From My Computer</strong> brings up a file explorer.</p>
+</li>
+<li>
+<p>Navigate to the file to attach and click <strong>Open</strong>.
+The selected file now appears as an attachment.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You can cancel the attachment upload when it is in progress.
+Hover on the attachment and click <span class="image"><img src="images/graphics/close.svg" alt="Close" width="20px"></span>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_attach_from_email">Attach From Email</h4>
+<div class="sect4">
+<h5 id="_photos">Photos</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/paperclip.svg" alt="Attach Files" width="20px"></span> to open file attach options.</p>
+</li>
+<li>
+<p>Select option <strong>Attach Photo From Email</strong> to open a pane on the right, which shows all the photos that you have sent <strong>and</strong> received.</p>
+</li>
+<li>
+<p>Select a photo to attach it to your current email.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_files">Files</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/paperclip.svg" alt="Attach Files" width="20px"></span> to open file attach options.</p>
+</li>
+<li>
+<p>Select option <strong>Attach File From Email</strong> to open a pane on the right which shows all the files sent and received by you.</p>
+</li>
+<li>
+<p>Select a file to attach it to your current email.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_gifs">GIFs</h5>
+<div class="paragraph">
+<p>You may also attach `GIF`s to your email if you have the option.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_request_read_receipts">Request Read Receipts</h3>
+<div class="paragraph">
+<p>You can send a request for an acknowledgment to recipients that they see when they open your email.</p>
+</div>
+<div class="paragraph">
+<p>When composing an email, click the three-dot menu (<span class="image"><img src="images/graphics/ellipsis-h.svg" alt="ellipsis h" width="20px"></span>) to the right of the <strong>From</strong> address and choose <strong>Request Read Receipt</strong> to ask your recipients for a read receipt.</p>
+</div>
+<div class="paragraph">
+<p>Remember that this is only a request, and your recipients have the option not to send the acknowledgment.
+Refer to <a href="#_sending_read_receipts">Sending Read Receipts</a> to know more.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_set_email_priority">Set Email Priority</h3>
+<div class="paragraph">
+<p>You can set your email to have a higher priority.
+Such emails appear with an exclamation mark <span class="image"><img src="images/graphics/priority-high.svg" alt="priority high" width="20px"></span> in the receiver&#8217;s Inbox.</p>
+</div>
+<div class="paragraph">
+<p>When composing an email, click the three-dot menu (<span class="image"><img src="images/graphics/ellipsis-h.svg" alt="ellipsis h" width="20px"></span>) to the right of the <strong>From</strong> address and choose <strong>High Priority</strong> to mark your email as a high priority.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_email_search_box">Email Search Box</h3>
+<div class="paragraph">
+<p>You can type several phrases in the Search box at the top of the <a href="#_email_pane">Email Pane</a>. In addition to searching for different words and phrases, you can search in all the folders collectively or individually.</p>
+</div>
+<div class="paragraph">
+<p>To search, type in your search word or phrase in the email search box and press <kbd>Enter</kbd>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_email_search_location">Email Search Location</h3>
+<div class="paragraph">
+<p>To search in a specific folder, choose the folder name from the drop-down beside the <a href="#_email_search_box">Email Search Box</a>.</p>
+</div>
+<div class="paragraph">
+<p>After you have chosen the folder, type in your search word or phrase in the email search box and press <kbd>Enter</kbd>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_advanced_search">Advanced Search</h3>
+<div class="paragraph">
+<p>Choose <strong>Advanced Search</strong> from <a href="#_email_search_location">Email Search Location</a> drop-down.
+Fields listed here help refine your search further.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Choose a folder from the <strong>Search-In</strong> field.</p>
+</li>
+<li>
+<p>Typing an email address in the <strong>From</strong> field focuses your search on all emails sent <strong>from</strong> that address.</p>
+</li>
+<li>
+<p>Similarly, typing an email address in the <strong>To</strong> field focuses your search on all emails sent <strong>to</strong> that address.</p>
+</li>
+<li>
+<p>Type a few words in the <strong>Subject</strong> line, to search emails with these words in their subject line.</p>
+</li>
+<li>
+<p>Type a few words contained in the body of the email in <strong>Contains</strong>* field.
+Enclose the searched text within quotes to search them as a phrase.</p>
+</li>
+<li>
+<p>Specify a date in the <strong>Date</strong> field.</p>
+</li>
+<li>
+<p>Check the boxes <strong>Has attachment</strong> or <strong>Has image</strong> if the email you are looking for has an image or an attachment.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+None of the above search criteria is mandatory.
+However, adding more criteria reduces search time and refines the search results further.
+</td>
+</tr>
+</table>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contacts">Contacts</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This section familiarizes you with Zimbra&#8217;s contacts tab interface.
+Click <b class="button">Contacts</b> tab to bring up the following interface.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/contact-window-blank.png" alt="Contacts Window">
+</div>
+<div class="title">Figure 3. Contacts tab</div>
+</div>
+<div class="paragraph">
+<p>It has</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>A left pane</p>
+</li>
+<li>
+<p>A contacts pane.</p>
+</li>
+<li>
+<p>A contact details or edit pane.</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="_left_pane">Left Pane</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>This pane lists your contact folders and contact lists.
+You also see folders you create and those shared with you, including:</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Contacts</dt>
+<dd>
+<p>It shows all your contacts that you have added manually.</p>
+</dd>
+<dt class="hdlist1">Trash</dt>
+<dd>
+<p>It lists all the deleted contacts.</p>
+</dd>
+<dt class="hdlist1">Emailed Contacts</dt>
+<dd>
+<p>It lists contacts to whom you have sent an email.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Zimbra Enterprise users see a fourth folder&#8201;&#8212;&#8201;Global Address List.
+This folder lists all the contacts in your organization.
+</td>
+</tr>
+</table>
+</div>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>Your contact lists appear nested under their respective folder.</p>
+</li>
+<li>
+<p>A blank field on the bottom helps you create lists.
+These lists are especially helpful when you regularly send emails to a specific group of people.
+Refer to <a href="#_manage_contact_lists">Manage Contact Lists</a>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_contacts_pane">Contacts Pane</h3>
+<div class="paragraph">
+<p>Whenever you click one of the Contacts folders, or lists, from the left pane, this pane lists all contacts from the selected item.</p>
+</div>
+<div class="paragraph">
+<p>Right-click any listed contact to see further options like <strong>Edit</strong>, <strong>Delete</strong>, <strong>Add to Lists</strong>, and <strong>Share</strong>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_contact_details_pane">Contact Details Pane</h3>
+<div class="paragraph">
+<p>When a contact is selected, this pane displays its details.</p>
+</div>
+<div class="paragraph">
+<p>This pane offers options like <strong>Edit Details</strong>, <strong>Delete</strong>, <strong>Print</strong>, and <strong>Assign to Lists</strong>.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_create_a_new_contact">Create a New Contact</h3>
+<div class="paragraph">
+<p>Keep track of everyone you communicate with by creating contacts.
+Once you&#8217;ve added a contact, you can type the first few letters of their name into an email, and Zimbra displays their names as suggestions.</p>
+</div>
+<div class="sect3">
+<h4 id="_add_a_contact_from_email">Add a Contact from Email</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Hover a name in the <strong>To</strong>, <strong>Cc</strong>, <strong>Bcc</strong>, or <strong>From</strong> field.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/ellipsis-h.svg" alt="3 dots menu icon" width="20"></span> on the contact information card that pops-up.</p>
+</li>
+<li>
+<p>Select <strong>Add to contacts</strong>.</p>
+</li>
+<li>
+<p>Zimbra adds the user to your contacts folder.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_add_a_contact_from_scratch">Add a contact from scratch</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Click <b class="button">Add a Contact</b> to launch <strong>Add a contact</strong> page.</p>
+</li>
+<li>
+<p>Add any relevant details you want.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+All added contacts appear under <strong>Contacts</strong>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_import_contacts">Import Contacts</h3>
+<div class="paragraph">
+<p>You can import contacts in different formats into Zimbra.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Click the Contact List menu, labeled <strong>Sort by &#8230;&#8203;</strong> in the <a href="#_contacts_pane">Contacts Pane</a>.</p>
+</li>
+<li>
+<p>Choose <strong>Import</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Browse</strong>, go to your saved contacts file, and select it.</p>
+</li>
+<li>
+<p>Click <strong>Import</strong> to import the contacts to Zimbra.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_export_contacts">Export Contacts</h3>
+<div class="paragraph">
+<p>In Zimbra, you can export your contacts in various formats to make them portable and take a backup if required. Zimbra exports contacts in the following formats:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Microsoft Outlook CSV</p>
+</li>
+<li>
+<p>Thunderbird/Netscape LDIF</p>
+</li>
+<li>
+<p>VCF</p>
+</li>
+<li>
+<p>Multiple VCF in a zipped file.</p>
+</li>
+<li>
+<p>Yahoo CSV</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<code>VCF</code> is recommended to preserve uploaded contact images.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Click the Contact List menu, labeled <strong>Sort by &#8230;&#8203;</strong> in the <a href="#_contacts_pane">Contacts Pane</a>.</p>
+</li>
+<li>
+<p>Choose <strong>Export</strong>.</p>
+</li>
+<li>
+<p>Choose a relevant exporting format and click <strong>Export Now</strong>.</p>
+</li>
+<li>
+<p>Save the file when prompted.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_edit_a_contact">Edit a Contact</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Right-click a contact from the list of contacts.</p>
+</li>
+<li>
+<p>Select <strong>Edit Details</strong>.</p>
+</li>
+<li>
+<p>Edit any relevant details you want.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_delete_a_contact">Delete a Contact</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Right-click a contact from the list of contacts.</p>
+</li>
+<li>
+<p>Select <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>The deleted contact moves to Contacts' <strong>Trash</strong> folder.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The option <strong>Assign to Lists</strong> adds the selected contact to a group.
+For details check <a href="#_manage_contact_folders">Manage Contact Folders</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_share_a_contact">Share a Contact</h3>
+<div class="paragraph">
+<p>When you share a contact, Zimbra exports a <em>card</em> with the information of the selected contact as an email attachment.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Right-click a contact from the list of contacts.</p>
+</li>
+<li>
+<p>Select <strong>Share</strong>.</p>
+</li>
+<li>
+<p>A new mail window opens with the selected contact as a <code>VCF</code> attachment.</p>
+</li>
+<li>
+<p>Enter the receiver&#8217;s email address.</p>
+</li>
+<li>
+<p>Click <b class="button">Send</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_review_interaction_with_contact">Review Interaction with Contact</h3>
+<div class="paragraph">
+<p>You can review your interactions (emails and file attachments), which a contact has sent to you.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click a contact with whom you have interacted.</p>
+</li>
+<li>
+<p>A section to the right of the selected contact&#8217;s details lists the emails and file attachments received.</p>
+</li>
+<li>
+<p>Click <strong>View all</strong> to view those interactions in a separate tab.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_global_address_list">Global Address List</h3>
+<div class="paragraph">
+<p>The Global Address List (GAL) is a directory of users within an organization that is available to all users of the email system. Zimbra uses this directory to look up user addresses from within the company.</p>
+</div>
+<div class="paragraph">
+<p>If your administrator has set up GAL, you can access it under Contacts.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_manage_contact_lists">Manage Contact Lists</h3>
+<div class="paragraph">
+<p>You can create a list containing your contacts and store that list under the <strong>Contacts</strong> folder.
+It is especially helpful when you want to send an email to a specific set of people.
+So instead of typing everyone&#8217;s email address, you type in the name of your list, and Zimbra sends the email to all addresses in that list.</p>
+</div>
+<div class="paragraph">
+<p>It is a two-step process.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create a list.</p>
+</li>
+<li>
+<p>Add contacts to this list.</p>
+</li>
+</ol>
+</div>
+<div class="sect3">
+<h4 id="_create_a_contact_list">Create a Contact list</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>In the <strong>New List</strong> field, enter the name of your contacts list.</p>
+</li>
+<li>
+<p>Press <kbd>Enter</kbd> to save the list.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>You can right-click a list, which you have created, to rename or delete it.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_add_contacts_to_a_list">Add Contacts to a List</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click a contacts folder to list all the contacts in that folder.</p>
+</li>
+<li>
+<p>Select the contacts which you want to add in a list.</p>
+</li>
+<li>
+<p>Drag and drop the contacts in the list that you have created.
+The following are few more ways in which you can add contacts to lists.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Choose <strong>Assign to Lists</strong> by right-clicking the selected contacts.</p>
+</li>
+<li>
+<p>Select a contact and choose <strong>Assign to Lists</strong> from the <a href="#_contact_details_pane">Contact Details Pane</a>.</p>
+</li>
+<li>
+<p>Select multiple contacts and click <b class="button">Assign Contacts</b> under <strong>Assign</strong> in the <a href="#_contact_details_pane">Contact Details Pane</a>.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_send_email_to_everyone_on_a_list">Send email to everyone on a list</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click the <b class="button">Mail</b> tab.</p>
+</li>
+<li>
+<p>Click <b class="button">New Message</b></p>
+</li>
+<li>
+<p>In the <strong>To</strong> field, type the first few words of your list&#8217;s name.</p>
+</li>
+<li>
+<p>The list appears as one of the suggestions.</p>
+</li>
+<li>
+<p>Select the list.</p>
+</li>
+<li>
+<p>Zimbra populates the  <strong>To</strong> with all the email addresses from that list.</p>
+</li>
+<li>
+<p>Type in the body of the email.</p>
+</li>
+<li>
+<p>Click <b class="button">Send</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_manage_contact_folders">Manage Contact Folders</h3>
+<div class="paragraph">
+<p>You can create folders within <strong>Contacts</strong> and use them to store contacts, lists, and subfolders.
+You can also share contact folders with other users.
+They work much in the same way as email folders.
+You can perform actions like creating folders, subfolders, and moving contacts across folders.</p>
+</div>
+<div class="sect3">
+<h4 id="_create_a_contact_folder">Create a Contact Folder</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Hover over <strong>Folders</strong> and click <span class="image"><img src="images/graphics/plus.svg" alt="plus icon" width="20"></span>.</p>
+</li>
+<li>
+<p>In the text box, type in the name of the folder and press <kbd>Enter</kbd>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Click outside the text-box or <span class="image"><img src="images/graphics/close.svg" alt="close icon" width="20"></span> beside the text box to cancel.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_add_contacts_to_a_folder">Add Contacts to a Folder</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Select contacts to add to a folder.</p>
+</li>
+<li>
+<p>In contact details pane, under <span class="image"><img src="images/graphics/folder-move.svg" alt="folder move icon" width="20"></span>, click <b class="button">Move Contacts</b>.</p>
+</li>
+<li>
+<p>In <strong>Choose a Folder</strong> modal, choose a folder to move the selected contacts.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rename_a_contact_folder">Rename a Contact Folder</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Right-click a folder to rename.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Rename Folder</strong>.</p>
+</li>
+<li>
+<p>Type the new name for the folder in the text box.</p>
+</li>
+<li>
+<p>Press <kbd>Enter</kbd> to save.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_move_a_contact_folder">Move a Contact Folder</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Right-click a folder to move.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Move Folder</strong>.</p>
+</li>
+<li>
+<p>Select a folder under which to move this folder.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_delete_a_contact_folder">Delete a Contact Folder</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Right-click the folder.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Delete Folder</strong>.</p>
+</li>
+<li>
+<p>The folder moves under <strong>Trash</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_create_a_contact_folder_2">Create a Contact Folder</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Right click a folder.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Create subfolder</strong>.</p>
+</li>
+<li>
+<p>In the text box, type in the name of the folder and press <kbd>Enter</kbd>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Click outside the text-box or <span class="image"><img src="images/graphics/close.svg" alt="close icon" width="20"></span> beside the text box to cancel.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_share_a_contact_folder">Share a Contact Folder</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Contacts</b> tab.</p>
+</li>
+<li>
+<p>Right-click a folder to share.</p>
+</li>
+<li>
+<p>From the context menu, choose <strong>Share</strong>.</p>
+</li>
+<li>
+<p>Choose appropriate permissions from the <strong>Sharing Permissions</strong> drop-down.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">View</dt>
+<dd>
+<p>Users can view all contacts under the shared folder but cannot make changes to that folder.</p>
+</dd>
+<dt class="hdlist1">View, edit, add, and remove</dt>
+<dd>
+<p>Users have permission to view and edit the contents of a folder, create new subfolders, present items on your behalf, and delete items from the folder.</p>
+</dd>
+<dt class="hdlist1">View, edit, add, remove, and administer</dt>
+<dd>
+<p>Users have permission to view and edit the content of a shared folder, create new subfolders, present on your behalf, delete items from the shared folder, and share the folder with others.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>Enter the email address(s) with whom to share the contact folder.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> for changes to take effect.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_contact_search">Contact Search</h3>
+<div class="paragraph">
+<p>You can type several phrases in the Search box at the top of the <a href="#_contacts">Contacts</a>.</p>
+</div>
+<div class="sect3">
+<h4 id="_contact_search_box">Contact Search box</h4>
+<div class="paragraph">
+<p>Type a few words of the email address or name of a contact and click <span class="image"><img src="images/graphics/search.svg" alt="magnifying glass icon" width="20"></span></p>
+</div>
+<div class="paragraph">
+<p>To specify a folder to search in, choose the folder from the drop-down labeled <strong>My Contacts</strong>.
+The drop-down is on the left of the search box.</p>
+</div>
+<div class="paragraph">
+<p>Zimbra brings up the contacts with details matching the words you typed.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_calendar">Calendar</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This section familiarizes you with Zimbra&#8217;s calendar interface.</p>
+</div>
+<div class="paragraph">
+<p>Click <b class="button">Calendar</b> to bring up the following interface.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/calendar-window-blank.png" alt="Calendar Window">
+</div>
+<div class="title">Figure 4. Calendar tab</div>
+</div>
+<div class="paragraph">
+<p>It has</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>A left pane</p>
+</li>
+<li>
+<p>A calendar view</p>
+</li>
+<li>
+<p>A tasks pane</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="_left_pane_2">Left Pane</h3>
+<div class="paragraph">
+<p>This pane has a <b class="button">New Event</b> button to <a href="#_schedule_an_event">schedule an event</a>.</p>
+</div>
+<div class="sect3">
+<h4 id="_mini_calendar">Mini Calendar</h4>
+<div class="paragraph">
+<p>The left pane also displays a mini calendar.
+Contents of the mini calendar change as per the <a href="#_calendar_views">view</a> selected in <a href="#_calendar_view_pane">Calendar View Pane</a>.</p>
+</div>
+<div class="paragraph">
+<p>E.g.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>To view the previous month&#8217;s calendar, click <span class="image"><img src="images/graphics/chevron-left.svg" alt="chevron pointing left icon" width="20"></span>.</p>
+</li>
+<li>
+<p>To view next month&#8217;s schedule, click <span class="image"><img src="images/graphics/chevron-right.svg" alt="chevron pointing right icon" width="20"></span>.</p>
+</li>
+<li>
+<p>Click Month-Year (Aug 2019 in this case), to list calendars of previous and following six months.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_calendar_list">Calendar List</h4>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">My calendars</dt>
+<dd>
+<p>Shows the calendars that belong to your account.
+You begin with one (named <strong>Calendar</strong>), and can add more.</p>
+</dd>
+<dt class="hdlist1">Others</dt>
+<dd>
+<p>Displays calendars that others have shared with you or to which you have <a href="#_subscribe_to_a_calendar">subscribed</a>. It is especially helpful in matching your schedule with them.</p>
+</dd>
+<dt class="hdlist1">Holidays</dt>
+<dd>
+<p>A collection of <a href="#_add_calendars">country-specific holiday calendars</a> that you may subscribe.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_calendar_view_pane">Calendar View Pane</h3>
+<div class="paragraph">
+<p>The calendar view pane displays a calendar in Day, Week, and Year views as well.
+Select the view from the views bar located just above the Middle Pane.
+To fetch latest events, click <span class="image"><img src="images/graphics/refresh.svg" alt="refresh icon" width="20"></span>.</p>
+</div>
+<div class="paragraph">
+<p>All events of which you are a part, can be seen in this pane.</p>
+</div>
+<div class="sect3">
+<h4 id="_calendar_views">Calendar Views</h4>
+<div class="paragraph">
+<p>Just below the <b class="button">Calendar</b> tab are different views in which you can see your events.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Today</dt>
+<dd>
+<p>When navigating the <a href="#_mini_calendar">mini calendar</a> click it to return to events scheduled for today.
+The view of the calendar is not disturbed.</p>
+<div class="paragraph">
+<p>E.g., you are checking out the events from <strong>September 29<sup>th</sup> - October 5<sup>th</sup>, 2019</strong>, which is the week view, click today to return to the current <em>week</em>.</p>
+</div>
+<div class="paragraph">
+<p><em>When checking out the events scheduled on Dec 31 (month view), click to return to the current day.
+The calendar remains in month view and shows all the events of the current month.</em></p>
+</div>
+</dd>
+<dt class="hdlist1">Day</dt>
+<dd>
+<p>Displays the calendar day-wise and shows all events scheduled for that day.
+It displays the date selected in the <a href="#_mini_calendar">mini calendar</a>.</p>
+</dd>
+<dt class="hdlist1">Work Week</dt>
+<dd>
+<p>Workweek view displays all the events in a <em>work week</em>.</p>
+<div class="paragraph">
+<p>E.g., you are viewing the events in the week <strong>Sunday, 22<sup>nd</sup> Dec 2019 - Saturday, 28<sup>th</sup> Dec 2019</strong>, and your work week starts from Monday and ends on Friday.
+Clicking <strong>Work Week</strong> displays events from <strong>Monday, 23<sup>rd</sup> Dec 2019 - Friday, 27<sup>th</sup> Dec 2019</strong>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+For better results, set your workweek in <a href="settings-otheroptions.html#_general_calendar_settings">workweek settings</a>
+</td>
+</tr>
+</table>
+</div>
+</dd>
+<dt class="hdlist1">Week</dt>
+<dd>
+<p>Displays the calendar week-wise and shows all events scheduled for that week.
+It displays the week selected in the <a href="#_mini_calendar">mini calendar</a>.</p>
+</dd>
+<dt class="hdlist1">Month</dt>
+<dd>
+<p>Displays the calendar month-wise and shows all events scheduled for that month.
+It displays the month selected in the <a href="#_mini_calendar">mini calendar</a>.</p>
+</dd>
+<dt class="hdlist1">Year</dt>
+<dd>
+<p>Displays all the months of a year (selected in the <a href="#_mini_calendar">mini calendar</a>) in a 3x4 grid.
+Each month in that grid displays its days week-wise.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>You can print events listed in the selected view pane.
+To print a selected view click <span class="image"><img src="images/graphics/ellipsis-h.svg" alt="3 dots menu icon" width="20"></span> &#8594; <strong>Print</strong>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tasks_pane">Tasks Pane</h3>
+<div class="paragraph">
+<p>Tasks pane is the rightmost pane of the Calendar tab and shows all of your Task Lists.
+For more information, see <a href="#_tasks">tasks</a>.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_manage_events">Manage Events</h3>
+<div class="sect3">
+<h4 id="_schedule_an_event">Schedule an event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Calendar</b>.</p>
+</li>
+<li>
+<p>Click <b class="button">New Event</b>.</p>
+</li>
+<li>
+<p>In <strong>Add Event</strong> field, type the subject of the appointment.</p>
+</li>
+<li>
+<p>Set start and end date times or select <strong>All Day</strong>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Choose an appropriate timezone for start and end date times.
+Enable this feature from <a href="settings-otheroptions.html#_general_calendar_settings">Calendar Settings</a>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Set an appointment location&#8201;&#8212;&#8201;this is optional.</p>
+</li>
+<li>
+<p>To schedule this event as an appointment in your calendar, do not add any invitees.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+To create this event like a meeting, type the email address of the invitees.
+Alternatively, click the link <strong>Invitees</strong> and choose from the list of people that appears.
+Click <b class="button">Show Availability</b> to see when your invitees are available.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Any extra information or details go in the <strong>Notes</strong> section.
+Click the little pin beside <strong>Notes</strong> to attach a file.</p>
+</li>
+<li>
+<p>Select a <strong>Remind</strong> interval.
+You are alerted of the appointment before the time set in <strong>Remind</strong> interval.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Choose <strong>Never</strong> if you do not want notification of this appointment.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Choose how you would prefer to receive the alert&#8201;&#8212;&#8201;on the desktop/mobile application, or through email.</p>
+</li>
+<li>
+<p>Select how that event should appear&#8201;&#8212;&#8201;Free, Tentative, Busy, or Out-of-Office.</p>
+</li>
+<li>
+<p>Leave the field <strong>Calendar</strong> as-is if it is showing the calendar you want to place the event in, or if there are no other calendars set up.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save this appointment in your calendar.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_edit_an_event">Edit an event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the appointment to edit in your calendar.</p>
+</li>
+<li>
+<p>Right-click the event to bring up the context menu and choose <strong>Edit</strong>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Alternatively, you can</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Hover the mouse pointer to bring up the options&#8201;&#8212;&#8201;<strong>Details</strong>, <strong>Print</strong>, and <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Details</strong> and then click <span class="image"><img src="images/graphics/pencil.svg" alt="pencil icon" width="20"></span> on top.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>An interface similar to <a href="#_schedule_an_event">Schedule an event</a> appears.</p>
+</li>
+<li>
+<p>Edit the relevant information and click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_delete_an_event">Delete an event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the appointment to delete in your calendar.</p>
+</li>
+<li>
+<p>Hover the mouse pointer to bring up the options&#8201;&#8212;&#8201;<strong>Details</strong>, <strong>Print</strong>, and <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Delete</strong>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Alternatively, right-click the event to bring up the context menu and choose <strong>Delete</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A notification on the top of the calendar pane confirms the deletion of the appointment.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_copy_an_event">Copy an Event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the appointment to edit in your calendar.</p>
+</li>
+<li>
+<p>Right-click the event to bring up the context menu and choose <strong>Copy</strong>.</p>
+</li>
+<li>
+<p>An interface similar to <a href="#_schedule_an_event">Schedule an event</a> appears.</p>
+</li>
+<li>
+<p>Change the relevant information and click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_forward_an_event">Forward an Event</h4>
+<div class="paragraph">
+<p>You can use a <strong>Forward</strong> action in a calendar event&#8217;s right-click context menu to forward the recurring event series or only that specific instance.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the appointment to forward in your calendar.</p>
+</li>
+<li>
+<p>Right-click the event to bring up the context menu and choose <strong>Forward</strong>.</p>
+</li>
+<li>
+<p>If the selected event is a <a href="#_event_appointmentmeeting_recurrence">recurring event</a>, choose if you want to forward <strong>This event only</strong> or <strong>All Events</strong>.</p>
+</li>
+<li>
+<p>Add more invitees under the <strong>To</strong> field.</p>
+</li>
+<li>
+<p>You can give additional information in the <strong>Notes</strong> section.</p>
+</li>
+<li>
+<p>Click <b class="button">Send</b> to forward the event.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_propose_a_new_time">Propose a New Time</h4>
+<div class="paragraph">
+<p>You can propose a mew time for an event.
+You can propose a new time when you receive the invitation, or later from your calendar.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Propose a new time from invitation email</dt>
+<dd>
+<p>Click <strong>Propose a new time</strong> <span class="image"><img src="images/graphics/calendar-range.svg" alt="calendar range" width="20"></span> in your invitation email&#8217;s RSVP section.
+On the <strong>Propose new time</strong> screen, set a preferred time and click <b class="button">Send</b>.</p>
+</dd>
+<dt class="hdlist1">Propose a new time from calendar</dt>
+<dd>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the appointment, for which you want to propose a new time, in your calendar.</p>
+</li>
+<li>
+<p>Right-click the event to bring up the context menu and choose <strong>Propose new time</strong>.</p>
+</li>
+<li>
+<p>If the event is a recurring event, choose if you are proposing new time for <strong>This event only</strong> or <strong>All Events</strong>.</p>
+</li>
+<li>
+<p>On the <strong>Propose new time</strong> screen, set a preferred time and click <b class="button">Send</b>.</p>
+</li>
+<li>
+<p>A toast notification confirms when proposed time is sent.</p>
+</li>
+</ol>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_event_appointmentmeeting_recurrence">Event (Appointment/Meeting) Recurrence</h4>
+<div class="paragraph">
+<p>You can set the event to repeat every day, every week, every month, or every year.
+These repetitions can be customized as well, e.g., every third Friday, or third Friday of every month, and so forth.</p>
+</div>
+<div class="paragraph">
+<p>Below are a few example scenarios and possible event recurrence settings.</p>
+</div>
+<div class="paragraph">
+<p><em>You want to take your pet to the vet, on the 4th of every month, at 11:00 AM, for a routine checkup.
+You would like to set a reminder.
+Next appointment is on the 4th of May.</em></p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Start Date and Time</dt>
+<dd>
+<p>05/04/20XX 11:00 AM</p>
+</dd>
+<dt class="hdlist1">End Date and Time</dt>
+<dd>
+<p>05/04/20XX 11:30 AM</p>
+</dd>
+<dt class="hdlist1">Repeat</dt>
+<dd>
+<p>Every month</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p><em>Smiths' anniversary is on the 20th of July.
+You would like to set a reminder to wish them "Happy Anniversary!"</em></p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Start Date and Time</dt>
+<dd>
+<p>07/20/20XX 07:00 PM.
+Check the box <strong>All Day</strong>.</p>
+</dd>
+<dt class="hdlist1">Show as</dt>
+<dd>
+<p>Free</p>
+</dd>
+<dt class="hdlist1">Repeat</dt>
+<dd>
+<p>Every year</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p><em>Today, you meet your team to discuss an exciting idea.
+You then want to schedule your meeting every second Friday.</em></p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Start Date and Time</dt>
+<dd>
+<p>07/20/20XX 07:00 PM</p>
+</dd>
+<dt class="hdlist1">End Date and Time</dt>
+<dd>
+<p>07/20/20XX 07:30 AM</p>
+</dd>
+<dt class="hdlist1">Repeat</dt>
+<dd>
+<p>Custom&#8201;&#8212;&#8201;<strong>Every</strong> 2 <strong>Weeks</strong><br>
+<strong>On</strong> Friday
+<strong>Ends</strong> Never</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>You can set similar other recurrence patterns.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_edit_recurring_event">Edit Recurring Event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the event to be edited in your calendar.</p>
+</li>
+<li>
+<p>Hover the mouse pointer to bring up the options&#8201;&#8212;&#8201;<strong>Edit</strong> and <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Edit</strong>.</p>
+</li>
+<li>
+<p>You can choose to edit just this instance of the event or all recurrences.</p>
+</li>
+<li>
+<p>An interface similar to <a href="#_schedule_an_event">Schedule an event</a> appears.</p>
+</li>
+<li>
+<p>Edit the relevant information and click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_delete_recurring_event">Delete Recurring Event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Locate the event to be deleted in your calendar.</p>
+</li>
+<li>
+<p>Hover the mouse pointer to bring up the options&#8201;&#8212;&#8201;<strong>Edit</strong> and <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>You can choose to delete just this instance of the event or all recurrences.</p>
+</li>
+<li>
+<p>A notification on the top of the calendar pane confirms the deletion of the event.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_respond_to_an_invitation">Respond to an invitation</h4>
+<div class="paragraph">
+<p>An invitation appears in the <strong>Inbox</strong> with <span class="image"><img src="images/graphics/calendar-o.svg" alt="calendar icon" width="20"></span>.
+There are three responses to an event when you are an invitee.
+In the RSVP section of an invitation, you have an option to send a response email or propose a new time.
+Clicking RSVP actions&#8201;&#8212;&#8201;Accept, Tentative, or Decline&#8201;&#8212;&#8201;brings up a checkbox and a text area.
+Check the box, type in your response, and click <b class="button">Save</b> to send a response to the sender.</p>
+</div>
+<div class="paragraph">
+<p><strong>Accept</strong> <span class="image"><img src="images/graphics/check-circle.svg" alt="check circle" width="20"></span>: Zimbra saves the event in your calendar.
+A notification reminds you before that event starts.</p>
+</div>
+<div class="paragraph">
+<p><strong>Tentative</strong> <span class="image"><img src="images/graphics/question-circle.svg" alt="question circle" width="20"></span>: Zimbra saves the event in your calendar.
+A notification reminds you before that event starts.
+However, you can revisit the event anytime to mark it as Accept or Decline.</p>
+</div>
+<div class="paragraph">
+<p><strong>Decline</strong> <span class="image"><img src="images/graphics/close-circle.svg" alt="close circle" width="20"></span>: Zimbra deletes the event, and the event does not make it to your calendar.</p>
+</div>
+<div class="paragraph">
+<p><strong>Propose a new time</strong> <span class="image"><img src="images/graphics/calendar-range.svg" alt="calendar range" width="20"></span>: {product short} launches the edit event dialog to <a href="#_propose_a_new_time">Propose a New Time</a> for that event.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Event organizers have an option to accept or decline the proposed time.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Zimbra marks the invitations that you have not yet responded with a bar on the left.
+You may respond to the invitation in the calendar or the Mail section.
+Once you have responded, Zimbra deletes the invitation email.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_turn_off_or_postpone_a_reminder">Turn off or Postpone a Reminder</h4>
+<div class="paragraph">
+<p>The <strong>Reminder</strong> dialog box pops up when an appointment or meeting is coming up, or when it&#8217;s time to finish a task.</p>
+</div>
+<div class="paragraph">
+<p>You can turn off the reminder by clicking <strong>Dismiss</strong> or pause it for a minute by clicking <strong>Snooze</strong></p>
+</div>
+<div class="paragraph">
+<p>A reminder box may list multiple events.
+To turn off <em>all</em> reminders, click <strong>Dismiss All</strong>.</p>
+</div>
+<div class="paragraph">
+<p>Similarly, <strong>Snooze All</strong> pauses <em>all</em> reminders for a minute.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_manage_calendars">Manage Calendars</h3>
+<div class="sect3">
+<h4 id="_share_a_calendar">Share a Calendar</h4>
+<div class="paragraph">
+<p>If enabled for your account, you can share your calendars with its events, appointments, and meetings with others.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Calendar</b> tab.</p>
+</li>
+<li>
+<p>Right-click the calendar you want to share and choose <strong>Share</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Invite people by email (most flexible)</strong>.</p>
+</li>
+<li>
+<p>Choose appropriate permission from <strong>Anyone with the link can</strong> drop-down.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">View</dt>
+<dd>
+<p>Users can view all appointments, <strong>except</strong> the private ones.</p>
+</dd>
+<dt class="hdlist1">View free/busy times only</dt>
+<dd>
+<p>Users can only view when your calendar is free or busy.
+They cannot see the appointment details.</p>
+</dd>
+<dt class="hdlist1">View (including private events)</dt>
+<dd>
+<p>Users can view all appointments, <strong>including</strong> private ones.</p>
+</dd>
+<dt class="hdlist1">View and edit</dt>
+<dd>
+<p>Users can view and edit all appointments, <strong>except</strong> private ones.</p>
+</dd>
+<dt class="hdlist1">View, edit, add and remove</dt>
+<dd>
+<p>Users can view and edit all appointments, <strong>except</strong> private ones.
+They can also add and delete events (<strong>except</strong> private events) from your calendar.</p>
+</dd>
+<dt class="hdlist1">View, edit, add and remove (including private events)</dt>
+<dd>
+<p>Users can view and edit all appointments, <strong>including</strong> private ones.
+They can also add and remove events (<strong>including</strong> private events) from your calendar.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>Type in the email address of people with whom you want to share this calendar.</p>
+</li>
+<li>
+<p>Click <strong>Change</strong> next to invitees and edit their permissions&#8201;&#8212;&#8201;or remove the invitees altogether.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+<li>
+<p>Zimbra sends a link to receivers who have an option to accept or decline the invitation.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_accept_a_shared_calendar">Accept a Shared Calendar</h4>
+<div class="paragraph">
+<p>Whenever someone shares their calendar with you, you receive an email notifying about it.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <strong>Add Calendar</strong> to add it to your calendars.
+Your friend&#8217;s calendar now appears under <strong>Others</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Decline</strong> to reject the share invitation.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_add_calendars">Add Calendars</h3>
+<div class="paragraph">
+<p>Add a new calendar by any of these methods.</p>
+</div>
+<div class="sect3">
+<h4 id="_manually">Manually</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Calendar</b> and hover over <strong>My Calendars</strong>.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/plus.svg" alt="plus icon" width="20"></span>.</p>
+</li>
+<li>
+<p>Type a name for this calendar.</p>
+</li>
+<li>
+<p>Choose a color to mark it differently from the other calendars.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_subscribe_to_a_calendar">Subscribe to a Calendar</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <strong>Calendar</strong> and hover over <strong>Others</strong>.</p>
+</li>
+<li>
+<p>Click the gear icon and select <strong>Add a Friend&#8217;s Calendar</strong>.</p>
+</li>
+<li>
+<p>Enter your friend&#8217;s email address.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+You can add your friend&#8217;s calendar only when they have shared it.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_add_a_holiday_calendar">Add a Holiday Calendar</h4>
+<div class="paragraph">
+<p>This feature populates your calendar with holidays in your country.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <strong>Calendar</strong> and hover over <strong>Holidays</strong>.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/plus.svg" alt="plus icon" width="20"></span>.</p>
+</li>
+<li>
+<p>Choose the country whose holidays you want to view in your calendar.</p>
+</li>
+<li>
+<p>Click <strong>Next</strong> and choose the color to differentiate this calendar from the rest.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save the changes.
+Your new subscribed calendar appears under <strong>Holidays</strong>.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tasks">Tasks</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_create_a_new_list">Create a New List</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/ellipsis-h.svg" alt="3 dots menu icon" width="20"></span></p>
+</li>
+<li>
+<p>Click <strong>Create List&#8230;&#8203;</strong></p>
+</li>
+<li>
+<p>Type in a name for that list.</p>
+</li>
+<li>
+<p>The new list appears below your name in the task pane.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_create_a_task">Create a Task</h3>
+<div class="paragraph">
+<p>You can combine various lists into one, get reminders, and track task progress.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Calendar</b>.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/ellipsis-h.svg" alt="3 dots menu icon" width="20"></span> and choose <strong>New Task</strong>.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This option is disabled in <a href="#_done_view">Done View</a>.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Set a due date of the task in <strong>Due Date</strong> field.</p>
+</li>
+<li>
+<p>Set a priority from the drop-down.
+The options available are <strong>Low</strong>, <strong>Normal</strong>, and <strong>High</strong>.</p>
+</li>
+<li>
+<p>Choose a <a href="#_create_a_new_list">list</a> to assign the task.</p>
+</li>
+<li>
+<p>Any extra information related to the task goes in <strong>Notes</strong> section.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Alternatively,</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>in <a href="#_tasks_pane">tasks pane</a>, hover over a list in which to create the task and click it.</p>
+</li>
+<li>
+<p>In the field that appears, type in your task.</p>
+</li>
+<li>
+<p>Press enter&#8201;&#8212;&#8201;or click anywhere else in the task pane&#8201;&#8212;&#8201;to save the task with a check-box.</p>
+</li>
+<li>
+<p>To set a due date or change the default priority, <a href="#_edit_a_task">edit that task</a>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_edit_a_task">Edit a Task</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click the task created to bring up the options&#8201;&#8212;&#8201;<strong>Edit</strong> and <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Edit</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The interface and options are the same as that of <a href="#_create_a_task">Create a Task</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_delete_a_task">Delete a Task</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click the task created to bring up the options&#8201;&#8212;&#8201;<strong>Edit</strong> and <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>A notification on the top of the calendar pane confirms the deletion of the task.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_task_list_view_orders">Task list View orders</h3>
+<div class="paragraph">
+<p>You can view the tasks list in the task pane as per a general list of tasks&#8201;&#8212;&#8201;<a href="#_list_view">list</a>, <a href="#_priority_view">priority</a>, <a href="#_due_date_view">due date</a>, or <a href="#_done_view">status</a>.</p>
+</div>
+<div class="sect3">
+<h4 id="_list_view">List View</h4>
+<div class="paragraph">
+<p>It shows all the tasks and the lists in which they belong.
+Lists appear in alphabetical order.
+Tasks within the list appear in the same order they were created; the latest task appears first.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_priority_view">Priority View</h4>
+<div class="paragraph">
+<p>Tasks with decreasing order of priorities&#8201;&#8212;&#8201;<strong>High</strong> being first&#8201;&#8212;&#8201;are listed here.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_due_date_view">Due Date View</h4>
+<div class="paragraph">
+<p>This view shows the tasks in order of their due dates.
+Tasks that are past due appear first, followed by tasks that are needed later.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_done_view">Done View</h4>
+<div class="paragraph">
+<p>This pane lists tasks that are marked done.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_managing_your_profile">Managing your Profile</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This feature in Zimbra helps change your login password and upload a profile image.
+Recipients of your email, however, may not see your image when they receive your emails.</p>
+</div>
+<div class="sect2">
+<h3 id="_change_password">Change Password</h3>
+<div class="paragraph">
+<p>This feature helps you change your password.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the top right, click <span class="image"><img src="images/graphics/user-circle-o.svg" alt="circled user icon" width="20"></span> and choose <strong>Change Password</strong>. The <strong>Change Password</strong> dialog appears.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<strong>Change Password</strong> dialog also appears when your password has expired, and you attempt to login.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Enter the current password in the <strong>Current Password</strong> field.</p>
+</li>
+<li>
+<p>Type in the new password in <strong>New Password</strong> field.</p>
+</li>
+<li>
+<p>Type in the new password again in <strong>Confirm Password</strong> field.</p>
+</li>
+<li>
+<p>Click <strong>Continue</strong> to apply the changes.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_change_profile_image">Change Profile Image</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the top right, click <span class="image"><img src="images/graphics/user-circle-o.svg" alt="circled user icon" width="20"></span> and choose <strong>Change Profile Image</strong>. The <strong>Change Profile Image</strong> dialog appears.</p>
+</li>
+<li>
+<p>Click inside the bordered area to launch a file browser window.
+Navigate to the image&#8217;s location and click <strong>Open</strong>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Alternatively, you can drag and drop your image inside the bordered area.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Select the portion of the photo you want to show.
+The frame with dashed borders can be resized and repositioned.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/rotate_left.svg" alt="counter clockwise arrow icon" width="20"></span> or <span class="image"><img src="images/graphics/rotate_right.svg" alt="clockwise arrow icon" width="20"></span> to rotate the picture a quarter turn left or right.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to apply the changes.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_settings">Settings</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Settings in Zimbra have multiple features like changing signatures, creating filters, and mail reading behavior being a few among many.</p>
+</div>
+<div class="sect2">
+<h3 id="_general">General</h3>
+<div class="paragraph">
+<p>This section deals with storage, date &amp; time format, and the default app version which you see after login.</p>
+</div>
+<div class="sect3">
+<h4 id="_storage">Storage</h4>
+<div class="paragraph">
+<p>This section of the Modern Web App displays the storage and the allocated space that you are using on the Zimbra server.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_date_time">Date &amp; Time</h4>
+<div class="paragraph">
+<p>This section manages the date and time format used throughout the Modern Web App.</p>
+</div>
+<div class="sect4">
+<h5 id="_date_format">Date Format</h5>
+<div class="paragraph">
+<p>There are 4 date formats to choose from:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">mm/dd/yyyy</dt>
+<dd>
+<p>January 9, 2021 appears as <strong>01/09/2021</strong>.</p>
+</dd>
+<dt class="hdlist1">dd/mm/yyyy</dt>
+<dd>
+<p>January 9, 2021 appears as <strong>09/01/2021</strong>.</p>
+</dd>
+<dt class="hdlist1">yyyy-mm-dd</dt>
+<dd>
+<p>January 9, 2021 appears as <strong>2021-01-09</strong>.</p>
+</dd>
+<dt class="hdlist1">dd-mmm-yy</dt>
+<dd>
+<p>January 9, 2021 appears as <strong>09-Jan-21</strong>.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_time_format">Time Format</h5>
+<div class="paragraph">
+<p>There are 4 date formats to choose from:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">h:mm</dt>
+<dd>
+<p>The time 9:21 AM appears as <strong>9:21 AM</strong>.</p>
+</dd>
+<dt class="hdlist1">hh:mm</dt>
+<dd>
+<p>The time 9:21 AM appears as <strong>09:21 AM</strong>.</p>
+</dd>
+<dt class="hdlist1">H:MM</dt>
+<dd>
+<p>The time 9:21 AM appears as <strong>9:21</strong>.</p>
+</dd>
+<dt class="hdlist1">HH:MM</dt>
+<dd>
+<p>The time 9:21 AM appears as <strong>09:21</strong>.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_zimbra_version">Zimbra Version</h4>
+<div class="paragraph">
+<p>Here you choose the Zimbra version you want to use.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Modern</dt>
+<dd>
+<p>Choose this option to use the Modern Web App.</p>
+</dd>
+<dt class="hdlist1">Classic</dt>
+<dd>
+<p>Choose this option to use the Classic Web App.</p>
+</dd>
+</dl>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_viewing_email">Viewing Email</h3>
+<div class="sect3">
+<h4 id="_group_emails_into_conversations">Group emails into conversations</h4>
+<div class="paragraph">
+<p>When you reply to an email, Zimbra groups responses together in conversations with the newest email on the top.</p>
+</div>
+<div class="paragraph">
+<p>A conversation breaks off into a new conversation if the subject line changes.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, check the box <strong>Enable Conversations</strong> to group the messages or uncheck this box to ungroup the messages.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_show_email_snippets">Show Email Snippets</h4>
+<div class="paragraph">
+<p>By default, Zimbra shows you <em>snippets</em>, or previews, of your messages in the <a href="#_email_pane">email pane</a>. If you do not need the snippets or feel that they make your Inbox look cluttered, you can turn the snippets off.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, uncheck the box <strong>Show snippets</strong> to turn them off.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_group_emails_by_date">Group Emails by date</h4>
+<div class="paragraph">
+<p>Zimbra, by default, groups your email conversations by date.
+So you see email groups like <em>Today</em>, <em>Yesterday</em>, <em>Last week</em>, and so on.
+You can disable this setting.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, uncheck the box <strong>Group by date</strong> to ungroup the messages.
+Your emails appear sorted by date, but they do not appear in groups.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_email_preview_pane">Email Preview Pane</h4>
+<div class="paragraph">
+<p>The preview pane in Zimbra displays the selected email&#8217;s content.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, click the <strong>Preview Pane</strong> drop-down.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">The preview pane on the right</dt>
+<dd>
+<p>The selected email&#8217;s content appears on the right of the email list.</p>
+</dd>
+<dt class="hdlist1">The preview pane on the bottom</dt>
+<dd>
+<p>The selected email appears in a pane on the bottom of the email list.</p>
+</dd>
+<dt class="hdlist1">None</dt>
+<dd>
+<p>The preview pane is disabled.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_message_list_density">Message List Density</h4>
+<div class="paragraph">
+<p>This setting controls the spacing between each email in the email list. <strong>Slim</strong> is the lowest, and <strong>Relaxed</strong> is the highest possible spacing between two emails in the email list.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, click the <strong>Message list density</strong> drop-down.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_mark_emails_as_read">Mark Emails as Read</h4>
+<div class="paragraph">
+<p>Zimbra immediately marks a message as read when you select it.
+To change this behavior:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, click the <strong>Mark as read</strong> drop-down.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Immediately</dt>
+<dd>
+<p>The selected email is marked read the moment you click it.</p>
+</dd>
+<dt class="hdlist1">After 2 seconds</dt>
+<dd>
+<p>The selected email is marked read after <strong>2</strong> seconds.</p>
+</dd>
+<dt class="hdlist1">After 5 seconds</dt>
+<dd>
+<p>The selected email is marked read after <strong>5</strong> seconds.</p>
+</dd>
+<dt class="hdlist1">Never</dt>
+<dd>
+<p>The selected email stays unread until you mark it as read manually.
+For details, refer to <a href="#_reading_pane">reading pane tools</a>.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_check_for_new_emails">Check for New Emails</h4>
+<div class="paragraph">
+<p>Zimbra checks for new emails at regular intervals.
+You can, however, override the default settings.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, click the <strong>Check for new mail</strong> drop-down.</p>
+</li>
+<li>
+<p>You can choose a duration from the drop-down when Zimbra checks for new mail.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Click the reload icon beside <strong>Inbox</strong> to check for new emails <strong>Manually</strong>. This reload icon becomes visible when you hover the mouse on the Inbox.</p>
+</li>
+<li>
+<p>Choose <strong>As new mail arrives</strong> to have Zimbra repeatedly check for new emails.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_sending_read_receipts">Sending Read Receipts</h4>
+<div class="paragraph">
+<p>If requested by the sender, you can send a read receipt to confirm that you have opened their message.</p>
+</div>
+<div class="paragraph">
+<p>In Zimbra, you can decline to send this read receipt, or have Zimbra ask you for confirmation.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Viewing Email</strong>, click the <strong>Read receipts</strong> drop-down.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Ask me</dt>
+<dd>
+<p>As soon as you open an email where a sender has requested a read receipt, you receive the prompt below.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Click <span class="image"><img src="images/graphics/close.svg" alt="close icon" width="20"></span> to decline to send a read receipt.</p>
+</li>
+<li>
+<p>Click <strong>Send read receipt</strong> to let the sender know that you have read the message.</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt class="hdlist1">Ask Me</dt>
+<dd>
+<p>Choose this option to receive a confirmation before sending a read receipt.</p>
+</dd>
+<dt class="hdlist1">Always Send</dt>
+<dd>
+<p>Choose this option to send a read receipt every time to recipients.</p>
+</dd>
+<dt class="hdlist1">Never Send</dt>
+<dd>
+<p>Choose this option, so Zimbra does not send a read-receipt to recipients.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_email_notifications">Email Notifications</h4>
+<div class="paragraph">
+<p>You can choose when Zimbra notifies you of new emails.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">When a new message arrives in Inbox</dt>
+<dd>
+<p>When you choose this option, Zimbra notifies you of new emails <strong>only</strong> whem they arrive in <strong>Inbox</strong>. You are not notified of emails arriving in other folders due to <a href="#settings-filters.adoc">filters</a>.</p>
+</dd>
+<dt class="hdlist1">When a new message arrives in any folder</dt>
+<dd>
+<p>When you choose this option, Zimbra notifies you of each new email, irrespective of the folder in which they are arriving.</p>
+</dd>
+</dl>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_writing_emails">Writing Emails</h3>
+<div class="sect3">
+<h4 id="_recall_a_sent_message">Recall a sent message</h4>
+<div class="paragraph">
+<p>You can recall an email you just sent, using the <strong>Undo Send</strong> feature.
+When enabled, as soon as you send an email, you get a notification with an <strong>UNDO</strong> button.
+This notification stays for only a few seconds.
+Once this notification disappears, recall is not possible.</p>
+</div>
+<div class="paragraph">
+<p>The email remains in <strong>Drafts</strong> folder as long as this notification stays on the screen.
+When you click <strong>Undo</strong>, a notification informs you that sending has been canceled, and the email remains in your <strong>Drafts</strong> folder.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Writing Email</strong>, check <strong>Enable</strong> against <strong>Undo send</strong> to enable this feature.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_request_read_receipts_2">Request Read Receipts</h4>
+<div class="paragraph">
+<p>You can ask readers for an acknowledgment every time they open your email.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Writing Email</strong>, check <strong>Always</strong> against <strong>Request read receipts</strong> to enable this feature.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Check <a href="#_request_read_receipts">Request Read Receipts</a> on how to request your recipients for a read receipt on the fly&#8201;&#8212;&#8201;while composing emails.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_save_a_copy_to_sent_folder">Save a Copy to Sent Folder</h4>
+<div class="paragraph">
+<p>You can choose to <strong>not</strong> save your sent emails in <strong>Sent</strong> folder.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Writing Email</strong>, uncheck <strong>Enable</strong> against <strong>Save a copy to Sent folder</strong> to disable saving emails in the Sent folder.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_delegation">Delegation</h4>
+<div class="paragraph">
+<p>You can let someone else manage your email account using Zimbra. Your delegates can read, send, and delete messages on your behalf.
+Messages your delegates send on your behalf show you as the sender.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Writing Email</strong>, click <strong>Add delegates</strong> against <strong>Delegates</strong>.</p>
+</li>
+<li>
+<p>Enter the name or email address of the delegate.
+Autocomplete feature lists suggestions; choose one that applies.</p>
+</li>
+<li>
+<p>Choose whether delegates can <strong>Send As</strong> or <strong>Send on behalf of</strong></p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Send As</dt>
+<dd>
+<p>Delegates can send an email <em>as</em> you.
+Receivers of this email see your email address as the sender.</p>
+</dd>
+<dt class="hdlist1">Send on behalf of</dt>
+<dd>
+<p>Delegates send an email on your <em>behalf</em>. Receivers of this email see the delegate&#8217;s email address, as well as yours, as the sender.</p>
+</dd>
+</dl>
+</div>
+</li>
+</ol>
+</div>
+<div class="sect4">
+<h5 id="_delegates_sent_email_settings">Delegate&#8217;s Sent Email Settings</h5>
+<div class="paragraph">
+<p>When a delegate sends an email, as you or on your behalf, you can manage where the sent messages are stored.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Save sent messages to my Sent folder</dt>
+<dd>
+<p>The email sent by your delegate goes in your sent items folder.</p>
+</dd>
+<dt class="hdlist1">Save sent messages to delegate&#8217;s Sent folder</dt>
+<dd>
+<p>The email sent by your delegate goes in the delegate&#8217;s sent items folder.</p>
+</dd>
+<dt class="hdlist1">Save sent messages to my Sent folder, and delegate&#8217;s Sent folder</dt>
+<dd>
+<p>The email sent by your delegate goes in your sent items folder, and delegate&#8217;s Sent Items folder as well.</p>
+</dd>
+<dt class="hdlist1">Don&#8217;t save sent messages</dt>
+<dd>
+<p>Zimbra does not save the email sent by your delegate.</p>
+</dd>
+</dl>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_account_settings">Account Settings</h3>
+<div class="sect3">
+<h4 id="_add_an_account">Add an Account</h4>
+<div class="paragraph">
+<p>The Modern Web App can help you manage emails that you receive on other email addresses.
+Through the Modern Web App you can send and receive emails using these email addresses.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose <span class="image"><img src="images/graphics/plus.svg" alt="plus" width="20"></span> <strong>Add an account</strong>.</p>
+</li>
+<li>
+<p>Enter your email address in the <strong>Email Address</strong> field.</p>
+</li>
+<li>
+<p>Enter the password for this email address in the <strong>Password</strong> field.</p>
+<div class="openblock">
+<div class="content">
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+You may need to generate an app password, if your email provider mandates it.
+Once generated, use the app password in the <strong>Password</strong> field.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Choose an account type, from <strong>POP</strong> or <strong>IMAP</strong>, that you want to configure with the Modern Web App.</p>
+</li>
+<li>
+<p>Enter the username associated with this email address.</p>
+</li>
+<li>
+<p>Type the mail server name in <strong>Mail Server</strong> field.
+Please check with your email provider for this information.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_change_the_name_on_your_zimbra_account">Change the name on your Zimbra account</h4>
+<div class="paragraph">
+<p>You can choose what name people see when you send them an email.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Under <strong>Your Name</strong> type in a name that you want people to see when they receive your emails.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_change_your_zimbra_mailbox_name">Change your Zimbra Mailbox Name</h4>
+<div class="paragraph">
+<p>If you have multiple email accounts configured through Zimbra, you may want to differentiate them.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Under <strong>Description</strong> type in a name for this account.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_add_a_persona">Add a Persona</h4>
+<div class="paragraph">
+<p>A persona helps you create a separate email identity to manage different types of email.
+E.g., you can create a persona for your business email and one for your personal email.
+By using a persona, you can specify a different <strong>From</strong> address or a <strong>Reply-To</strong> address for emails sent using that persona.
+All outgoing email displays the email address of the persona that you are using.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose <span class="image"><img src="images/graphics/plus.svg" alt="plus" width="20"></span> <strong>Add a persona</strong>.</p>
+</li>
+<li>
+<p>Type a name under <strong>Persona Name</strong> to identify your persona.</p>
+</li>
+<li>
+<p>Choose an account from <strong>Send from this account</strong>.</p>
+</li>
+<li>
+<p>Type in a name which recipients see as the sender&#8217;s name.</p>
+<div class="openblock">
+<div class="content">
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If this box is empty, persona will use From name of the sending account.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Check <strong>Enable</strong> against <strong>Direct replies to a different email address</strong>, to receive replies on a different email address.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Enter a <em>Reply-to address</em>.</p>
+</li>
+<li>
+<p>Type in a <em>Reply-to name</em>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Click <strong>Add Persona</strong> to create this persona.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_two_factor_authentication_2">Two-factor Authentication</h4>
+<div class="sect4">
+<h5 id="_2fa_enabled">2FA Enabled</h5>
+<div class="paragraph">
+<p>If two-factor authentication is only enabled but not enforced, you have the option to set up two-factor authentication at your convenience.
+Application usage is not affected.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane to enable 2FA.</p>
+</li>
+<li>
+<p>Click <b class="button">Set up two-factor authentication</b>.</p>
+</li>
+<li>
+<p>Enter your password when prompted.</p>
+</li>
+<li>
+<p>Install an authentication app on your mobile device.
+Check <a href="https://wiki.zimbra.com/wiki/TOTPApps">supported apps</a>.</p>
+</li>
+<li>
+<p>Once installed, configure it on your smartphone.</p>
+</li>
+<li>
+<p>Click <strong>Next</strong> on the Zimbra screen to begin the process of adding this account to the authentication app.</p>
+</li>
+<li>
+<p>On the authenticator app, scan the QR code or enter the code generated on the Zimbra screen.</p>
+</li>
+<li>
+<p>Click <strong>Next</strong>.</p>
+</li>
+<li>
+<p>Enter the code generated by your authenticator app and click <strong>Verify</strong> to complete the two-factor authentication setup.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_login_screen">Login Screen</h5>
+<div class="paragraph">
+<p>Once set up, Zimbra prompts you to enter a code as part of every login.
+Enter the code displayed in your authenticator app at that time and click <strong>Verify</strong>.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_adding_trusted_devices">Adding Trusted Devices</h5>
+<div class="paragraph">
+<p>Once you have set up 2FA, Zimbra requires a code from the authenticator app on each login.
+You can set a device as a trusted device, so you do not have to enter an authentication code.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Launch Zimbra.</p>
+</li>
+<li>
+<p>Enter an authorized username and password.</p>
+</li>
+<li>
+<p>Check the box, <strong>Always trust this device</strong>.</p>
+</li>
+<li>
+<p>Enter the two-factor authentication code from the authentication app.</p>
+</li>
+<li>
+<p>Click <strong>Verify</strong> to login.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Next time when logging in from this device, you do not need to enter the authentication code.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_removing_trusted_devices">Removing Trusted Devices</h5>
+<div class="paragraph">
+<p>When you remove a device from the list of trusted devices, Zimbra prompts you to enter the authentication code next time you attempt to login using that device.
+To remove a device from the list of trusted devices, login from the device you wish to remove from the trusted devices' list.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Two-factor authentication</strong> segment.</p>
+</li>
+<li>
+<p>Click <strong>Don&#8217;t trust this device</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+To remove all your devices from the list of trusted devices, <strong>except</strong> the one you have logged in from, click <strong>Don&#8217;t trust all other devices</strong>.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Zimbra removes the target device from the list of trusted devices with immediate effect.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_one_time_codes">One-time codes</h5>
+<div class="paragraph">
+<p>One-time codes are a set of ten codes used to complete the two-factor authentication when you do not have access to the authentication app.
+You can use each of these unique codes only once.
+Zimbra has an option to regenerate a new set of codes.
+We recommend that you copy and keep the codes in a safe place on the first available opportunity.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+You cannot log in to Zimbra if you do not have the codes or access to the authenticator app.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_generate_one_time_codes">Generate One-time Codes</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Two-factor authentication</strong> segment.</p>
+</li>
+<li>
+<p>Click <strong>10 unused codes</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Copy to clipboard</strong> to copy the codes, paste in a text file, and save the file in a safe place.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Once clicked, <strong>Copy to clipboard</strong> changes to <strong>Copied</strong>. The codes can be copied again by clicking <strong>Copied</strong>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_adding_an_app_passcode">Adding an App Passcode</h4>
+<div class="paragraph">
+<p>Most desktop email programs have no way to ask for or enter the unique code to complete the two-factor authentication. Zimbra helps you generate a passcode that you can use instead of your <em>real</em> account password when configuring your email program.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Two-factor authentication</strong> segment.</p>
+</li>
+<li>
+<p>Click <strong>Add a passcode</strong>.</p>
+</li>
+<li>
+<p>Enter a name that helps you identify the app password you create and click <strong>Next</strong>.</p>
+</li>
+<li>
+<p>Copy the code, paste in a text file, and save the file in a safe place.
+You need this code when configuring your email program.</p>
+</li>
+<li>
+<p>Enter this passcode instead of your account password when configuring an email client with Zimbra.</p>
+</li>
+</ol>
+</div>
+<div class="sect4">
+<h5 id="_removing_an_app_passcode">Removing an App Passcode</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Two-factor authentication</strong> segment.</p>
+</li>
+<li>
+<p>Hover over the email application you want to remove.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/close.svg" alt="close icon" width="20"></span> to remove the targeted application.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_disable_2fa">Disable 2FA</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Two-factor authentication</strong> segment.</p>
+</li>
+<li>
+<p>Click the button <strong>Remove two-factor authentication</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>You can now log in without the need to enter an authentication code.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+You can disable 2FA only if the administrator has allowed this option for you.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_reply_to_address">Reply-to Address</h4>
+<div class="paragraph">
+<p>You can receive replies to your emails on a different address using this feature.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Reply-to-Address</strong> segment.</p>
+</li>
+<li>
+<p>Check the box <strong>Receive replies to your sent emails at a different address</strong>.</p>
+</li>
+<li>
+<p>Enter an email address where you&#8217;d like to receive replies for your emails.</p>
+</li>
+<li>
+<p>Type in a name corresponding to the above email address.</p>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_access_your_emails_elsewhere">Access your emails elsewhere</h4>
+<div class="paragraph">
+<p>You can set a forwarding address in Zimbra. Zimbra forwards all your emails to the address specified here.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Access your mail elsewhere</strong> segment.</p>
+</li>
+<li>
+<p>Check the box <strong>Forward: Zimbra forwards all your emails to the specified address so that you can check it there</strong>.</p>
+</li>
+<li>
+<p>Enter an email address where you&#8217;d like to forward your emails.</p>
+</li>
+<li>
+<p>From the drop-down, choose if Zimbra should keep a copy of the email received.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Store and Forward</dt>
+<dd>
+<p>Zimbra keeps a copy of the email before forwarding it to the specified address.</p>
+</dd>
+<dt class="hdlist1">Delete and Forward</dt>
+<dd>
+<p>Zimbra deletes the email after forwarding it to the specified address.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>At the bottom of the page, click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_export">Export</h4>
+<div class="paragraph">
+<p>You can export all your emails, contacts, and calendars as a <code>.tgz</code> file.
+To export individual folders, emails, contacts, or calendars, right-click those items and choose <strong>Export</strong> from the context menu.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Export</strong> and click <b class="button">Export</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_import">Import</h4>
+<div class="paragraph">
+<p>You can import all your emails, contacts, and calendars from a <code>.tgz</code> file.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Import</strong> and click <b class="button">Import</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_mobile_or_desktop_configuration">Mobile or Desktop Configuration</h4>
+<div class="paragraph">
+<p>IMAP, CalDav, and CardDav are an open set of rules for synchronizing your emails, contacts, calendars, and tasks with mobile or desktop devices.
+Zimbra creates mobile profiles which you can download, configure, and sync your mobile devices.</p>
+</div>
+<div class="paragraph">
+<p>Android OS natively (without the help of external apps) supports IMAP for managing email; however, CalDAV and CardDAV require installation of apps like OpenSync.
+Mac and iOS have provisions for working with CalDAV and cardDAV; hence, you do not need any Mac or iOS app to work with them.</p>
+</div>
+<div class="paragraph">
+<p>This section explains how to export profiles.
+To import these profiles to your mobile devices, you may want to look at below help articles:</p>
+</div>
+<div class="sect4">
+<h5 id="_export_profiles">Export Profiles</h5>
+<div class="paragraph">
+<p>There are five profiles available to download and sync with devices that support this.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Email, Calendar, and Tasks, Contacts</dt>
+<dd>
+<p>This profile syncs Email, Calendar, Tasks, and Contacts on mobile devices with Zimbra.</p>
+</dd>
+<dt class="hdlist1">Calendar and Tasks, Contacts</dt>
+<dd>
+<p>This profile syncs only Calendar, Tasks, and Contacts on mobile devices, with Zimbra; it does not sync emails.</p>
+</dd>
+<dt class="hdlist1">Calendar and Tasks</dt>
+<dd>
+<p>This profile syncs only Calendar and Tasks on mobile devices, with Zimbra; it does not sync emails and contacts.</p>
+</dd>
+<dt class="hdlist1">Contacts</dt>
+<dd>
+<p>This profile syncs only contacts on mobile devices, with Zimbra; it does not sync emails, calendars, and tasks.</p>
+</dd>
+<dt class="hdlist1">Email</dt>
+<dd>
+<p>This profile syncs only emails on mobile devices, with Zimbra; it does not sync contacts, calendars, and tasks.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Accounts</strong> in the left pane and choose an account from the right pane.</p>
+</li>
+<li>
+<p>Scroll down to <strong>Mobile or Desktop configuration</strong> segment.</p>
+</li>
+<li>
+<p>Choose one of the profiles from the drop-down and click <strong>Download</strong>.</p>
+</li>
+<li>
+<p>Choose a location to save the downloaded file. Zimbra requires this file when importing profiles to <a href="#_import_profiles_to_ios">iOS</a> or <a href="#_import_profiles_to_android">Android</a> devices.</p>
+</li>
+</ol>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_import_profiles_to_ios">Import profiles to iOS</h5>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">IMAP</dt>
+<dd>
+<p><a href="https://support.apple.com/en-in/HT201320" class="bare">https://support.apple.com/en-in/HT201320</a></p>
+</dd>
+<dt class="hdlist1">CalDAV</dt>
+<dd>
+<p><a href="https://support.apple.com/en-in/guide/iphone/iph3d1110d4/ios" class="bare">https://support.apple.com/en-in/guide/iphone/iph3d1110d4/ios</a></p>
+</dd>
+<dt class="hdlist1">CardDAV</dt>
+<dd>
+<p><a href="https://support.apple.com/en-in/guide/iphone/iph14a87326/ios" class="bare">https://support.apple.com/en-in/guide/iphone/iph14a87326/ios</a></p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_import_profiles_to_android">Import profiles to Android</h5>
+<div class="paragraph">
+<p>Since Android&#8201;&#8212;&#8201;without external apps&#8201;&#8212;&#8201;supports IMAP only, you may need to check the instructions specific to the app you use for CardDAV and CalDAV.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_account_recovery">Account Recovery</h3>
+<div class="paragraph">
+<p>We always recommend adding an alternate email address to get account recovery instructions if you forget the login credentials to your email account.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Account Recovery</strong> in the left pane and click <strong>Add Recovery Email</strong>.</p>
+</li>
+<li>
+<p>Enter an email address where you would like to receive account recovery instructions.</p>
+</li>
+<li>
+<p>Click <strong>Continue</strong>.</p>
+</li>
+<li>
+<p>You receive a code on this alternate email address.
+Check your email and copy the verification code.</p>
+</li>
+<li>
+<p>Paste in the above prompt to verify the alternate email address.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_out_of_office_settings">Out of Office settings</h3>
+<div class="paragraph">
+<p>With Zimbra, you can send out-of-office replies for any duration you specify.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Out Of Office</strong> in the left pane.</p>
+</li>
+<li>
+<p>Check the box <strong>Enable automatic response during these dates (inclusive)</strong>.</p>
+</li>
+<li>
+<p>Specify a <strong>From</strong> date.</p>
+</li>
+<li>
+<p>Specify an <strong>Until</strong> date.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If the until date is uncertain, check the box <strong>No end date</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Type a response that you&#8217;d want to send while you are out of office.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Test out the response by clicking <b class="button">Send sample copy to me</b>.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="sect3">
+<h4 id="_out_of_office_replies_for_external_senders">Out of Office replies for external senders</h4>
+<div class="paragraph">
+<p>You can choose if you want to send an out-of-office response to senders who are not in your organization (external senders).</p>
+</div>
+<div class="paragraph">
+<p>Against <strong>External Senders</strong> there are three options in the dropdown.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Send standard automatic response</dt>
+<dd>
+<p>Choose this option to send the same response specified above, to external senders.</p>
+</dd>
+<dt class="hdlist1">Send external automatic response</dt>
+<dd>
+<p>Choose this option to bring up a text box and type a separate response to external senders.
+Click <b class="button">Send sample copy to me</b> to test out this response.</p>
+</dd>
+<dt class="hdlist1">Do not send automatic response</dt>
+<dd>
+<p>Choose this option to avoid sending out-of-office response to external senders.</p>
+</dd>
+</dl>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_filtersautomate_management_of_your_email">Filters&#8201;&#8212;&#8201;Automate management of your email</h3>
+<div class="paragraph">
+<p>Zimbra allows you to create filters through which you can sort incoming messages into folders by defining some rules.</p>
+</div>
+<div class="sect3">
+<h4 id="_create_new_filter">Create New Filter</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Filters</strong> in the left pane.</p>
+</li>
+<li>
+<p>Click <strong>Add</strong> to create a new filter.</p>
+</li>
+<li>
+<p>Set a <strong>Filter Name</strong>.</p>
+</li>
+<li>
+<p>There are two filter editors&#8201;&#8212;&#8201;Basic and Advanced.
+By default, when creating a new filter <strong>Basic</strong> editor opens.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Zimbra takes these actions when it encounters mails that meet the defined criteria.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Move to folder</dt>
+<dd>
+<p>You can move the filtered email to either <strong>Junk</strong> or <strong>Trash</strong></p>
+</dd>
+<dt class="hdlist1">Mark as read</dt>
+<dd>
+<p>Leave the message in the inbox but mark it as read.</p>
+</dd>
+<dt class="hdlist1">Permanently delete</dt>
+<dd>
+<p>Discard the email, so it does not appear in the <strong>Trash</strong> folder.</p>
+</dd>
+<dt class="hdlist1">Forward to</dt>
+<dd>
+<p>Redirect the email to another email address.</p>
+</dd>
+<dt class="hdlist1">Star</dt>
+<dd>
+<p>Flag the email so that it stands out and appears with a star in the email list.</p>
+</dd>
+<dt class="hdlist1">Tag With</dt>
+<dd>
+<p>Mark an email with tags that you have created.
+For more information check <a href="#_tags">tags</a>.</p>
+</dd>
+</dl>
+</div>
+<div class="sect4">
+<h5 id="_basic">Basic</h5>
+<div class="paragraph">
+<p>In the basic editor, you can specify only one action to affect emails that meet the filter criteria.
+E.g., you can only mark it read <em>or</em> move it to trash; you can&#8217;t do both.
+To perform multiple actions on emails matching specific criteria, check <a href="#_advanced">advanced mode</a>.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Choose if the incoming mails have to meet <strong>any</strong> one or <strong>all</strong> of the defined criteria.</p>
+</li>
+<li>
+<p>Define the conditions that an email has to meet for the defined action to take effect.</p>
+</li>
+<li>
+<p>Under <strong>Then</strong> choose what happens with the filtered email.
+You can choose only one action.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_advanced">Advanced</h5>
+<div class="paragraph">
+<p>In the advanced editor, you can specify multiple actions to affect emails that meet the filter criteria.
+E.g., you can mark it read <em>and</em> move it to trash.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <strong>Switch to advanced</strong>.</p>
+</li>
+<li>
+<p>Choose if the incoming mails have to meet <strong>any</strong> one or <strong>all</strong> of the defined criteria.</p>
+</li>
+<li>
+<p>Define the conditions that an email has to meet for the defined action to take effect.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>To add more conditions, click <strong>+ Add a condition</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Under <strong>Then</strong> choose what happens with the filtered email.
+You can choose only one action.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>To add more actions click <strong>+ Add an action</strong></p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+<strong>And do not process additional filters</strong> check-box stops other filters from running on a message which meets the criteria for multiple filters.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_managing_filters">Managing Filters</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Filters</strong> in the left pane.</p>
+</li>
+<li>
+<p>The right pane lists all the filters that you have created so far.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Click and drag <span class="image"><img src="images/graphics/drag.svg" alt="2 horizontal bars icon" width="20"></span> to raise or lower the filter priority.</p>
+</li>
+<li>
+<p>Check or uncheck a filter to enable or disable it.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="images/graphics/ellipsis-h.svg" alt="3 dots menu icon" width="20"></span> against a filter to bring up options like <strong>Details</strong>, <strong>Run</strong>, <strong>Edit</strong>, and <strong>Delete</strong>.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Details</dt>
+<dd>
+<p>Lists the conditions for an email to meet and the action to take when an email meets the filter criteria.</p>
+</dd>
+<dt class="hdlist1">Run</dt>
+<dd>
+<p>Choose an account and then folder(s) on which to run the filter.</p>
+</dd>
+<dt class="hdlist1">Edit</dt>
+<dd>
+<p>Opens the appropriate editor&#8201;&#8212;&#8201;<strong>Basic</strong> or <strong>Advanced</strong>&#8201;&#8212;&#8201;to edit a filter.</p>
+</dd>
+<dt class="hdlist1">Delete</dt>
+<dd>
+<p>Prompts a confirmation dialog before deleting a filter.</p>
+</dd>
+</dl>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_block_and_allow_senders">Block and Allow senders</h3>
+<div class="paragraph">
+<p>You can block messages from specific email addresses or domains from reaching your inbox; you can also allow specific email addresses and domains, so their emails reach you every time.
+When you add an email address or domain to your blocked senders' list, Zimbra blocks all messages from that sender.</p>
+</div>
+<div class="sect3">
+<h4 id="_block_senders_from_sending_you_email">Block senders from sending you email</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Blocked and Allowed Senders</strong> in the left pane.</p>
+</li>
+<li>
+<p>Under <strong>Blocked Senders and Domains</strong>, enter the email address or domain that you want to block and click <strong>Block</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Zimbra removes emails by blocked senders from the server; they do not appear in either <strong>Junk</strong> or <strong>Trash</strong>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_allow_senders">Allow senders</h4>
+<div class="paragraph">
+<p>If you want to remove someone from the blocked senders' list, follow the instructions below.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Blocked and Allowed Senders</strong> in the left pane.</p>
+</li>
+<li>
+<p>Under <strong>Blocked Senders and Domains</strong>, select the email address or domain that you want to unblock and click <strong>Remove</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_stop_messages_from_going_into_your_junk_email_folder">Stop messages from going into your Junk Email folder</h4>
+<div class="paragraph">
+<p>Messages from these senders and domains bypass spam filters and are always delivered.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Blocked and Allowed Senders</strong> in the left pane.</p>
+</li>
+<li>
+<p>Under <strong>Allowed Senders and Domains</strong>, enter the email address or domain that you want to receive emails from and click <strong>Allow</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+If the same email address is in the whitelist and the blacklist, whitelisting takes precedence.
+</td>
+</tr>
+</table>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_offline_mode">Offline mode</h3>
+<div class="paragraph">
+<p>With Zimbra, you can work offline to avoid incurring cellular data charges or to stop Zimbra from attempting to send and receive messages over a slow network connection.
+You can manage and compose mail, contacts, and appointments when you are offline.
+The changes sync when you are back online.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Offline Mode</strong> in the left pane.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Enable offline mode</dt>
+<dd>
+<p>Copies of recent items are saved locally.
+They are synchronized with the server when Zimbra goes online.</p>
+</dd>
+<dt class="hdlist1">Disable offline mode</dt>
+<dd>
+<p>Zimbra is online, and all changes synchronize in real-time.</p>
+</dd>
+</dl>
+</div>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_security_and_activity">Security and Activity</h3>
+<div class="paragraph">
+<p>This setting enables viewing of emails and shows the list of devices where Zimbra is open with your credentials.
+You have the option to sign out from all other instances except this one.</p>
+</div>
+<div class="sect3">
+<h4 id="_security">Security</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Security and Activity</strong> in the left pane.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>To block images from appearing everywhere choose <strong>Never by default</strong>.</p>
+</li>
+<li>
+<p>To block images from appearing only in <strong>Junk</strong> folder choose <strong>Always, except in Junk folder</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_activity">Activity</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Security and Activity</strong> in the left pane.</p>
+</li>
+<li>
+<p>Click <strong>Sign out</strong> against sessions that you are no longer using or you don&#8217;t recognize.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_calendar_and_reminder_settings">Calendar and Reminder Settings</h3>
+<div class="paragraph">
+<p>This setting controls,</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>default calendar to create events in,</p>
+</li>
+<li>
+<p>the day when a week starts,</p>
+</li>
+<li>
+<p>time when a typical workday starts and ends,</p>
+</li>
+<li>
+<p>calendar events time zone,</p>
+</li>
+<li>
+<p>if the calendar, when shared, a delegate can manage through a mobile device, and</p>
+</li>
+<li>
+<p>the email address to send event reminders.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_general_calendar_settings">General Calendar Settings</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Calendar and Reminder Settings</strong> in the left pane.</p>
+</li>
+<li>
+<p>Choose a <strong>Default Calendar</strong> from the drop-down.
+If you have not <a href="calendars-manage-calendars.html#_add_calendars">added a calendar</a>, the drop-down does not have any other entries.</p>
+</li>
+<li>
+<p>Choose a <strong>Start of Week</strong> from the drop-down.</p>
+</li>
+<li>
+<p>Choose a time when your workday starts from <strong>Start of Workday</strong> drop-down.</p>
+</li>
+<li>
+<p>Specify a time when your workday ends from the <strong>End of Workday</strong> drop-down.</p>
+</li>
+<li>
+<p>Set a time zone for your workdays under <strong>Workday Time Zone</strong>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Alternatively, check the box <strong>Show timezones for start and end times</strong> to set time zones on the fly.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Check the box <strong>Enable delegation for CALDav clients</strong> against <strong>Sharing</strong> to allow delegated users to manage your <a href="#_share_a_calendar">shared calendars</a> using their mobile devices.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_event_reminders">Event Reminders</h4>
+<div class="paragraph">
+<p>You can specify an email address to receive event reminders.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Calendar and Reminder Settings</strong> in the left pane.</p>
+</li>
+<li>
+<p>Enter the email address in <strong>Send reminders by email to</strong> field to send event reminders to that email address.</p>
+</li>
+<li>
+<p>Check the box <strong>Show Browser Notifications</strong> to receive event reminders via browser notifications.</p>
+</li>
+<li>
+<p>Specify a <strong>Default Reminder Time</strong> before which to receive event reminders.</p>
+</li>
+<li>
+<p>Check the box to enable <strong>Show Reminders for Past-Due Events</strong> to receive reminders for events that are past due.
+This way, you receive reminders for events that you might have unknowingly missed.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_free_busy_permission">Free Busy Permission</h4>
+<div class="paragraph">
+<p>You can use this setting to control who can see when you are free or busy.
+Event organizers can click on <b class="button">Show Availability</b> when <a href="#_schedule_an_event">scheduling an event</a> to see when you are available for a meeting.</p>
+</div>
+<div class="paragraph">
+<p>Choose an option from the dropdown.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Everyone</dt>
+<dd>
+<p>All organizers can view the time when you are free or busy.</p>
+</dd>
+<dt class="hdlist1">Internal users only</dt>
+<dd>
+<p>Your Free/Busy information is available to all users within your organization.</p>
+</dd>
+<dt class="hdlist1">Internal users on my domain only</dt>
+<dd>
+<p>Your Free/Busy information is available only to users within your domain. Users in your organization who have email addresses on another domain can not view your Free/Busy information.</p>
+</dd>
+<dt class="hdlist1">These internal users only</dt>
+<dd>
+<p>Enter email addresses, below this dropdown, of users who can view your free/busy information. Click <b class="button">Add</b> after entering each email address.
+The field <strong>Enter an email address</strong> is active only for this option.</p>
+</dd>
+<dt class="hdlist1">None</dt>
+<dd>
+<p>Your free/busy information is hidden from everyone, without exception.</p>
+</dd>
+</dl>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_change_display_language">Change Display Language</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Zimbra now offers these languages as the display language.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Chinese</p>
+</li>
+<li>
+<p>English (United States)</p>
+</li>
+<li>
+<p>French</p>
+</li>
+<li>
+<p>German</p>
+</li>
+<li>
+<p>Hindi</p>
+</li>
+<li>
+<p>Indonesian</p>
+</li>
+<li>
+<p>Italian</p>
+</li>
+<li>
+<p>Japanese</p>
+</li>
+<li>
+<p>Portuguese</p>
+</li>
+<li>
+<p>Spanish</p>
+</li>
+<li>
+<p>Thai</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>To change the Zimbra display language to one of the above languages, perform the following steps.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Language</strong>.</p>
+</li>
+<li>
+<p>Choose a language you prefer.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Zimbra display language changes to the selected language.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_activating_zimlets_in_modern_web_app">Activating Zimlets in Modern Web App</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+To enable zimlets, please get in touch with your organization&#8217;s Zimbra Collaboration administrator.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>This section discusses how to activate zimlets for your account once an administrator enables them.</p>
+</div>
+<div class="sect2">
+<h3 id="_dropbox">Dropbox</h3>
+<div class="paragraph">
+<p>With this integration you can connect your Dropbox account to Zimbra for saving and sharing files from your Dropbox.</p>
+</div>
+<div class="sect3">
+<h4 id="_activate_the_dropbox_zimlet">Activate the Dropbox Zimlet</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+During the activation process, you may encounter a <strong>Not Found</strong> error. The error goes away automatically and does not require any intervention.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Dropbox Integration</strong> from the left pane.</p>
+</li>
+<li>
+<p>Click <b class="button">Activate</b></p>
+</li>
+<li>
+<p>Sign In to your Dropbox account.</p>
+</li>
+<li>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Dropbox.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Dropbox&#8217;s authentication works in the background and hence you may have to wait for sometime before Dropbox activates.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_save_all_attachments_to_your_dropbox">Save all Attachments to your Dropbox</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Some Users may not see the download link above their attachments. In such a case, please follow the steps mentioned in <a href="#_save_an_attachment_to_your_dropbox">Save an Attachment to your Dropbox</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Once this zimlet is activated, emails containing attachments appear with links to save the attachments.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On an email containing attachments, click the <strong>Save to Dropbox</strong> link&#8201;&#8212;&#8201;just above the attachments.</p>
+</li>
+<li>
+<p>Sign In to your Dropbox account, if requested.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save all attachments to Dropbox.</p>
+</li>
+<li>
+<p>Click <strong>Remove</strong> against an attachment to remove it.</p>
+</li>
+<li>
+<p>A notification confirms file upload to Dropbox.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_save_an_attachment_to_your_dropbox">Save an Attachment to your Dropbox</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/download.svg" alt="download icon" width="20"></span> on an attachment.</p>
+</li>
+<li>
+<p>Click <b class="button">Dropbox</b> from the list of download locations.</p>
+</li>
+<li>
+<p>Sign In to your Dropbox account.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save all attachments to Dropbox.</p>
+</li>
+<li>
+<p>A notification confirms file upload to Dropbox.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_attaching_a_file_from_dropbox">Attaching a file from Dropbox</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When composing an email, click <span class="image"><img src="images/graphics/paperclip.svg" alt="attachment icon" width="20"></span> and select <strong>Add files from Dropbox</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Select files to attach</strong> to add the files as attachments in your email.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Click <strong>Select files to link</strong> to add the files as links in your email.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Sign In to your Dropbox account.</p>
+</li>
+<li>
+<p>From the <strong>Dropbox</strong> window, select the files to attach.</p>
+</li>
+<li>
+<p>Compose your message and click <b class="button">Send</b> to send the email with attachment from <strong>Dropbox</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_send_large_files_via_dropbox">Send Large files via Dropbox</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When composing an email, click <span class="image"><img src="images/graphics/paperclip.svg" alt="attachment icon" width="20"></span> and select <strong>Add from my Computer</strong>.</p>
+</li>
+<li>
+<p>Select the file you want to attach and click <strong>Open</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Dropbox</strong> from the presented options.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> in the Dropbox window to save your file to be shared from Dropbox.</p>
+</li>
+<li>
+<p>The <strong>Inserting Link</strong> window appears while the file saves to your Dropbox. Once completed, the link appears in your email message.</p>
+</li>
+<li>
+<p>Compose your message and click <b class="button">Send</b> to send the email with the Dropbox link.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_google_drive">Google Drive</h3>
+<div class="paragraph">
+<p>With this integration you can connect your Google Drive account to Zimbra for saving and sharing files from your Google Drive.</p>
+</div>
+<div class="sect3">
+<h4 id="_activate_the_google_drive_zimlet">Activate the Google Drive Zimlet</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+During the activation process, you may encounter a <strong>Not Found</strong> error. The error goes away automatically and does not require any intervention.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Google Drive Integration</strong> from the left pane.</p>
+</li>
+<li>
+<p>Click <b class="button">Activate</b></p>
+</li>
+<li>
+<p>Sign In to your Google Drive account.</p>
+</li>
+<li>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Google Drive.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Google Drive&#8217;s authentication works in the background and hence you may have to wait for sometime before Google Drive activates.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_save_all_attachments_to_your_google_drive">Save all Attachments to your Google Drive</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Some Users may not see the download link above their attachments. In such a case, please follow the steps mentioned in <a href="#_save_an_attachment_to_your_google_drive">Save an Attachment to your Google Drive</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Once this zimlet is activated, emails containing attachments appear with links to save the attachments.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On an email containing attachments, click the <strong>Save to Google Drive</strong> link&#8201;&#8212;&#8201;just above the attachments.</p>
+</li>
+<li>
+<p>Sign In to your Google Drive account, if requested.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save all attachments to Google Drive.</p>
+</li>
+<li>
+<p>Click <strong>Remove</strong> against an attachment to remove it.</p>
+</li>
+<li>
+<p>A notification confirms file upload to Google Drive.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_save_an_attachment_to_your_google_drive">Save an Attachment to your Google Drive</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/download.svg" alt="download icon" width="20"></span> on an attachment.</p>
+</li>
+<li>
+<p>Click <b class="button">Google Drive</b> from the list of download locations.</p>
+</li>
+<li>
+<p>Sign In to your Google Drive account.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save all attachments to Google Drive.</p>
+</li>
+<li>
+<p>A notification confirms file upload to Google Drive.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_attaching_a_file_from_google_drive">Attaching a file from Google Drive</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When composing an email, click <span class="image"><img src="images/graphics/paperclip.svg" alt="attachment icon" width="20"></span> and select <strong>Add files from Google Drive</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Select files to attach</strong> to add the files as attachments in your email.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Click <strong>Select files to link</strong> to add the files as links in your email.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Sign In to your Google Drive account.</p>
+</li>
+<li>
+<p>From the <strong>Google Drive</strong> window, select the files to attach.</p>
+</li>
+<li>
+<p>Compose your message and click <b class="button">Send</b> to send the email with attachment from <strong>Google Drive</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_send_large_files_via_google_drive">Send Large files via Google Drive</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When composing an email, click <span class="image"><img src="images/graphics/paperclip.svg" alt="attachment icon" width="20"></span> and select <strong>Add from my Computer</strong>.</p>
+</li>
+<li>
+<p>Select the file you want to attach and click <strong>Open</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Google Drive</strong> from the presented options.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> in the Google Drive window to save your file to be shared from Google Drive.</p>
+</li>
+<li>
+<p>The <strong>Inserting Link</strong> window appears while the file saves to your Google Drive. Once completed, the link appears in your email message.</p>
+</li>
+<li>
+<p>Compose your message and click <b class="button">Send</b> to send the email with the Google Drive link.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_onedrive">Onedrive</h3>
+<div class="paragraph">
+<p>With this integration you can connect your Onedrive account to Zimbra for saving and sharing files from your Onedrive.</p>
+</div>
+<div class="sect3">
+<h4 id="_activate_the_onedrive_zimlet">Activate the Onedrive Zimlet</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+During the activation process, you may encounter a <strong>Not Found</strong> error. The error goes away automatically and does not require any intervention.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Onedrive Integration</strong> from the left pane.</p>
+</li>
+<li>
+<p>Click <b class="button">Activate</b></p>
+</li>
+<li>
+<p>Sign In to your Onedrive account.</p>
+</li>
+<li>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Onedrive.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Onedrive&#8217;s authentication works in the background and hence you may have to wait for sometime before Onedrive activates.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_save_all_attachments_to_your_onedrive">Save all Attachments to your Onedrive</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Some Users may not see the download link above their attachments. In such a case, please follow the steps mentioned in <a href="#_save_an_attachment_to_your_onedrive">Save an Attachment to your Onedrive</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Once this zimlet is activated, emails containing attachments appear with links to save the attachments.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On an email containing attachments, click the <strong>Save to Onedrive</strong> link&#8201;&#8212;&#8201;just above the attachments.</p>
+</li>
+<li>
+<p>Sign In to your Onedrive account, if requested.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save all attachments to Onedrive.</p>
+</li>
+<li>
+<p>Click <strong>Remove</strong> against an attachment to remove it.</p>
+</li>
+<li>
+<p>A notification confirms file upload to Onedrive.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_save_an_attachment_to_your_onedrive">Save an Attachment to your Onedrive</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/download.svg" alt="download icon" width="20"></span> on an attachment.</p>
+</li>
+<li>
+<p>Click <b class="button">Onedrive</b> from the list of download locations.</p>
+</li>
+<li>
+<p>Sign In to your Onedrive account.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> to save all attachments to Onedrive.</p>
+</li>
+<li>
+<p>A notification confirms file upload to Onedrive.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_attaching_a_file_from_onedrive">Attaching a file from Onedrive</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When composing an email, click <span class="image"><img src="images/graphics/paperclip.svg" alt="attachment icon" width="20"></span> and select <strong>Add files from Onedrive</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Select files to attach</strong> to add the files as attachments in your email.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Click <strong>Select files to link</strong> to add the files as links in your email.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Sign In to your Onedrive account.</p>
+</li>
+<li>
+<p>From the <strong>Onedrive</strong> window, select the files to attach.</p>
+</li>
+<li>
+<p>Compose your message and click <b class="button">Send</b> to send the email with attachment from <strong>Onedrive</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_send_large_files_via_onedrive">Send Large files via Onedrive</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When composing an email, click <span class="image"><img src="images/graphics/paperclip.svg" alt="attachment icon" width="20"></span> and select <strong>Add from my Computer</strong>.</p>
+</li>
+<li>
+<p>Select the file you want to attach and click <strong>Open</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Onedrive</strong> from the presented options.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b> in the Onedrive window to save your file to be shared from Onedrive.</p>
+</li>
+<li>
+<p>The <strong>Inserting Link</strong> window appears while the file saves to your Onedrive. Once completed, the link appears in your email message.</p>
+</li>
+<li>
+<p>Compose your message and click <b class="button">Send</b> to send the email with the Onedrive link.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_slack">Slack</h3>
+<div class="paragraph">
+<p>The Slack integration helps you connect your Slack account to Zimbra for quickly initiating conversations using Slack. With this integration you can see if other users in your organization are online (if they have set the Slack integration up), launch private chat with users, and even continue an email thread in a conversation on Slack.</p>
+</div>
+<div class="sect3">
+<h4 id="_getting_started_by_authorizing_slack">Getting Started by Authorizing Slack</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+During the activation process, you may encounter a <strong>Not Found</strong> error. The error goes away automatically and does not require any intervention.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Slack Integration</strong> from the left pane. Here you can add or remove your Slack workspaces to integrate them with the Modern Web App.</p>
+</li>
+<li>
+<p>Click <b class="button">Sign In To Workspace</b>.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Slack&#8217;s authentication works in the background and hence you may have to wait for sometime before Onedrive activates.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Select a workspace from the dropdown in the top-right corner of the window and click <b class="button">Allow</b> to add it.</p>
+</li>
+<li>
+<p>The workspace name and logo will then appear in the Settings panel. You will have to repeat this process for each workspace you would like to add, in order for any integration features to work properly with that workspace.</p>
+</li>
+<li>
+<p>To remove a workspace, simply click the Trash icon next to it. It will disappear from the window.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_checking_user_presence_and_sending_direct_messages">Checking User Presence and Sending Direct Messages</h4>
+<div class="paragraph">
+<p>You can check the active / away status of users in your contacts, calendar items, or email conversations for each of the workspaces you belong to. From there, you can easily start a direct message conversation with that user.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Hover over a name / email in the address bar of a sent or received email message or draft, or in the Invitees section of a calendar item.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If no Slack indicator appears, the user is not a member of any of your Slack workspaces. A green dot indicates that they are active on at least one of your workspaces, while an orange dot indicates they are away from all workspaces.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If the user is a member of only one of your workspaces, clicking on the indicator button will start a direct message conversation with that user and send you to it in the Slack app.</p>
+</li>
+<li>
+<p>If the user is a member of more than one of your workspaces, a down caret will appear when you hover over the indicator button. Clicking the button displays a list of the common workspaces between you and the user, and their presence status for each. Clicking on any of these workspaces will start a direct message conversation in that workspace and send you to it in the Slack app.</p>
+</li>
+<li>
+<p>You can also check a user&#8217;s workspace presence status in the Contacts tab.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Click <b class="button">Contacts</b>.</p>
+</li>
+<li>
+<p>Select a contact.</p>
+</li>
+<li>
+<p>If the contact is a member of one of your workspaces, a presence indicator for that workspace appears under 'Slack' on the contact card.</p>
+</li>
+<li>
+<p>Click a workspace to start a direct message conversation with your contact.</p>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_converting_an_email_conversation_to_a_private_slack_channel">Converting an Email Conversation to a Private Slack Channel</h4>
+<div class="paragraph">
+<p>You can generate a new channel in a Slack workspace to continue an email conversation.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <span class="image"><img src="images/graphics/ellipsis-h.svg" alt="ellipsis h"></span> <strong>More</strong> at the bottom of an email conversation.</p>
+</li>
+<li>
+<p>Click Start Slack Conversation.</p>
+</li>
+<li>
+<p>A modal displays your workspaces and the number of users in the email conversation that are members of each workspace.</p>
+</li>
+<li>
+<p>Click one of the membership tallies that is not 'full' (green) to view the list of users from the email conversation who do not belong to that workspace.</p>
+</li>
+<li>
+<p>Click the workspace where you would like to start the new channel.</p>
+</li>
+<li>
+<p>You will be sent to that workspace in your Slack app, where a new private channel will be created under the subject of the email conversation and the current date and time (subject_date). A bot will start the channel by posting the content of the email message, and all of the users from the conversation that are members of that workspace will be invited to join.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_zoom">Zoom</h3>
+<div class="paragraph">
+<p>This integration offers you the opportunity to connect your Zoom account to CloudSuite so that you can automatically create a Zoom Meeting linked to your calendar event. Any changes made to your calendar event will be reflected in the Zoom meeting automatically.</p>
+</div>
+<div class="sect3">
+<h4 id="_activate_the_zoom_zimlet">Activate the Zoom Zimlet</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+During the activation process, you may encounter a <strong>Not Found</strong> error. The error goes away automatically and does not require any intervention.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Zoom Integration</strong> from the left pane.</p>
+</li>
+<li>
+<p>Click <b class="button">Activate</b></p>
+</li>
+<li>
+<p>Sign In to your Zoom account.</p>
+</li>
+<li>
+<p>Click <b class="button">Allow</b> to authorize Zimbra to access your Onedrive.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Zoom&#8217;s authentication works in the background and hence you may have to wait for sometime before Onedrive activates.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_create_a_zoom_meeting_for_your_calendar_event">Create a Zoom Meeting for your Calendar Event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select the <b class="button">Calendar</b> tab.</p>
+</li>
+<li>
+<p>Click the <b class="button">New Event</b> in the top left.</p>
+</li>
+<li>
+<p>Fill out the event details.</p>
+</li>
+<li>
+<p>Click <b class="button">Make it a Zoom Meeting</b>.</p>
+</li>
+<li>
+<p>The Location field now contains a Zoom Meeting URL.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_edit_a_zoom_meeting">Edit a Zoom Meeting</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select the <b class="button">Calendar</b> tab.</p>
+</li>
+<li>
+<p>Click <strong>Event</strong>, and click <b class="button">Edit</b>.</p>
+</li>
+<li>
+<p>Update the event details and click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_join_a_zoom_meeting">Join a Zoom Meeting</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select the <b class="button">Calendar</b> tab.</p>
+</li>
+<li>
+<p>Click <strong>Event</strong>, and click <b class="button">Edit</b>.</p>
+</li>
+<li>
+<p>To join the meeting, click <b class="button">Join Zoom Meeting</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-08-04 11:30:39 +0530
+</div>
+</div>
+</body>
+</html>
