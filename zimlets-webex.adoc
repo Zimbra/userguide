@@ -1,0 +1,31 @@
+=== Webex
+
+The Webex integration offers you the opportunity to connect your Webex account to CloudSuite so that you can automatically create a Webex Meeting linked to your calendar event. Any changes made to your calendar event will be reflected in the Webex meeting automatically.
+
+==== Activate the Webex Zimlet
+
+NOTE: During the activation process, you may encounter a *Not Found* error. The error goes away automatically and does not require any intervention.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Calendars and Reminders* -> *Video Call Settings*.
+. Click btn:[Add a Video Call Provider]
+. In *Name:* dropdown, select *Webex*.
+. Update Webex URL in *URL* text box.
+. Click btn:[Save]
+
+==== Create a Webex Meeting for your Calendar Event
+. Select the btn:[Calendar] tab.
+. Click the btn:[New Event] in the top left.
+. Fill out the event details.
+. Click btn:[Webex].
+. The Location field now contains a Webex Meeting URL.
+. Click btn:[Save].
+
+==== Edit a Webex Meeting
+. Select the btn:[Calendar] tab.
+. Click *Event*, and click btn:[Edit].
+. Update the event details and click btn:[Save].
+
+==== Join a Webex Meeting
+. Select the btn:[Calendar] tab.
+. Hover over the *Event*, and click Webex Meeting URL.
+. Follow the instruction to join the meeting.
