@@ -112,6 +112,10 @@ include::settings-account-recovery.adoc[]
 
 <<<
 
+include::settings-signatures.adoc[]
+
+<<<
+
 include::settings-ooo.adoc[]
 
 <<<
