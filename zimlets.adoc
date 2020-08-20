@@ -18,3 +18,5 @@ include::zimlets-slack.adoc[]
 include::zimlets-zoom.adoc[]
 
 include::zimlets-video-call-preference.adoc[]
+
+include::zimlets-jitsi.adoc[]

@@ -1,0 +1,28 @@
+=== Jitsi
+
+This integration helps you to update the details of Jitsi meeting URL in the Calendar Events.
+
+==== Create a Jitsi Meeting for your Calendar Event
+
+===== Admin has setup the Jitsi server for your organization
+
+. Select the btn:[Calendar] tab.
+. Click the btn:[New Event] in the top left.
+. Fill out the event details.
+. Click btn:[Make it a Jitsi Meeting].
+. The Location field now contains a Jitsi Meeting URL.
+. You may join the Jitsi meeting now by clicking btn:[Join Jitsi meeting]
+. Click btn:[Save] to save the event details.
+
+===== Admin has not setup the Jitsi server for your organization
+
+NOTE:  Please make sure your organization's policy allows you to use public video conferencing solution.
+
+. Select the btn:[Calendar] tab.
+. Click the btn:[New Event] in the top left.
+. Fill out the event details.
+. Click btn:[Make it a Jitsi Meeting].
+. Pop-up message will be displayed:
+ "Jitsi Video Meeting is not configured for your email. You can schedule this meeting using Jitsi's publicly available free video conferencing solution. Do you want to proceed?"
+. Clicking "Yes" will populate a meeting URL in the Location field, which is created using the Jitsi's publicly available free video conferencing solution.
+. Click btn:[Save] to save the event details.
