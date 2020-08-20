@@ -17,4 +17,4 @@ include::zimlets-slack.adoc[]
 
 include::zimlets-zoom.adoc[]
 
-include::zimlets-webex.adoc[]
+include::zimlets-video-call-preference.adoc[]
