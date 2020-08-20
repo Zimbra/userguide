@@ -1,0 +1,28 @@
+=== Video Call Preferences 
+
+The Video Call Preferences integration helps you to setup Video Call providers, which can be used for your calendar events. Using this intergration, users can configure details of thier existing accounts with video call providers like Jitsi, WebEx, Google Hangouts, Zoom, Skype, Lifesize, or others. Please note that this is only an integration and users need to have an existing account with these video call providers.
+
+==== Setup Video Call Preference for your meetings
+
+===== Steps for selecting pre-populated providers:
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Calendars and Reminders* -> *Video Call Settings*.
+. Click btn:[Add a Video Call Provider]
+. Select the provider from the *Name:* field.
+. Update the meeting URL provided by the Video Call provider in the *URL* text box.
+. Click btn:[Save]
+
+===== Steps for specifying new provider:
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Calendars and Reminders* -> *Video Call Settings*.
+. Click btn:[Add a Video Call Provider]
+. In the *Name:* field, specify the name of the provider
+. Update the meeting URL provided by the Video Call provider in the *URL* text box.
+. Click btn:[Save]
+
+==== Update video call provider details in a Calendar Event 
+. Select the btn:[Calendar] tab.
+. Click the btn:[New Event] in the top left.
+. Fill out the event details.
+. Click on the button of the video call provider.
+. The Location field now contains the Meeting URL which was setup by the user in Video Call Preferenc setting.
+. Click btn:[Save].
