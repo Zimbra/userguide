@@ -11,7 +11,7 @@ The Video Call Preferences integration helps you to setup Video Call providers, 
 . Select the provider from the *Name:* field. For example, if you want to setup Webex Event, select Webex.
 . Update the meeting room URL provided by the Video Call provider in the *URL* text box. Below is an example:
 
- If the company Webex URL is https://abc.webex.com and user is john.doe, and the meeting room URL is *https://abc.webex.com/john.doe*, then specify *https://abc.webex.com/john.doe* in the *URL* text box.
+ If the company Webex URL is https://abc.webex.com and user is john.doe, and the meeting room URL is "https://abc.webex.com/john.doe", then specify "https://abc.webex.com/john.doe" in the URL text box.
 
 . Click btn:[Save]
 
