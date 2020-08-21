@@ -4,13 +4,13 @@ This section will give an overview of {product-short}'s Briefcase feature.
 
 ==== Navigating to Briefcase
 
-Click btn:[Cloud Storage] -> btn:[Briefcase] to bring up the following interface.
+Click btn:[Cloud Storage] -> btn:[Briefcase] to access the Briefcase tab.
 
 It has
 
-. A left sidebar
-. A document list pane
-. A document preview pane
+. A left sidebar.
+. A document list pane.
+. A document preview pane.
 The preview pane can be disabled from the right-hand corner option.
 
 You can drag to change the width of the left pane.
@@ -36,49 +36,66 @@ This pane displays the list of the uploaded documents.
 When any document is selected, the preview is generated and displayed in this pane.
 A toolbar displays the actions which can be taken on the selected document.
 
-==== Uploading a document
+==== Uploading a document to Briefcase
 . Click btn:[Upload]. It will open a file explorer
 . In the file explorer, select the file to be uploaded and click btn:[Open]
 . Upon successful file upload, the file will be displayed in the document list pane
 
-==== Downloading a document
+==== Downloading a Briefcase document
 . In the document list pane, select a file to be downloaded.
-. Click on the btn:[Download] above the preview pane.
+. Click on the btn:[Download] present in the toolbar above the preview pane.
 . From the file browser window, choose a location to save the file.
 . The file is downloaded at the specified location.
 . The download option is also available in right-click context menu of the document.
 
-==== Previewing a document
+==== Previewing a Briefcase document
 . In the document list pane, select a file for preview.
 . Preview is generated in the preview pane.
 
 NOTE: If the document type is not supported, then the preview will not be generated and an option to download the file will be displayed.
 
-==== Sorting 
-. Above the document list pane, clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] will sort the document from newest to oldest.
-. After it is sorted to newest to older, clicking image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will sort the document from oldest to newest.
+==== Sorting Briefcase Files
+Briefcase files can be sorted according to *Date*, *Name*, *Starred*. The default applied sort option is *Date*
 
-==== Search
+===== Sorting Briefcase files by Name
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. From the toolbar above the document list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
+. Select *Name*
+. Clicking image:graphics/arrow-down-briefcase.svg or image:graphics/arrow-up-briefcase.svg will change the sortings accordingly.
 
+===== Sorting by Starred
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. From the toolbar above the document list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
+. Select *Starred*
+. Clicking image:graphics/arrow-down-briefcase.svg or image:graphics/arrow-up-briefcase.svg will change the sortings accordingly.
+
+===== Sorting by Starred
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. From the toolbar above the document list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
+. Select *Date*
+. Clicking image:graphics/arrow-down-briefcase.svg or image:graphics/arrow-up-briefcase.svg will change the sortings accordingly.
+
+
+==== Briefcase Search
 You can type the name of the file or extension of the file in the Search box at the top of the Briefcase.
 
-==== Briefcase Search box
-
+===== Briefcase Search box
 Type few words of the document or file extension and click image:graphics/search.svg[magnifying glass icon, width=20]
-The files matching the typed words/extension will be displayed in the document list pane.
+A new search tab file be opened which will show the files matching the typed words/extension will be displayed in the document list pane.
 
-==== Creating Folders
+===== Creating Briefcase Folders
 A Separate folder can be created to save the documents in it. 
 
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
 . In the left sidebar, hover over the *Folders* and click image:graphics/plus.svg[plus icon, width=20].
 . Enter the name for the new folder and press kbd:[Enter].
 . The folder will be created and appear under the *Folders*.
 
-==== Folders Sharing
+==== Share Briefcase Folders
 The default Briefcase folder or the newly created folders appearing under *Folders* can be shared with the other users.
 
 ==== Steps to share the folder
-. Navigate to Cloud Storage -> Briefcase tab.
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
 . In the left pane, right-click a folder to share.
 . From the context menu, choose Share.
 . Choose appropriate permission from *Sharing Permissions* dropdown.
@@ -92,10 +109,83 @@ View, edit, add, remove, and administer:: Users have permission to view and edit
 . Enter the email address(s) with whom to share the contact folder.
 . Click btn:[Save] for changes to take effect.
 
-==== Moving a file
 
-==== Star/Unstar a document
+==== Move Briefcase files
+If custom folders are created, then Uploaded files can be moved from one folder to another.
+
+===== Move using drag and drop
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Select the file and drag it to the folder and drop it
+. The file is moved to that folder
+
+===== Move using *Move* option
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Select a file to be moved
+. Click the *Move* option in the toolbar above Preview Pane
+. Select the folder
+. The file is moved to that folder.
+TIP: If there are lot of folders, the folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20]
+
+
+==== Star a Briefcase file
+This feature is like flagging the file so that it stands out and appears with a star in the document list
+
+===== Star from *Right-click* menu
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Right-click a file and select *Star* from the context menu
+. A image:graphics/star.svg[star icon, width=20] will appear in front of the file name
+
+===== Star from *More* menu
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Select a file
+. Click on *More* in the toolbar above the preview pane.
+. Select *Star*
+. A image:graphics/star.svg[stat icon, width=20] will appear in front of the file name
+
+
+==== Unstar a Briefcase file
+This feature helps in removing the flagging set for the file
+
+===== Unstar from right-click menu
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Right-click a file and select *Clear Star* from the context menu
+. A image:graphics/star.svg[star icon, width=20] will disappear for the file
+
+===== Star from *More* menu
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Select a file
+. Click on *More* in the toolbar above the preview pane.
+. Select *Clear Star*
+. A image:graphics/star.svg[stat icon, width=20] will disappear for the file
+
+==== Deleting a Briefcase file
+A briefcase file can be deleted in two ways.
+
+===== From Right-click menu
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Right-click on a file select *Delete*
+. The file is deleted and moved to the Trash folder.
+
+===== Using btn:[Delete]
+. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Select a file
+. Click btn:[Delete] in the toolbar above the preview pane.
+. The file is deleted and moved to the Trash folder.
+
 
 ==== Attaching from briefcase to email
+Files available in Briefcase can be attached to an Email
+
+. In the email composer,  click image:graphics/paperclip.svg[width=20px] to open file attach options.
+. Clicking **Attach files from Briefcase** brings up a file explorer.
+. Navigate to the folder, select the file to attach and click **Attach**.
+The selected file now appears as an attachment.
+
 
 ==== Uploading from email to briefcase 
+Files from the email can be directly uploaded to Briefcase
+
+. Select the email which has attachments.
+. In the reading pane, hover over the file and click image:graphics/briefcase.svg[briefcase icon, width=20px]
+. In the file explorer, select a folder and click btn:[Save].
+. Upon successful file upload, a message will be displayed *Attachment added to Briefcase*.
