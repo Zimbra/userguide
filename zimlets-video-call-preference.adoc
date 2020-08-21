@@ -7,9 +7,10 @@ The Video Call Preferences integration helps you to setup Video Call providers, 
 ===== Steps for selecting pre-populated providers:
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Calendars and Reminders* -> *Video Call Settings*.
-. Click btn:[Add a Video Call Provider]
-. Select the provider from the *Name:* field.
-. Update the meeting URL provided by the Video Call provider in the *URL* text box.
+. Specify the name of the Video Call provider and Meeting URL by clicking btn:[Add a Video Call Provider]
+. Select the provider from the *Name:* field. For example, if you want to setup Webex Event, select Webex.
+. Update the meeting room URL provided by the Video Call provider in the *URL* text box. Below is an example:
+_If the company Webex URL is https://abc.webex.com and user is john.doe, and the meeting room URL is *https://abc.webex.com/john.doe*, then specify *https://abc.webex.com/john.doe* in the *URL* text box.
 . Click btn:[Save]
 
 ===== Steps for specifying new provider:
@@ -24,5 +25,5 @@ The Video Call Preferences integration helps you to setup Video Call providers, 
 . Click the btn:[New Event] in the top left.
 . Fill out the event details.
 . Click on the button of the video call provider.
-. The Location field now contains the Meeting URL which was setup by the user in Video Call Preferenc setting.
+. The Location field now contains the Meeting URL which was setup by the user in Video Call Preference setting.
 . Click btn:[Save].
