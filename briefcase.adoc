@@ -57,23 +57,23 @@ NOTE: If the document type is not supported, then the preview will not be genera
 ==== Sorting Briefcase Files
 Briefcase files can be sorted according to *Date*, *Name*, *Starred*. The default applied sort option is *Date*
 
-===== Sorting Briefcase files by Name
+===== Sorting files by Name
 . Click btn:[Cloud Storage] -> btn:[Briefcase]
 . From the toolbar above the document list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
 . Select *Name*
-. Clicking image:graphics/arrow-down-briefcase.svg or image:graphics/arrow-up-briefcase.svg will change the sortings accordingly.
+. Clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] or image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will change the sortings accordingly.
 
-===== Sorting by Starred
+===== Sorting files by Starred
 . Click btn:[Cloud Storage] -> btn:[Briefcase]
 . From the toolbar above the document list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
 . Select *Starred*
-. Clicking image:graphics/arrow-down-briefcase.svg or image:graphics/arrow-up-briefcase.svg will change the sortings accordingly.
+. Clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] or image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will change the sortings accordingly.
 
-===== Sorting by Starred
+===== Sorting files by Date
 . Click btn:[Cloud Storage] -> btn:[Briefcase]
 . From the toolbar above the document list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
 . Select *Date*
-. Clicking image:graphics/arrow-down-briefcase.svg or image:graphics/arrow-up-briefcase.svg will change the sortings accordingly.
+. Clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] or image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will change the sortings accordingly.
 
 
 ==== Briefcase Search
@@ -124,7 +124,11 @@ If custom folders are created, then Uploaded files can be moved from one folder 
 . Click the *Move* option in the toolbar above Preview Pane
 . Select the folder
 . The file is moved to that folder.
++
+--
 TIP: If there are lot of folders, the folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20]
+--
++
 
 
 ==== Star a Briefcase file
