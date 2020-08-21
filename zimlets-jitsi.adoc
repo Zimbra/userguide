@@ -22,7 +22,5 @@ NOTE:  Please make sure your organization's policy allows you to use public vide
 . Click the btn:[New Event] in the top left.
 . Fill out the event details.
 . Click btn:[Make it a Jitsi Meeting].
-. Pop-up message will be displayed:
- "Jitsi Video Meeting is not configured for your email. You can schedule this meeting using Jitsi's publicly available free video conferencing solution. Do you want to proceed?"
-. Clicking "Yes" will populate a meeting URL in the Location field, which is created using the Jitsi's publicly available free video conferencing solution.
+. Location field now contains a Jitsi meeting URL.  This URL is created using the Jitsi's publicly available free video conferencing solution.
 . Click btn:[Save] to save the event details.
