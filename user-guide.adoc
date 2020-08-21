@@ -145,3 +145,7 @@ include::change-language.adoc[]
 <<<
 
 include::zimlets.adoc[]
+
+<<<
+
+include::briefcase.adoc[]
