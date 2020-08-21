@@ -39,12 +39,12 @@ When any file is selected, the preview is generated and displayed in this pane.
 
 A toolbar displays the actions which can be taken on the selected file.
 
-NOTE: The toolbar buttons become functional after user selects a file
+NOTE: The toolbar buttons become functional after user selects a file.
 
 === Uploading a file to Briefcase
-. Click btn:[Upload]. It will open a file explorer
-. In the file explorer, select the file to be uploaded and click btn:[Open]
-. Upon successful file upload, the file will be displayed in the list pane
+. Click btn:[Upload]. It will open a file explorer.
+. In the file explorer, select the file to be uploaded and click btn:[Open].
+. Upon successful file upload, the file will be displayed in the list pane.
 
 === Downloading a file from Briefcase
 . In the file list pane, select a file to be downloaded.
@@ -63,21 +63,21 @@ NOTE: If preview is not supported for the file type, then the preview will not b
 Briefcase files can be sorted according to *Date*, *Name*, *Starred*. The default sorting is based on *Date*.
 
 ==== Sorting files by Name
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. From the toolbar above the file list pane, click image:graphics/chevron-down.svg[down icon, width=20]
-. Select *Name*
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. From the toolbar above the file list pane, click image:graphics/chevron-down.svg[down icon, width=20].
+. Select *Name*.
 . Clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] or image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will apply the sorting in ascending or descending order.
 
 ==== Sorting files by Starred
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. From the toolbar above the file list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
-. Select *Starred*
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. From the toolbar above the file list pane, click image:graphics/chevron-down.svg[plus icon, width=20].
+. Select *Starred*.
 . Clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] or image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will apply the sorting in ascending or descending order.
 
 ==== Sorting files by Date
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. From the toolbar above the file list pane, click image:graphics/chevron-down.svg[plus icon, width=20]
-. Select *Date*
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. From the toolbar above the file list pane, click image:graphics/chevron-down.svg[plus icon, width=20].
+. Select *Date*.
 . Clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] or image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will apply the sorting in ascending or descending order.
 
 
@@ -85,7 +85,7 @@ Briefcase files can be sorted according to *Date*, *Name*, *Starred*. The defaul
 You can type the name of the file or extension of the file in the Search box at the top of the Briefcase page.
 
 ==== Briefcase Search box
-Type few words of the file or file extension and click image:graphics/search.svg[magnifying glass icon, width=20]
+Type few words of the file or file extension and click image:graphics/search.svg[magnifying glass icon, width=20].
 
 A new search tab will display the files matching the search criterion.
 
@@ -98,9 +98,9 @@ New folders can be created to organize files.
 . The folder will be created and appear under *Folders*.
 
 ==== Creating Subfolders
-Subfolders can be created under *Briefcase*
+Subfolders can be created under *Briefcase*.
 
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 . In the left sidebar, right-click on *Briefcase* or any other folder, and then click on "Create subfolder" option.
 . Enter the name for the subfolder and press kbd:[Enter].
 . The subfolder will be created and appear under its parent folder.
@@ -109,7 +109,7 @@ Subfolders can be created under *Briefcase*
 The default Briefcase folder or any newly created folder appearing under *Folders* can be shared with the other users.
 
 === Steps to share the folder
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 . In the left pane, right-click a folder to share.
 . From the context menu, choose Share.
 . Choose appropriate permission from *Sharing Permissions* dropdown.
@@ -128,7 +128,7 @@ View, edit, add, remove, and administer:: Users have permission to view and edit
 If custom folders are created, then Uploaded files can be moved from one folder to another.
 
 ==== Move files using drag and drop
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Select the file in list pane and drag it onto a folder in left pane and drop it.
 . The file is moved to that folder.
 
@@ -140,59 +140,59 @@ If custom folders are created, then Uploaded files can be moved from one folder 
 . The file is moved to that folder.
 +
 --
-TIP: If there are lot of folders, the folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20]
+TIP: If there are lot of folders, the folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20].
 --
 +
 
 
 === Star a Briefcase file
-This feature is like flagging the file so that it stands out and appears with a star in the file list
+This feature is like flagging the file so that it stands out and appears with a star in the file list.
 
 ==== Star from *Right-click* menu
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Right-click a file and select *Star* from the context menu. You may also mouse hover a file, and click the *Star* icon.
-. A image:graphics/star.svg[star icon, width=20] will appear in front of the file name
+. A image:graphics/star.svg[star icon, width=20] will appear in front of the file name.
 
 ==== Star from *More* menu
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. Select a file
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. Select a file.
 . Click on *More* in the toolbar above the preview pane.
-. Select *Star*
-. A image:graphics/star.svg[stat icon, width=20] will appear in front of the file name
+. Select *Star*.
+. A image:graphics/star.svg[stat icon, width=20] will appear in front of the file name.
 
 
 === Unstar a Briefcase file
 This feature removes the flag set for a file.
 
 ==== Unstar from right-click menu
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. Right-click a file and select *Clear Star* from the context menu
-. A image:graphics/star.svg[star icon, width=20] will disappear for the file
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. Right-click a file and select *Clear Star* from the context menu.
+. A image:graphics/star.svg[star icon, width=20] will disappear for the file.
 
 ==== Unstar from *More* menu
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. Select a file
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. Select a file.
 . Click on *More* in the toolbar above the preview pane.
-. Select *Clear Star*
-. A image:graphics/star.svg[stat icon, width=20] will disappear for the file
+. Select *Clear Star*.
+. A image:graphics/star.svg[stat icon, width=20] will disappear for the file.
 
 === Deleting a Briefcase file
 A briefcase file can be deleted in two ways.
 
 ==== From Right-click menu
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. Right-click on a file select *Delete*
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. Right-click on a file select *Delete*.
 . The file is deleted and moved to the Trash folder.
 
 ==== Using Delete button    
-. Click btn:[Cloud Storage] -> btn:[Briefcase]
-. Select a file
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
+. Select a file.
 . Click btn:[Delete] in the toolbar above the preview pane.
 . The file is deleted and moved to the Trash folder.
 
 
 === Attaching files from briefcase to email
-Files available in Briefcase can be attached to an Email
+Files available in Briefcase can be attached to an Email.
 
 . In the mail composer,  click image:graphics/paperclip.svg[width=20px] to open file attach options.
 . Clicking **Attach files from Briefcase** brings up a file explorer.
@@ -201,9 +201,9 @@ The selected file now appears as an attachment.
 
 
 === Uploading files from email to briefcase 
-Files from the email can be directly uploaded to Briefcase
+Files from the email can be directly uploaded to Briefcase.
 
 . Select the email which has attachments.
-. In the reading pane, hover over the file and click image:graphics/briefcase.svg[briefcase icon, width=20px]
+. In the reading pane, hover over the file and click image:graphics/briefcase.svg[briefcase icon, width=20px].
 . In the file explorer, select a folder and click btn:[Save].
 . Upon successful file upload, a message will be displayed *Attachment added to Briefcase*.
