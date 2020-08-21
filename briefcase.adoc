@@ -1,0 +1,101 @@
+=== Briefcase
+
+This section will give an overview of {product-short}'s Briefcase feature.
+
+==== Navigating to Briefcase
+
+Click btn:[Cloud Storage] -> btn:[Briefcase] to bring up the following interface.
+
+It has
+
+. A left sidebar
+. A document list pane
+. A document preview pane
+The preview pane can be disabled from the right-hand corner option.
+
+You can drag to change the width of the left pane.
+
+==== Left Sidebar
+
+The left pane contains a button to upload files, files uploaded in briefcase and briefcase folders.
+
+Upload:: To upload any document in Briefcase. 
+
+Briefcase:: To view the uploaded document in Briefcase. 
+
+Trash:: To view the deleted documents.
+
+Folders:: To create separate folders.
+
+==== Document list pane
+
+This pane displays the list of the uploaded documents.
+
+==== Document Preview pane
+
+When any document is selected, the preview is generated and displayed in this pane.
+A toolbar displays the actions which can be taken on the selected document.
+
+==== Uploading a document
+. Click btn:[Upload]. It will open a file explorer
+. In the file explorer, select the file to be uploaded and click btn:[Open]
+. Upon successful file upload, the file will be displayed in the document list pane
+
+==== Downloading a document
+. In the document list pane, select a file to be downloaded.
+. Click on the btn:[Download] above the preview pane.
+. From the file browser window, choose a location to save the file.
+. The file is downloaded at the specified location.
+. The download option is also available in right-click context menu of the document.
+
+==== Previewing a document
+. In the document list pane, select a file for preview.
+. Preview is generated in the preview pane.
+
+NOTE: If the document type is not supported, then the preview will not be generated and an option to download the file will be displayed.
+
+==== Sorting 
+. Above the document list pane, clicking image:graphics/arrow-down-briefcase.svg[down arrow, width=20] will sort the document from newest to oldest.
+. After it is sorted to newest to older, clicking image:graphics/arrow-up-briefcase.svg[up arrow, width=20] will sort the document from oldest to newest.
+
+==== Search
+
+You can type the name of the file or extension of the file in the Search box at the top of the Briefcase.
+
+==== Briefcase Search box
+
+Type few words of the document or file extension and click image:graphics/search.svg[magnifying glass icon, width=20]
+The files matching the typed words/extension will be displayed in the document list pane.
+
+==== Creating Folders
+A Separate folder can be created to save the documents in it. 
+
+. In the left sidebar, hover over the *Folders* and click image:graphics/plus.svg[plus icon, width=20].
+. Enter the name for the new folder and press kbd:[Enter].
+. The folder will be created and appear under the *Folders*.
+
+==== Folders Sharing
+The default Briefcase folder or the newly created folders appearing under *Folders* can be shared with the other users.
+
+==== Steps to share the folder
+. Navigate to Cloud Storage -> Briefcase tab.
+. In the left pane, right-click a folder to share.
+. From the context menu, choose Share.
+. Choose appropriate permission from *Sharing Permissions* dropdown.
++
+View:: Users can view all files under the shared folder but cannot make changes to that folder.
+
+View, edit, add and remove:: Users have permission to view and edit the contents of a folder, create new subfolders, present items on your behalf, and delete items from the folder.
+
+View, edit, add, remove, and administer:: Users have permission to view and edit the content of a shared folder, create new subfolders, present on your behalf, delete items from the shared folder, and share the folder with others.
+
+. Enter the email address(s) with whom to share the contact folder.
+. Click btn:[Save] for changes to take effect.
+
+==== Moving a file
+
+==== Star/Unstar a document
+
+==== Attaching from briefcase to email
+
+==== Uploading from email to briefcase 
