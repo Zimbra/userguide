@@ -1,9 +1,6 @@
 == Briefcase
 This section will give an overview of {product-short}'s Briefcase feature.
 
-.Briefcase interface
-image::screenshots/briefcase-window-blank.png[Briefcase interface]
-
 === Navigating to Briefcase
 Click btn:[Cloud Storage] -> btn:[Briefcase] to access the Briefcase tab.
 
@@ -42,11 +39,18 @@ A toolbar displays the actions which can be taken on the selected file.
 NOTE: The toolbar buttons become functional after user selects a file.
 
 === Uploading a file to Briefcase
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Click btn:[Upload]. It will open a file explorer.
 . In the file explorer, select the file to be uploaded and click btn:[Open].
++
+NOTE: If the file size is large, then the upload button stays disabled till the file upload is completed.
++
 . Upon successful file upload, the file will be displayed in the list pane.
 
+IMPORTANT: While the file upload is in progress, navigating from the Briefcase tab to another tab will cancel the upload.
+
 === Downloading a file from Briefcase
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 . In the file list pane, select a file to be downloaded.
 . Click on the btn:[Download] present in the toolbar above the preview pane.
 . From the file browser window, choose a location to save the file.
@@ -54,6 +58,7 @@ NOTE: The toolbar buttons become functional after user selects a file.
 . The download option is also available in right-click context menu of the file, as well as on mouse hover on a file.
 
 === Previewing a Briefcase file
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 . In the file list pane, select a file for preview.
 . Preview is generated in the preview pane.
 
@@ -82,9 +87,11 @@ Briefcase files can be sorted according to *Date*, *Name*, *Starred*. The defaul
 
 
 === Briefcase Search
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 You can type the name of the file or extension of the file in the Search box at the top of the Briefcase page.
 
 ==== Briefcase Search box
+. Click btn:[Cloud Storage] -> btn:[Briefcase].
 Type few words of the file or file extension and click image:graphics/search.svg[magnifying glass icon, width=20].
 
 A new search tab will display the files matching the search criterion.
@@ -132,7 +139,7 @@ If custom folders are created, then Uploaded files can be moved from one folder 
 . Select the file in list pane and drag it onto a folder in left pane and drop it.
 . The file is moved to that folder.
 
-==== Move files using *Move* option
+==== Move files using Move option
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Select a file to be moved.
 . Click the *Move* option in the toolbar above Preview Pane.
@@ -148,12 +155,12 @@ TIP: If there are lot of folders, the folder can be searched by typing the name 
 === Star a Briefcase file
 This feature is like flagging the file so that it stands out and appears with a star in the file list.
 
-==== Star from *Right-click* menu
+==== Star from Right-click menu
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Right-click a file and select *Star* from the context menu. You may also mouse hover a file, and click the *Star* icon.
 . A image:graphics/star.svg[star icon, width=20] will appear in front of the file name.
 
-==== Star from *More* menu
+==== Star from More menu
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Select a file.
 . Click on *More* in the toolbar above the preview pane.
@@ -169,7 +176,7 @@ This feature removes the flag set for a file.
 . Right-click a file and select *Clear Star* from the context menu.
 . A image:graphics/star.svg[star icon, width=20] will disappear for the file.
 
-==== Unstar from *More* menu
+==== Unstar from More menu
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Select a file.
 . Click on *More* in the toolbar above the preview pane.
