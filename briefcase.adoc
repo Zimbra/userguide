@@ -64,7 +64,7 @@ IMPORTANT: Navigating away from the Briefcase tab to any other tab, while the fi
 
 NOTE: If preview is not supported for the file type, then the preview will not be generated and an option to download the file will be displayed.
 
-IMPORTANT: If multiple files are selected, then the counter of the selected files is displayed in the preview pane.
+IMPORTANT: If multiple files are selected, then the count of the selected files is displayed in the preview pane.
 
 
 === Sorting Briefcase Files
@@ -99,9 +99,7 @@ Type few words of the file or file extension and click image:graphics/search.svg
 
 A new search tab will display the files matching the search criterion.
 
-TIP: Sort options are availble on the search tab.
-
-IMPORTANT: Advance Search option is not available for Briefcase.
+IMPORTANT: Advanced Search option is not available for Briefcase.
 
 
 === Creating Briefcase Folders
@@ -124,7 +122,7 @@ Subfolders can be created under *Briefcase*.
 === Share Briefcase Folders
 The default Briefcase folder or any newly created folder appearing under *Folders* can be shared with the other users.
 
-==== Steps to share the folder
+==== Steps to share a folder
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . In the left pane, right-click a folder to share.
 . From the context menu, choose Share.
@@ -141,7 +139,7 @@ View, edit, add, remove, and administer:: Users have permission to view and edit
 
 NOTE: The folders shared with the user, will appear under *Shared Folders*
 
-NOTE: For view permission on a shared folder, Upload and Delete button is disabled.
+NOTE: If the folder is shared with *View* only permission, the Upload and Delete buttons are disabled.
 
 
 === Move Briefcase files
@@ -152,8 +150,6 @@ If custom folders are created, then Uploaded files can be moved from one folder 
 . Select the file in list pane and drag it onto a folder in left pane and drop it.
 . The file is moved to that folder.
 
-IMPORTANT: The move operation will not be allowed when a file is being moved to a folder where a file with that name already exists.
-
 
 ==== Move files using Move option
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
@@ -163,7 +159,7 @@ IMPORTANT: The move operation will not be allowed when a file is being moved to 
 . The file is moved to that folder.
 +
 --
-TIP: If there are lot of folders, the folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20].
+TIP: If there are a lot of folders, then a folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20].
 --
 +
 
@@ -175,8 +171,6 @@ This feature is like flagging the file so that it stands out and appears with a 
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Right-click a file and select *Star* from the context menu. You may also mouse hover a file, and click the *Star* icon.
 . A image:graphics/star.svg[star icon, width=20] will appear in front of the file name.
-
-TIP: When multiple files are selected, a image:graphics/star.svg[star icon, width=20] can be added for those files. 
 
 ==== Star from More menu
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
@@ -194,9 +188,6 @@ This feature removes the flag set for a file.
 . Right-click a file and select *Clear Star* from the context menu.
 . A image:graphics/star.svg[star icon, width=20] will disappear for the file.
 
-TIP: A image:graphics/star.svg[star icon, width=20] can be removed from multiple files. 
-
-TIP: When multiple starred files are selected, a image:graphics/star.svg[star icon, width=20] can be removed from those files. 
 
 ==== Unstar from More menu
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
@@ -234,7 +225,7 @@ If custom folders/subfolders are created, then those folders can be moved to oth
 . Type the new name for the folder/subfolder in the text box. 
 . Press kbd:[Enter] to save.
 
-TIP: If there are lot of folders, the folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20].
+TIP: If there are a lot of folders, then a folder can be searched by typing the name in image:graphics/search.svg[magnifying glass icon, width=20].
 
 === Attaching files from briefcase to email
 
