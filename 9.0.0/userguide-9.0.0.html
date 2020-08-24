@@ -277,28 +277,34 @@
 <li><a href="#_briefcase_search">Briefcase Search</a>
 <ul class="sectlevel3">
 <li><a href="#_briefcase_search_box">Briefcase Search box</a></li>
-<li><a href="#_creating_briefcase_folders">Creating Briefcase Folders</a></li>
+</ul>
+</li>
+<li><a href="#_creating_briefcase_folders">Creating Briefcase Folders</a>
+<ul class="sectlevel3">
 <li><a href="#_creating_subfolders">Creating Subfolders</a></li>
 </ul>
 </li>
-<li><a href="#_share_briefcase_folders">Share Briefcase Folders</a></li>
-<li><a href="#_steps_to_share_the_folder">Steps to share the folder</a></li>
+<li><a href="#_share_briefcase_folders">Share Briefcase Folders</a>
+<ul class="sectlevel3">
+<li><a href="#_steps_to_share_a_folder">Steps to share a folder</a></li>
+</ul>
+</li>
 <li><a href="#_move_briefcase_files">Move Briefcase files</a>
 <ul class="sectlevel3">
 <li><a href="#_move_files_using_drag_and_drop">Move files using drag and drop</a></li>
-<li><a href="#_move_files_using_move_option">Move files using <strong>Move</strong> option</a></li>
+<li><a href="#_move_files_using_move_option">Move files using Move option</a></li>
 </ul>
 </li>
 <li><a href="#_star_a_briefcase_file">Star a Briefcase file</a>
 <ul class="sectlevel3">
-<li><a href="#_star_from_right_click_menu">Star from <strong>Right-click</strong> menu</a></li>
-<li><a href="#_star_from_more_menu">Star from <strong>More</strong> menu</a></li>
+<li><a href="#_star_from_right_click_menu">Star from Right-click menu</a></li>
+<li><a href="#_star_from_more_menu">Star from More menu</a></li>
 </ul>
 </li>
 <li><a href="#_unstar_a_briefcase_file">Unstar a Briefcase file</a>
 <ul class="sectlevel3">
 <li><a href="#_unstar_from_right_click_menu">Unstar from right-click menu</a></li>
-<li><a href="#_unstar_from_more_menu">Unstar from <strong>More</strong> menu</a></li>
+<li><a href="#_unstar_from_more_menu">Unstar from More menu</a></li>
 </ul>
 </li>
 <li><a href="#_deleting_a_briefcase_file">Deleting a Briefcase file</a>
@@ -307,6 +313,8 @@
 <li><a href="#_using_delete_button">Using Delete button</a></li>
 </ul>
 </li>
+<li><a href="#_move_custom_briefcase_folderssubfolders">Move custom Briefcase folders/subfolders</a></li>
+<li><a href="#_rename_custom_briefcase_folderssubfolders">Rename custom Briefcase folders/subfolders</a></li>
 <li><a href="#_attaching_files_from_briefcase_to_email">Attaching files from briefcase to email</a></li>
 <li><a href="#_uploading_files_from_email_to_briefcase">Uploading files from email to briefcase</a></li>
 </ul>
@@ -4799,12 +4807,6 @@ The field <strong>Enter an email address</strong> is active only for this option
 <div class="paragraph">
 <p>This section will give an overview of Zimbra&#8217;s Briefcase feature.</p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/screenshots/briefcase-window-blank.png" alt="Briefcase interface">
-</div>
-<div class="title">Figure 5. Briefcase interface</div>
-</div>
 <div class="sect2">
 <h3 id="_navigating_to_briefcase">Navigating to Briefcase</h3>
 <div class="paragraph">
@@ -4891,21 +4893,51 @@ The toolbar buttons become functional after user selects a file.
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<p>Click <b class="button">Cloud Storage</b> &#8594; <b class="button">Briefcase</b>.</p>
+</li>
+<li>
 <p>Click <b class="button">Upload</b>. It will open a file explorer.</p>
 </li>
 <li>
 <p>In the file explorer, select the file to be uploaded and click <b class="button">Open</b>.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The upload button stays disabled till a file upload is completed.
+</td>
+</tr>
+</table>
+</div>
 </li>
 <li>
 <p>Upon successful file upload, the file will be displayed in the list pane.</p>
 </li>
 </ol>
 </div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Navigating away from the Briefcase tab to any other tab, while the file upload is in progress, will cancel the upload.
+</td>
+</tr>
+</table>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_downloading_a_file_from_briefcase">Downloading a file from Briefcase</h3>
 <div class="olist arabic">
 <ol class="arabic">
+<li>
+<p>Click <b class="button">Cloud Storage</b> &#8594; <b class="button">Briefcase</b>.</p>
+</li>
 <li>
 <p>In the file list pane, select a file to be downloaded.</p>
 </li>
@@ -4929,6 +4961,9 @@ The toolbar buttons become functional after user selects a file.
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<p>Click <b class="button">Cloud Storage</b> &#8594; <b class="button">Briefcase</b>.</p>
+</li>
+<li>
 <p>In the file list pane, select a file for preview.</p>
 </li>
 <li>
@@ -4944,6 +4979,18 @@ The toolbar buttons become functional after user selects a file.
 </td>
 <td class="content">
 If preview is not supported for the file type, then the preview will not be generated and an option to download the file will be displayed.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+If multiple files are selected, then the count of the selected files is displayed in the preview pane.
 </td>
 </tr>
 </table>
@@ -5019,15 +5066,35 @@ If preview is not supported for the file type, then the preview will not be gene
 </div>
 <div class="sect3">
 <h4 id="_briefcase_search_box">Briefcase Search box</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Cloud Storage</b> &#8594; <b class="button">Briefcase</b>.</p>
+</li>
+</ol>
+</div>
 <div class="paragraph">
 <p>Type few words of the file or file extension and click <span class="image"><img src="images/graphics/search.svg" alt="magnifying glass icon" width="20"></span>.</p>
 </div>
 <div class="paragraph">
 <p>A new search tab will display the files matching the search criterion.</p>
 </div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Advanced Search option is not available for Briefcase.
+</td>
+</tr>
+</table>
 </div>
-<div class="sect3">
-<h4 id="_creating_briefcase_folders">Creating Briefcase Folders</h4>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_creating_briefcase_folders">Creating Briefcase Folders</h3>
 <div class="paragraph">
 <p>New folders can be created to organize files.</p>
 </div>
@@ -5046,7 +5113,6 @@ If preview is not supported for the file type, then the preview will not be gene
 <p>The folder will be created and appear under <strong>Folders</strong>.</p>
 </li>
 </ol>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_creating_subfolders">Creating Subfolders</h4>
@@ -5076,9 +5142,8 @@ If preview is not supported for the file type, then the preview will not be gene
 <div class="paragraph">
 <p>The default Briefcase folder or any newly created folder appearing under <strong>Folders</strong> can be shared with the other users.</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_steps_to_share_the_folder">Steps to share the folder</h3>
+<div class="sect3">
+<h4 id="_steps_to_share_a_folder">Steps to share a folder</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -5117,6 +5182,31 @@ If preview is not supported for the file type, then the preview will not be gene
 </li>
 </ol>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The folders shared with the user, will appear under <strong>Shared Folders</strong>
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If the folder is shared with <strong>View</strong> only permission, the Upload and Delete buttons are disabled.
+</td>
+</tr>
+</table>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_move_briefcase_files">Move Briefcase files</h3>
@@ -5140,7 +5230,7 @@ If preview is not supported for the file type, then the preview will not be gene
 </div>
 </div>
 <div class="sect3">
-<h4 id="_move_files_using_move_option">Move files using <strong>Move</strong> option</h4>
+<h4 id="_move_files_using_move_option">Move files using Move option</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -5166,7 +5256,7 @@ If preview is not supported for the file type, then the preview will not be gene
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-If there are lot of folders, the folder can be searched by typing the name in <span class="image"><img src="images/graphics/search.svg" alt="magnifying glass icon" width="20"></span>.
+If there are a lot of folders, then a folder can be searched by typing the name in <span class="image"><img src="images/graphics/search.svg" alt="magnifying glass icon" width="20"></span>.
 </td>
 </tr>
 </table>
@@ -5184,7 +5274,7 @@ If there are lot of folders, the folder can be searched by typing the name in <s
 <p>This feature is like flagging the file so that it stands out and appears with a star in the file list.</p>
 </div>
 <div class="sect3">
-<h4 id="_star_from_right_click_menu">Star from <strong>Right-click</strong> menu</h4>
+<h4 id="_star_from_right_click_menu">Star from Right-click menu</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -5200,7 +5290,7 @@ If there are lot of folders, the folder can be searched by typing the name in <s
 </div>
 </div>
 <div class="sect3">
-<h4 id="_star_from_more_menu">Star from <strong>More</strong> menu</h4>
+<h4 id="_star_from_more_menu">Star from More menu</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -5244,7 +5334,7 @@ If there are lot of folders, the folder can be searched by typing the name in <s
 </div>
 </div>
 <div class="sect3">
-<h4 id="_unstar_from_more_menu">Unstar from <strong>More</strong> menu</h4>
+<h4 id="_unstar_from_more_menu">Unstar from More menu</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -5308,7 +5398,69 @@ If there are lot of folders, the folder can be searched by typing the name in <s
 </div>
 </div>
 <div class="sect2">
+<h3 id="_move_custom_briefcase_folderssubfolders">Move custom Briefcase folders/subfolders</h3>
+<div class="paragraph">
+<p>If custom folders/subfolders are created, then those folders can be moved to other folders.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Cloud Storage</b> &#8594; <b class="button">Briefcase</b>.</p>
+</li>
+<li>
+<p>Right-click on a folder/subfolder and select <strong>Move folder</strong> from the context menu.</p>
+</li>
+<li>
+<p>Select the destination folder.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rename_custom_briefcase_folderssubfolders">Rename custom Briefcase folders/subfolders</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <b class="button">Cloud Storage</b> &#8594; <b class="button">Briefcase</b>.</p>
+</li>
+<li>
+<p>Right-click on a folder/subfolder and select <strong>Rename</strong> from the context menu.</p>
+</li>
+<li>
+<p>Type the new name for the folder/subfolder in the text box.</p>
+</li>
+<li>
+<p>Press <kbd>Enter</kbd> to save.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If there are a lot of folders, then a folder can be searched by typing the name in <span class="image"><img src="images/graphics/search.svg" alt="magnifying glass icon" width="20"></span>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
 <h3 id="_attaching_files_from_briefcase_to_email">Attaching files from briefcase to email</h3>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+This option will only be available when Briefcase feature is enabled for the user.
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>Files available in Briefcase can be attached to an Email.</p>
 </div>
@@ -5325,6 +5477,18 @@ If there are lot of folders, the folder can be searched by typing the name in <s
 The selected file now appears as an attachment.</p>
 </li>
 </ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Inline images cannot be added from Briefcase.
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect2">
@@ -6129,18 +6293,13 @@ Zoom&#8217;s authentication works in the background and hence you may have to wa
 <p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong> &#8594; <strong>Calendars and Reminders</strong> &#8594; <strong>Video Call Settings</strong>.</p>
 </li>
 <li>
-<p>Specify the name of the Video Call provider and Meeting URL by clicking <b class="button">Add a Video Call Provider</b></p>
+<p>Click <b class="button">Add a Video Call Provider</b></p>
 </li>
 <li>
-<p>Select the provider from the <strong>Name:</strong> field. For example, if you want to setup Webex Event, select Webex.</p>
+<p>Select the provider from the <strong>Name:</strong> field.</p>
 </li>
 <li>
-<p>Update the meeting room URL provided by the Video Call provider in the <strong>URL</strong> text box. Below is an example:</p>
-<div class="literalblock">
-<div class="content">
-<pre>If the company Webex URL is https://abc.webex.com and user is john.doe, and the meeting room URL is "https://abc.webex.com/john.doe", then specify "https://abc.webex.com/john.doe" in the URL text box.</pre>
-</div>
-</div>
+<p>Update the meeting URL provided by the Video Call provider in the <strong>URL</strong> text box.</p>
 </li>
 <li>
 <p>Click <b class="button">Save</b></p>
@@ -6188,7 +6347,7 @@ Zoom&#8217;s authentication works in the background and hence you may have to wa
 <p>Click on the button of the video call provider.</p>
 </li>
 <li>
-<p>The Location field now contains the Meeting URL which was setup by the user in Video Call Preference setting.</p>
+<p>The Location field now contains the Meeting URL which was setup by the user in Video Call Preferenc setting.</p>
 </li>
 <li>
 <p>Click <b class="button">Save</b>.</p>
