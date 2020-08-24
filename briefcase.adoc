@@ -90,11 +90,11 @@ Briefcase files can be sorted according to *Date*, *Name*, *Starred*. The defaul
 
 
 === Briefcase Search
-. Click btn:[Cloud Storage] -> btn:[Briefcase].
 You can type the name of the file or extension of the file in the Search box at the top of the Briefcase page.
 
 ==== Briefcase Search box
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
+
 Type few words of the file or file extension and click image:graphics/search.svg[magnifying glass icon, width=20].
 
 A new search tab will display the files matching the search criterion.
