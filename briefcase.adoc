@@ -43,11 +43,11 @@ NOTE: The toolbar buttons become functional after user selects a file.
 . Click btn:[Upload]. It will open a file explorer.
 . In the file explorer, select the file to be uploaded and click btn:[Open].
 +
-NOTE: If the file size is large, then the upload button stays disabled till the file upload is completed.
+NOTE: The upload button stays disabled till a file upload is completed.
 +
 . Upon successful file upload, the file will be displayed in the list pane.
 
-IMPORTANT: While the file upload is in progress, navigating from the Briefcase tab to another tab will cancel the upload.
+IMPORTANT: Navigating away from the Briefcase tab to any other tab, while the file upload is in progress, will cancel the upload.
 
 === Downloading a file from Briefcase
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
