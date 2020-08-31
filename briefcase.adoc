@@ -46,6 +46,8 @@ NOTE: The toolbar buttons become functional after user selects a file.
 . In the file explorer, select the file to be uploaded and click btn:[Open].
 . Upon successful file upload, the file will be displayed in the list pane.
 
+IMPORTANT:: The maximum file size allowed for upload is the same which is set by the Administrator for uploading the attachments in Mail.
+
 === Downloading a file from Briefcase
 . In the file list pane, select a file to be downloaded.
 . Click on the btn:[Download] present in the toolbar above the preview pane.

@@ -1,6 +1,6 @@
 === Zoom
 
-This integration offers you the opportunity to connect your Zoom account to CloudSuite so that you can automatically create a Zoom Meeting linked to your calendar event. Any changes made to your calendar event will be reflected in the Zoom meeting automatically.
+This integration offers you the opportunity to connect your Zoom account to Zimbra Cloud so that you can automatically create a Zoom Meeting linked to your calendar event. Any changes made to your calendar event will be reflected in the Zoom meeting automatically.
 
 ==== Activate the Zoom Zimlet
 
