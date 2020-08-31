@@ -34,3 +34,4 @@ NOTE: Zoom's authentication works in the background and hence you may have to wa
 . Select the btn:[Calendar] tab.
 . Click *Event*, and click btn:[Edit].
 . To join the meeting, click btn:[Join Zoom Meeting].
+
