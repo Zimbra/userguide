@@ -24,7 +24,7 @@ You can import your mailbox from following service providers:
 ==== Importing from Gmail
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click on "Import from Another Account" and select "Gmail".
-. All folders are pre-selected for import. De-select any folders which do not want to be imported and click btn:[Next].
+. *__Mail__*, *_Contacts_* and *_Calendars_* folder options are pre-selected for import. De-select any folders which do not want to be imported and click btn:[Next].
 . Click on "Sign in using Google".
 . In the pop-up, specify Gmail account credentials and allow the required services which will be used for import.
 . Once the authentication is successful, you will see a message on the screen "Success! Your import is now in progress".
@@ -36,8 +36,9 @@ IMPORTANT: Depending upon the network speed or the data size of the account, it 
 ==== Importing from Outlook
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click on "Import from Another Account" and select "Outlook".
-. Mail folder is pre-selected. Click btn:[Next].
-. Specify Outlook server details and user account credentials. Click btn:[Import].
+. *_Mail_* folder option is pre-selected. Click btn:[Next].
+. Select SSL or None and specify the organizations outlook server details in the "Server" text box.
+. Specify email address and password. Click btn:[Import].
 . Once the authentication is successful, you will see a message on the screen "Success! Your import is now in progress".
 . Click btn:[Save]
 
@@ -47,8 +48,9 @@ IMPORTANT: Depending upon the network speed or the data size of the account, it 
 ==== Importing from Yahoo
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click on "Import from Another Account" and select "Yahoo".
-. Mail folder is pre-selected. Click btn:[Next].
-. Specify Yahoo server details and user account credentials. Click btn:[Import].
+. *_Mail_* folder option is pre-selected. Click btn:[Next].
+. Select SSL or None and specify `imap.mail.yahoo.com` in the "Server" text box. 
+. Specify email address and password. Click btn:[Import].
 . Once the authentication is successful, you will see a message on the screen "Success! Your import is now in progress".
 . Click btn:[Save]
 
@@ -58,8 +60,9 @@ IMPORTANT: Depending upon the network speed or the data size of the account, it 
 ==== Importing from AOL
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click on "Import from Another Account" and select "AOL".
-. Mail folder is pre-selected. Click btn:[Next].
-. Specify AOL server details and user account credentials. Click btn:[Import]
+. *_Mail_* folder option is pre-selected. Click btn:[Next].
+. Select SSL or None and specify `imap.aol.com` in the "Server" text box.
+. Specify email address and password. Click btn:[Import].
 . Once the authentication is successful, you will see a message on the screen "Success! Your import is now in progress".
 . Click btn:[Save]
 
@@ -68,21 +71,22 @@ IMPORTANT: Depending upon the network speed or the data size of the account, it 
 
 ==== Importing from Zimbra
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
-. Click on "Import from Another Account" and select "Gmail".
-. All folders are pre-selected for import. De-select any folders which do not want to be imported and click btn:[Next].
-. Specify Zimbra server details and user account credentials. Click btn:[Import]
+. Click on "Import from Another Account" and select "Zimbra".
+. *_Mail_*, *_Contacts_* and *_Calendars_*, *_Briefcase_* and *_Tasks_* folder options are pre-selected for import. De-select any folders which do not want to be imported and click btn:[Next].
+. Select SSL or None and specify the organizations Zimbra server details in the "Server" text box.
+. Specify email address and password. Click btn:[Import].
 . Once the authentication is successful, you will see a message on the screen "Success! Your import is now in progress".
 . Click btn:[Save]
 
 IMPORTANT: Depending upon the network speed or the data size of the account, it will take some time for the import to get complete and reflect your Zimbra account's data.
 
-==== Importing from Zimbra
+==== Importing from any other service provider
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click on "Import from Another Account" and select "Other".
-. Mail folder is pre-selected for import.
-. Specify server details and user account credentials. Click btn:[Import]
+. *__Mail__* folder option is pre-selected for import.
+. Select SSL or None and specify the service provider server details in the "Server" text box.
+. Specify email address and password. Click btn:[Import].
 . Once the authentication is successful, you will see a message on the screen "Success! Your import is now in progress".
 . Click btn:[Save]
 
 IMPORTANT: Depending upon the network speed or the data size of the account, it will take some time for the import to get complete and reflect your account's data.
-
