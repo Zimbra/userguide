@@ -215,7 +215,11 @@
 <li><a href="#_mobile_or_desktop_configuration">Mobile or Desktop Configuration</a></li>
 </ul>
 </li>
-<li><a href="#_account_recovery">Account Recovery</a></li>
+<li><a href="#_account_recovery">Account Recovery</a>
+<ul class="sectlevel3">
+<li><a href="#_password_reset_using_forgot_password_feature">Password reset using "Forgot Password" feature</a></li>
+</ul>
+</li>
 <li><a href="#_signatures">Signatures</a>
 <ul class="sectlevel3">
 <li><a href="#_add_a_new_signature">Add a New Signature</a></li>
@@ -361,15 +365,26 @@
 <li><a href="#_join_a_zoom_meeting">Join a Zoom Meeting</a></li>
 </ul>
 </li>
+<li><a href="#_jitsi">Jitsi</a>
+<ul class="sectlevel3">
+<li><a href="#_create_a_jitsi_meeting_for_your_calendar_event">Create a Jitsi Meeting for your Calendar Event</a></li>
+</ul>
+</li>
 <li><a href="#_video_call_preferences">Video Call Preferences</a>
 <ul class="sectlevel3">
 <li><a href="#_setup_video_call_preference_for_your_meetings">Setup Video Call Preference for your meetings</a></li>
 <li><a href="#_update_video_call_provider_details_in_a_calendar_event">Update video call provider details in a Calendar Event</a></li>
 </ul>
 </li>
-<li><a href="#_jitsi">Jitsi</a>
+<li><a href="#_import_mailbox">Import Mailbox</a>
 <ul class="sectlevel3">
-<li><a href="#_create_a_jitsi_meeting_for_your_calendar_event">Create a Jitsi Meeting for your Calendar Event</a></li>
+<li><a href="#_navigating_to_import_mailbox_interface">Navigating to Import Mailbox interface</a></li>
+<li><a href="#_importing_from_gmail">Importing from Gmail</a></li>
+<li><a href="#_importing_from_outlook">Importing from Outlook</a></li>
+<li><a href="#_importing_from_yahoo">Importing from Yahoo</a></li>
+<li><a href="#_importing_from_aol">Importing from AOL</a></li>
+<li><a href="#_importing_from_zimbra">Importing from Zimbra</a></li>
+<li><a href="#_importing_from_any_other_service_provider">Importing from any other service provider</a></li>
 </ul>
 </li>
 </ul>
@@ -4043,7 +4058,35 @@ Check your email and copy the verification code.</p>
 </li>
 </ol>
 </div>
+<div class="sect3">
+<h4 id="_password_reset_using_forgot_password_feature">Password reset using "Forgot Password" feature</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On the login page, click "Forgot Password?".</p>
+</li>
+<li>
+<p>Enter the email address for which password needs to be reset and click <b class="button">Submit</b>.</p>
+</li>
+<li>
+<p>Click <b class="button">Request Code</b>. The code is sent to alternate email address provided in <a href="#_account_recovery">Account Recovery</a> section.</p>
+</li>
+<li>
+<p>Copy the code and paste in the above prompt. Click <b class="button">Verify Code</b>.</p>
+</li>
+<li>
+<p>Click <b class="button">Reset Password</b> and specify the new password for the user. Click <b class="button">Submit</b>.</p>
+</li>
+<li>
+<p>On successful password reset, "Password Reset Success!" is displayed on the screen.</p>
+</li>
+<li>
+<p>Click <b class="button">Back to sign in</b> to login with the new password for the user.</p>
+</li>
+</ol>
+</div>
 <div style="page-break-after: always;"></div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_signatures">Signatures</h3>
@@ -4848,6 +4891,18 @@ The upload button stays disabled till a file upload is completed.
 </td>
 <td class="content">
 Navigating away from the Briefcase tab to any other tab, while the file upload is in progress, will cancel the upload.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+The maximum file size allowed for upload is the same which is set by the Administrator for uploading the attachments in Mail.
 </td>
 </tr>
 </table>
@@ -6091,7 +6146,7 @@ Slack&#8217;s authentication works in the background and hence you may have to w
 <div class="sect2">
 <h3 id="_zoom">Zoom</h3>
 <div class="paragraph">
-<p>This integration offers you the opportunity to connect your Zoom account to CloudSuite so that you can automatically create a Zoom Meeting linked to your calendar event. Any changes made to your calendar event will be reflected in the Zoom meeting automatically.</p>
+<p>This integration offers you the opportunity to connect your Zoom account to Zimbra Cloud so that you can automatically create a Zoom Meeting linked to your calendar event. Any changes made to your calendar event will be reflected in the Zoom meeting automatically.</p>
 </div>
 <div class="sect3">
 <h4 id="_activate_the_zoom_zimlet">Activate the Zoom Zimlet</h4>
@@ -6201,84 +6256,6 @@ Zoom&#8217;s authentication works in the background and hence you may have to wa
 </div>
 </div>
 <div class="sect2">
-<h3 id="_video_call_preferences">Video Call Preferences</h3>
-<div class="paragraph">
-<p>The Video Call Preferences integration helps you to setup Video Call providers, which can be used for your calendar events. Using this intergration, users can configure details of thier existing accounts with video call providers like Jitsi, WebEx, Google Hangouts, Zoom, Skype, Lifesize, or others. Please note that this is only an integration and users need to have an existing account with these video call providers.</p>
-</div>
-<div class="sect3">
-<h4 id="_setup_video_call_preference_for_your_meetings">Setup Video Call Preference for your meetings</h4>
-<div class="sect4">
-<h5 id="_steps_for_selecting_pre_populated_providers">Steps for selecting pre-populated providers:</h5>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong> &#8594; <strong>Calendars and Reminders</strong> &#8594; <strong>Video Call Settings</strong>.</p>
-</li>
-<li>
-<p>Click <b class="button">Add a Video Call Provider</b></p>
-</li>
-<li>
-<p>Select the provider from the <strong>Name:</strong> field.</p>
-</li>
-<li>
-<p>Update the meeting URL provided by the Video Call provider in the <strong>URL</strong> text box.</p>
-</li>
-<li>
-<p>Click <b class="button">Save</b></p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_steps_for_specifying_new_provider">Steps for specifying new provider:</h5>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong> &#8594; <strong>Calendars and Reminders</strong> &#8594; <strong>Video Call Settings</strong>.</p>
-</li>
-<li>
-<p>Click <b class="button">Add a Video Call Provider</b></p>
-</li>
-<li>
-<p>In the <strong>Name:</strong> field, specify the name of the provider</p>
-</li>
-<li>
-<p>Update the meeting URL provided by the Video Call provider in the <strong>URL</strong> text box.</p>
-</li>
-<li>
-<p>Click <b class="button">Save</b></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_update_video_call_provider_details_in_a_calendar_event">Update video call provider details in a Calendar Event</h4>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Select the <b class="button">Calendar</b> tab.</p>
-</li>
-<li>
-<p>Click the <b class="button">New Event</b> in the top left.</p>
-</li>
-<li>
-<p>Fill out the event details.</p>
-</li>
-<li>
-<p>Click on the button of the video call provider.</p>
-</li>
-<li>
-<p>The Location field now contains the Meeting URL which was setup by the user in Video Call Preferenc setting.</p>
-</li>
-<li>
-<p>Click <b class="button">Save</b>.</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect2">
 <h3 id="_jitsi">Jitsi</h3>
 <div class="paragraph">
 <p>This integration helps you to update the details of Jitsi meeting URL in the Calendar Events.</p>
@@ -6352,12 +6329,363 @@ Please make sure your organization&#8217;s policy allows you to use public video
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_video_call_preferences">Video Call Preferences</h3>
+<div class="paragraph">
+<p>The Video Call Preferences integration helps you to setup Video Call providers, which can be used for your calendar events. Using this intergration, users can configure details of thier existing accounts with video call providers like Jitsi, WebEx, Google Hangouts, Zoom, Skype, Lifesize, or others. Please note that this is only an integration and users need to have an existing account with these video call providers.</p>
+</div>
+<div class="sect3">
+<h4 id="_setup_video_call_preference_for_your_meetings">Setup Video Call Preference for your meetings</h4>
+<div class="sect4">
+<h5 id="_steps_for_selecting_pre_populated_providers">Steps for selecting pre-populated providers:</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong> &#8594; <strong>Calendars and Reminders</strong> &#8594; <strong>Video Call Settings</strong>.</p>
+</li>
+<li>
+<p>Specify the name of the Video Call provider and Meeting URL by clicking <b class="button">Add a Video Call Provider</b></p>
+</li>
+<li>
+<p>Select the provider from the <strong>Name:</strong> field. For example, if you want to setup Webex Event, select Webex.</p>
+</li>
+<li>
+<p>Update the meeting room URL provided by the Video Call provider in the <strong>URL</strong> text box. Below is an example:</p>
+<div class="literalblock">
+<div class="content">
+<pre>If the company Webex URL is https://abc.webex.com and user is john.doe, and the meeting room URL is "https://abc.webex.com/john.doe", then specify "https://abc.webex.com/john.doe" in the URL text box.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_steps_for_specifying_new_provider">Steps for specifying new provider:</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong> &#8594; <strong>Calendars and Reminders</strong> &#8594; <strong>Video Call Settings</strong>.</p>
+</li>
+<li>
+<p>Click <b class="button">Add a Video Call Provider</b></p>
+</li>
+<li>
+<p>In the <strong>Name:</strong> field, specify the name of the provider</p>
+</li>
+<li>
+<p>Update the meeting URL provided by the Video Call provider in the <strong>URL</strong> text box.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_update_video_call_provider_details_in_a_calendar_event">Update video call provider details in a Calendar Event</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select the <b class="button">Calendar</b> tab.</p>
+</li>
+<li>
+<p>Click the <b class="button">New Event</b> in the top left.</p>
+</li>
+<li>
+<p>Fill out the event details.</p>
+</li>
+<li>
+<p>Click on the button of the video call provider.</p>
+</li>
+<li>
+<p>The Location field now contains the Meeting URL which was setup by the user in Video Call Preference setting.</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_import_mailbox">Import Mailbox</h3>
+<div class="paragraph">
+<p>This integration will help user import users data from other email service providers.</p>
+</div>
+<div class="paragraph">
+<p>You can import your mailbox from following service providers:</p>
+</div>
+<div class="paragraph">
+<p><strong>Gmail</strong> :- Users will be able to import <strong><em>Mail</em></strong>, <strong><em>Contacts</em></strong> and <strong><em>Calendars</em></strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Outlook</strong> :- Users will be able to import <strong><em>Mail</em></strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Yahoo</strong> :- Users will be able to import <strong><em>Mail</em></strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>AOL</strong> :- Users will be able to import <strong><em>Mail</em></strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Zimbra</strong> :- Users will be able to import <strong><em>Mail</em></strong>, <strong><em>Contacts</em></strong>, <strong><em>Calendars</em></strong>, <strong><em>Briefcase</em></strong> and <strong><em>Tasks</em></strong>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Other</strong> :- Users will be able to import <strong><em>Mail</em></strong>.</p>
+</div>
+<div class="sect3">
+<h4 id="_navigating_to_import_mailbox_interface">Navigating to Import Mailbox interface</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click on "Import from Another Account".</p>
+</li>
+<li>
+<p>Users will get the list of supported service providers to import the mailbox from.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_importing_from_gmail">Importing from Gmail</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click on "Import from Another Account" and select "Gmail".</p>
+</li>
+<li>
+<p>The <strong><em>Mail</em></strong>, <strong><em>Contacts</em></strong> and <strong><em>Calendars</em></strong> folder options are pre-selected for import. De-select any folders which you do not want to be imported and click <b class="button">Next</b>.</p>
+</li>
+<li>
+<p>Click on "Sign in with Google".</p>
+</li>
+<li>
+<p>In the pop-up, specify Google account credentials and allow the required services which will be used for import.</p>
+</li>
+<li>
+<p>Once the authentication is successful, you will see a message on the screen "Success! Your import is now in progress".</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Depending upon the network speed or the data size of the account, it will take some time for the import to complete and to reflect your Gmail account&#8217;s data.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_importing_from_outlook">Importing from Outlook</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click on "Import from Another Account" and select "Outlook".</p>
+</li>
+<li>
+<p>The <strong><em>Mail</em></strong> folder option is pre-selected. Click <b class="button">Next</b>.</p>
+</li>
+<li>
+<p>Select SSL or None and specify the organization&#8217;s outlook server details in the "Server" text box.</p>
+</li>
+<li>
+<p>Specify the email address and password. Click <b class="button">Import</b>. You will see a message on the screen "Success! Your import is now in progress".</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Depending upon the network speed or the data size of the account, it will take some time for the import to complete and to reflect your Outlook account&#8217;s data.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_importing_from_yahoo">Importing from Yahoo</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click on "Import from Another Account" and select "Yahoo".</p>
+</li>
+<li>
+<p>The <strong><em>Mail</em></strong> folder option is pre-selected. Click <b class="button">Next</b>.</p>
+</li>
+<li>
+<p>Select SSL or None and specify <code>imap.mail.yahoo.com</code> in the "Server" text box.</p>
+</li>
+<li>
+<p>Specify the email address and password. Click <b class="button">Import</b>. You will see a message on the screen "Success! Your import is now in progress".</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Depending upon the network speed or the data size of the account, it will take some time for the import to complete and to reflect your Yahoo account&#8217;s data.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_importing_from_aol">Importing from AOL</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click on "Import from Another Account" and select "AOL".</p>
+</li>
+<li>
+<p>The <strong><em>Mail</em></strong> folder option is pre-selected. Click <b class="button">Next</b>.</p>
+</li>
+<li>
+<p>Select SSL or None and specify <code>imap.aol.com</code> in the "Server" text box.</p>
+</li>
+<li>
+<p>Specify the email address and password. Click <b class="button">Import</b>. You will see a message on the screen "Success! Your import is now in progress".</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Depending upon the network speed or the data size of the account, it will take some time for the import to complete and to reflect your AOL account&#8217;s data.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_importing_from_zimbra">Importing from Zimbra</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click on "Import from Another Account" and select "Zimbra".</p>
+</li>
+<li>
+<p>The <strong><em>Mail</em></strong>, <strong><em>Contacts</em></strong>, <strong><em>Calendars</em></strong>, <strong><em>Briefcase</em></strong> and <strong><em>Tasks</em></strong> folder options are pre-selected for import. De-select any folders which do not want to be imported and click <b class="button">Next</b>.</p>
+</li>
+<li>
+<p>Select SSL or None and specify the organization&#8217;s Zimbra server details in the "Server" text box.</p>
+</li>
+<li>
+<p>Specify the email address and password. Click <b class="button">Import</b>. You will see a message on the screen "Success! Your import is now in progress".</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Depending upon the network speed or the data size of the account, it will take some time for the import to complete and to reflect your Zimbra account&#8217;s data.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_importing_from_any_other_service_provider">Importing from any other service provider</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <span class="image"><img src="images/graphics/cog.svg" alt="cog icon" width="20"></span> &#8594; <strong>Settings</strong>.</p>
+</li>
+<li>
+<p>Click on "Import from Another Account" and select "Other".</p>
+</li>
+<li>
+<p>The <strong><em>Mail</em></strong> folder option is pre-selected for import.</p>
+</li>
+<li>
+<p>Select SSL or None and specify the service provider server details in the "Server" text box.</p>
+</li>
+<li>
+<p>Specify the email address and password. Click <b class="button">Import</b>. You will see a message on the screen "Success! Your import is now in progress".</p>
+</li>
+<li>
+<p>Click <b class="button">Save</b></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Depending upon the network speed or the data size of the account, it will take some time for the import to complete and to reflect your account&#8217;s data.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-08-21 23:01:22 +0530
+Last updated 2020-08-31 14:03:06 +0530
 </div>
 </div>
 </body>
