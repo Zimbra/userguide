@@ -8,3 +8,13 @@ We always recommend adding an alternate email address to get account recovery in
 . You receive a code on this alternate email address.
 Check your email and copy the verification code.
 . Paste in the above prompt to verify the alternate email address.
+
+==== Password reset using "Forgot Password" feature
+
+. On the login page, click "Forgot Password?".
+. Enter the email address for which password needs to be reset and click btn:[Submit].
+. Click btn:[Request Code]. The code is sent to alternate email address provided in <<Account Recovery>> section.
+. Copy the code and paste in the above prompt. Click btn:[Verify Code].
+. Click btn:[Reset Password] and specify the new password for the user. Click btn:[Submit]. 
+. On successful password reset, "Password Reset Success!" is displayed on the screen.
+. Click btn:[Back to sign in] to login with the new password for the user.
