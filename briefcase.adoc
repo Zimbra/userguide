@@ -49,6 +49,8 @@ NOTE: The upload button stays disabled till a file upload is completed.
 
 IMPORTANT: Navigating away from the Briefcase tab to any other tab, while the file upload is in progress, will cancel the upload.
 
+IMPORTANT: The maximum file size allowed for upload is the same which is set by the Administrator for uploading the attachments in Mail.
+
 === Downloading a file from Briefcase
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . In the file list pane, select a file to be downloaded.
