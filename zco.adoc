@@ -1,0 +1,25 @@
+=== Zimbra Connector for Outlook (ZCO)
+
+This section will guide you to download Zimbra Connector for Outlook and its Setup.
+
+==== Downloading ZCO
+
+You can download the ZCO installer in two ways:
+
+===== Through *Download Zimbra Connector for Outlook* Zimlet
+
+. Login to Modern UI.
+. Select image:graphics/cog.svg[cog icon, width=20].
+. Click on "Outlook Connector". You will be redirected to the ZCO Download page.
+
+IMPORTANT: If this option is not available on your system, please contact your system administrator.
+
+===== Through ZCO Download link
+
+You can refer to ZCO Download's Page :- https://www.zimbra.com/downloads/zimbra-connector-for-outlook/
+
+==== Setup and Installation
+
+. You can refer to the admin guide for customizing the ZCO installer :- https://zimbra.github.io/zm-windows-comp/latest/ZCS_Connector_For_Outlook_Admin_Guide.html
+
+. You can refer to the user guide for setup, installation and ZCO Features :- https://zimbra.github.io/zm-windows-comp/latest/ZCS_Connector_For_Outlook_User_Guide.html
