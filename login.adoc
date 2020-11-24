@@ -20,6 +20,21 @@ After login, you can <<settings-general.adoc#_zimbra_version, choose>> either *M
 . Click *Sign In* to login.
 endif::z9[]
 
+=== Must Change Password 
+NOTE: The *Must Change Password* setting will have to be enabled by the Administrator.
+
+When the setting is enabled, it will allow user to set the new password when logging in {modern-client}.
+
+. Type the URL in a browser's address bar.
+. Enter your username in the *Username* field.
+. Enter the password in the *Password* field.
+. Choose *Modern* from the *Version* drop-down.
+. Click *Sign In*. UI will be displayed to set a new password.
+. Enter the *Username* and *Password*. 
+. Enter new password in *New Password* and *Confirm Password* fields.
+. Click *Sign In*.
+. Your new password is successfully set.
+
 == Two-factor Authentication
 *Two-factor Authentication* (2FA) is a method of confirming your identity by utilizing an information like password and a second factor in the form of a code through Time-based One Time Password (TOTP) apps.
 Please visit the wiki for link:https://wiki.zimbra.com/wiki/TOTPApps[supported apps].

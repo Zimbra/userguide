@@ -73,6 +73,9 @@ Propose a new time from calendar::
 . A toast notification confirms when proposed time is sent.
 
 ==== Event (Appointment/Meeting) Recurrence
+
+NOTE: When setting a recurring event without any End Date or Occurrence limit, a default limit can be enforced by the Administrator. In such cases, a limit may be applied accordingly. This is applicable for Daily, Weekly, Monthly and Yearly recurring events.
+
 You can set the event to repeat every day, every week, every month, or every year.
 These repetitions can be customized as well, e.g., every third Friday, or third Friday of every month, and so forth.
 
