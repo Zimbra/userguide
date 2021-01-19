@@ -29,7 +29,7 @@ You can right-click this folder to create subfolders.
 
 Junk:: {product-short} moves all the unwanted or spam emails here to keep them out of your Inbox.
 
-Trash:: All deleted emails are moved to this folder until you _Empty the Trash_, permanently delete, or restore them.
+Trash:: All deleted emails are moved to this folder until you _Empty the Trash_, permanently delete, or move to another folder to keep.
 
 Folders:: Sometimes, you may want a folder for storing specific emails.
 All such folders are listed here.
