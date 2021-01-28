@@ -19,6 +19,10 @@ include::zimlets-zoom.adoc[]
 
 include::zimlets-jitsi.adoc[]
 
+ifdef::zcloud[]
+include::zimlets-zulip.adoc[]
+endif::zcloud[]
+
 include::zimlets-video-call-preference.adoc[]
 
 include::zimlets-import-mail.adoc[]

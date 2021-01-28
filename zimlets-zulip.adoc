@@ -1,0 +1,32 @@
+ifdef::zcloud[]
+=== Zulip
+The Zulip is a group chat app and its integration helps you connect to other users in your organization and quickly initiate conversations. With this integration, you can see if other users in your organization are online (if they have set the Zulip integration up), launch a private chat with users and connect to public streams.
+
+All the standard Zulip features are supported with this integration. For more information on Zulip's features, please refer to https://zulip.com/help/[user documentation].
+
+==== Accessing Zulip Tab
+
+NOTE: The Zulip zimlet will have to be enabled for your account by the Administrator.
+
+. Click [ *Chat* ] tab.
+. Click [ *Zulip* ]
+
+You will see a list of all the users in the organization on the right side. *Streams* and other messaging options are present on the left side.
+
+==== Checking User Presence and Sending Direct Messages
+You can check the active / inactive status of users in your contacts, calendar items, or email conversations. From there, you can easily start a direct message conversation with that user.
+
+. Hover over a name / email in the address bar of a sent or received email message or draft, or in the Invitees section of a calendar item.
+. Click on the *Zulip chat* option.
+
+A quick chat window within the {modern-client} will be opened.
+
+NOTE: The quick chat window only supports basic text messages. You can navigate to the Zulip tab for more options like text with rich font, send attachments, start Jitsi video call and view status message set by the users.
+
+==== Checking and Replying Missed Messages
+
+In case of missed messages in chat, an email with subject *Zulip missed messages* is sent. The email will contain the missed chat message and option to *Reply in zulip* at the end of the email.
+
+Clicking on *Reply in zulip* will open chat window in Zulip tab.
+
+endif::zcloud[]
