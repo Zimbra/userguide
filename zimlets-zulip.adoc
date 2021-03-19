@@ -1,17 +1,13 @@
 ifdef::zcloud[]
 === Zulip
-The Zulip is a group chat app and its integration helps you connect to other users in your organization and quickly initiate conversations. With this integration, you can see if other users in your organization are online (if they have set the Zulip integration up), launch a private chat with users and connect to public streams.
-
-All the standard Zulip features are supported with this integration. For more information on Zulip's features, please refer to https://zulip.com/help/[user documentation].
+Zulip is a group chat app that helps you connect to other users in your organization and quickly initiate conversations. Once your administrator configures Zulip, you can see if other users in your organization are online, launch a private chat with users and connect to public streams. For more detailed information on Zulip’s features, please refer to https://zulip.com/help/[user documentation].
 
 ==== Accessing Zulip Tab
-
-NOTE: The Zulip zimlet will have to be enabled for your account by the Administrator.
 
 . Click [ *Chat* ] tab.
 . Click [ *Zulip* ]
 
-You will see a list of all the users in the organization on the right side. *Streams* and other messaging options are present on the left side.
+You will see a list of all the users in the organization on the right side. *Streams* determine who gets a message. *Topics* tell you what the message is about. *Streams* and other messaging options are displayed on the left side. Messages with the same stream and topic are shown together as a conversational thread in the center.
 
 ==== Checking User Presence and Sending Direct Messages
 You can check the active / inactive status of users in your contacts, calendar items, or email conversations. From there, you can easily start a direct message conversation with that user.

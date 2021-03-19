@@ -40,7 +40,12 @@ NOTE: The toolbar buttons become functional after user selects a file.
 
 === Uploading a file to Briefcase
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
+ifdef::z9[]
 . Click btn:[Upload]. It will open a file explorer.
+endif::z9[]
+ifdef::zcloud[]
+. Click btn:[New] -> *Upload*. It will open a file explorer.
+endif::zcloud[]
 . In the file explorer, select the file to be uploaded and click btn:[Open].
 +
 NOTE: The upload button stays disabled till a file upload is completed.
