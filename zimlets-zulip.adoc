@@ -25,4 +25,38 @@ In case of missed messages in chat, an email with subject *Zulip missed messages
 
 Clicking on *Reply in zulip* will open chat window in Zulip tab.
 
+=== Zulip on Mobile
+
+Zulip Chat Application is supported on Android and iOS platforms. The app can be downloaded from Google Playstore and App Store.
+
+You can download the App from:
+
+* Android - https://play.google.com/store/apps/details?id=com.zulipmobile&hl=en_IN&gl=US
+* Apple - https://apps.apple.com/us/app/zulip/id1203036395
+
+==== Installing the app
+
+Zulip Mobile app is available for download at the Play store and App Store.
+
+. Launch Play Store / Apple Store on your device.
+. Search for "Zulip"
+. Tap on the app.
+. Tap *Install*.
+
+After the app is successfully installed, an icon of the app is created on the home screen of your device.
+
+==== Setting up the App:
+
+. Open the Zulip app. Specify the organization's Zulip server URL in the text box. For e.g. `https://myzimbra.server.com`.
+. Tap *Enter*.
+. Enter your username in the *Email* field.
+. Enter your password in the *Password* field.
+. Tap *Log in* to login.
+
+Upon successful authentication, the user will be logged into his Zulip chat account. 
+
+* At the top of the screen, users will have an option to check all messages, starred messages, mentions and search.
+
+* At the bottom of the screen, users can access all unread messages, Streams, Direct Messages, Settings and Profile.
+
 endif::zcloud[]
