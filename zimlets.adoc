@@ -25,4 +25,6 @@ endif::zcloud[]
 
 include::zimlets-video-call-preference.adoc[]
 
+ifdef::zcloud[]
 include::zimlets-import-mail.adoc[]
+endif::zcloud[]

@@ -51,12 +51,13 @@ Add a new calendar by any of these methods.
 
 NOTE: You can add your friend's calendar only when they have shared it.
 
-==== Add a Holiday Calendar
-This feature populates your calendar with holidays in your country.
-
-. Click *Calendar* and hover over *Holidays*.
-. Click image:graphics/plus.svg[plus icon, width=20].
-. Choose the country whose holidays you want to view in your calendar.
-. Click *Next* and choose the color to differentiate this calendar from the rest.
-. Click btn:[Save] to save the changes.
-Your new subscribed calendar appears under *Holidays*.
+// Dawood - Commenting this block since the holiday-calendar zimlet is not officially released and we do not plan to release it.
+//==== Add a Holiday Calendar
+//This feature populates your calendar with holidays in your country.
+//
+//. Click *Calendar* and hover over *Holidays*.
+//. Click image:graphics/plus.svg[plus icon, width=20].
+//. Choose the country whose holidays you want to view in your calendar.
+//. Click *Next* and choose the color to differentiate this calendar from the rest.
+//. Click btn:[Save] to save the changes.
+//Your new subscribed calendar appears under *Holidays*.

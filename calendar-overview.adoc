@@ -34,7 +34,8 @@ E.g.
 My calendars:: Shows the calendars that belong to your account.
 You begin with one (named *Calendar*), and can add more.
 Others:: Displays calendars that others have shared with you or to which you have <<calendar-manage-calendars.adoc#_subscribe_to_a_calendar, subscribed>>. It is especially helpful in matching your schedule with them.
-Holidays:: A collection of <<calendar-manage-calendars.adoc#_add_calendars, country-specific holiday calendars>> that you may subscribe.
+
+// Holidays: A collection of <<calendar-manage-calendars.adoc#_add_calendars, country-specific holiday calendars>> that you may subscribe.
 
 === Calendar View Pane
 The calendar view pane displays a calendar in Day, Week, and Year views as well.
