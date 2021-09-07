@@ -17,7 +17,35 @@ Once generated, use the app password in the *Password* field.
 . Choose an account type, from *POP* or *IMAP*, that you want to configure with the Modern Web App.
 . Enter the username associated with this email address.
 . Type the mail server name in *Mail Server* field.
+
 Please check with your email provider for this information.
+
+Following are the details of some of the top service providers:
+[cols="40,40,40,40,40,40",options="header"]
+|=======================================================================
+|Email Provider |IMAP Host / Port| POP Host / Port| Requires SSL| Requires Separate App Password| Enable "Less Secure App" Settings
+
+|Gmail
+|imap.gmail.com / 993
+|pop.gmail.com / 995
+|Yes
+|No
+|Yes
+
+|Yahoo
+|imap.mail.yahoo.com / 993
+|pop.mail.yahoo.com / 995
+|Yes
+|Yes
+|No
+
+|AOL
+|imap.aol.com / 993
+|pop.aol.com / 995
+|Yes
+|Yes
+|No
+|=======================================================================
 
 ==== Change the name on your {product-short} account
 You can choose what name people see when you send them an email.
