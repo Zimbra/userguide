@@ -1,0 +1,162 @@
+== {product-short} Desktop App
+{product-short} Desktop is a desktop email client that gives you online and offline access to your Zimbra email. More than just another choice in the email client landscape, Zimbra Desktop blurs the line between a web application and a traditional desktop application. 
+
+{product-short} Desktop uses the same technology as Zimbra 9’s Web Application, has intuitive navigation, supports customizations, and is secure.
+
+{product-short} Desktop app is supported on *Windows 10 or newer versions* and *Mac 10.13 or newer versions*. 
+
+=== Getting Started
+
+//==== Installing {product-short} Desktop app
+//
+//IMPORTANT: Users will require admin privileges of their desktop to install {product-short} Desktop app.
+//
+// Added below part for Orange
+//If users are using old version of {product-short} Desktop App, they will have to uninstall it and remove the directory structure from the below mentioned location. This is needed since the architecture has been changed in the new version:
+//
+//* Windows : C:\Users\[USER-NAME]\AppData\Roaming\@zimbra\storage\[account-email-address]\
+//* Mac : /Users/[USER-NAME]/Library/Application Support/@zimbra/storage/[account-emailaddress]/
+//
+//. Zimbra Desktop App (Beta) is available for download at https://www.zimbra.com/downloads/zimbra-desktop/.
+//. Download the installer as per your Operating System.
+//. Follow the instructions on the screen to complete the installation.
+//
+==== Setting up {product-short} Desktop app
+Setting up the {product-short} Desktop app is easy. When the Desktop app is opened for the first time, users will have to provide the Zimbra Server URL for the Desktop App to connect to the Zimbra server. 
+
+NOTE: Users need to perform this step only once when accessing the {product-short} Desktop app for the first time. 
+
+. Open the {product-short} Desktop app. Specify the organization's Zimbra Server URL in the text box. For e.g. `https://myzimbra.server.com`.
+. Click *Continue*. 
+. Enter your username in the *Email* field.
+. Enter your password in the *Password* field. 
+. Click *Sign in* to login.
+
+Upon successful authentication, user will be logged into his Inbox. 
+
+=== First login 
+// Local storage is a feature that download's user's mailbox data to the desktop's local storage. This data is used by the application to provide access to emails even when the user is offline.
+
+When a user logs in for the first time in the {product-short} Desktop app, by default last 30 days' mail data will be downloaded to their local storage. Users can go to image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* and choose a date to download older emails to the local storage.
+
+// IMPORTANT: This feature is only available in the {product-short} Desktop app.
+
+=== Offline Functionality
+Zimbra intends to provide a consistent user experience across all types of devices and hence the desktop application has been designed to support almost all the functionality available in the {product-short} Web App.
+
+In the following documentation:
+
+* The term *Online* is used to refer to a scenario when the {product-short} Desktop app is connected to the Internet.
+* The term *Offline* is used to refer to a scenario when the {product-short} Desktop app is not connected to the Internet.
+
+==== When {product-short} Desktop app is online
+All {product-short} Web App functionalities are available when a user is online.
+
+==== When {product-short} Desktop app is offline
+Most of the core mail related functionalities are available to the user even when the desktop application is offline.
+
+The following features are available when the desktop application is offline:
+
+* View emails.
+* View and download attachments.
+* Reply, Reply All, Forward an email.
+* Compose a new mail.
+* Send a new mail.
+* Mark email as read.
+* Star / Unstar an email.
+* Mark email as spam.
+* Archive an email.
+* Delete an email.
+* Move an email.
+* Create sub-folders under *Local Folders*.
+* Message View.
+* All formatting options in Mail Composer.
+* Search limited to keywords: *from*, *to*, *cc*, *subject*, *in*, *has*, *date*.
+* Limited access to events in Calendar vertical.
+* Limited access to contacts in Contacts vertical.
+//* First 1000 contacts as per the sorting order set by the user in *Contacts* tab. The default sorting order is *Display Name*.
+
+NOTE: While users can perform all of these actions while offline, they will get executed only when the user goes online. For example, a user may send a mail while offline, however the mail will leave the user's Outbox only when the user goes online.
+
+The following features are *not* available when the desktop application is offline:
+
+* Following options in the Folder Context Menu (i.e. on folder right-click).
+** Import.
+** Share.
+** Create subfolder.
+** Export.
+** Empty folder.
+* Following options in the Trash Folder Context Menu (i.e. on folder right-click).
+** Mark emails as read.
+** Empty Trash.
+** Export.
+** Recover discarded mail.
+* Following options in the Mail Context Menu (i.e. on email right-click)
+** Tag.
+** Block. 
+** Print.
+** New Event.
+** New Filter.
+** Mark as Spam.
+** Show Original. 
+** Add Sender to Contacts.
+* Schedule Send. 
+* *Create*, *Edit*, *Delete* tag.
+* Access to all contacts.
+* Access to all calendar items.
+* *Accept*, *Tentative*, *Decline*, *Propose New Time* options on a meeting invite.
+* Conversation View.
+* Mail Preview Pane settings. 
+* Advanced Search.
+* Contact Chooser from *To* field in Composer.
+* image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+* image:graphics/cog.svg[cog icon, width=20] -> *Language*.
+* image:graphics/cog.svg[cog icon, width=20] -> *Help*.
+* *Video*, *Chat* and *Cloud Storage* verticals.
+
+=== Download Message Setting details
+By default, 30 days's mailbox data will be available to the user for Offline access. If the user wants to download older data, he can navigate to the Local Storage setting and download it by specifying the date.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Click *Offline*.
+. Select the date in the date picker for the previous data to be downloaded.
+. Click *Apply*.
+
+The data download process will get started. 
+
+//Damini to confirm the functionality if disk space is not available. Accordingly this point will be edited.
+
+//In case enough disk space is not available on the system, then the message download process will be aborted and the information will be updated in the image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* tab.
+
+The {product-short} Desktop app is also designed to handle network error conditions. For e.g. if the message download to local storage is in progress and the network is interrupted, then the message download process will go in a paused state. The {product-short} Desktop app will resume the download process once the network connection is restored.
+
+=== Local Data Storage location
+Once the user's mailbox data is downloaded successfully, each message is stored in a .eml file.
+
+The data is downloaded at the following location on user's desktop:
+
+* Windows : `C:\Users\[USER-NAME]\AppData\Roaming\@zimbra\storage\[account-email-address]\`.
+* Mac : `/Users/[USER-NAME]/Library/Application Support/@zimbra/storage/[account-email-address]/`.
+
+=== Freeing up mailbox storage space
+Users will have limited storage available on their mailbox. Users may free up space on their mailbox by moving some of their emails to their local storage. The emails moved to local storage will be accessible to users via the {product-short} Desktop app.
+
+To move the emails to local storage, follow the instructions below:
+
+. In *Mail* tab, create a folder under *Local Folders*.
+. Select the mails you want to move to the local storage.
+. Move those mails to the folder that was created under *Local Folders*.
+
+Alternatively, user can utilize the Auto-Archive feature to automatically move mails from mailbox to local storage on a regular basis. Refer to <<#_auto_archive>> section to know more.
+
+=== Securing your data
+
+{product-short} Desktop app downloads user’s mailbox data to user's desktop’s local storage. Hence, it is very important to keep the local data secured. 
+
+Zimbra recommends using disk encryption to secure this mailbox information on user's desktop. Using such disk encryption helps protect user’s mailbox data from data theft, by rendering data stored on hard drives unreadable when an unauthorized user tries to gain access. 
+
+Zimbra suggests using operating system recommended disk encryption. Refer the following articles for more information:
+
+* Encrypting data on Mac OS - `https://support.apple.com/en-in/guide/mac-help/mh11785/mac`
+* Encrypting data on Windows - `https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838`
+

@@ -1,0 +1,21 @@
+== PST Import 
+
+PST Import feature allows users to import their emails from an existing PST file into the {product-short} Desktop app. Currently, it only supports importing mail data. If the .pst file has any *Contacts* or *Calendar* data, that will not be imported.
+
+. Go to image:graphics/cog.svg[cog icon, width=20] -> *Settings*
+. Click *Accounts* in the left pane and choose an account from the right pane.
+. In *Import from Outlook (.pst file)* section, click on *Choose .pst file*
+. Choose the .pst file in the file explorer and click *Select*.
+. Click *Import* to start the PST import.
+
+NOTE: Depending upon the file size, the import process may take time. Users will be notified once the import is complete. 
+
+The mail data is imported under *Local Folders*. A folder will be created by the name of the imported PST file.  For e.g. if the imported .pst file name was `importmail.pst`, then a folder *importmail.pst* will be created under *Local Folders*. Users may rename the folder after the PST import is completed successfully. 
+
+NOTE: The folder hierarchy in the PST file will be preserved in the imported folder.
+
+IMPORTANT: PST Import feature is not available on {product-short} Desktop app on Mac.
+
+=== Import failure
+
+Sometimes importing PST files may fail due to low disk space availability. If the PST import fails, user may start the PST import process again. However, if the folder has been created then those will have to be manually deleted before starting the PST Import again.

@@ -1,0 +1,24 @@
+== Supported Zimlets in {product-short} Desktop app
+
+// Add zimlets released during Zimbra-9 launch.
+
+WARNING: Zimlets are not available when the {product-short} Desktop app is Offline.
+
+Following Zimlets are available in {product-short} Desktop app when it is Online.
+
+* Jitsi: Zimlet to add a Jitsi video conferencing link to an event. 
+* Video Call preferences: Allows the user to define video call providers to use in the Calendar.
+* Slack: The Slack zimlet helps to connect user's Slack account to Zimbra for quickly initiating conversations using Slack. 
+* Date Zimlet: Detects dates in emails or other content and displays list of the day's event on hover.
+* User Feedback: Adds an option in image:graphics/cog.svg[cog icon, width=20] to provide product feedback to Zimbra.
+// * User Session Management: Displays all active sessions on all devices and allows user to end them.
+* Additional Signatures: Allows user to make extra signatures to use with any accounts.
+* Restore Contacts: Restore contacts from previous backup. *Restore from backup* option is added in *Contacts* -> *Sort Dropdown*
+* Calendar Subscription: Adds *Subscribe* option in *Calendar* -> *Others* to subscribe to external calendar feeds.
+
+Following Zimlets are *not* available in {product-short} Desktop app when it is Online. However these zimlets can be accessed via {product-short} Modern Web App.
+
+* Dropbox 
+* Google Drive
+* OneDrive
+* Zoom 

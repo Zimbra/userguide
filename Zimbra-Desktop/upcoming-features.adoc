@@ -1,0 +1,10 @@
+=== Upcoming features in Zimbra Desktop App
+Upcoming features planned for the future releases of {product-short} Desktop App are:
+
+* Offline support for Calendar
+* Offline support for Contacts
+* Backup and Restore
+* Enhanced Search
+* Offline support for documents in user’s Briefcase
+
+And many more....

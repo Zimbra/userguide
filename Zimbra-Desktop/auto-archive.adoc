@@ -1,0 +1,28 @@
+== Auto-Archive
+
+{product-short} Desktop app provides an Auto-Archive feature which helps user move old emails from the mail server storage to the Desktop App's Local Storage. The archived emails are not accessible through Web App but will be accessible {product-short} Desktop app.
+
+* Archiving regularly helps free space on your mail servers.
+* For example, if you have a 5GB quota available which gets exhausted, then you can archive your mails to free up this quota.
+** Suppose you archive mails amounting to 1GB, then these 1GB of mails will move from your mail server to your local storage.
+** These 1GB mails would be accessible using your Zimbra Desktop, but not using your webmail.
+** You will be able to access these 1GB mails even when you do not have internet connectivity, as these mails will be stored in your local storage.
+* Archiving checks for the email across all the folders/subfolders. If the primary folder and its subfolder emails matches the archiving criteria, those will be moved under *Local Folders* and the folder hierarchy will be maintained.
+
+IMPORTANT: Auto-Archive will only archive emails present in your local storage. Refer to <<#_download_message_setting_details>> for more information on downloading the emails to local storage. 
+
+=== Enabling Auto-Archive feature
+
+Auto-archive feature is disabled by default. 
+
+Following are the steps to enable it:
+
+. Go to image:graphics/cog.svg[cog icon, width=20] -> *Settings*
+. In *General* -> *Storage*, select the *Enable* checkbox. 
+. By default mails older than 30 days will be archived.
+. To change the days, update *Auto-archive emails older than* textbox field. 
+. Click btn:[Save]. 
+
+IMPORTANT: To start the archiving of messages, {product-short} Desktop app needs to be restarted.
+
+IMPORTANT: Any changes to Auto-Archive settings will be reflected only after restarting the {product-short} Desktop app.

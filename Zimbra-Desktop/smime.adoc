@@ -1,0 +1,114 @@
+== Secure/Multipurpose Internet Mail Extensions (S/MIME)
+
+{product-short} Desktop app supports S/MIME functionality. Users can send *Signed* or *Signed and Encrypted* emails to other users. The administrator will have to enable this feature and provide the user's private certificate and recipient's public certificater.
+
+NOTE: S/MIME feature is available only on {product-short} Desktop app and not on {product-short} Modern Web app or {product-short} Mobile Apps.
+
+* Encrypted Emails
+
+The *Encrypted* email refers to an email that has been encrypted with a digital certificate.
+
+Encrypting an email helps to protect sensitive data and preserve confidentiality and privacy. This helps in making sure that only the intended recipient can read the email. If the email is intercepted and opened by an unintended user, that user won’t be able to decrypt and view the email.
+
+For sending encrypted emails, users will need their *Private* certificate and the recipients *Public* certificate.
+
+For reading encrypted emails, users will only need their *Private* certificates.
+
+* Signed Emails
+
+The *Signed* email refers to an email that has been signed with a digital certificate.
+
+Signing an email helps to:
+
+** Ensure data integrity i.e. the email was not altered from its original form.
+** Email authenticity i.e. the email came from an authentic sender.
+** Non-repudiation i.e. the signer cannot deny the authenticity of the email.
+
+This helps in knowing that the received email message comes indeed from the declared sender (a warning appears if someone else intercepted and modified the message before it arrived).
+
+For sending signed emails, users will need their *Private* certificate.
+
+For reading signed emails, users will need the recipient's *Public* certificate.
+
+=== Importing certificate
+
+NOTE: In this guide we assume that the users have got the certificate from standard service providers (e.g. Comodo, DigiCert, Go Daddy, etc) whose root CA certificates are already present in browsers.
+
+For easy understanding of the steps, we will refer to following examples throughout the section:
+
+* Sender's private certificate - sender-pvt.p12
+* Recipient's public certificate - recipient-pub.crt
+
+==== Importing sender's private certificate
+
+{product-short} Desktop app refers to the system location for validating the user's private certificates. Depending upon the format of the certificate, the file extension may vary. Some of the standard certificate extensions are *pfx*, *.p12*, *.p7B*, *.sst*. 
+
+===== Importing on Windows
+There are 2 options to import the certificate on Windows.
+
+====== Option #1 - Using *Internet Options* window.
+. Press *Windows+R* to open _Run_ box.
+. Type *_inetcpl.cpl_* to open the *Internet options* window.
+. Go to *Content* -> *Certificates* -> *Personal*.
+. Click on *Import*.
+. Follow the instructions and provide your private certificate *sender-pvt.p12* and its password when prompted.
+. You should see a *The import was successful* message once the import is completed successfully. 
+
+====== Option #2 - Using certificate manager window.
+. Press *Windows+R* to open _Run_ box.
+. Type *_certmgr.msc_* to open certificates management window.
+. On the left hand side, right-click on *Personal* and go to *All Tasks* -> *Import* to open the certificate import wizard.
+. Follow the instructions and provide your private certificate *sender-pvt.p12* and its password when prompted.
+. You should see a *The import was successful* message once the import is completed successfully. 
+
+===== Importing on Mac
+
+* Importing Private certificate:
+
+. Double-click on private certificate *sender-pvt.p12*.
+. Grant access to the system keychain.
+. Follow the instructions and provide the certificate password when prompted.
+. The certificate is added to system keychain
+
+* Set the trust level of the certificate:
+
+. Double-click on the added certificate *sender-pvt.p12* in the system folder.
+. Select the 'Always trust' option in the trust field.
+
+* Grant {product-short} Desktop app the access to the certificate key:
+
+. Expand the added certificate in the system folder.
+. Double-click the certificate key.
+. Go to Access control tab.
+. Add {product-short} Desktop app in the list of apps which have access to the key
+. Save changes
+
+==== Importing recipient's public certificate 
+
+. Click [*Contacts*] tab.
+. Right-click the contact and select *Edit Details*.
+. In the *Security Certificate* section, click on *Add a certificate*.
+. From the file explorer, select the *recipient-pub.crt* and click *Open*.
+. Click [*Save*].
+
+=== Sending *'Signed'* or *'Signed and Encrypted'* emails
+
+. Compose a new message.
+. Add a recipient in the *To* field.
+. At the right-hand top corner choose an option from the dropdown. By default *Do not sign or encrypt* is selected.
++
+* *Do not sign or encrypt*: Mail is neither signed nor encrypted. This is equivalent of disabling the S/MIME feature.
+* *Sign*: Send signed message to the recipient.
+* *Sign and Encrypt*: Send signed and encrypted messages to the recipient.
++
+. Click [*Send*].
+
+=== S/MIME and Encryption Settings
+
+You can change the sign and encryption preferences from Settings.
+
+. Go to image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *S/MIME and Encryption*
+. Select the preference of your choice.
+. Click [*Save*].
+. The selected option will be applicable when users compose a new message.
+

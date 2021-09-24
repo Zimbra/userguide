@@ -1,0 +1,58 @@
+== Troubleshooting
+
+=== Why do I get an `Invalid Zimbra Server` error when I specify the Zimbra Server URL while trying to log into the Zimbra Desktop App for the first time ?
+The {product-short} Desktop app is designed to do validations when users provide a Zimbra Server URL in the textbox. Before the user proceeds to the login page, it checks if the URL provided is of the valid Zimbra Server.
+
+Users can check:
+
+* If the Zimbra Server URL is accessible from the system by specifying the URL in Web Browser.
+* Check if the Zimbra Server URL is correct.
+
+=== Why can’t I see my emails when offline?
+Users may not be able to view emails offline because emails have not been downloaded to their local storage.
+
+Users can check:
+
+* Date under image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline*: If the emails that user is looking for are from a date earlier than the date provided in the Date picker in *Offline* Settings, then the user will have to select the appropriate date to be able to view those emails offline.
+* Data download aborted due to errors: There is a possibility that the user initiated data download was not completed successfully. Users can go to image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* and check for error messages, and re-initiate the download.
+
+=== Why can't I preview attachments when offline?
+There are some functionalities that are not available when the users are Offline. Refer to <<#_functionality>> section for more details to see which functionalities are available and which are not available when users are Offline.
+
+=== When does the download of mails start?
+When you install the Zimbra Desktop app and login into your account for the first time, the app will start downloading the last 30 days of mails to your local storage immediately.
+The time taken for this download to complete may vary depending upon the amount of data that you have available in the last 30 days, your internet connection speed, and the server availability.
+
+=== How do I know if the app is downloading mails?
+When the app is downloading emails to your local storage, you can see a Downloading label in the image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* tab.
+
+=== Do I see the mails downloaded to my local storage separately in my mailbox?
+No, you will not see the mails downloaded to your local storage separately in your mailbox. Mails stored locally and mails not stored locally appear together in your mail folders. The user experience is designed to be seamless for the end user. So, for example, if my Inbox has mails which are up to 1 year older, and I have set my image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* -> *Download data back to* configuration for last 30 days, then even after mails have synced to local storage, the user will see all the mails dating past 1 year in the Inbox. If the user loses internet connectivity and goes offline, then Inbox will display mails which are in his local storage i.e. only the mails dated 30 days ago.
+
+=== Are the mails downloaded to local storage removed from my mail server?
+No, the mails downloaded to local storage will not be removed from the mail server. They coexist on mail servers as well as local storage. The mails will only be removed from the mail server if the user has enabled the Auto-Archive feature.
+
+=== Will the mails in my local storage also be available on my web mail?
+Yes, the mails in your local storage also be available on your web mail. Since the mails co-exist on mail server as well as local storage, they will be available on your web mail as well. However, if the Auto-Archive feature is enabled, then the web-view and Desktop-view of your mailbox will differ.
+
+=== How do I know if my emails are being auto-archived?
+Once the Auto-archive feature is enabled, Zimbra Desktop App will have to be restarted to start the auto-archiving of the mails. Depending upon the data to be archived, the process may take some time. The mails matching the auto-archive criteria will be moved from Inbox to Local Folders. If mails from multiple folders or subfolders are archived, then the folder hierarchy will be also maintained under Local Folders.
+
+=== I enabled the Auto-archive setting, but my mails are not getting archived, why?
+There are multiple reasons why it might appear that auto-archiving is not working.
+
+* Auto-archive feature is disabled by default, please check if you have enabled the feature from image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *General* -> *Auto-archiving* -> *Enable*.
+
+* Whenever you start your Zimbra Desktop App, it starts downloading the latest mails to your local storage as per the date provided in the image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* -> *Download data back to* setting. This process is called the offline-sync process. If auto-archive feature is enabled, the auto-archive process will start only after the offline-sync process gets completed, i.e. all mails as per the offline criterion have been downloaded to the local storage. Please wait for the offline-sync process to complete and check again.
+** If offline-sync is already completed, please try re-starting the app.
+* Auto-archive will only run on locally stored emails. Please check if the date provided under image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* -> *Download data back to* is older than the days provided under image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *General* -> *Auto-archiving* -> *Archive mails older than*.
+For example, if today’s date is 1st January 2021, and
+** if image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* -> *Download data back to* = 1st January 2020
+** then, image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *General* -> *Auto-archiving* -> *Archive mails older than* should have value less than 365 for auto-archive to work.
+
+=== How can I move my emails from local storage to my Zimbra server?
+Though user may move messages using “Move” functionality, moving emails from local storage to users mailbox is not supported.
+
+=== When Offline, I get an "Invalid Search" error when trying to search.
+When Offline, only the following keyword based search is supported - *from*, *to*, *cc*, *subject*, *in*, *has*, *date*. Using any other keywords for search apart from the supported ones will result in an "Invalid Search" error.
+Other search parameters provided in the following list will be implemented as a part of product roadmap - http://docs.zimbra.com/desktop7/help/en_US/Search/query_language_description.htm.

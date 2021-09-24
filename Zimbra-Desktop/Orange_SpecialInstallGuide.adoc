@@ -1,0 +1,37 @@
+== {product-short} Desktop App (Beta)
+{product-short} Desktop is a desktop email client that gives you online and offline access to your {product-short} email. More than just another choice in the email client landscape, {product-short} Desktop blurs the line between a web application and a traditional desktop application.
+
+=== Install instructions for Orange users
+
+IMPORTANT: Users will require admin privileges of their desktop to install {product-short} Desktop app.
+
+If users are using the old version of {product-short} Desktop App, they will have to uninstall it and remove the directory structure from the below mentioned location. This is needed since the architecture has been changed in the new version:
+
+* Windows - C:\Users\[USER-NAME]\AppData\Roaming\@zimbra\
+* Mac - /Users/[USER-NAME]/Library/Application-Support/@zimbra/
+
+* Download and start the {product-short} Desktop installer. Follow the instructions on the screen to complete the installation.
+
+=== User impact
+* If a user is using any older version of {product-short} Desktop, they will need to uninstall the old version to be able to use this new version.
+* Any mails which were stored in the local folders of the older version of {product-short} Desktop will not be available after the new version is installed.
+
+=== Benefits
+Current benefits of the new {product-short} Desktop App for Orange users:
+
+* Full fledged offline experience
+* No need to create duplicate system folders under Local Folders, to move mails to local storage
+* Automatic and reliable syncing of data to local storage
+* End users can customize the number of days of data they want on their local storage
+
+The new {product-short} Desktop App has some great features on its roadmap which were not available in the older version of the Desktop app. Such as:
+
+* Full offline storage and sync of Calendars and Contacts
+* Sending offline mail with attachments
+* Scheduled Archiving
+* Backup and Restore
+* Enhanced Search
+* Offline preview of attachments
+* And many more...
+
+Hence we highly recommend Orange users to start using the new version of the {product-short} Desktop app, participate in the beta program, and provide their valuable feedback.
