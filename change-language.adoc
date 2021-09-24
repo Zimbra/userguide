@@ -1,4 +1,4 @@
-== Change Display Language
+== Language Settings
 {product-short} now offers these languages as the display language.
 
 * Chinese
@@ -21,3 +21,5 @@ To change the {product-short} display language to one of the above languages, pe
 . Click btn:[Save].
 
 {product-short} display language changes to the selected language.
+
+WARNING: If the system's language and the user's Zimbra account language are different, then it is recommended that users turn off the browser's translation feature since it may cause translation issues.
