@@ -1,0 +1,12 @@
+include::settings-mobile.adoc[]
+
+:document-title: Users guide
+:toclevels: 3
+
+= {product-name} {document-title}
+
+<<<
+
+include::zmobile.adoc[]
+
+<<<

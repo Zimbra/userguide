@@ -1,0 +1,88 @@
+== Zimbra Mobile App
+
+{product-short} Mobile app gives access to {product-short} email account from phone. It can be used with Zimbra 9 or Zimbra Cloud email account. The app is supported on *Android* and *iOS* based mobile devices. 
+
+Zimbra’s Mobile Apps are created using Apache Cordova. Apache Cordova is an open-source mobile development framework.
+
+Cordova wraps Zimbra’s JavaScript Web app into a native container that can access the device functions of several platforms. These functions are exposed via a unified JavaScript API, allowing Zimbra to write one set of code to target both iOS and Android platforms and publish it to their app stores.
+
+WARNING: The {product-short} Mobile app is supported only on Zimbra 9 and Zimbra Cloud based accounts.
+
+=== Zimbra Mobile App Architecture
+
+The below diagram illustrates the Mobile App Architecture:
+
+image::graphics/mobile-architecture.png[Architecure]
+
+=== Getting Started
+
+==== Installing {product-short} Mobile app
+
+{product-short} Mobile app is available for download at Play store and App Store. 
+
+. Launch Play Store / Apple Store on your device.
+. Search for "Zimbra"
+. Tap on the app.
+. Tap *Install*.
+
+After the app is successfully installed, an icon of the app is created on the home screen of your device.
+
+==== Setting up {product-short} Mobile app
+Setting up the {product-short} Mobile app is easy. When the Mobile app is opened for the first time, users will have to provide the Zimbra Server URL for the Mobile App to connect to the Zimbra server.
+
+NOTE: Users need to perform this step only once when accessing the {product-short} Mobile app for the first time.
+
+. Open the {product-short} Mobile app. Specify the organization's Zimbra Server URL in the text box. For e.g. `https://myzimbra.server.com`.
+. Tap *Continue*.
+. Enter your username in the *Email* field.
+. Enter your password in the *Password* field.
+. Tap *Sign in* to login.
+
+Upon successful authentication, the user will be logged into his Inbox.
+
+//==== Sharing feedback for 
+//
+//Special provision have been made for users to share direct feedback on Zimbra Mobile App
+//Add steps about feedback zimlet.
+//
+=== Optimization for Mobile Apps
+
+Due to the use of Cordova based technology, most of the functionality implemented on Web App is available on Mobile Apps. The exception being features based on operating systems e.g. notifications. However, keeping in mind the mobile-specific considerations like smaller screen sizes, and lower computing power, some features have been intentionally modified or removed or toned down to provide an optimal mobile collaboration experience. For example:
+
+* The mobile text editor is a plain text editor, instead of a full-fledged rich text editor 
+* Mini Calendar is not visible on mobile screens
+* When composing an email, users can click a photo and attach it by using the 'Take a photo' option in Attachments.
+* Users cannot view a three column view including a preview pane on a mobile screen etc.
+
+=== Upcoming features
+
+Zimbra plans to provide more and more native mobile features for an enhanced mobile user experience. Some of them are:
+
+* Push Notifications.
+* Attaching files from mobile local storage.
+* Biometric authentication.
+* Easy Share.
+* Touch Gestures.
+
+=== Supported Zimlets in {product-short} Mobile app
+
+Following Zimlets are available in {product-short} Mobile app.
+
+* Video Call preferences: Allows the user to define video call providers to use in the Calendar.
+* Date Zimlet: Detects dates in emails or other content and displays list of the day's event on hover.
+* User Feedback: Adds an option in image:graphics/cog.svg[cog icon, width=20] to provide product feedback to Zimbra.
+* User Session Management: Displays all active sessions on all devices and allows user to end them.
+* Additional Signatures: Allows user to make extra signatures to use with any accounts.
+* Calendar Subscription: Adds *Subscribe* option in *Calendar* -> *Others* to subscribe to external calendar feeds.
+
+Following Zimlets are *not* available in {product-short} Mobile app. However these zimlets can be accessed via {product-short} Modern Web App.
+
+* Dropbox
+* Google Drive
+* OneDrive
+* Zoom
+* Jitsi
+* Slack
+* Restore Contacts
+* Ads
+* Set default client.

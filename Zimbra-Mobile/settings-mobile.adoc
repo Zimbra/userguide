@@ -1,0 +1,35 @@
+:product-short: Zimbra
+:product-family: Zimbra
+:product-provider: Zimbra
+:copyright-year: {localyear}
+
+:imagesdir: images/
+:icons: font
+:title-page:
+:title-logo-image: image:graphics/zimbra-9-logo.svg[]
+:favicon: images/favicon.ico
+:showlinks:
+:source-highlighter: coderay
+:toc: left
+:linkcss:
+:stylesheet: stylesheets/asciidoctor-custom.css
+
+// Enable experimental features for btn:[button-name] macro
+:experimental:
+
+ifdef::z9[]
+:product-name: Zimbra Mobile App
+//:title-logo-image: image:graphics/zimbra-9-logo.svg[]
+:web-client: Classic Web App
+:modern-client: Modern Web App
+:product-version: 9.0.0
+:product-release-date: March, 2020
+// wrap {only-in-classic} in ifdef::z9[] one-liner to provide a standard NOTE, e.g.: ifdef::z9[NOTE: {only-in-classic}]
+:only-in-classic: This feature is supported only in the {web-client}.
+endif::z9[]
+
+ifdef::zcloud[]
+:product-name: Zimbra Cloud
+:title-logo-image: image:graphics/zimbra-9-logo.svg[]
+:modern-client: Modern Web App
+endif::zcloud[]

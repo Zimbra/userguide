@@ -1,0 +1,23 @@
+ifdef::zcloud[]
+== Zulip on Mobile
+Zulip is a group chat app that helps you connect to other users in your organization and quickly initiate conversations. Once your administrator configures Zulip, you can see if other users in your organization are online, launch a private chat with users and connect to public streams. For more detailed information on Zulip’s features, please refer to https://zulip.com/help/[user documentation].
+
+Zulip Chat Application is available on Android and iOS platforms. The app can be downloaded from Google Playstore and App Store.
+
+IMPORTANT: Zimbra officially does not support Zulip Mobile App.
+
+=== Setting up the App:
+
+. Open the Zulip app. Specify the organization's Zulip server URL in the text box. For e.g. `https://myorg.zulip.com`.
+. Tap *Enter*.
+. Enter your username in the *Email* field.
+. Enter your password in the *Password* field.
+. Tap *Log in* to login.
+
+Upon successful authentication, the user will be logged into his Zulip chat account. 
+
+* At the top of the screen, users will have an option to check All messages, Starred messages, Mentions and Search.
+
+* At the bottom of the screen, users can access Unread messages, Streams, Direct Messages, Settings and Profile.
+
+endif::zcloud[]
