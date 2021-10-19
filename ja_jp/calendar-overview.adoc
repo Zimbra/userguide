@@ -33,7 +33,7 @@ image::screenshots/calendar-window-blank.png[カレンダー画面]
 
 マイカレンダー:: ご利用中のアカウントに関連しているカレンダーが表示します。デフォルトは *Calendar* のカレンダーが作成しており、任意でカレンダーを追加できます。
 その他:: 他のユーザーから共有されたカレンダー、または <<calendar-manage-calendars.adoc#_subscribe_to_a_calendar, 参加した>> カレンダーが表示ます。自分のカレンダーと重ねて表示することができますので、スケジュールを一致する際に役立ちます。
-休日:: 参加可能の <<calendar-manage-calendars.adoc#_add_calendars, 国ごとの休日カレンダー>> です。
+// 休日:: 参加可能の <<calendar-manage-calendars.adoc#_add_calendars, 国ごとの休日カレンダー>> です。
 
 === 中央のカレンダー表示
 中央のカレンダー表示では、日、週、または年の期間としてカレンダーを表示します。カレンダーの表示期間を中央の上に選択できます。最近のイベントを表示する場合、image:graphics/refresh.svg[refresh icon, width=20] のアイコンをクリックします。
