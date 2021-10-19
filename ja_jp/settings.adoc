@@ -1,0 +1,28 @@
+:product-name: Zimbra 9
+:product-abbrev: ZCS
+:product-edition-commercial: Network Edition
+:product-edition-foss: Open Source Edition
+:product-short: Zimbra
+:product-family: Zimbra
+:product-provider: Zimbra
+:copyright-year: 2020
+
+:imagesdir: images/
+:icons: font
+:title-page:
+:title-logo-image: image:zimbra-logo.svg[]
+:favicon: images/favicon.ico
+:showlinks:
+:source-highlighter: coderay
+:toc: left
+
+// Enable experimental features for btn:[button-name] macro
+:experimental:
+
+:title-logo-image: image:zimbra-9-logo.svg[]
+:web-client: Classic ウェブアプリ
+:modern-client: Modern ウェブアプリ
+:product-version: 9.0.0
+:product-release-date: 2020年3月
+// wrap {only-in-classic} in ifdef::z9[] one-liner to provide a standard NOTE, e.g.: ifdef::z9[NOTE: {only-in-classic}]
+:only-in-classic: この機能は {web-client} でのみサポートしています。
