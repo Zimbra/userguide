@@ -1,0 +1,25 @@
+=== Zimbra Connector for Outlook（ZCO）について
+
+このセクションでは、Zimbra Connector for Outlookのダウンロードとセットアップについて説明します。
+
+==== ZCOのダウンロード
+
+ZCOのインストーラーをダウンロードするには2つの方法があります。
+
+===== *Download Zimbra Connector for Outlook* Zimlet を使う方法
+
+. Modern UIにログインします。
+. image:graphics/cog.svg[cog icon, width=20] を選択します。
+. "Outlook Connector" をクリックします。ZCOダウンロードページにリダイレクトされます。
+
+IMPORTANT: このオプションがお使いのシステムで利用できない場合は、システム管理者にお問い合わせください。
+
+===== ZCO ダウンロードリンクを使う方法
+
+ZCOダウンロードのページをご覧ください。 :- https://www.zimbra.com/downloads/zimbra-connector-for-outlook/
+
+==== Setup and Installation
+
+. ZCOインストーラーのカスタマイズについては、管理者ガイドを参照してください :- https://zimbra.github.io/zm-windows-comp/latest/ZCS_Connector_For_Outlook_Admin_Guide.html。
+
+. セットアップ、インストール、ZCOの機能については、ユーザーガイドを参照してください :- https://zimbra.github.io/zm-windows-comp/latest/ZCS_Connector_For_Outlook_User_Guide.html

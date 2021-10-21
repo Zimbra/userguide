@@ -4,24 +4,25 @@ include::settings.adoc[]
 :toclevels: 3
 
 = {product-name} {document-title}
+
+ifdef::z9[]
 {product-release-date}
-{product-name} {product-edition-commercial} {product-version}, revised {localdate}
+{product-name} {product-version}
+endif::z9[]
 
 <<<
 
 [colophon]
 == License
-image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {copyright-year}
 
-(C) {copyright-year} by Synacor, Inc.
+image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {localyear}
 
-本書はクリエイティブ・コモンズの表示+継承4.0国際ライセンスの適用対象です。ただし、Synacor, Inc. と貴方様との間に別途ライセンス合意がある場合を除きます。このライセンスは次のサイトから閲覧できます。
-https://creativecommons.org/licenses/by-sa/4.0
+(C) {localyear} by Synacor, Inc. {product-name} {document-title}
 
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License unless another license agreement between you and Synacor, Inc. provides otherwise.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0 or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-あるいは、Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.宛てに連絡してください。
-
-Synacor, Inc., {copyright-year} +
+Synacor, Inc., {localyear} +
 40 La Riviere Drive, Suite 300 +
 Buffalo, New York 14202
 
@@ -49,9 +50,11 @@ include::mail-search.adoc[]
 
 <<<
 
+ifdef::Desktop_app[]
 include::mail-localstorage.adoc[]
 
 <<<
+endif::Desktop_app[]
 
 include::contacts-overview.adoc[]
 
@@ -109,6 +112,10 @@ include::settings-account-recovery.adoc[]
 
 <<<
 
+include::settings-signatures.adoc[]
+
+<<<
+
 include::settings-ooo.adoc[]
 
 <<<
@@ -135,9 +142,12 @@ include::settings-calendars-reminders.adoc[]
 
 include::change-language.adoc[]
 
-
 <<<
 
 include::briefcase.adoc[]
+
+<<<
+
+include::zco.adoc[]
 
 <<<
