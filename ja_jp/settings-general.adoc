@@ -31,9 +31,9 @@ H:MM:: 9:21 AM を *9:21* として表示します。
 HH:MM:: 9:21 AM を *09:21* として表示します。
 
 ifdef::z9[]
-==== {product-short} バージョン
+==== {product-short}クライアントバージョン
 使用する {product-short} ウェブクライアントを選択できます。
 
-Modern:: {modern-client} を利用する。
-Classic:: {web-client} を利用する。
+Modern:: {modern-client} を利用します。
+Classic:: {web-client} を利用します。
 endif::z9[]
