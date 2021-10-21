@@ -50,12 +50,12 @@ image::screenshots/mail-empty-inbox.png[メールインターフェース]
 
 ツールバーでは、メールに対するクイックアクションを利用いただけます。
 
-ご注意：メールを選択し、メール閲覧ペイン上に本文を表示している場合のみ、これらのボタンを利用いただけます。
+NOTE: メールを選択し、メール閲覧ペイン上に本文を表示している場合のみ、これらのボタンを利用いただけます。
 
 image:graphics/mail-reply.svg[reply button, width=20px] のアイコンをクリックすると、差出人へ返信します。
 image:graphics/mail-reply-all.svg[Reply to all button, width=20px] のアイコンをクリックすると、*To* や *Cc* にある全アドレスへ返信します。
 
-ご注意：元のメールにある添付ファイルは **返信** や **全員に返信** で含まれません。
+NOTE: 元のメールにある添付ファイルは **返信** や **全員に返信** には含まれません。
 
 image:graphics/mail-forward.svg[forward button, width=20px] のアイコンをクリックすると、メールを他の人へ転送します。
 転送では添付したファイルが含まれますので、他の人へ添付ファイルを簡単に共有できます。

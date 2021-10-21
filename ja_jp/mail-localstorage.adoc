@@ -1,36 +1,36 @@
 // == ローカルストレージ
 // ローカルストレージの機能では、メールメッセージをクラウドストレージからご利用中の端末のローカルストレージへ移動することができます。
 
-// ご注意：この機能は {product-name} のデスクトップアプリでのむ提供しています。
+// IMPORTANT: この機能は {product-short} のデスクトップアプリでのみ提供しています。
 
-// === 古い {product-name} アプリから新しいバージョンへローカルストレージのフォルダーを移管する
-// ご注意：古いバージョンでローカルのフォルダーを利用した場合、以下の手順で新バージョンへ移管してください。
+// === 古い {product-short} アプリから新しいバージョンへローカルストレージのフォルダーを移管する
+// IMPORTANT: 古いバージョンでローカルのフォルダーを利用した場合、以下の手順で新バージョンへ移管してください。
 
 // ==== 空のフォルダーを作成する
-// . {product-name} のデスクトップアプリをインストールし、起動します。
+// . {product-short} のデスクトップアプリをインストールし、起動します。
 // . ご利用アカウントへログインします。
 // . 左側にて、 *Local Storage* の上にマウスを置き、*+* をクリックし、新しいフォルダーを作成します。
 // +
-// ご注意：古いフォルダーはローカルストレージに表示しない。以下の手順で古いメールをローカルストレージにある新しいフォルダーへインポートします。
+// NOTE: 古いフォルダーはローカルストレージに表示しない。以下の手順で古いメールをローカルストレージにある新しいフォルダーへインポートします。
 // +
 // . ファイルー名を入力します。以下の事例として、このフォルダーを *NewLocalFolder* としました。
 
 // ==== ファイルをコピーする
 // . 古いフォルダーをアクセスします：
 // + 
-// Windows の場合:: `%APPDATA%\@{product-name}\<メールアドレスのフォルダー名>\Mail\<古いアプリのローカルフォルダー>`
-// Mac の場合:: `~/Library/Application Support/@{product-name}/<メールアドレスのフォルダー名>/Mail/<古いアプリのローカルフォルダー>`
+// Windows の場合:: `%APPDATA%\@{product-short}\<メールアドレスのフォルダー名>\Mail\<古いアプリのローカルフォルダー>`
+// Mac の場合:: `~/Library/Application Support/@{product-short}/<メールアドレスのフォルダー名>/Mail/<古いアプリのローカルフォルダー>`
 // +
 // . フォルダー内の `EML` ファイルをすべてコピーする
-// . `@{product-name}/storage/<メールアドレスのフォルダー名>/Mail/NewLocalFolder` をアクセスします。
+// . `@{product-short}/storage/<メールアドレスのフォルダー名>/Mail/NewLocalFolder` をアクセスします。
 // . コピーしたファイルを貼り付けます。
 
 // ===== 実例
 // 以下の条件とします：
 
 // * メールアドレスは ada@example.com
-// * 古い {product-name} のデスクトップアプリでは、ローカルフォルダー名は`OldLocalFolder`
-// * 新しい {product-name} のデスクトップアプリでは、ローカルフォルダー名は`NewLocalFolder`
+// * 古い {product-short} のデスクトップアプリでは、ローカルフォルダー名は`OldLocalFolder`
+// * 新しい {product-short} のデスクトップアプリでは、ローカルフォルダー名は`NewLocalFolder`
 
 // 上記の場合、`EML` ファイルは以下のようにコピーします：
 
@@ -39,17 +39,17 @@
 // |OS |元の場所 |新しい場所 
 
 // |Windows
-// |`%APPDATA%\@{product-name}\\ada@example.com\Mail\OldLocalFolder`
-// |`%APPDATA%\@{product-name}\storage\\ada@example.com\Mail\NewLocalFolder`
+// |`%APPDATA%\@{product-short}\\ada@example.com\Mail\OldLocalFolder`
+// |`%APPDATA%\@{product-short}\storage\\ada@example.com\Mail\NewLocalFolder`
 
 // |Mac
-// |`~/Library/Application Support/@{product-name}/ada@example.com/Mail/OldLocalFolder`
-// |`~/Library/Application Support/@{product-name}/storage/ada@example.com/Mail/NewLocalFolder`
+// |`~/Library/Application Support/@{product-short}/ada@example.com/Mail/OldLocalFolder`
+// |`~/Library/Application Support/@{product-short}/storage/ada@example.com/Mail/NewLocalFolder`
 // |===
 
 // ==== メールをインポートする
 
-// . {product-name} のデスクトップアプリをアクセスします。
+// . {product-short} のデスクトップアプリをアクセスします。
 // . *Local Folder* の直下にあるフォルダーをクリックします -- 実例の場合は`NewLocalFolder`です
 // . フォルダー (`NewLocalFolder`) の上にマウスを置きますと、リフレッシュのアイコンが表示します。
 // . リフレッシュのアイコンをクリックし、古いアプリからコピーしたメールが新しいフォルダー(`NewLocalFolder`)で閲覧することが可能となります。
@@ -77,7 +77,7 @@
 ifdef::Desktop_app[]
 === ローカルフォルダーを管理する
 
-// ご注意：この機能は Windows 用の {product-name} デスクトップアプリでのみ提供しています。
+// NOTE: この機能は Windows 用の {product-short} デスクトップアプリでのみ提供しています。
 
 ローカルフォルダーを活用することで、古いメールやサイズが大きいメールを削除せずに、クラウド上に割り当てた容量の上限を保護することが可能です。メールをクラウドからローカルのストレージへ移動し、メールをご利用中のコンピュータ上で保管することになります。
 
