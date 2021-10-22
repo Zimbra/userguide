@@ -6,7 +6,7 @@ ifdef::z9[]
 NOTE: ログイン URL やログインユーザー名やパスワードは {product-short} の管理者までご相談ください。
 
 .{product-short} ログインページ
-image::screenshots/login-version-list.png[ログインページ]
+image::ja_jp/screenshots/login-version-list.png[ログインページ]
 
 {product-short} クライアントは2つのバージョンを提供しており、*Modern* と *Classic* です。
 バージョンのドロップダウンメニューに *デフォルト* のオプションも表示します。
