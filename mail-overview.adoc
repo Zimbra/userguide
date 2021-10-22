@@ -77,7 +77,7 @@ image:graphics/ellipsis-h.svg[more options, width=20px] reveals further actions 
 The available keyboard shortcuts are context-sensitive.
 kbd:[Ctrl + Q] displays different shortcuts depending on whether you have selected mail, calendar, or contacts.
 
-Kbd:[Shift] and kbd:[Ctrl] help you select contiguous or non-contiguous emails, respectively. 
+kbd:[Shift] and kbd:[Ctrl] help you select contiguous or non-contiguous emails, respectively. 
 
 ==== Keyboard Shortcuts During Input
 
@@ -134,7 +134,7 @@ The new tag is now listed and ready to be applied.
 . Right-click an email that you have tagged.
 . From the context menu, select Tag.
 . From the pop-up that appears, uncheck the box against a tag to remove it from the email.
-. Click btn:[Save] to apply the tag.
+. Click btn:[Save] to de-apply the tag.
 
 ==== Display Messages with a Specific Tag
 . In the <<Left Sidebar>>, click image:graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.

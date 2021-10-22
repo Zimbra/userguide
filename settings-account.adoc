@@ -1,8 +1,8 @@
 === Account Settings
 
 ==== Add an Account
-The Modern Web App can help you manage emails that you receive on other email addresses.
-Through the Modern Web App you can send and receive emails using these email addresses.
+The {modern-client} can help you manage emails that you receive on other email addresses.
+Through the {modern-client} you can send and receive emails using these email addresses.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Accounts* in the left pane and choose image:graphics/plus.svg[width=20] *Add an account*.

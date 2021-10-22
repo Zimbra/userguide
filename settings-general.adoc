@@ -19,7 +19,7 @@ yyyy-mm-dd:: January 9, 2021 appears as *2021-01-09*.
 dd-mmm-yy:: January 9, 2021 appears as *09-Jan-21*.
 
 ===== Time Format
-There are 4 date formats to choose from:
+There are 4 time formats to choose from:
 
 h:mm:: The time 9:21 AM appears as *9:21 AM*.
 hh:mm:: The time 9:21 AM appears as *09:21 AM*.

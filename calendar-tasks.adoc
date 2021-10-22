@@ -1,8 +1,10 @@
 == Tasks
 === Create a New List
+
+. Click btn:[Calendar].
 . Click image:graphics/ellipsis-h.svg[3 dots menu icon, width=20]
 . Click *Create List...*
-. Type in a name for that list.
+. Type in a name for that list, and click btn:[Create List].
 . The new list appears below your name in the task pane.
 
 === Create a Task
@@ -23,7 +25,7 @@ Alternatively,
 
 . in <<calendar-overview.adoc#_tasks_pane, tasks pane>>, hover over a list in which to create the task and click it.
 . In the field that appears, type in your task.
-. Press enter -- or click anywhere else in the task pane -- to save the task with a check-box.
+. Press kbd:[Enter] -- or click anywhere else in the task pane -- to save the task with a check-box.
 . To set a due date or change the default priority, <<Edit a Task, edit that task>>.
 
 === Edit a Task

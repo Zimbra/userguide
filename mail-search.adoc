@@ -14,9 +14,9 @@ Fields listed here help refine your search further.
 
 . Choose a folder from the **Search-In** field.
 . Typing an email address in the **From** field focuses your search on all emails sent *from* that address.
-. Similarly, typing an email address in the *To* field focuses your search on all emails sent *to* that address.
+. Similarly, typing an email address in the **To** field focuses your search on all emails sent *to* that address.
 . Type a few words in the **Subject** line, to search emails with these words in their subject line.
-. Type a few words contained in the body of the email in *Contains** field.
+. Check the box **Message body** to search the words in the body of the email.
 Enclose the searched text within quotes to search them as a phrase.
 . Specify a date in the **Date** field.
 . Check the boxes **Has attachment** or **Has image** if the email you are looking for has an image or an attachment.

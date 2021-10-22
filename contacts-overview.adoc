@@ -39,4 +39,4 @@ Right-click any listed contact to see further options like **Edit**, **Delete**,
 
 When a contact is selected, this pane displays its details.
 
-This pane offers options like **Edit Details**, **Delete**, *Print*, and **Assign to Lists**.
+This pane offers options like **Edit Details**, **Assign to Lists**, **Move**, and **Delete**.

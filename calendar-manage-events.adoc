@@ -146,7 +146,7 @@ However, you can revisit the event anytime to mark it as Accept or Decline.
 
 *Decline* image:graphics/close-circle.svg[width=20]: {product-short} deletes the event, and the event does not make it to your calendar.
 
-*Propose a new time* image:graphics/calendar-range.svg[width=20]: {product short} launches the edit event dialog to <<Propose a New Time>> for that event.
+*Propose a new time* image:graphics/calendar-range.svg[width=20]: {product-short} launches the edit event dialog to <<Propose a New Time>> for that event.
 
 NOTE: Event organizers have an option to accept or decline the proposed time.
 

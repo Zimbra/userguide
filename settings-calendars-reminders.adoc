@@ -12,7 +12,7 @@ This setting controls,
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Calendar and Reminder Settings* in the left pane.
 . Choose a *Default Calendar* from the drop-down.
-If you have not <<calendars-manage-calendars.adoc#_add_calendars, added a calendar>>, the drop-down does not have any other entries.
+If you have not <<calendar-manage-calendars.adoc#_add_calendars, added a calendar>>, the drop-down does not have any other entries.
 . Choose a *Start of Week* from the drop-down.
 . Choose a time when your workday starts from *Start of Workday* drop-down.
 . Specify a time when your workday ends from the *End of Workday* drop-down.
