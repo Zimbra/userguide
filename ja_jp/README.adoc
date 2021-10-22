@@ -1,5 +1,5 @@
 [float]
-= image:https://www.zimbra.com/wp-content/uploads/2016/06/zimbra-logo-color-282-1.png[Zimbra,link=https://www.zimbra.com] Zimbra Administration Guide
+= image:https://www.zimbra.com/wp-content/uploads/2016/06/zimbra-logo-color-282-1.png[Zimbra,link=https://www.zimbra.com] Zimbra User Guide
 
 :product-family: Zimbra
 :doc-name: {product-family} User Guide
@@ -9,7 +9,7 @@
 
 This repository contains the code necessary to build the {doc-name}.
 
-This guide is for system administrators responsible for installing, maintaining, and supporting the server deployment of {product-family}.
+This guide is for the end user.
 
 == Images in the Documentation
 
@@ -21,7 +21,7 @@ If an update or new version of an image is required, then it should be added as 
 For example, `system-overview.jpg` could be updated with `system-overview-v2.jpg`, with corresponding changes to the file(s) that include the image so they include the new version.
 * *Images must render in html & pdf output:* The `asciidoctor-pdf` tool should produce a `pdf` file with your image intact.
 If an image does not render, *your PR will be rejected*.
-* *Take care with SVG fonts:* link:https://asciidoctor.org/docs/asciidoctor-pdf/#fonts-in-svg-images[If youÅfre using fonts in your SVG, and you want those fonts to be preserved, those fonts must be defined in the Asciidoctor PDF theme file.]
+* *Take care with SVG fonts:* link:https://asciidoctor.org/docs/asciidoctor-pdf/#fonts-in-svg-images[If you‚Äôre using fonts in your SVG, and you want those fonts to be preserved, those fonts must be defined in the Asciidoctor PDF theme file.]
 * *Use "pure" SVGs:* The SVG renderrer used by `asciidoctor-pdf` only supports "pure" SVGs, not the SVG/HTML/CSS hybrid that are sometimes targeted for web viewing.
 If your image editor supports export of SVG files without the additional info, use that.
 Test your images - a hybrid SVG will render as a black rectangle in `pdf`.
@@ -38,19 +38,21 @@ Once you have Asciidoctor installed and working, you can build the documentation
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor -b html5 -D ~/temp/{product-version} -o {doc-filename}-{product-version}.html userguide.adoc
+asciidoctor -a z9 -b html5 -D ~/temp/{product-version} -o {doc-filename}-{product-version}.html user-guide.adoc
 ----
+
+The `-a z9` builds the document of "Zimbra Collaboration".  If you want to build the document for "Zimbra Cloud", plase specify `-a zcloud`.
 
 PDF output can be generated as well:
 
 [source,bash,subs=attributes+]
 ----
-asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version} -o {doc-filename}-{product-version}.pdf userguide.adoc
+asciidoctor-pdf -a allow-uri-read -D ~/temp/{product-version} -o {doc-filename}-{product-version}.pdf user-guide.adoc
 ----
 
 This assumes you have a "temp" directory to receive the asciidoctor output, and are generating output for version {product-version}... adjust according to your situation.
 Each section of the document is contained in its own file.
-You may use the `userguide.adoc` file to generate the entire document.
+You may use the `user-guide.adoc` file to generate the entire document.
 
 To accompany the HTML output, the `images/` folder must also be copied to the output destination:
 
@@ -95,7 +97,7 @@ Where translated images are to be embedded, the path to the image will need to e
          +----+
 +--------+    |
 |             |
-| adminguide  |
+| userguide   |
 |             |
 +---+---------+
     |
@@ -118,7 +120,7 @@ Where translated images are to be embedded, the path to the image will need to e
     |                             |
     |     en_us sources           |     ja_jp sources
     |                             |
-    +--+- userguide.adoc              +--+- userguide.adoc
+    +--+- user-guide.adoc         +--+- user-guide.adoc
        +-    ...                     +-    ... 
 
 === Published doc organization
@@ -163,8 +165,8 @@ For example, consider two versions of the {doc-name} with Japanese translations:
    |                        |                             | 
    |                        |     en_us docs              |     ja_jp docs
    |                        |                             |
-   |                        +--+- adminguide-8.8.12.html  +--+- adminguide-8.8.12-ja_jp.html
-   |                           +- adminguide-8.8.12.pdf      +- adminguide-8.8.12-ja_jp.pdf
+   |                        +--+- userguide-8.8.12.html   +--+- userguide-8.8.12-ja_jp.html
+   |                           +- userguide-8.8.12.pdf       +- userguide-8.8.12-ja_jp.pdf
    |
    |                             +----+
    |                    +--------+    | 
@@ -193,8 +195,8 @@ For example, consider two versions of the {doc-name} with Japanese translations:
                             |                             | 
                             |     en_us docs              |     ja_jp docs
                             |                             |
-                            +--+- adminguide-8.8.15.html  +--+- adminguide-8.8.15-ja_jp.html
-                               +- adminguide-8.8.15.pdf      +- adminguide-8.8.15-ja_jp.pdf
+                            +--+- userguide-8.8.15.html   +--+- userguide-8.8.15-ja_jp.html
+                               +- userguide-8.8.15.pdf       +- userguide-8.8.15-ja_jp.pdf
    
 This structure ensures that the relative path to images is the same in both source and published folders, yet the published versions for each release are collected together.
 
@@ -236,14 +238,14 @@ For additional product information check the https://wiki.zimbra.com[Zimbra Wiki
 
 == License
 
-image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {copyright-year}
+image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC BY-SA] Synacor, Inc., {localyear}
 
-(C) 2016-{copyright-year} by Synacor, Inc.
+(C) 2016-{localyear} by Synacor, Inc.
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License unless another license agreement between you and Synacor, Inc. provides otherwise.
 To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0 or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-Synacor, Inc. +
+Synacor, Inc., {localyear} +
 40 La Riviere Drive, Suite 300 +
 Buffalo, New York 14202
 
