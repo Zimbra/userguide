@@ -23,4 +23,4 @@ NOTE: パスワードの有効期限が切れた場合、ログインする際�
 . 表示したい部分を選択します。
 点線で囲まれたフレームを操作し、自由に移動やサイズ変更ができます。
 . image:graphics/rotate_left.svg[counter clockwise arrow icon, width=20] または image:graphics/rotate_right.svg[clockwise arrow icon, width=20] をクリックすることで、画像を90度回転させることができます。
-. *保存* をクリックし、プロファイルイメージを保存します。
+. btn:[保存] をクリックし、プロファイルイメージを保存します。
