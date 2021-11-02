@@ -9,17 +9,18 @@ To search in a specific folder, choose the folder name from the drop-down beside
 After you have chosen the folder, type in your search word or phrase in the email search box and press kbd:[Enter].
 
 === Advanced Search
-Choose **Advanced Search** from <<Email Search Location>> drop-down.
+Choose *Advanced Search* from <<Email Search Location>> drop-down.
 Fields listed here help refine your search further.
 
-. Choose a folder from the **Search-In** field.
-. Typing an email address in the **From** field focuses your search on all emails sent *from* that address.
-. Similarly, typing an email address in the **To** field focuses your search on all emails sent *to* that address.
-. Type a few words in the **Subject** line, to search emails with these words in their subject line.
-. Check the box **Message body** to search the words in the body of the email.
+. Choose a folder from the *Search In* field.
+. Typing an email address in the *From* field focuses your search on all emails sent *from* that address.
+. Similarly, typing an email address in the *To* field focuses your search on all emails sent *to* that address.
+. Check the box *Subject* to search emails with these words in their subject line.
+. Check the box *Message body* to search the words in the body of the email.
 Enclose the searched text within quotes to search them as a phrase.
-. Specify a date in the **Date** field.
-. Check the boxes **Has attachment** or **Has image** if the email you are looking for has an image or an attachment.
+. Check the boxes *Any* or *Image* if the email you are looking for has an attachment or an image.
+. Check the box *Unread* or *Starred* to search only unread emails or only emailes with star.
+. Specify a date in the *Date* field.
 
 NOTE: None of the above search criteria is mandatory.
 However, adding more criteria reduces search time and refines the search results further.

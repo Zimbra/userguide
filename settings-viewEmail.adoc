@@ -94,6 +94,6 @@ You can choose when {product-short} notifies you of new emails.
 
 No notification:: {product-short} does not notify you of new mail.
 
-When a new message arrives in Inbox:: When you choose this option, {product-short} notifies you of new emails *only* when they arrive in *Inbox*. You are not notified of emails arriving in other folders due to <<settings-filters.adoc, filters>>.
+When a new message arrives in Inbox:: When you choose this option, {product-short} notifies you of new emails *only* when they arrive in *Inbox*. You are not notified of emails arriving in other folders due to <<settings-filters.adoc#_filtersautomate_management_of_your_email, filters>>.
 
 When a new message arrives in any folder:: When you choose this option, {product-short} notifies you of each new email, irrespective of the folder in which they are arriving.

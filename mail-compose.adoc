@@ -30,10 +30,6 @@ Emailed contacts:: This folder lists people to whom you have sent emails.
 Global Address List:: These are people whose email address domain is the same as yours.
 However, only a {product-short} administrator can enable this feature. 
 
-// My contacts folder no longer exists.
-// My Contacts:: This group is a collection of all the contacts listed in *Contacts* and *Emailed Contacts* groups.
-
-
 === Format an Email
 Use the toolbar at the bottom of the message compose screen to format your text.
 

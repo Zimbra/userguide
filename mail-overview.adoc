@@ -134,7 +134,7 @@ The new tag is now listed and ready to be applied.
 . Right-click an email that you have tagged.
 . From the context menu, select Tag.
 . From the pop-up that appears, uncheck the box against a tag to remove it from the email.
-. Click btn:[Save] to de-apply the tag.
+. Click btn:[Save] to remove the tag.
 
 ==== Display Messages with a Specific Tag
 . In the <<Left Sidebar>>, click image:graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.
