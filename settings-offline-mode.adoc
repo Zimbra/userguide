@@ -1,5 +1,5 @@
 === Offline mode
-With {product-short}, you can work offline to avoid incurring cellular data charges or to stop {product-short} from attempting to send and receive messages over a slow network connection.
+With {product-short}, you can work offline to avoid incurring cellular data charges or to stop {modern-client} from attempting to send and receive messages over a slow network connection.
 You can manage and compose mail, contacts, and appointments when you are offline.
 The changes sync when you are back online.
 
@@ -7,5 +7,5 @@ The changes sync when you are back online.
 . Click *Offline Mode* in the left pane.
 +
 Enable offline mode:: Copies of recent items are saved locally.
-They are synchronized with the server when {product-short} goes online.
-Disable offline mode:: {product-short} is online, and all changes synchronize in real-time.
+They are synchronized with the server when {modern-client} goes online.
+Disable offline mode:: {modern-client} is online, and all changes synchronize in real-time.

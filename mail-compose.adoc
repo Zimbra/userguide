@@ -5,7 +5,6 @@
 Separate multiple recipients with a comma.
  .. Click *To* to launch the <<Select Contacts, Choose Contacts>> dialog.
  Using this tool, you can search for and choose contacts from a selection of _contexts_.
- Choose _contexts_ from the drop-down on the right.
  .. Known addresses (from your contacts or frequent correspondents) appear as suggestions automatically.
  You can click suggestions, or select them with the arrow keys and press kbd:[Enter].
 . Set the subject of the email.

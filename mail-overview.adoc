@@ -66,7 +66,7 @@ Archived emails do not appear in Inbox or any of the folders, but you can search
 image:graphics/folder-move.svg[move button, width=20px] removes emails from the current folder and moves them to a folder chosen from the drop-down.
 
 image:graphics/trash.svg[delete button, width=20px] deletes emails.
-The deleted emails appear in the *Trash** folder.
+The deleted emails appear in the *Trash* folder.
 
 image:graphics/shield.svg[Mark as spam button, width=20px] marks emails as spam and moves them to the **Junk** folder.
 
@@ -110,7 +110,7 @@ IMPORTANT: Tag names can include any character except a colon (:), forward-slash
 You can also create tags when applying them.
 
 . In the <<Email Pane>>, right-click an email.
-. From the context menu, select Tag.
+. From the context menu, select *Tag*.
 . Choose *image:graphics/plus.svg[width=20] Add a Tag*.
 . Enter the new Tag name and select a color for the tag.
 . Click btn:[Save].
@@ -122,7 +122,7 @@ The new tag now appears under *Tags*.
 You can assign multiple tags to an email to classify it under different categories.
 
 . In the <<Email Pane>>, right-click an email.
-. From the context menu, select Tag.
+. From the context menu, select *Tag*.
 . From the *Tags* modal, choose an already created tag or <<new-tag-on-the-run, create a new one>>.
 . Click btn:[Save] to apply the tag.
 +
@@ -132,7 +132,7 @@ The new tag is now listed and ready to be applied.
 
 ==== Remove a Tag
 . Right-click an email that you have tagged.
-. From the context menu, select Tag.
+. From the context menu, select *Tag*.
 . From the pop-up that appears, uncheck the box against a tag to remove it from the email.
 . Click btn:[Save] to remove the tag.
 

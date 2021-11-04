@@ -15,7 +15,7 @@ Once you've added a contact, you can type the first few letters of their name in
 . Add any relevant details you want.
 . Click btn:[Save].
 
-NOTE: All added contacts appear under *Contacts*.
+NOTE: Contacts appear under the selected contact folder.
 
 === Import Contacts
 You can import contacts in different formats into {product-short}.
