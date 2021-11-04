@@ -16,7 +16,7 @@ image::screenshots/calendar-window-blank.png[カレンダー画面]
 // .カレンダーの左側の操作メニュー
 // image::screenshots/calendar/calendar-window-leftPane.png[カレンダーの左側の操作メニュー]
 
-左側の操作メニューに [新しいイベント] ボタンで <<calendar-manage-events.adoc#_イベントを予約する, イベントを追加すること>> が可能です。
+左側の操作メニューの [新しいイベント] ボタンで <<calendar-manage-events.adoc#_イベントを予約する, イベントを追加すること>> が可能です。
 
 ==== ミニカレンダー
 
@@ -36,7 +36,7 @@ image::screenshots/calendar-window-blank.png[カレンダー画面]
 // 休日:: 参加可能の <<calendar-manage-calendars.adoc#_add_calendars, 国ごとの休日カレンダー>> です。
 
 === 中央のカレンダー表示ペイン
-中央のカレンダー表示では、日、週、または年の期間としてカレンダーを表示します。カレンダーの表示期間を中央の上に選択できます。最近のイベントを表示する場合、image:graphics/refresh.svg[refresh icon, width=20] のアイコンをクリックします。
+中央のカレンダー表示では、日、週、月、または年単位のカレンダーを表示します。カレンダーの表示期間はカレンダー上部に表示されます。最新のイベントを取得・表示する場合、image:graphics/refresh.svg[refresh icon, width=20] のアイコンをクリックします。
 
 参加しているイベントはこの画面で表示します。
 

@@ -18,8 +18,8 @@ IMPORTANT: このオプションがお使いのシステムで利用できない
 
 ZCOダウンロードのページをご覧ください。 :- https://www.zimbra.com/downloads/zimbra-connector-for-outlook/
 
-==== Setup and Installation
+==== インストール
 
-. ZCOインストーラーのカスタマイズについては、管理者ガイドを参照してください :- https://zimbra.github.io/zm-windows-comp/latest/ZCS_Connector_For_Outlook_Admin_Guide.html。
+. ZCOインストーラーのカスタマイズについては、管理者ガイドを参照してください :- https://zimbra.github.io/zm-windows-comp/latest/ZCS_Connector_For_Outlook_Admin_Guide.html
 
 . セットアップ、インストール、ZCOの機能については、ユーザーガイドを参照してください :- https://zimbra.github.io/zm-windows-comp/latest/ZCS_Connector_For_Outlook_User_Guide.html

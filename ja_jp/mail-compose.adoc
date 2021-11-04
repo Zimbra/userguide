@@ -3,8 +3,7 @@
 . btn:[新しいメッセージ] ボタンをクリックします。
 . 受信先のメールアドレスを *宛先* に入力します。複数の宛先の場合、コンマでアドレスを区切ります。
  .. *宛先* のリンクをクリックすると、<<_連絡先を選択する, 連絡先を選択>> 画面が表示されます。
- このツールでは、連絡先の検索、および特定のフォルダリストから選択することが可能です。
- 右側のドロップダウンメニューからフォルダリストを選択できます。
+ *連絡先を選択* 画面では、連絡先の検索、および特定のフォルダリストから連絡先を選択することが可能です。
  .. 既存の連絡先（連絡先に登録済み、または最近に連絡したアドレス）は、自動的に候補として表示されます。
  推奨された宛先を選択するか、矢印キーで選び、kbd:[Enter] キーで選択します。
 . メールの件名を入力します。
@@ -15,29 +14,29 @@
 メールを作成する際、*宛先* のリンクをクリックすると、*連絡先を選択* の画面が表示されます。
 また、受信者の名前を入力すると、候補が表示されて選択できます。
 
-TIP: 自動補完リスト内の最初の候補メールアドレスはハイライトに表示されます。ハイライトの連絡先を選択するためにタブ、カンマ、またはエンターキーを使用することができます。
+TIP: 自動補完リスト内の最初の候補メールアドレスはハイライトされて表示されます。タブ、カンマ、またはエンターキーを使用してハイライトされている連絡先を選択することができます。
 
 これらのメールアドレスを *Cc* や *Bcc* のテキストボックスへコピー＆ペーストすることも可能です。
 
 TIP: メールアドレスは、*宛先* 、 *Cc* および *Bcc* の各フィールドの任意の位置にドラッグ＆ドロップできます。
 
-連絡先を検索して選択するフォルダのリストを選択することができます。選択可能なリストは連絡先にあるフォルダと <<contacts-manage-groups#_連絡先リストを作成する, リスト>>、および以下のものが含まれます:
+フォルダリストから連絡先を選択できます。以下を含むフォルダおよび<<contacts-manage-groups#_連絡先リストを作成する, リスト>>から選択可能です：
 
-連絡先:: このグループには <<contacts-manage-contacts.adoc#_新しい連絡先を作成する, 手動で追加した>> すべての連絡先がリストされます。
-Emailed contacts:: このグループにはメールを送信したことがある連絡先がすべてリストされます。
-グローバルアドレスリスト:: このグループはご利用中のメールアドレスと同一のドメインにあるユーザーのメールアドレスがリストされます。{product-short} の管理者がこの機能の提供を管理していますので、ご利用環境に提供していない場合があります。
+連絡先:: このグループには <<contacts-manage-contacts.adoc#_新しい連絡先を作成する, 手動で追加した>> すべての連絡先が表示されます。
+メールを送信した連絡先:: このグループにはメールを送信したことがある連絡先がすべて表示されます。
+グローバルアドレスリスト:: このグループはご利用中のメールアドレスと同一のドメインにあるユーザーのメールアドレスが表示されます。{product-short} の管理者がこの機能の提供を管理しており、ご利用環境では提供されていない場合があります。
 
 // My contacts folder no longer exists.
 // 連絡先:: このグループは *連絡先* と *Emailed Contacts* のグループにある連絡先をすべてリストします。
 
 
 === メールの詳細設定
-メッセージ作成画面の下にあるツールバーにテキストの設定をカスタマイズすることが可能です。
+メッセージ作成画面の下部にあるツールバーからテキストの書式を変更することが可能です。
 
 . フォントサイズの横にある image:graphics/chevron-up.svg[chevron pointing up, width=10px] をクリックすると、フォントサイズの変更が可能です。
 . フォント名の横にある image:graphics/chevron-up.svg[chevron pointing up, width=10px] をクリックすると、使用するフォントの変更が可能です。
-. image:graphics/bold.svg[bold text icon, width=20px] で太文字、image:graphics/italic.svg[width=20px] でイタリック体、そして image:graphics/underline.svg[underline icon, width=20px] で文字の下に線を引くことが可能です。
-. テキストの色は image:graphics/text-color.svg[choose text color icon, width=20px] にて選択は可能です。
+. image:graphics/bold.svg[bold text icon, width=20px] で太文字、image:graphics/italic.svg[width=20px] でイタリック体、image:graphics/underline.svg[underline icon, width=20px] で文字の下に線を引くことが可能です。
+. テキストの色は image:graphics/text-color.svg[choose text color icon, width=20px] にて選択可能です。
 . image:graphics/highlight-bg-color.svg[choose highlight color icon, width=20px] にて、文字のハイライト色を選択できます。
 . 文字の揃えオプションは image:graphics/align-left.svg[text align icon, width=20px] image:graphics/chevron-up.svg[width=10px] で変更可能です。
 .. image:graphics/align-left.svg[left-align icon, width=20px] で選択したテキストが左揃えになります。
@@ -45,7 +44,7 @@ Emailed contacts:: このグループにはメールを送信したことがあ�
 .. image:graphics/align-center.svg[center-align icon, width=20px] で選択したテキストが中央揃えになります。
 . 数字のリストは image:graphics/list-ol.svg[width=20px]  image:graphics/chevron-up.svg[width=10px] のオプションで作成できます。
 . 点のリストは image:graphics/list-ul.svg[width=20px]  image:graphics/chevron-up.svg[width=10px] のオプションで作成できます。
-. 段落のインデントサイズを click image:graphics/outdent.svg[text indent icon, width=20px] image:graphics/chevron-up.svg[width=10px] で変更可能です。
+. 段落のインデントサイズは image:graphics/outdent.svg[text indent icon, width=20px] image:graphics/chevron-up.svg[width=10px] で変更可能です。
 . リンクを作成する場合、image:graphics/link.svg[link icon, width=20px] をクリックし、*リンク先URL*、*リンク元テキスト*、およびリンクの *タイトル* を入力します。
 . image:graphics/smile-o.svg[width=20px] をクリックすると顔文字を選択して入力できます。
 . テーブルを追加する場合、image:graphics/table.svg[table icon, width=20] image:graphics/chevron-up.svg[width=10px] をクリックします。
@@ -69,13 +68,13 @@ TIP: ファイルをアップロード中に添付ファイル上の image:graph
 ===== 画像
 
 . image:graphics/paperclip.svg[width=20px] ボタンをクリックし、ファイル添付のオプションを開きます。
-. **メールから写真を添付** をクリックすると、右側に今まで送受信したことがある画像が表示する画面が開きます。
-. 添付希望の画像を選択すると、メールへ添付ファイルとして追加されます。
+. **メールから写真を添付** をクリックすると、右側に今まで送受信したことがある画像を表示する画面が開きます。
+. 添付する画像を選択すると、メールへ添付ファイルとして追加されます。
 
 ===== ファイル
 . image:graphics/paperclip.svg[width=20px] ボタンをクリックし、ファイル添付のオプションを開きます。
 . **メールからファイルを添付** をクリックすると、右側に今まで送受信したことがあるファイルが表示する画面が開きます。
-. 添付希望のファイルを選択すると、メールへ添付ファイルとして追加されます。
+. 添付するファイルを選択すると、メールへ添付ファイルとして追加されます。
 
 ===== GIFの添付
 `GIF` ファイルの添付も可能です。
@@ -90,4 +89,4 @@ TIP: ファイルをアップロード中に添付ファイル上の image:graph
 === メールの優先度
 メールの優先度を設定することが可能です。高い優先度を持つメールは宛先の受信箱にビックリマーク image:graphics/priority-high.svg[width=20px] が表示されます。
 
-メールを作成する際、、画面の右上にある[…]メニュー (image:graphics/ellipsis-h.svg[width=20px]) をクリックし、「優先度が高い」のオプションを選択します。
+メールを作成する際、、画面の右上にある[…]メニュー (image:graphics/ellipsis-h.svg[width=20px]) をクリックし、「高優先度」のオプションを選択します。
