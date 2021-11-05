@@ -27,7 +27,7 @@ image::screenshots/calendar-window-blank.png[カレンダー画面]
 
 . 先月のカレンダーを表示する場合、image:graphics/chevron-left.svg[chevron pointing left icon, width=20] のアイコンをクリックします。
 . 来月のカレンダーを表示する場合、image:graphics/chevron-right.svg[chevron pointing right icon, width=20] のアイコンをクリックします。
-. 年と月の指定をクリックすると（上記の例では2019年8月）、前後6カ月のカレンダー月がリストされて、選択することができます。
+. image:graphics/chevron-left.svg[chevron pointing left icon, width=20] image:graphics/chevron-right.svg[chevron pointing right icon, width=20] の右横の年月の文字をクリックすると（例えば2019年8月）、前後6カ月がプルダウンで表示され、選択することができます。
 
 ==== カレンダーのリスト
 
