@@ -34,7 +34,7 @@ Trash:: All deleted emails are moved to this folder until you _Empty the Trash_,
 Folders:: Sometimes, you may want a folder for storing specific emails.
 All such folders are listed here.
 
-Tags:: It also lists your saved searches and tags that other emails may carry.
+Tags:: It also lists your tags that other emails may carry.
 Clicking a tag lists all emails in the email pane, carrying that tag.
 You can also create a custom tag.
 

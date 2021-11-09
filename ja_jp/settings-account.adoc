@@ -131,7 +131,7 @@ IMPORTANT: ワンタイムコードや認証用のアプリにアクセスでき
 . image:graphics/cog.svg[cog icon, width=20] -> *設定* を選択します。
 . *アカウント* をクリックし、編集するアカウントを選択します。
 . *2要素認証* へスクロールします。
-. *未使用のコード* をクリックします。
+. *10個の未使用のコード* をクリックします。
 . *クリップボードにコピー* をクリックするとコードがすべてコピーされますので、テキストファイルへ張り付けて、安全な場所に保存してください。
 
 NOTE: *クリップボードにコピー* をクリックした後は、 *コピーしました* に変更されます。 *コピーしました* をもう一度クリックと、再びコピーできます。
@@ -264,7 +264,7 @@ CardDAV:: https://support.apple.com/ja-jp/guide/iphone/iph14a87326/ios
 
 ==== ActiveSync
 
-. OutlookでActiveSyncを設定するには、このガイドを参照してください :- https://wiki.zimbra.com/index.php?title=Exchange_ActiveSync(EAS)_Outlook_2013
+. OutlookでActiveSyncを設定するには、このガイドを参照してください :- https://wiki.zimbra.com/wiki/Exchange_ActiveSync(EAS)_Outlook_2013
 
 . Apple デバイスで ActiveSync を設定するには、このガイドを参照してください :- https://wiki.zimbra.com/wiki/Zimbra_Mobile_Installation_and_Setup_for_iPhone
 

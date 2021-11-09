@@ -282,6 +282,6 @@ Since Android -- without external apps -- supports IMAP only, you may need to ch
 
 ==== ActiveSync
 
-. To setup ActiveSync on Outlook, refer to this guide :- https://wiki.zimbra.com/index.php?title=Exchange_ActiveSync(EAS)_Outlook_2013
+. To setup ActiveSync on Outlook, refer to this guide :- https://wiki.zimbra.com/wiki/Exchange_ActiveSync(EAS)_Outlook_2013
 
 . To setup ActiveSync on Apple Devices, refer to this guide :- https://wiki.zimbra.com/wiki/Zimbra_Mobile_Installation_and_Setup_for_iPhone
