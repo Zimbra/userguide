@@ -70,7 +70,7 @@ image:graphics/trash.svg[delete button, width=20px] アイコンはメールを�
 
 image:graphics/shield.svg[Mark as spam button, width=20px] アイコンをクリックすると、メールは迷惑メールとしてマークされて、**迷惑メール** フォルダに移動されます。
 
-image:graphics/ellipsis-h.svg[more options, width=20px] アイコンは詳細なアクションが選択できます。例えばメールを **既読** や **未読** にしたり、メッセージを目立たせるようにするために image:graphics/star.svg[star, width=15px] を付けたり、差出人からの受信を拒否（ブロック）するなどができます。
+image:graphics/ellipsis-h.svg[more options, width=20px] アイコンは詳細なアクションが選択できます。例えばメールを **既読** や **未読** にしたり、メッセージを目立たせるようにするために image:graphics/star.svg[star, width=15px] を付けたり、差出人からの受信を拒否（ブロック）することなどが可能です。
 
 === キーボードのショートカット
 {product-short} はキーボードのショートカットをサポートしています。利用できるショートカットを確認する場合は、kbd:[ctrl + Q] を押してください。
