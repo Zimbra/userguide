@@ -3,13 +3,8 @@ You can type several phrases in the Search box at the top of the <<mail-overview
 
 To search, type in your search word or phrase in the email search box and press kbd:[Enter].
 
-=== Email Search Location
-To search in a specific folder, choose the folder name from the drop-down beside the <<Email Search Box>>.
-
-After you have chosen the folder, type in your search word or phrase in the email search box and press kbd:[Enter].
-
 === Advanced Search
-Choose *Advanced Search* from <<Email Search Location>> drop-down.
+Click image:graphics/chevron-down.svg[down icon, width=20] next to the search box to show the advanced search fields.
 Fields listed here help refine your search further.
 
 . Choose a folder from the *Search In* field.

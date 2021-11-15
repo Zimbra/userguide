@@ -23,23 +23,23 @@ NOTE: イベント開始の通知を発生させたくない場合、 *チェッ
 ==== イベントを編集する
 . カレンダーから編集するイベントを確認します。
 . イベントを右クリックし、 *編集* をメニューから選択します。
-** 代わりに、以下の操作も可能です：マウスカーソルをイベントの上に合わせると、 *詳細* 、 image:graphics/pencil.svg[pencil icon, width=20] (編集)、image:graphics/print.svg[print icon, width=20] (印刷)、 image:graphics/trash.svg[trash icon, width=20] (削除) オプションが表示されます。
+** かわりに、以下の操作も可能です：マウスカーソルをイベントの上に合わせると、 *詳細* 、 image:graphics/pencil.svg[pencil icon, width=20] (編集)、image:graphics/print.svg[print icon, width=20] (印刷)、 image:graphics/trash.svg[trash icon, width=20] (削除) オプションが表示されます。
 ... image:graphics/pencil.svg[pencil icon, width=20] をクリックします。
 ... *詳細* をクリックし、 上にある image:graphics/pencil.svg[pencil icon, width=20] をクリックします。
-. <<_イベントを予約する>> の操作と同様な編集画面が表示されます。
+. <<_イベントを予約する>> 操作と同様の編集画面が表示されます。
 . 適切な情報を編集し、 btn:[保存] をクリックします。
 
 ==== イベントを削除する
 . カレンダーから削除するイベントを確認します。
 . マウスカーソルをイベントの上に合わせると、 *詳細* 、  image:graphics/pencil.svg[pencil icon, width=20] (編集)、image:graphics/print.svg[print icon, width=20] (印刷)、 image:graphics/trash.svg[trash icon, width=20] (削除) オプションが表示されます。
 . image:graphics/trash.svg[trash icon, width=20] をクリックします。
-.. 代わりに、イベントを右クリックし、メニューから *削除* を選択します。
+.. かわりに、イベントを右クリックし、メニューから *削除* を選択します。
 . イベントが削除され、「予定が削除されました」の通知が表示されます。
 
 ==== イベントをコピーする
 . カレンダーからコピーするイベントを確認します。
 . イベントを右クリックし、 *コピーする* をメニューから選択します。
-. <<_イベントを予約する>> の操作と同様な編集画面が表示されます。
+. <<_イベントを予約する>> 操作と同様の編集画面が表示されます。
 . 適切な情報を編集し、 btn:[保存] をクリックします。
 
 ==== イベントを転送する
@@ -107,16 +107,16 @@ _本日、チーム会議があります。今後、2週間ごと（隔週）の
 . カレンダーから編集するイベントを確認します。
 . マウスカーソルをイベントの上に合わせると、 *詳細* 、 image:graphics/pencil.svg[pencil icon, width=20] (編集)、image:graphics/print.svg[print icon, width=20] (印刷)、 image:graphics/trash.svg[trash icon, width=20] (削除) オプションが表示されます。
 . image:graphics/pencil.svg[pencil icon, width=20] アイコンをクリックすることもできます。
-** 代わりに、*詳細* をクリックし、 上部のメニューバーから image:graphics/pencil.svg[pencil icon, width=20] の編集アイコンをクリックします。
+** かわりに、*詳細* をクリックし、 上部のメニューバーから image:graphics/pencil.svg[pencil icon, width=20] の編集アイコンをクリックします。
 . 「繰り返しイベントを編集」ダイアログにて、 *この予定のみ* または、 *すべての予定* を選択します。
-. <<_イベントを予約する>> の操作と同様な編集画面が表示されます。
+. <<_イベントを予約する>> 操作と同様の編集画面が表示されます。
 . 適切な情報を編集し、 btn:[保存] をクリックします。
 
 ==== 繰り返しのイベントを削除する
 . カレンダーから削除するイベントを確認します。
 . マウスカーソルをイベントの上に合わせると、 *詳細* 、image:graphics/pencil.svg[pencil icon, width=20] (編集)、image:graphics/print.svg[print icon, width=20] (印刷)、 image:graphics/trash.svg[trash icon, width=20] (削除) オプションが表示されます。
 . image:graphics/trash.svg[trash icon, width=20] をクリックすることもできます。
-** 代わりに、*詳細* をクリックし、上部のメニューバーからimage:graphics/trash.svg[trash icon, width=20] の削除アイコンをクリックします。
+** かわりに、*詳細* をクリックし、上部のメニューバーからimage:graphics/trash.svg[trash icon, width=20] の削除アイコンをクリックします。
 . 「繰り返しの予定を削除」ダイアログにて、 *この予定のみ* または、 *すべての予定* を選択します。
 . 予定が削除される際、「予定が削除されました」の通知が表示されます。
 
@@ -135,7 +135,7 @@ _本日、チーム会議があります。今後、2週間ごと（隔週）の
 そのイベントが始まる前には、通知で知らせます。
 しかし、いつでもそのイベントを見直すことができ、「受け入れる」または「拒否」に変更することができます。
 
-*拒否* image:graphics/close-circle.svg[width=20]: {product-short}はイベントを削除し、そのイベントはあなたのカレンダーには載りません。
+*拒否* image:graphics/close-circle.svg[width=20]: {product-short}は、イベントを削除し、そのイベントはあなたのカレンダーには載りません。
 
 
 *新しい時間を提案* image:graphics/calendar-range.svg[width=20]: {product-short} は、イベントの編集画面を表示して、そのイベントについて <<_新しい時間を提案する, 新しい時間を提案>> を行います。
