@@ -34,6 +34,8 @@ Trash:: All deleted emails are moved to this folder until you _Empty the Trash_,
 Folders:: Sometimes, you may want a folder for storing specific emails.
 All such folders are listed here.
 
+Saved Searches:: If you create a search that you want to use again, you can save it.  The saved searches are listed here.
+
 Tags:: It also lists your tags that other emails may carry.
 Clicking a tag lists all emails in the email pane, carrying that tag.
 You can also create a custom tag.
@@ -44,6 +46,8 @@ You can also create a custom tag.
 This pane displays emails from your Inbox by default.
 Event invitations appear with image:graphics/calendar-o.svg[blank calendar icon, width=20]. This icon helps set an invitation apart from an email. 
 Clicking a folder in the <<Left Sidebar>> lists its contents in this pane.
+
+This pane also displays the <<mail-search.adoc#_search_result, search result>>.
 
 === Reading Pane
 When an email is selected, this pane shows its contents.

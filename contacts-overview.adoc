@@ -39,4 +39,4 @@ Right-click any listed contact to see further options like **Edit**, **Delete**,
 
 When a contact is selected, this pane displays its details.
 
-This pane offers options like **Edit Details**, **Assign to Lists**, **Move**, and **Delete**.
+This pane offers options like **Edit Details**, **Assign to Lists**, **Move**, and **Delete**.  **Print** and **Tag** are also in image:graphics/ellipsis-h.svg[] *More*.

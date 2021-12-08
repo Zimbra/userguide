@@ -14,8 +14,27 @@ Fields listed here help refine your search further.
 . Check the box *Message body* to search the words in the body of the email.
 Enclose the searched text within quotes to search them as a phrase.
 . Check the boxes *Any* or *Image* if the email you are looking for has an attachment or an image.
-. Check the box *Unread* or *Starred* to search only unread emails or only emailes with star.
+. Check the box *Unread* or *Starred* to search only unread emails or only emails with star.
 . Specify a date in the *Date* field.
 
 NOTE: None of the above search criteria is mandatory.
 However, adding more criteria reduces search time and refines the search results further.
+
+=== Search Result
+
+* Click "Messages" (default view) to view all the searched messages.
+* Click "Photos" to filter the image files in the searched messages, such as PNG, JPG, GIF, BPM, etc.
+* Click "Documents" to filter the non-image attachment files in the searched messages.
+
+==== Saved Searches
+
+If you create a search that you want to use again, click *Save Search*.
+
+. Create the search query from <<Email Search Box>> or <<Advanced Search>>.
+. Click *Save Search* at the head of the <<mail-overview.adoc#_email_pane, Email Pane>>.
+. Enter a Name for the search.
+. Click btn:[Save].
+
+Searches are saved to the "Saved Searches" in the <<mail-overview.adoc#_left_sidebar, Left Sidebar>>.
+
+To use a saved search, click the item in the "Saved Searches". The search results immediately display in the <<mail-overview.adoc#_email_pane, Email Pane>>.
