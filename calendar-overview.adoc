@@ -64,7 +64,7 @@ E.g., you are viewing the events in the week *Sunday, 22^nd^ Dec 2019 - Saturday
 Clicking *Work Week* displays events from *Monday, 23^rd^ Dec 2019 - Friday, 27^th^ Dec 2019*.
 +
 
-NOTE: As a default setting, Monday is the first day of the work week. If you want to change the first day of the work week, set your preferred day of the week in <<settings-calendars-reminders.adoc#_general_calendar_settings, Start of Week>> setting.
+NOTE: As a default setting, Monday is the first day of the week and work week. If you want to change the first day of the week and work week, set your preferred day of the week in <<settings-calendars-reminders.adoc#_general_calendar_settings, Start of Week>> setting.
 
 Week:: Displays the calendar week-wise and shows all events scheduled for that week.
 It displays the week selected in the <<Mini Calendar, mini calendar>>.

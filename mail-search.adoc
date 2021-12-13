@@ -32,7 +32,7 @@ If you create a search that you want to use again, click *Save Search*.
 
 . Create the search query from <<Email Search Box>> or <<Advanced Search>>.
 . Click *Save Search* at the head of the <<mail-overview.adoc#_email_pane, Email Pane>>.
-. Enter a Name for the search.
+. Enter a name for the search.
 . Click btn:[Save].
 
 Searches are saved to the "Saved Searches" in the <<mail-overview.adoc#_left_sidebar, Left Sidebar>>.
