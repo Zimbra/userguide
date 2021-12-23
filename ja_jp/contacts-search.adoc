@@ -1,0 +1,12 @@
+=== 連絡先の検索
+
+<<contacts-overview.adoc#_連絡先>> の上にある検索ボックスに様々なキーワードで連絡先を検索することが可能です。
+
+==== 連絡先の検索ボックス
+
+// .連絡先の検索
+// image::screenshots/contacts/contact-searchBox.png[連絡先の検索]
+
+メールアドレスの一部を入力し、image:graphics/search.svg[magnifying glass icon, width=20] のアイコンをクリックすると検索が可能です。
+
+{product-short} は入力したキーワードに一致する連絡先の検索結果を表示します。

@@ -23,7 +23,7 @@ You also see folders you create and those shared with you, including:
 NOTE: {product-short} Enterprise users see a fourth folder -- Global Address List.
 This folder lists all the contacts in your organization.
 
-. Your contact lists appear nested under their respective folder.
+. Your contact lists appear under Contacts.
 . A blank field on the bottom helps you create lists.
 These lists are especially helpful when you regularly send emails to a specific group of people.
 Refer to <<contacts-manage-groups.adoc#_manage_contact_lists, Manage Contact Lists>>.
@@ -39,4 +39,4 @@ Right-click any listed contact to see further options like **Edit**, **Delete**,
 
 When a contact is selected, this pane displays its details.
 
-This pane offers options like **Edit Details**, **Delete**, *Print*, and **Assign to Lists**.
+This pane offers options like **Edit Details**, **Assign to Lists**, **Move**, and **Delete**.  **Print** and **Tag** are also in image:graphics/ellipsis-h.svg[] *More*.

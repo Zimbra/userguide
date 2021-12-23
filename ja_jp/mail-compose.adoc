@@ -1,0 +1,92 @@
+=== メッセージ作成と送信
+
+. btn:[新しいメッセージ] ボタンをクリックします。
+. 受信先のメールアドレスを *宛先* に入力します。複数の宛先の場合、コンマでアドレスを区切ります。
+ .. *宛先* のリンクをクリックすると、<<_連絡先を選択する, 連絡先を選択>> 画面が表示されます。
+ *連絡先を選択* 画面では、連絡先の検索、および特定のフォルダリストから連絡先を選択することが可能です。
+ .. 既存の連絡先（連絡先に登録済み、または最近に連絡したアドレス）は、自動的に候補として表示されます。
+ 推奨された宛先を選択するか、矢印キーで選び、kbd:[Enter] キーで選択します。
+. メールの件名を入力します。
+. メッセージに <<_画像やファイルの添付, 画像やファイル>> を添付します。
+. メールを送信するため、btn:[送信] ボタンをクリックします。
+
+=== 連絡先を選択する
+メールを作成する際、*宛先* のリンクをクリックすると、*連絡先を選択* の画面が表示されます。
+また、受信者の名前を入力すると、候補が表示されて選択できます。
+
+TIP: 自動補完リスト内の最初の候補メールアドレスはハイライトされて表示されます。タブ、カンマ、またはエンターキーを使用してハイライトされている連絡先を選択することができます。
+
+これらのメールアドレスを *Cc* や *Bcc* のテキストボックスへコピー＆ペーストすることも可能です。
+
+TIP: メールアドレスは、*宛先* 、 *Cc* および *Bcc* の各フィールドの任意の位置にドラッグ＆ドロップできます。
+
+フォルダリストから連絡先を選択できます。以下を含むフォルダおよび<<contacts-manage-groups#_連絡先リストを作成する, リスト>>から選択可能です：
+
+連絡先:: このグループには <<contacts-manage-contacts.adoc#_新しい連絡先を作成する, 手動で追加した>> すべての連絡先が表示されます。
+メールを送信した連絡先:: このグループにはメールを送信したことがある連絡先がすべて表示されます。
+グローバルアドレスリスト:: このグループはご利用中のメールアドレスと同一のドメインにあるユーザーのメールアドレスが表示されます。{product-short} の管理者がこの機能の提供を管理しており、ご利用環境では提供されていない場合があります。
+
+// My contacts folder no longer exists.
+// 連絡先:: このグループは *連絡先* と *Emailed Contacts* のグループにある連絡先をすべてリストします。
+
+
+=== メールの詳細設定
+メッセージ作成画面の下部にあるツールバーからテキストの書式を変更することが可能です。
+
+. フォントサイズの横にある image:graphics/chevron-up.svg[chevron pointing up, width=10px] をクリックすると、フォントサイズの変更が可能です。
+. フォント名の横にある image:graphics/chevron-up.svg[chevron pointing up, width=10px] をクリックすると、使用するフォントの変更が可能です。
+. image:graphics/bold.svg[bold text icon, width=20px] で太文字、image:graphics/italic.svg[width=20px] でイタリック体、image:graphics/underline.svg[underline icon, width=20px] で文字の下に線を引くことが可能です。
+. テキストの色は image:graphics/text-color.svg[choose text color icon, width=20px] にて選択可能です。
+. image:graphics/highlight-bg-color.svg[choose highlight color icon, width=20px] にて、文字のハイライト色を選択できます。
+. 文字の揃えオプションは image:graphics/align-left.svg[text align icon, width=20px] image:graphics/chevron-up.svg[width=10px] で変更可能です。
+.. image:graphics/align-left.svg[left-align icon, width=20px] で選択したテキストが左揃えになります。
+.. image:graphics/align-right.svg[right-align icon, width=20px] で選択したテキストが右揃えになります。
+.. image:graphics/align-center.svg[center-align icon, width=20px] で選択したテキストが中央揃えになります。
+. 数字のリストは image:graphics/list-ol.svg[width=20px]  image:graphics/chevron-up.svg[width=10px] のオプションで作成できます。
+. 点のリストは image:graphics/list-ul.svg[width=20px]  image:graphics/chevron-up.svg[width=10px] のオプションで作成できます。
+. 段落のインデントサイズは image:graphics/outdent.svg[text indent icon, width=20px] image:graphics/chevron-up.svg[width=10px] で変更可能です。
+. リンクを作成する場合、image:graphics/link.svg[link icon, width=20px] をクリックし、*リンク先URL*、*リンク元テキスト*、およびリンクの *タイトル* を入力します。
+. image:graphics/smile-o.svg[width=20px] をクリックすると顔文字を選択して入力できます。
+. テーブルを追加する場合、image:graphics/table.svg[table icon, width=20] image:graphics/chevron-up.svg[width=10px] をクリックします。
+. image:graphics/undo.svg[undo icon, width=20px] で編集した内容を「元に戻す」と、image:graphics/redo.svg[redo icon, width=20px] で元に戻した内容の「やり直し」を行います。
+
+=== 画像やファイルの添付
+
+メッセージ作成画面の下にあるツールバーでメールにファイルの添付が可能です。
+
+==== コンピュータ上のファイルを添付する場合
+
+. image:graphics/paperclip.svg[width=20px] ボタンをクリックし、ファイル添付のオプションを開きます。
+. **自分のコンピュータから添付** をクリックすると、ファイル選択の画面が表示されます。
+. 添付するファイルを選択し、**開く** ボタンをクリックします。
+選択したファイルがメールの添付ファイルとして追加されます。
+
+TIP: ファイルをアップロード中に添付ファイル上の image:graphics/close.svg[Close, width=20px] をクリックすることでアップロードをキャンセルすることができます。
+
+==== メール内のファイルを添付する場合
+
+===== 画像
+
+. image:graphics/paperclip.svg[width=20px] ボタンをクリックし、ファイル添付のオプションを開きます。
+. **メールから写真を添付** をクリックすると、右側に今まで送受信したことがある画像を表示する画面が開きます。
+. 添付する画像を選択すると、メールへ添付ファイルとして追加されます。
+
+===== ファイル
+. image:graphics/paperclip.svg[width=20px] ボタンをクリックし、ファイル添付のオプションを開きます。
+. **メールからファイルを添付** をクリックすると、右側に今まで送受信したことがあるファイルが表示する画面が開きます。
+. 添付するファイルを選択すると、メールへ添付ファイルとして追加されます。
+
+===== GIFの添付
+`GIF` ファイルの添付も可能です。
+
+=== 開封確認を要求
+送信したメールに対して、宛先が開封した際に開封確認を送信させるように設定することが可能です。
+
+メールを作成する際、画面の右上にある[…]メニュー (image:graphics/ellipsis-h.svg[width=20px]) をクリックし、「開封確認を要求」のオプションを選択します。
+
+なお、この設定はあくまでも「要求」であるため、宛先側には開封確認の送信を許可しない権利があります。詳細については <<settings-viewEmail.adoc#_開封確認>> を参照してください。
+
+=== メールの優先度
+メールの優先度を設定することが可能です。高い優先度を持つメールは宛先の受信箱にビックリマーク image:graphics/priority-high.svg[width=20px] が表示されます。
+
+メールを作成する際、、画面の右上にある[…]メニュー (image:graphics/ellipsis-h.svg[width=20px]) をクリックし、「高優先度」のオプションを選択します。

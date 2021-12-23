@@ -101,10 +101,8 @@ You can type the name of the file or extension of the file in the Search box at 
 
 ==== Briefcase Search box
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
-
-Type few words of the file or file extension and click image:graphics/search.svg[magnifying glass icon, width=20].
-
-A new search tab will display the files matching the search criterion.
+. Type few words of the file or file extension and click image:graphics/search.svg[magnifying glass icon, width=20].
+. A new search tab will display the files matching the search criterion.
 
 IMPORTANT: Advanced Search option is not available for Briefcase.
 
@@ -132,7 +130,7 @@ The default Briefcase folder or any newly created folder appearing under *Folder
 ==== Steps to share a folder
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . In the left pane, right-click a folder to share.
-. From the context menu, choose Share.
+. From the context menu, choose *Share*.
 . Choose appropriate permission from *Sharing Permissions* dropdown.
 +
 View:: Users can view all files under the shared folder but cannot make any changes to that folder.
@@ -177,14 +175,14 @@ This feature is like flagging the file so that it stands out and appears with a 
 ==== Star from Right-click menu
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Right-click a file and select *Star* from the context menu. You may also mouse hover a file, and click the *Star* icon.
-. A image:graphics/star.svg[star icon, width=20] will appear in front of the file name.
+. A image:graphics/star.svg[star icon, width=20] will appear next to the file name.
 
 ==== Star from More menu
 . Click btn:[Cloud Storage] -> btn:[Briefcase].
 . Select a file.
 . Click on *More* in the toolbar above the preview pane.
 . Select *Star*.
-. A image:graphics/star.svg[stat icon, width=20] will appear in front of the file name.
+. A image:graphics/star.svg[star icon, width=20] will appear next to the file name.
 
 
 === Unstar a Briefcase file
@@ -201,7 +199,7 @@ This feature removes the flag set for a file.
 . Select a file.
 . Click on *More* in the toolbar above the preview pane.
 . Select *Clear Star*.
-. A image:graphics/star.svg[stat icon, width=20] will disappear for the file.
+. A image:graphics/star.svg[star icon, width=20] will disappear for the file.
 
 === Deleting a Briefcase file
 A briefcase file can be deleted in two ways.

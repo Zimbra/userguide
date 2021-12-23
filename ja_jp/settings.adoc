@@ -20,12 +20,12 @@
 ifdef::z9[]
 :product-name: Zimbra Collaboration
 :title-logo-image: image:graphics/zimbra-9-logo.svg[]
-:web-client: Classic Web App
-:modern-client: Modern Web App
+:web-client: Classic ウェブアプリ
+:modern-client: Modern ウェブアプリ
 :product-version: 9.0.0
-:product-release-date: March, 2020
+:product-release-date: 2021年11月
 // wrap {only-in-classic} in ifdef::z9[] one-liner to provide a standard NOTE, e.g.: ifdef::z9[NOTE: {only-in-classic}]
-:only-in-classic: This feature is supported only in the {web-client}.
+:only-in-classic: この機能は {web-client} でのみサポートしています。
 endif::z9[]
 
 ifdef::zcloud[]

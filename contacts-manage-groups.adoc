@@ -19,10 +19,9 @@ You can right-click a list, which you have created, to rename or delete it.
 ==== Add Contacts to a List
 . Click a contacts folder to list all the contacts in that folder.
 . Select the contacts which you want to add in a list.
-. Drag and drop the contacts in the list that you have created.
+. Select a contact and choose *Assign to Lists* from the <<contacts-overview.adoc#_contact_details_pane>>.
 The following are few more ways in which you can add contacts to lists.
 .. Choose *Assign to Lists* by right-clicking the selected contacts.
-.. Select a contact and choose *Assign to Lists* from the <<contacts-overview.adoc#_contact_details_pane>>.
 .. Select multiple contacts and click btn:[Assign Contacts] under *Assign* in the <<contacts-overview.adoc#_contact_details_pane>>.
 
 === Send email to everyone on a list

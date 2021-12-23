@@ -3,23 +3,38 @@ You can type several phrases in the Search box at the top of the <<mail-overview
 
 To search, type in your search word or phrase in the email search box and press kbd:[Enter].
 
-=== Email Search Location
-To search in a specific folder, choose the folder name from the drop-down beside the <<Email Search Box>>.
-
-After you have chosen the folder, type in your search word or phrase in the email search box and press kbd:[Enter].
-
 === Advanced Search
-Choose **Advanced Search** from <<Email Search Location>> drop-down.
+Click image:graphics/chevron-down.svg[down icon, width=20] next to the search box to show the advanced search fields.
 Fields listed here help refine your search further.
 
-. Choose a folder from the **Search-In** field.
-. Typing an email address in the **From** field focuses your search on all emails sent *from* that address.
+. Choose a folder from the *Search In* field.
+. Typing an email address in the *From* field focuses your search on all emails sent *from* that address.
 . Similarly, typing an email address in the *To* field focuses your search on all emails sent *to* that address.
-. Type a few words in the **Subject** line, to search emails with these words in their subject line.
-. Type a few words contained in the body of the email in *Contains** field.
+. Check the box *Subject* to search emails with these words in their subject line.
+. Check the box *Message body* to search the words in the body of the email.
 Enclose the searched text within quotes to search them as a phrase.
-. Specify a date in the **Date** field.
-. Check the boxes **Has attachment** or **Has image** if the email you are looking for has an image or an attachment.
+. Check the boxes *Any* or *Image* if the email you are looking for has an attachment or an image.
+. Check the box *Unread* or *Starred* to search only unread emails or only emails with star.
+. Specify a date in the *Date* field.
 
 NOTE: None of the above search criteria is mandatory.
 However, adding more criteria reduces search time and refines the search results further.
+
+=== Search Result
+
+* Click "Messages" (default view) to view all the searched messages.
+* Click "Photos" to filter the image files in the searched messages, such as PNG, JPG, GIF, BPM, etc.
+* Click "Documents" to filter the non-image attachment files in the searched messages.
+
+==== Saved Searches
+
+If you create a search that you want to use again, click *Save Search*.
+
+. Create the search query from <<Email Search Box>> or <<Advanced Search>>.
+. Click *Save Search* at the head of the <<mail-overview.adoc#_email_pane, Email Pane>>.
+. Enter a name for the search.
+. Click btn:[Save].
+
+Searches are saved to the "Saved Searches" in the <<mail-overview.adoc#_left_sidebar, Left Sidebar>>.
+
+To use a saved search, click the item in the "Saved Searches". The search results immediately display in the <<mail-overview.adoc#_email_pane, Email Pane>>.
