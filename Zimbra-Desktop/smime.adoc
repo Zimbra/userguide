@@ -1,10 +1,14 @@
 == Secure/Multipurpose Internet Mail Extensions (S/MIME)
 
-{product-short} Desktop app supports S/MIME functionality. Users can send *Signed* or *Signed and Encrypted* emails to other users. The administrator will have to enable this feature and provide the user's private certificate and recipient's public certificater.
+{product-short} Desktop app supports S/MIME functionality. Users can send *Signed* or *Signed and Encrypted* emails to other users. The administrator will have to enable this feature and provide the user's private certificate and recipient's public certificate.
 
-NOTE: S/MIME feature is available only on {product-short} Desktop app and not on {product-short} Modern Web app or {product-short} Mobile Apps.
+NOTE: S/MIME feature is not available on Mobile App.
 
-* Encrypted Emails
+NOTE: User can read or send signed and encrypted messages only when the S/MIME feature is enabled. By default the S/MIME feature is disabled for all users.
+
+NOTE: The S/MIME feature available on the Zimbra Desktop app is client-side S/MIME, and the S/MIME feature available on the Modern/Classic Web app is server-side S/MIME. To avoid confusion for end-users, we recommend not to use both of these features together.
+
+=== Encrypted Emails
 
 The *Encrypted* email refers to an email that has been encrypted with a digital certificate.
 
@@ -14,15 +18,15 @@ For sending encrypted emails, users will need their *Private* certificate and th
 
 For reading encrypted emails, users will only need their *Private* certificates.
 
-* Signed Emails
+=== Signed Emails
 
 The *Signed* email refers to an email that has been signed with a digital certificate.
 
 Signing an email helps to:
 
-** Ensure data integrity i.e. the email was not altered from its original form.
-** Email authenticity i.e. the email came from an authentic sender.
-** Non-repudiation i.e. the signer cannot deny the authenticity of the email.
+* Ensure data integrity i.e. the email was not altered from its original form.
+* Email authenticity i.e. the email came from an authentic sender.
+* Non-repudiation i.e. the signer cannot deny the authenticity of the email.
 
 This helps in knowing that the received email message comes indeed from the declared sender (a warning appears if someone else intercepted and modified the message before it arrived).
 

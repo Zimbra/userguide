@@ -16,8 +16,11 @@ Users can check:
 * Date under image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline*: If the emails that user is looking for are from a date earlier than the date provided in the Date picker in *Offline* Settings, then the user will have to select the appropriate date to be able to view those emails offline.
 * Data download aborted due to errors: There is a possibility that the user initiated data download was not completed successfully. Users can go to image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *Offline* and check for error messages, and re-initiate the download.
 
+=== I got logged out due to session expiry, can I still access my emails downloaded to local storage?
+Yes, click *Cancel* on the login screen to access the emails from the local storage.
+
 === Why can't I preview attachments when offline?
-There are some functionalities that are not available when the users are Offline. Refer to <<#_functionality>> section for more details to see which functionalities are available and which are not available when users are Offline.
+There are some functionalities that are not available when the users are Offline. Refer to <<desktop-introduction.adoc#_offline_functionality, Offline Functionality>> section for more details to see which functionalities are available and which are not available when users are Offline.
 
 === When does the download of mails start?
 When you install the Zimbra Desktop app and login into your account for the first time, the app will start downloading the last 30 days of mails to your local storage immediately.

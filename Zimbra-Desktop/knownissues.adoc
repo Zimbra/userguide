@@ -1,30 +1,12 @@
 === Known Issues
 
-* User will not be able to login to the app when offline, and hence will not be able to access offline data. 
-*Workaround* - User can only login while the app is online. After login if the app goes offline, user can continue to access the offline data.
-* In Offline mode, Contacts and Calendar data is not available to the users.
-* If the user had closed the Zimbra Desktop app without logging out and accesses the app when the system is offline, then the login page appears. This issue appears intermittently.
-* When the system is offline and the user refreshes the Zimbra Desktop app, then the user is redirected to the Login page.
-* When the system is offline and the user relaunches the Zimbra Desktop app, then the messages in the Outbox folder are not visible. Please note that these messages get delivered when the user comes online.
-* When user is Offline and enters any text to search, the "Invalid Search, please try again" error is displayed. When Offline, only the following keyword based search is supported - *from*, *to*, *cc*, *subject*, *in*, *has*, *date*. Other search parameters provided in the following list will be implemented as a part of product roadmap - http://docs.zimbra.com/desktop7/help/en_US/Search/query_language_description.htm.
-* When Offline, if the user sends a message and then deletes that message from Outbox, it re-appears in the Draft folder when the user comes online.
-* When Offline, if the user composes a message, let the save draft request execute, closes the composer and then comes online, the added body data is lost from the Draft message. Only the To and Subject fields data is present.
-* When Offline, the search keywords are case sensitive. For e.g. "in: Sent" will give search results whereas "in: sent" gives an "Invalid search" error.
-* When a user sends a Signed/Encrypted email containing inline images added through the "Insert Images" option in the toolbar, the images are not displayed to the recipient.
+* In Offline mode, only partial (cached) Contacts and Calendar data is available to the users.
+* When user is Offline and enters any text to search, the _Invalid Search, please try again_ error is displayed. When Offline, only the following keyword based search is supported - *from*, *to*, *cc*, *subject*, *in*, *has*, *date*. Other search parameters provided in the following list will be implemented as a part of product roadmap - http://docs.zimbra.com/desktop7/help/en_US/Search/query_language_description.htm.
+* When a user sends a Signed/Encrypted email containing inline images added through the *Insert Images* option in the toolbar, the images are not displayed to the recipient.
 * Users will not able to set the Zimbra Desktop app on Windows Operating System as the default mailto App.
-* Move dialog in Contact and Briefcase verticals gives an option to move to Local Folders. However, local folders are not available for these verticals as of now.
-* SMIME emails marked as a high priority email do not appear with an exclamation mark in email lists.
 * Share and Meeting action buttons don't appear on the emails when they are moved to a Local Folder.
-* When a user sets a Reply-to-address in account settings, sends a Signed or Signed/Encrypted email to the recipient, and when the recipient responds, Reply-to-address is not displayed to him and the message is not sent to the set Reply-to-address account.
 * When users move a message which has a signature containing an image, from Inbox to a local folder, the image is lost.
-* When marking an email as spam in Local Folders, the message is moved to the Spam folder under Inbox instead of the Spam folder under Local Folders.
-* Notification tooltip for the message is not displayed when the user receives a Signed message from Outlook by disabling the setting "Send clear text signed message when sending signed message",
-* When the user replying to a Signed message which contains an inline image and changes the SMIME setting to "Do not sign and encrypt", an error is encountered and the mail is not sent.
-* On Mac OS, when sending a Signed or Signed and Encrypted message, the email address of the sender is not displayed along with the message type. Only the message type like "Signed" or "Signed and Encrypted" gets displayed.
-* Errors are encountered when a user who does not have a valid certificate tries to Reply/Reply-All/Forward/ a Signed or Signed/Encrypted message.
+* When the user replying to a Signed message which contains an inline image and changes the S/MIME setting to *Do not sign and encrypt*, an error is encountered and the mail is not sent.
+* On Mac OS, when sending a Signed or Signed and Encrypted message, the email address of the sender is not displayed along with the message type. Only the message type like *Signed* or *Signed and Encrypted* gets displayed.
+* Errors are encountered when a user who does not have a valid certificate tries to *Reply/Reply-All/Forward/* a Signed or Signed/Encrypted message.
 * If a user creates contact with multiple email addresses and tries to upload the certificate which has only 1 matching email address in the contact, an error is encountered and the certificate upload fails. The workaround is to create a contact with a single email address matching the certificate.
-* Performing Ctrl+mouse click on a folder in the left pane opens a new instance of the Desktop App.
-* When the user receives a Signed or Signed and Encrypted email from a new contact, a notification "Create new contact" is displayed in the email. When the user clicks on the notification link to add the contact, the notification continues to gets displayed unless the user visits any other email or refreshes the UI.
-* A user who does not have the S/MIME feature enabled and receives a Signed email, can view the "Signed by user" notification and view his certificate.
-* When a user selects multiple contacts having valid public certificates from the Contacts vertical and selects the "Email Contacts" option from the right-side pane, the public certificate for all the Contacts is not displayed in the To field of the composer. The public certificate is displayed only for the first selected Contact.
-

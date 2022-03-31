@@ -114,6 +114,9 @@ The following features are *not* available when the desktop application is offli
 * image:graphics/cog.svg[cog icon, width=20] -> *Help*.
 * *Video*, *Chat* and *Cloud Storage* verticals.
 
+=== Access to locally stored messages
+When logging in for the first time, the user will see the login screen. The user needs to provide valid credentials to log into his account. Upon successful login, mails will be downloaded to the user's local storage. Users will always have access to these downloaded mails. When the user is online, the user will have access to the data on his mail server as well as the locally stored data. However, when the user is offline, the user will only have access to locally stored data. Users may choose to log out or get logged out due to session expiry. Even when logged out, the user may access the locally stored data by clicking on *Cancel* on the login screen.
+
 === Download Message Setting details
 By default, 30 days's mailbox data will be available to the user for Offline access. If the user wants to download older data, he can navigate to the Local Storage setting and download it by specifying the date.
 
