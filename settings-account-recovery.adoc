@@ -2,7 +2,7 @@
 We always recommend adding an alternate email address to get account recovery instructions if you forget the login credentials to your email account.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
-. Click *Account Recovery* in the left pane and click *Add Recovery Email*.
+. Click *Account Recovery* in the left pane.
 . Enter an email address where you would like to receive account recovery instructions.
 . Click *Continue*.
 . You receive a code on this alternate email address.

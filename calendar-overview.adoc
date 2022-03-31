@@ -63,7 +63,8 @@ Work Week:: Workweek view displays all the events in a _work week_.
 E.g., you are viewing the events in the week *Sunday, 22^nd^ Dec 2019 - Saturday, 28^th^ Dec 2019*, and your work week starts from Monday and ends on Friday.
 Clicking *Work Week* displays events from *Monday, 23^rd^ Dec 2019 - Friday, 27^th^ Dec 2019*.
 +
-NOTE: For better results, set your workweek in <<settings-otheroptions.adoc#_general_calendar_settings, workweek settings>>
+
+NOTE: As a default setting, Monday is the first day of the week and work week. If you want to change the first day of the week and work week, set your preferred day of the week in <<settings-calendars-reminders.adoc#_general_calendar_settings, Start of Week>> setting.
 
 Week:: Displays the calendar week-wise and shows all events scheduled for that week.
 It displays the week selected in the <<Mini Calendar, mini calendar>>.
@@ -71,7 +72,7 @@ It displays the week selected in the <<Mini Calendar, mini calendar>>.
 Month:: Displays the calendar month-wise and shows all events scheduled for that month.
 It displays the month selected in the <<Mini Calendar, mini calendar>>.
 
-Year:: Displays all the months of a year (selected in the <<Mini Calendar, mini calendar>>) in a 3x4 grid.
+Year:: Displays all the months of a year (selected in the <<Mini Calendar, mini calendar>>) in a grid.
 Each month in that grid displays its days week-wise.
 
 You can print events listed in the selected view pane.

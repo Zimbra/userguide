@@ -34,7 +34,9 @@ Trash:: All deleted emails are moved to this folder until you _Empty the Trash_,
 Folders:: Sometimes, you may want a folder for storing specific emails.
 All such folders are listed here.
 
-Tags:: It also lists your saved searches and tags that other emails may carry.
+Saved Searches:: If you create a search that you want to use again, you can save it.  The saved searches are listed here.
+
+Tags:: It also lists your tags that other emails may carry.
 Clicking a tag lists all emails in the email pane, carrying that tag.
 You can also create a custom tag.
 
@@ -44,6 +46,8 @@ You can also create a custom tag.
 This pane displays emails from your Inbox by default.
 Event invitations appear with image:graphics/calendar-o.svg[blank calendar icon, width=20]. This icon helps set an invitation apart from an email. 
 Clicking a folder in the <<Left Sidebar>> lists its contents in this pane.
+
+This pane also displays the <<mail-search.adoc#_search_result, search result>>.
 
 === Reading Pane
 When an email is selected, this pane shows its contents.
@@ -66,7 +70,7 @@ Archived emails do not appear in Inbox or any of the folders, but you can search
 image:graphics/folder-move.svg[move button, width=20px] removes emails from the current folder and moves them to a folder chosen from the drop-down.
 
 image:graphics/trash.svg[delete button, width=20px] deletes emails.
-The deleted emails appear in the *Trash** folder.
+The deleted emails appear in the *Trash* folder.
 
 image:graphics/shield.svg[Mark as spam button, width=20px] marks emails as spam and moves them to the **Junk** folder.
 
@@ -77,7 +81,7 @@ image:graphics/ellipsis-h.svg[more options, width=20px] reveals further actions 
 The available keyboard shortcuts are context-sensitive.
 kbd:[Ctrl + Q] displays different shortcuts depending on whether you have selected mail, calendar, or contacts.
 
-Kbd:[Shift] and kbd:[Ctrl] help you select contiguous or non-contiguous emails, respectively. 
+kbd:[Shift] and kbd:[Ctrl] help you select contiguous or non-contiguous emails, respectively. 
 
 ==== Keyboard Shortcuts During Input
 
@@ -110,7 +114,7 @@ IMPORTANT: Tag names can include any character except a colon (:), forward-slash
 You can also create tags when applying them.
 
 . In the <<Email Pane>>, right-click an email.
-. From the context menu, select Tag.
+. From the context menu, select *Tag*.
 . Choose *image:graphics/plus.svg[width=20] Add a Tag*.
 . Enter the new Tag name and select a color for the tag.
 . Click btn:[Save].
@@ -122,7 +126,7 @@ The new tag now appears under *Tags*.
 You can assign multiple tags to an email to classify it under different categories.
 
 . In the <<Email Pane>>, right-click an email.
-. From the context menu, select Tag.
+. From the context menu, select *Tag*.
 . From the *Tags* modal, choose an already created tag or <<new-tag-on-the-run, create a new one>>.
 . Click btn:[Save] to apply the tag.
 +
@@ -132,9 +136,9 @@ The new tag is now listed and ready to be applied.
 
 ==== Remove a Tag
 . Right-click an email that you have tagged.
-. From the context menu, select Tag.
+. From the context menu, select *Tag*.
 . From the pop-up that appears, uncheck the box against a tag to remove it from the email.
-. Click btn:[Save] to apply the tag.
+. Click btn:[Save] to remove the tag.
 
 ==== Display Messages with a Specific Tag
 . In the <<Left Sidebar>>, click image:graphics/chevron-right.svg[chevron pointing right, width=20] before *Tags* to list all created tags.

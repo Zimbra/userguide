@@ -5,7 +5,6 @@
 Separate multiple recipients with a comma.
  .. Click *To* to launch the <<Select Contacts, Choose Contacts>> dialog.
  Using this tool, you can search for and choose contacts from a selection of _contexts_.
- Choose _contexts_ from the drop-down on the right.
  .. Known addresses (from your contacts or frequent correspondents) appear as suggestions automatically.
  You can click suggestions, or select them with the arrow keys and press kbd:[Enter].
 . Set the subject of the email.
@@ -29,9 +28,6 @@ Contacts:: This group lists all the contacts that you have <<contacts-manage-con
 Emailed contacts:: This folder lists people to whom you have sent emails.
 Global Address List:: These are people whose email address domain is the same as yours.
 However, only a {product-short} administrator can enable this feature. 
-
-My Contacts:: This group is a collection of all the contacts listed in *Contacts* and *Emailed Contacts* groups.
-
 
 === Format an Email
 Use the toolbar at the bottom of the message compose screen to format your text.

@@ -88,6 +88,10 @@ include::calendar-tasks.adoc[]
 
 <<<
 
+include::briefcase.adoc[]
+
+<<<
+
 include::managing-profiles.adoc[]
 
 <<<
@@ -141,10 +145,6 @@ include::settings-calendars-reminders.adoc[]
 <<<
 
 include::change-language.adoc[]
-
-<<<
-
-include::briefcase.adoc[]
 
 <<<
 

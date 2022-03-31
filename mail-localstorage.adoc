@@ -86,14 +86,14 @@ You can drag large emails to local storage to store such emails locally on your 
 === Create Multiple Local Folders
 . In the left pane, hover over *Local Storage*.
 . Click image:graphics/plus.svg[plus icon, width=20] to create a new folder.
-. Type the name of the folder and press Enter.
+. Type the name of the folder and press kbd:[Enter].
 . You can see your newly created folder under Local Storage.
 
 === Rename local folders
 . Right-click a folder under *Local Storage*.
 . From the context menu, select *Rename*.
 . Type a new name for this folder.
-. Press Enter to apply the new name on this folder.
+. Press kbd:[Enter] to apply the new name on this folder.
 
 === Delete Local Folders to Local Trash
 . Right-click a folder under *Local Storage*.

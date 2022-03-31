@@ -1,8 +1,8 @@
 === Account Settings
 
 ==== Add an Account
-The Modern Web App can help you manage emails that you receive on other email addresses.
-Through the Modern Web App you can send and receive emails using these email addresses.
+The {modern-client} can help you manage emails that you receive on other email addresses.
+Through the {modern-client} you can send and receive emails using these email addresses.
 
 . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
 . Click *Accounts* in the left pane and choose image:graphics/plus.svg[width=20] *Add an account*.
@@ -55,13 +55,14 @@ You can choose what name people see when you send them an email.
 . Under *Your Name* type in a name that you want people to see when they receive your emails.
 . At the bottom of the page, click btn:[Save].
 
-==== Change your {product-short} Mailbox Name
-If you have multiple email accounts configured through {product-short}, you may want to differentiate them.
-
-. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
-. Click *Accounts* in the left pane and choose an account from the right pane.
-. Under *Description* type in a name for this account.
-. At the bottom of the page, click btn:[Save].
+// No such feature as of 4.17.0
+// ==== Change your {product-short} Mailbox Name
+// If you have multiple email accounts configured through {product-short}, you may want to differentiate them.
+// 
+// . Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+// . Click *Accounts* in the left pane and choose an account from the right pane.
+// . Under *Description* type in a name for this account.
+// . At the bottom of the page, click btn:[Save].
 
 ==== Add a Persona
 A persona helps you create a separate email identity to manage different types of email.
@@ -73,7 +74,7 @@ All outgoing email displays the email address of the persona that you are using.
 . Click *Accounts* in the left pane and choose image:graphics/plus.svg[width=20] *Add a persona*.
 . Type a name under *Persona Name* to identify your persona.
 . Choose an account from *Send from this account*.
-. Type in a name which recipients see as the sender's name.
+. Type in *From name* which recipients see as the sender’s name.
 +
 --
 TIP: If this box is empty, persona will use From name of the sending account.
@@ -281,6 +282,6 @@ Since Android -- without external apps -- supports IMAP only, you may need to ch
 
 ==== ActiveSync
 
-. To setup ActiveSync on Outlook, refer to this guide :- https://wiki.zimbra.com/wiki/Exchange_ActiveSync%28EAS%29_Outlook_2013
+. To setup ActiveSync on Outlook, refer to this guide :- https://wiki.zimbra.com/wiki/Exchange_ActiveSync(EAS)_Outlook_2013
 
 . To setup ActiveSync on Apple Devices, refer to this guide :- https://wiki.zimbra.com/wiki/Zimbra_Mobile_Installation_and_Setup_for_iPhone
