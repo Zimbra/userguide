@@ -50,6 +50,10 @@ include::mail-search.adoc[]
 
 <<<
 
+include::mail-smime.adoc[]
+
+<<<
+
 ifdef::Desktop_app[]
 include::mail-localstorage.adoc[]
 

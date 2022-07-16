@@ -1,0 +1,84 @@
+=== Secure/Multipurpose Internet Mail Extensions (S/MIME)
+
+From *Kepler-Patch-24* onward, {product-short} Modern Web app supports server side S/MIME functionality. Users can send *Signed* or *Signed and Encrypted* emails to other users. 
+
+Following are the pre-requisites:
+
+. The administrator will have to enable this feature and provide the user's private certificate and recipient's public certificate. 
+. The administrator will have to install the zimlet `zimbra-zimlet-secure-mail` and enable it for the users.
+
+NOTE: User can read or send signed and encrypted messages only when the S/MIME feature is enabled. By default the S/MIME feature is disabled for all users.
+
+==== Encrypted Emails
+
+The *Encrypted* email refers to an email that has been encrypted with a digital certificate.
+
+Encrypting an email helps to protect sensitive data and preserve confidentiality and privacy. This helps in making sure that only the intended recipient can read the email. If the email is intercepted and opened by an unintended user, that user won’t be able to decrypt and view the email.
+
+For sending encrypted emails, users will need their *Private* certificate and the recipients *Public* certificate.
+
+For reading encrypted emails, users will only need their *Private* certificates.
+
+==== Signed Emails
+
+The *Signed* email refers to an email that has been signed with a digital certificate.
+
+Signing an email helps to:
+
+* Ensure data integrity i.e. the email was not altered from its original form.
+* Email authenticity i.e. the email came from an authentic sender.
+* Non-repudiation i.e. the signer cannot deny the authenticity of the email.
+
+This helps in knowing that the received email message comes indeed from the declared sender (a warning appears if someone else intercepted and modified the message before it arrived).
+
+For sending signed emails, users will need their *Private* certificate.
+
+For reading signed emails, users will need the recipient's *Public* certificate.
+
+==== Importing certificate
+
+NOTE: In this guide we assume that the users have got the certificate from standard service providers (e.g. Comodo, DigiCert, Go Daddy, etc) whose root CA certificates are already present in browsers.
+
+For easy understanding of the steps, we will refer to following examples throughout the section:
+
+* Sender's private certificate - sender-pvt.p12
+* Recipient's public certificate - recipient-pub.crt
+
+===== Importing sender's private certificate
+
+Supported certificate extensions are *pfx* and *.p12*.
+
+. Select image:graphics/cog.svg[cog icon, width=20] -> *Settings*.
+. Under *S/MIME and Encryption*, click *+Add a certificate*.
+. From the file explorer, select the *sender-pvt.p12* and click *Open*.
+. Provide the password when prompted and click btn:[Save].
+. Upon succesfull certificate upload, a tool tip message *_Certificate saved successfully_* will get displayed.
+
+===== Importing recipient's public certificate
+
+. Click [*Contacts*] tab.
+. Right-click the contact and select *Edit Details*.
+. In the *Security Certificate* section, click on *Add a certificate*.
+. From the file explorer, select the *recipient-pub.crt* and click *Open*.
+. Click [*Save*].
+
+==== Sending 'Signed' or 'Signed and Encrypted' emails
+
+. Compose a new message.
+. Add a recipient in the *To* field.
+. At the right-hand top corner choose an option from the dropdown. By default *Do not sign or encrypt* is selected.
++
+* *Do not sign or encrypt*: Mail is neither signed nor encrypted. This is equivalent of disabling the S/MIME feature.
+* *Sign*: Send signed message to the recipient.
+* *Sign and Encrypt*: Send signed and encrypted messages to the recipient.
++
+. Click [*Send*].
+
+==== S/MIME and Encryption Settings
+
+You can change the sign and encryption preferences from Settings.
+
+. Go to image:graphics/cog.svg[cog icon, width=20] -> *Settings* -> *S/MIME and Encryption*
+. Select the preference of your choice.
+. Click [*Save*].
+. The selected option will be applicable when users compose a new message.
