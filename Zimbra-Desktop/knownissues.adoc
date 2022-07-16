@@ -1,5 +1,13 @@
 === Known Issues
 
+* User might encounter a white-screen followed by Zimbra Desktop app becoming unresponsive. Even if user encounters such a situation, no data is lost. As a workaround, user may click on *Edit->Reload*, or restart the Zimbra Desktop app.
+* Customers who are on *Kepler-Patch-24* or *Joule-Patch-31*, would have users face issues during logging into the Desktop App. They can wait for the next patch *Kepler-Patch-25* or *Joule-Patch-32* for this issue to get resolved or use a workaround. 
+
+Workaround - Admin needs to set the `zimbra_same_site_cookie` variable to null. Commands to be used on CLI:
+
+ zmlocalconfig -e zimbra_same_site_cookie=""
+ zmmailboxdctl restart
+
 * In Offline mode, only partial (cached) Contacts and Calendar data is available to the users.
 * When user is Offline and enters any text to search, the _Invalid Search, please try again_ error is displayed. When Offline, only the following keyword based search is supported - *from*, *to*, *cc*, *subject*, *in*, *has*, *date*. Other search parameters provided in the following list will be implemented as a part of product roadmap - http://docs.zimbra.com/desktop7/help/en_US/Search/query_language_description.htm.
 * When a user sends a Signed/Encrypted email containing inline images added through the *Insert Images* option in the toolbar, the images are not displayed to the recipient.
