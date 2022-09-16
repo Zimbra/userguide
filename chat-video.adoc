@@ -1,0 +1,85 @@
+== Zimbra Chat and Video
+
+* Enter the Login credential, and choose the interface from the dropdown *Classic Web App* or *Modern Web App*.
+* Click the *Chat* icon from the header bar to access the Zimbra Chat & Video features. Main features are as follows:
+** Zimbra Chat
+** Zimbra Task
+** Zimbra Folder
+** Zimbra Video
+
+=== Zimbra Chat
+
+Zimbra Chat features include individual and group chats, contact and group support, video support, and chat archival.
+
+==== Chat
+
+. Click on the *Zimbra Chat* tab to access it. A list of active chat sessions will display on the left pane. The *current active chat* session is *highlighted* and chat messages from the current chat sessions are shown in the *preview pane*.
+. Click on *Compose* to start a new chat session. A pop-up window will appear to compose a new message.
++
+NOTE: The User can only send messages to contacts that are already defined for Zimbra Chat in the Zimbra Chat contact lists.
+
+. Click the *Magnifier glass* icon from the *chat list* tab to search for a particular message in all chat sessions. Additionally, clicking on the *vertical three dots* icon will allow the user to limit the search to messages from a start date to an end date. The back arrow icon will terminate the search function.
+. Click the *Down arrow* icon from each chat to *mute notifications* for that chat session or *archive* that chat session.
+. To send a message to the current chat, type into the message field and click the *Send* icon.
+. Click the *Magnifier glass* icon on the top right corner to search for a particular message in the *current chat session*.
+. Click the *Video* icon on the top right to start a video conference/call with people in the current chat session. 
++
+NOTE: A video conference link is sent to the current chat session. Zimbra Video Conference is integrated with the imMail Meet desktop app.
+. Click the *Paper Clip* icon to attach the photos, audio, or document files to the current chat audience.
+. Click the *Vertical three dots* icon from the top right will show the same mute notifications and archive option for the current chat.
++
+NOTE: When users choose to archive a chat session, the chat session will move from the active chat session list to the archive chat session list. 
+. Hover over a specific chat message and click the *Down arrow* icon that appears in order to reply, forward, or delete the message, or to create a task from that message.
++
+NOTE: When creating a task from the message, the message text is automatically set as the task description.
+
+==== Contacts and Groups
+
+. Click on the *Contacts* or *Groups* to view, edit, add, and delete contacts or groups used for the Zimbra Chat & Video feature.
++
+NOTE: Contacts and Groups defined for Zimbra Chat & Video are separate from Contacts and Groups defined in the Zimbra email feature.
++
+There are two lists of contacts associated with the Zimbra Chat & Video feature.
+
+.. *MY CONTACTS* is a list for the user to add contacts manually by using the *Add contact* feature within Zimbra Chat & Video.
+.. *COMPANY CONTACTS* is a list of all Zimbra users of the same domain who have Zimbra Chat & Video enabled. These contacts are added to Company Contacts in Zimbra Chat & Video automatically.
+.. When the user adds a new contact, an auto-generated invitation is sent to that new contact. Users must accept the invitation before the contact gets added to the Zimbra Chat & Video contact list.
+.. Click the *Groups* to view a list of Zimbra Chat & Video groups. The user can create a new Group, and search for the specific group from the group's tab.
+
+==== Archived
+
+. Click the *Archived* tab to view a list of archived chat sessions.
+. Click the *down arrow* icon to mute the notifications from that chat session or unarchive that chat session.
++
+NOTE: The Unarchive option will move the chat session from the archived chat list to the active chat list.
+
+=== Zimbra Task
+
+. Click the *Task* icon to view a list of tasks *assigned to me, created by me,* or *ended*.
+. Click *Create task* to create a new task. When creating a new task, the user can assign the task to any user from the current chat contacts, set the priority, and set the deadline. A chat message is sent to the assignee to notify them of the new task assignment.
+. Click on a *task* to view the details of the task. Users can edit details of the task, archive the task, or set the status of the task to Done.
++
+NOTE: If the user changes the task assignment, a notification about the task assignment change is sent to the old assignee and the new assignee. Archiving a task or setting the status to Done will move the task to the *ENDED* list.
+
+. Click the *down arrow* icon next to an *active task* to show options to view task details, edit the task, or archive the task.
+. Click the *down arrow* icon next to an *ended task* to show options to view task details or re-open the task.
+. Click the *magnifying glass* icon within the *Task* icon to search for a particular task.
+
++
+NOTE: These tasks are currently not synced with Calendar->Tasks.
+
+=== Zimbra Folder
+
+. Click the *Folder* icon to view a list of files uploaded and stored in the Zimbra Chat cloud.
+. Click the *vertical three dots* icon to create a new folder or upload a File.
+. Click the *magnifying glass* icon to search files/folders.
+. Click the *down arrow* icon next to a folder to Copy, Cut, Rename, or Delete the folder, or to Share the folder with other users.
++
+NOTE: Right-click on the blank area under the list pane to paste the data.
+. Click the *down arrow* icon next to a file to Forward, Share, Download, Copy, Cut, Rename, or Delete the file. The user can get a shareable link that is valid for three days to share the file with other users.
+
+=== Zimbra Video
+
+. Click the *Video* icon to schedule or start a video conference call with chat contacts.
+. Click the *NEW MEETING* button to start a video conference meeting.
+. Click the *SCHEDULE* button to schedule a video conference meeting.

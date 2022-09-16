@@ -1,0 +1,102 @@
+== Zimbra Mobile Application
+
+=== Connect to the Server and Sign-In
+
+* Enter the user *mail server URL* (e.g. email.example.com).
+* Click on *Continue*. Once the application validates the mail server URL, a login screen will appear for the user to log in with the registered  email account.  
+
+NOTE: If the entered mail server URL is invalid or the application is not connecting to the specified mail server, the application will show the message *Please enter a valid URL*. Enter the correct URL and click *Continue* to connect.
+
+* Enter the *email address* as the Username and enter the Password.
+* Click the *Stay signed in* checkbox to keep the session running even after closing the application. The application will keep users logged in for the user next session.
+* Click on *Sign In*.
+
+=== Zimbra Email
+Once the user signs in, tap on the *Email* icon to access email features.
+
+. The *Message display area* will show the list of messages and emails available in the mailbox.
+. Tap the *Compose* icon to compose an email.
+. Tap the *Search/Magnifier glass* icon to search messages in the mailbox containing specific text. 
+. Tap the *Three Horizontal Line* icon to access menus, folders and other features available with Zimbra email.
+. Tap the *Folder* (Inbox, Sent, Trash, Drafts, Spam, etc.) to see the messages or emails within the folder.
+. Tap the *Three dot* icon (…) next to the regular mail folders (Inbox, Sent, any user created folder) to view the below options:
+* Mark emails as read - mark any unread messages within the folder as read
+* Import - import messages from a .tgz format file
+* Share - share folder with others
+* Create subfolder
+* Empty folder
+. Tap the *Three dot* icon (…) next to the *Spam* and *Trash* folders to view the below options:
+* Mark emails as read
+* Empty folder
+. Tap the *Three dot* icon (…) next to the *Drafts* folders to view the below options:
+* Mark emails as read
+* Share 
+* Empty folder
+. Tap the *Calendar* icon to access the calendar associated with the email account.
+. Tap the *Contacts* icon to access the contacts associated with the email account.
+. Tap the *Briefcase* icon to access the briefcase features associated with the email account.
+. Tap the *Profile* icon to view the following options:
+* Change Password
+* Change Profile image
+* Logout
+. Tap the *Settings* icon to view the following options:
+* Zimbra Email Settings
+* Language
+* Help
+* About
+
+=== Zimbra Chat
+Tap the *Chat* icon to access Zimbra Chat features.
+
+. Tap on any existing chat to continue the chat.
+. *Search* - Enter a name or text to search existing chats.
+. Tap the *Add (+)* icon to go to the contact page then select the contact(s) to start a new chat.
+. Tap on *New Contact* to add a new chat contact.
+. Tap on *New Group* to start a group chat. 
+.. Select the contacts to add to the group chat.
+.. After selecting the contacts, tap the *forward (->)* arrow.
+.. Enter a *group name* and tap *Create* to start chatting with the new group.
+. Tap the *Back (<-)* arrow to move back to the previous screen.
+
+
+Important for Chat Contacts::
+* Chat contacts are separate from email contacts and must be set up separately prior to chatting, either by the user or by the system administrator.
+* *Company Contacts* contains all users who are in the same email domain. Any new user added to the domain by the system administrator will be automatically added as a company contact.
+* *My Contacts* are contacts outside the user's email domain that are specifically added as personal contacts. When a user adds a new contact to chat, an email invitation is sent to the new contact's email address. The new contact must accept the invitation to start chatting with the user.
+* Users cannot move company contacts to the My Contacts list nor remove the company contacts.
+* A long press on a personal contact will allow the user to remove that contact from the My Contacts list.
+
+=== Zimbra Task 
+Tap the *Tasks* icon to access task features.
+
+. Tap *Assigned to me* to view open tasks assigned to the user.
+. Tap *Created by me* to view open tasks created by the user.
+. Tap *Closed* to view the user’s closed tasks.
+. Tap the *Add (+)* icon to create a new task. The user can choose the task assignee, priority, description, and set a deadline. Users can also attach photos, videos, and files to a task.
+. Tapping a specific *task* in the list pane allows users to view and edit the task details, like task assignee, deadline, priority, description, and attachments. Users can also set the task status to Done in Task Details.
++
+NOTE: Allowed task Assignees are the same as the Zimbra Chat contact lists.
+
++
+NOTE: The tasks created from the mobile app and the tasks created from within Zimbra calendar->tasks are not synced as of now.
+
+=== Zimbra Video Conference
+In Zimbra's mobile application, the video conference feature is linked to the imMail Meet app. Tap the *Video Conf* icon to see the features.
+
+NOTE: If the imMail Meet app is not installed, the user will be prompt to *Download imMail Meet*. The imMail Meet application will open if it is already installed on the user’s device.
+
+=== Zimbra Files
+Tap the *Files* icon to view a list of files the user has already shared from within Zimbra webmail's Zimbra Chat *Files*. Tap a file to open it for viewing. The file can also be shared via the device-specific sharing icon.
+
+=== Zimbra Settings
+Tap the *Settings* icon to access settings specific to Zimbra Chat, Tasks, and Video conference features.
+
+Configure Permissions::
+Users can enable the Zimbra mobile app access to Photos, Camera, Microphone, and notifications. Once a permission is enabled, that option will no longer show in Settings.
+
+Archived Conversations::
+Users can view and search chat conversations that have been archived in Zimbra Chat.
+
+Language::
+Users can set the Language used for Zimbra Chat, Tasks, Video Conference, and Files. This setting is separate from the language settings under Zimbra email.
+
