@@ -11,8 +11,6 @@
 
 Zimbra Chat features include individual and group chats, contact and group support, video support, and chat archival.
 
-==== Chat
-
 . Click on the *Zimbra Chat* tab to access it. A list of active chat sessions will display on the left pane. The *current active chat* session is *highlighted* and chat messages from the current chat sessions are shown in the *preview pane*.
 . Click on *Compose* to start a new chat session. A pop-up window will appear to compose a new message.
 +
