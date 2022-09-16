@@ -33,7 +33,7 @@ NOTE: When creating a task from the message, the message text is automatically s
 
 ==== Contacts and Groups
 
-. Click on the *Contacts* or *Groups* to view, edit, add, and delete contacts or groups used for the Zimbra Chat & Video feature.
+. Click on *Contacts* or *Groups* to view, edit, add, and delete contacts or groups used for the Zimbra Chat & Video feature.
 +
 NOTE: Contacts and Groups defined for Zimbra Chat & Video are separate from Contacts and Groups defined in the Zimbra email feature.
 +
@@ -42,7 +42,7 @@ There are two lists of contacts associated with the Zimbra Chat & Video feature.
 .. *MY CONTACTS* is a list for the user to add contacts manually by using the *Add contact* feature within Zimbra Chat & Video.
 .. *COMPANY CONTACTS* is a list of all Zimbra users of the same domain who have Zimbra Chat & Video enabled. These contacts are added to Company Contacts in Zimbra Chat & Video automatically.
 .. When the user adds a new contact, an auto-generated invitation is sent to that new contact. Users must accept the invitation before the contact gets added to the Zimbra Chat & Video contact list.
-.. Click the *Groups* to view a list of Zimbra Chat & Video groups. The user can create a new Group, and search for the specific group from the group's tab.
+.. Click *Groups* to view a list of Zimbra Chat & Video groups. The user can create a new Group, and search for the specific group from the group's tab.
 
 ==== Archived
 
