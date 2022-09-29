@@ -1,6 +1,9 @@
 === Known Issues
 
-* User might encounter a white-screen followed by Zimbra Desktop app becoming unresponsive. Even if user encounters such a situation, no data is lost. As a workaround, user may click on *Edit->Reload*, or restart the Zimbra Desktop app.
+* User might very rarely encounter a white-screen followed by Zimbra Desktop app becoming unresponsive. Even if user encounters such a situation, no data is lost. As a workaround, user may try the following workarounds: 
+** Click on *Edit->Reload*
+** Restart the Zimbra Desktop app
+** If the app becomes unresponsive without showing the white-screen, users may to switch to Message View instead of the 'Conversation View'
 * Customers who are on *Kepler-Patch-24* or *Joule-Patch-31*, would have users face issues during logging into the Desktop App. They can wait for the next patch *Kepler-Patch-25* or *Joule-Patch-32* for this issue to get resolved or use a workaround. 
 
 Workaround - Admin needs to set the `zimbra_same_site_cookie` variable to null. Commands to be used on CLI:
